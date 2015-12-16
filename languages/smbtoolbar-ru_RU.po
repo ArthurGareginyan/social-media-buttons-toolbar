@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Social Media Buttons Toolbar\n"
+"POT-Creation-Date: 2015-12-17 02:21+0300\n"
+"PO-Revision-Date: 2015-12-17 02:39+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: social-media-buttons-toolbar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/settings_page.php:23
+msgid "Your options was sucessfully updated."
+msgstr "Ваши опции были успешно обновлены."
+
+#. Plugin Name of the plugin/theme
+#: inc/settings_page.php:33 social-media-buttons-toolbar.php:71
+msgid "Social Media Buttons Toolbar"
+msgstr ""
+
+#: inc/settings_page.php:36
+msgid ""
+"by <a href=\"http://mycyberuniverse.com/author.html\" target=\"_blank"
+"\">Arthur \"Berserkr\" Gareginyan</a>"
+msgstr ""
+"от <a href=“http://mycyberuniverse.com/author.html” target=“_blank”>Артур "
+"“Berserkr” Гарегинян</a>"
+
+#: inc/settings_page.php:47
+msgid "About"
+msgstr ""
+
+#: inc/settings_page.php:52
+msgid ""
+"This plugin allows you to easily add the social media buttons toolbar to any "
+"place of your web-site."
+msgstr ""
+"Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
+"место на вашем веб-сайте."
+
+#: inc/settings_page.php:53
+msgid ""
+"To use, enter your User ID's, then click \"Save Changes\". It's that simple!"
+msgstr ""
+"Для использования, введите ваши ID пользователя, затем нажмите кнопку "
+"“Сохранить изменения”. Это так просто!"
+
+#: inc/settings_page.php:58
+msgid "Donate"
+msgstr "Пожертвование"
+
+#: inc/settings_page.php:60
+msgid ""
+"If you like this plugin and find it useful, help me to make this plugin even "
+"better and keep it up-to-date."
+msgstr ""
+"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+"сделать этот плагин ещё лучше и держать его современным."
+
+#: inc/settings_page.php:66
+msgid "Thanks for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/settings_page.php:71
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/settings_page.php:74
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"добавить их."
+
+#: inc/settings_page.php:92
+msgid "User ID’s"
+msgstr "ID Пользователя"
+
+#: inc/settings_page.php:94
+msgid ""
+"Enter your User ID for each service you choose below to make the button link "
+"directly to your profile. If you don't want to use any of the following "
+"options, you can just forget about these."
+msgstr ""
+"Введите ваш ID пользователя для каждой службы, которую вы выберите ниже, "
+"чтобы создать кнопку с ссылкой на свой профиль. Если вы не хотите "
+"использовать какие-либо из следующих опций, то вы можете просто забыть о них."
+
+#: inc/settings_page.php:169 inc/settings_page.php:215
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/settings_page.php:174
+msgid "Display options"
+msgstr "Настройки отображения"
+
+#: inc/settings_page.php:220
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: inc/settings_page.php:222
+msgid ""
+"Enter your User ID's, then click  \"Save Changes\" to update this preview."
+msgstr ""
+"Введите ваши ID пользователя, а затем нажмите кнопку “Сохранить изменения”, "
+"чтобы обновить этот просмотр."
+
+#: social-media-buttons-toolbar.php:58
+msgid "Settings"
+msgstr "Настройки"
+
+#: social-media-buttons-toolbar.php:71
+msgid "Social Buttons"
+msgstr "Социальные кнопки"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-"
+"toolbar.html"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily add the smart toolbar with social media buttons to any place of your "
+"WordPress web-site."
+msgstr ""
+"Легко добавьте умный блок с кнопками социальных медиа в любое место вашего "
+"WordPress веб-сайта."
+
+#. Author of the plugin/theme
+msgid "Arthur \"Berserkr\" Gareginyan"
+msgstr "Артур “Берсеркр” Гарегинян"
+
+#. Author URI of the plugin/theme
+msgid "http://mycyberuniverse.com/author.html"
+msgstr ""

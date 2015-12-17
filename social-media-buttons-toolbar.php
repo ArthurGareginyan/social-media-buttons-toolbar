@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Social Media Buttons Toolbar
  * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html
- * Description: Easily add the smart toolbar with social media buttons to any place of your WordPress web-site.
+ * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://mycyberuniverse.com/author.html
  * Version: 1.0

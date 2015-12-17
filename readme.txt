@@ -8,21 +8,30 @@ Stable tag: 1.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-...
+Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
 
 == Description ==
-...
+
+An easy to use WordPress plugin that gives you the ability to easily add the smart toolbar with social media buttons to any place (post, page, widget, sidebar, footer) of your WordPress web-site. 
+
+The social media buttons toolbar - is a toolbar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
+
+Unlike the other plugins, this plugin create a live toolbar. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few and it always centered.
+
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook.
+
+If you want more options then tell me and I will be happy to add it.
 
 
 = Features =
 
 **Current features:**
 
-* Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
+* Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
 * Ready for translation (.pot file included).
 * Added Russian translation.
 
-** Buttons **
+**Supported social media:**
 
 * Facebook
 * Twitter
@@ -43,11 +52,16 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * VKontakte
 * Odnoklassniki
 * Personal web-site
+* Ebay
+* Flickr
+* Specific Feeds
+* Tumblr
+* Vimeo
 * (Got more ideas? Tell me!)
 
-**Using**
+**Using:**
 
-Use the following shortcode in your posts, pages or widgets (sidebar, footer) to display the social media buttons toolbar:
+Use the following shortcode in your posts, pages or text widgets (sidebar, footer) to display the social media buttons toolbar:
 `[smbtoolbar]`
 
 Also you can use the following methods to add the social media buttons toolbar directly to theme files.
@@ -114,7 +128,9 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 3. Plugin’s page. Section "Preview".
 4. Social Media Buttons Toolbar displayed below the content of a post (Twenty Fifteen theme).
 5. Social Media Buttons Toolbar displayed in the sidebar using a shortcode in text widget (Twenty Fifteen theme).
-6. Social Media Buttons Toolbar displayed in the footer using a simple call the function.
+6. Social Media Buttons Toolbar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
+7. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
+
 
 == Other Notes ==
 

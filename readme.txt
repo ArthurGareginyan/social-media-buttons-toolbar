@@ -45,7 +45,20 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Personal web-site
 * (Got more ideas? Tell me!)
 
-...
+**Using**
+
+Use the following shortcode in your posts, pages or widgets (sidebar, footer) to display the social media buttons toolbar:
+`[smbtoolbar]`
+
+Also you can use the following methods to add the social media buttons toolbar directly to theme files.
+
+WordPress has a very easy function called do_shortcode() that lets you add shortcodes in your themes. Simply add the following code to needed place in your theme where you want the buttons to appear:
+`<?php echo do_shortcode("[smbtoolbar]"); ?>`
+
+Or add this code for direct call function:
+`<?php echo smbtoolbar_shortcode(); ?>`
+
+Simple and easy!
 
 
 For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)

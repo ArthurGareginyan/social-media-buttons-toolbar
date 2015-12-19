@@ -1,4 +1,4 @@
- <?php
+<?php
 
 /**
  * Prevent Direct Access

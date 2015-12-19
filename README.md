@@ -52,15 +52,21 @@ If you want more options then tell me and I will be happy to add it.
 **Using:**
 
 Use the following shortcode in your posts, pages or text widgets (sidebar, footer) to display the social media buttons toolbar:
-`[smbtoolbar]`
+```
+[smbtoolbar]
+```
 
 Also you can use the following methods to add the social media buttons toolbar directly to theme files.
 
 WordPress has a very easy function called do_shortcode() that lets you add shortcodes in your themes. Simply add the following code to needed place in your theme where you want the buttons to appear:
-`<?php echo do_shortcode("[smbtoolbar]"); ?>`
+```
+<?php echo do_shortcode("[smbtoolbar]"); ?>
+```
 
 Or add this code for direct call function:
-`<?php echo smbtoolbar_shortcode(); ?>`
+```
+<?php echo smbtoolbar_shortcode(); ?>
+```
 
 Simple and easy!
 

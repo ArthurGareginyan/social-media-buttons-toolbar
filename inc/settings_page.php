@@ -155,8 +155,8 @@ function smbtoolbar_render_submenu_page() {
                                         );?>
                                         <?php smbtoolbar_media( 'email',
                                                                 'Email',
-                                                                'arthurgareginyan@gmail.com',
-                                                                'Enter your email address',
+                                                                'mailto:arthurgareginyan@gmail.com',
+                                                                'Enter your email address with prefix <b>mailto:</b>',
                                                                 ''
                                         );?>
                                         <?php smbtoolbar_media( 'rss-feed',

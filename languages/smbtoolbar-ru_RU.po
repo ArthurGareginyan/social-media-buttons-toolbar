@@ -32,10 +32,10 @@ msgstr ""
 
 #: inc/settings_page.php:36
 msgid ""
-"by <a href=\"http://mycyberuniverse.com/author.html\" target=\"_blank"
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
 "\">Arthur \"Berserkr\" Gareginyan</a>"
 msgstr ""
-"от <a href=“http://mycyberuniverse.com/author.html” target=“_blank”>Артур "
+"от <a href=“http://www.arthurgareginyan.com” target=“_blank”>Артур "
 "“Berserkr” Гарегинян</a>"
 
 #: inc/settings_page.php:47
@@ -143,5 +143,5 @@ msgid "Arthur \"Berserkr\" Gareginyan"
 msgstr "Артур “Берсеркр” Гарегинян"
 
 #. Author URI of the plugin/theme
-msgid "http://mycyberuniverse.com/author.html"
+msgid "http://www.arthurgareginyan.com"
 msgstr ""

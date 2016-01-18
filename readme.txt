@@ -156,7 +156,7 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 **Links**
 
-* [Developer Website](http://mycyberuniverse.com)
+* [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 

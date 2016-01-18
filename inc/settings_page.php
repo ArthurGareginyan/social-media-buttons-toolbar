@@ -33,7 +33,7 @@ function smbtoolbar_render_submenu_page() {
             <?php _e( 'Social Media Buttons Toolbar', 'smbtoolbar' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://mycyberuniverse.com/author.html" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'smbtoolbar' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'smbtoolbar' ); ?>
             <span/>
 		</h2>
 

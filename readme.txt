@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: custom, simple, plugin, facebook, twitter, instagram, g+, google+, google plus, google-plus, google_plus, googleplus, youtube, blogger, linkedin, github, wordpress, codepen, email, mail, rss, rss feed, rss-feed, rss_feed, rssfeed, feed, icon, icon set, iconset, social, button, social button, social-button, social-buttons-2, social button 2,
+Tags: icon, icon set, button, social media, social network, toolbar, link to profile, 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -134,14 +134,14 @@ Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-p
 
 == Other Notes ==
 
-"Social Media Buttons Toolbar" is one of the personal software projects of Arthur Gareginyan.
+"Social Media Buttons Toolbar" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
 
 **License**
 
 This plugin is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
-**Icons**
+**Credits**
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich is licensed under the Creative Commons (Attribution 3.0 Unported).
 
@@ -161,6 +161,9 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 1.1 =
+* Authors URI changed.
+* Icons updated.
 = 1.0 =
 * Initial release.
 * Added ready for translation (.pot file included).
@@ -174,3 +177,6 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
+= 1.1 =
+* Authors URI changed.
+* Icons updated.

@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.0
+ * @since 1.1
  */
 function smbtoolbar_render_submenu_page() {
 

@@ -1,4 +1,6 @@
-# WP Plugin "Social Media Buttons Toolbar"
+# Social Media Buttons Toolbar
+
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/social-media-buttons-toolbar/blob/master/assets/banner-772x250.png)
 

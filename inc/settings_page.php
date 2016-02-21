@@ -8,23 +8,12 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.1
+ * @since 1.2
  */
 function smbtoolbar_render_submenu_page() {
 
 	// Declare variables
     $options = get_option( 'smbtoolbar_settings' );
-
-	// Settings update message
-	if ( isset( $_GET['settings-updated'] ) ) :
-		?>
-			<div id="message" class="updated">
-				<p>
-					<?php _e( 'Your options was sucessfully updated.', 'smbtoolbar' ); ?>
-				</p>
-			</div>
-		<?php
-	endif;
 
 	// Page
 	?>

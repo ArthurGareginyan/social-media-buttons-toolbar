@@ -105,21 +105,21 @@ After installation, a "`Social Buttons`" menu item will appear in the "`Setting
 
 
 == Frequently Asked Questions ==
-= Will this Plugin work on my WordPress.com website? =
-Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
+= Q. Will this Plugin work on my WordPress.com website? =
+A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
-= Can I use this plugin on my language? =
-Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+= Q. Can I use this plugin on my language? =
+A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
 
-= How does it work? =
-First, go to page "`Settings`" —> "`Social Buttons`".
+= Q. How does it work? =
+A. First, go to page "`Settings`" —> "`Social Buttons`".
 On the plugins page you find the fields where you can enter your `User ID's`, `URL` to your social network profile.
 
-= Where to report bug if found? =
-Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) and report.
+= Q. Where to report bug if found? =
+A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) and report.
 
-= Where to share any ideas or suggestions to make the plugin better? =
-Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html) and share.
+= Q. Where to share any ideas or suggestions to make the plugin better? =
+A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html) and share.
 
 
 == Screenshots ==
@@ -161,6 +161,11 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 1.2 =
+* Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
+* The default caption now is empty. The text "Follow me on social media:" is removed.
+* Removed extra settings update message.
+* The thanks.png image replaced.
 = 1.1 =
 * Authors URI changed.
 * Icons updated.
@@ -177,6 +182,11 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
+= 1.2 =
+* Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
+* The default caption now is empty. The text "Follow me on social media:" is removed.
+* Removed extra settings update message.
+* The thanks.png image replaced.
 = 1.1 =
 * Authors URI changed.
 * Icons updated.

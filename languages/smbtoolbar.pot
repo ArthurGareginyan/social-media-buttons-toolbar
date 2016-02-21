@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2015-12-17 02:21+0300\n"
+"POT-Creation-Date: 2016-02-21 07:55+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,82 +20,78 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/settings_page.php:23
-msgid "Your options was sucessfully updated."
-msgstr ""
-
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:33 social-media-buttons-toolbar.php:71
+#: inc/settings_page.php:22 social-media-buttons-toolbar.php:71
 msgid "Social Media Buttons Toolbar"
 msgstr ""
 
-#: inc/settings_page.php:36
+#: inc/settings_page.php:25
 msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
-"\">Arthur \"Berserkr\" Gareginyan</a>"
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:47
+#: inc/settings_page.php:36
 msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:52
+#: inc/settings_page.php:41
 msgid ""
 "This plugin allows you to easily add the social media buttons toolbar to any "
 "place of your web-site."
 msgstr ""
 
-#: inc/settings_page.php:53
+#: inc/settings_page.php:42
 msgid ""
 "To use, enter your User ID's, then click \"Save Changes\". It's that simple!"
 msgstr ""
 
-#: inc/settings_page.php:58
+#: inc/settings_page.php:47
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:49
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
 msgstr ""
 
-#: inc/settings_page.php:66
+#: inc/settings_page.php:55
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:71
+#: inc/settings_page.php:60
 msgid "Help"
 msgstr ""
 
-#: inc/settings_page.php:74
+#: inc/settings_page.php:63
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
-#: inc/settings_page.php:92
+#: inc/settings_page.php:81
 msgid "User ID’s"
 msgstr ""
 
-#: inc/settings_page.php:94
+#: inc/settings_page.php:83
 msgid ""
 "Enter your User ID for each service you choose below to make the button link "
 "directly to your profile. If you don't want to use any of the following "
 "options, you can just forget about these."
 msgstr ""
 
-#: inc/settings_page.php:169 inc/settings_page.php:215
+#: inc/settings_page.php:158 inc/settings_page.php:204
 msgid "Save Changes"
 msgstr ""
 
-#: inc/settings_page.php:174
+#: inc/settings_page.php:163
 msgid "Display options"
 msgstr ""
 
-#: inc/settings_page.php:220
+#: inc/settings_page.php:209
 msgid "Preview"
 msgstr ""
 
-#: inc/settings_page.php:222
+#: inc/settings_page.php:211
 msgid ""
 "Enter your User ID's, then click  \"Save Changes\" to update this preview."
 msgstr ""
@@ -116,8 +112,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily add the smart toolbar with social media buttons to any place of your "
-"WordPress web-site."
+"Easily add the smart toolbar with social media buttons (not share, only link "
+"to your profiles) to any place of your WordPress web-site."
 msgstr ""
 
 #. Author of the plugin/theme

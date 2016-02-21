@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 1.1
+ * Version: 1.2
  * License: GPL3
  * Text Domain: smbtoolbar
  * Domain Path: /languages/
@@ -214,7 +214,7 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
 /**
  * Generate the buttons toolbar
  *
- * @since 1.0
+ * @since 1.2
  */
 function smbtoolbar_tollbar() {
 
@@ -245,11 +245,11 @@ function smbtoolbar_tollbar() {
     // Add a caption above of buttons
     $caption = esc_textarea( $options['caption'] );
     if (empty($caption)) {
-        $caption = "Follow me on social media:</br>";
+        $caption = "";
     }
 
     // Generate the Buttons
-    $metatags_arr[] = '<ul class="social-icons">';
+    $metatags_arr[] = '<ul class="smbt-social-icons">';
     if ( !empty($media) ) {
         foreach ($media as $name) {
             foreach ($name as $key => $value) {
@@ -276,19 +276,19 @@ function smbtoolbar_tollbar() {
 
     // Add styling for toolbar
     $styles = "<style>
-                    .social-icons {
+                    .smbt-social-icons {
                         text-align: center;
                     }
-                    .social-icons li {
+                    .smbt-social-icons li {
                         display:inline-block;
                         list-style-type:none;
                         -webkit-user-select:none;
                         -moz-user-select:none;
                     }
-                    .social-icons li a {
+                    .smbt-social-icons li a {
                         border-bottom: none;
                     }
-                    .social-icons li img {
+                    .smbt-social-icons li img {
                         width: " . $icon_size . "px;
                         height: " . $icon_size . "px;
                         margin-right: " . $margin_right . "px;

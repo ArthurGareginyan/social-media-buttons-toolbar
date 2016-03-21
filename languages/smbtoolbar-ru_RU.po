@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-02-21 07:55+0300\n"
-"PO-Revision-Date: 2016-02-21 07:55+0300\n"
+"POT-Creation-Date: 2016-03-21 19:12+0300\n"
+"PO-Revision-Date: 2016-03-21 19:18+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -36,28 +36,21 @@ msgstr ""
 
 #: inc/settings_page.php:36
 msgid "About"
-msgstr ""
+msgstr "О плагине"
 
-#: inc/settings_page.php:41
+#: inc/settings_page.php:39
 msgid ""
 "This plugin allows you to easily add the social media buttons toolbar to any "
-"place of your web-site."
+"place of your website."
 msgstr ""
 "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
 "место на вашем веб-сайте."
 
-#: inc/settings_page.php:42
-msgid ""
-"To use, enter your User ID's, then click \"Save Changes\". It's that simple!"
-msgstr ""
-"Для использования, введите ваши ID пользователя, затем нажмите кнопку "
-"“Сохранить изменения”. Это так просто!"
-
-#: inc/settings_page.php:47
+#: inc/settings_page.php:45
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:49
+#: inc/settings_page.php:48
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
@@ -65,23 +58,23 @@ msgstr ""
 "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
 "сделать этот плагин ещё лучше и держать его современным."
 
-#: inc/settings_page.php:55
+#: inc/settings_page.php:54
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:59
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:63
+#: inc/settings_page.php:62
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 "Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
 "добавить их."
 
 #: inc/settings_page.php:81
-msgid "User ID’s"
-msgstr "ID Пользователя"
+msgid "Buttons"
+msgstr "Кнопки"
 
 #: inc/settings_page.php:83
 msgid ""
@@ -112,6 +105,46 @@ msgstr ""
 "Введите ваши ID пользователя, а затем нажмите кнопку “Сохранить изменения”, "
 "чтобы обновить этот просмотр."
 
+#: inc/settings_page.php:217
+msgid "Using"
+msgstr "Использование:"
+
+#: inc/settings_page.php:219
+msgid ""
+"You have several methods for display the social media buttons toolbar "
+"(further just \"toolbar\") on your website. But first, enter a links for "
+"each buttons, then click \"Save Changes\"."
+msgstr ""
+"У вас есть несколько способов для того, чтобы отобразить блок социальных "
+"медиа кнопок (далее просто “кнопки”) на вашем вебсайте. Но сначала укажите "
+"ссылки для каждой кнопки, а затем нажмите “Сохранить изменения”."
+
+#: inc/settings_page.php:220
+msgid ""
+"<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
+"just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
+"section \"Display options\", then click \"Save Changes\". It's that simple!"
+msgstr ""
+
+#: inc/settings_page.php:221
+msgid ""
+"<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:223
+msgid ""
+"<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
+"use the \"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:225
+msgid ""
+"<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want "
+"to display the toolbar) in your theme files:"
+msgstr ""
+
 #: social-media-buttons-toolbar.php:58
 msgid "Settings"
 msgstr "Настройки"
@@ -131,6 +164,8 @@ msgid ""
 "Easily add the smart toolbar with social media buttons (not share, only link "
 "to your profiles) to any place of your WordPress web-site."
 msgstr ""
+"Легко добавьте умный блок с кнопками социальных медиа (не расшаривание, а "
+"только ссылки на ваши профили) в любое место вашего WordPress веб-сайта."
 
 #. Author of the plugin/theme
 msgid "Arthur \"Berserkr\" Gareginyan"
@@ -139,6 +174,23 @@ msgstr "Артур “Берсеркр” Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "This plugin allows you to easily add the social media buttons toolbar to "
+#~ "any place of your web-site."
+#~ msgstr ""
+#~ "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
+#~ "место на вашем веб-сайте."
+
+#~ msgid ""
+#~ "To use, enter your User ID's, then click \"Save Changes\". It's that "
+#~ "simple!"
+#~ msgstr ""
+#~ "Для использования, введите ваши ID пользователя, затем нажмите кнопку "
+#~ "“Сохранить изменения”. Это так просто!"
+
+#~ msgid "User ID’s"
+#~ msgstr "ID Пользователя"
 
 #~ msgid "Your options was sucessfully updated."
 #~ msgstr "Ваши опции были успешно обновлены."

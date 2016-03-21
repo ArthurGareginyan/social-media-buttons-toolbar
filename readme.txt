@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social media, social network, toolbar, link to profile, 
+Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -61,21 +61,21 @@ If you want more options then tell me and I will be happy to add it.
 
 **Using:**
 
-Use the following shortcode in your posts, pages or text widgets (sidebar, footer) to display the social media buttons toolbar:
+You have several methods for display the social media buttons toolbar (further just "toolbar") on your website. But first, enter a links for each buttons, then click "Save Changes".
+
+A) For display the toolbar below content on every Posts or/and Pages, just check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click "Save Changes". It's that simple!
+
+B) For add the toolbar inside a post from WP Post/Page Editor use the following shortcode:
 `[smbtoolbar]`
 
-Also you can use the following methods to add the social media buttons toolbar directly to theme files.
+C) For add the toolbar to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:
+`[smbtoolbar]`
 
-WordPress has a very easy function called do_shortcode() that lets you add shortcodes in your themes. Simply add the following code to needed place in your theme where you want the buttons to appear:
+D) For add the toolbar directly to a theme files, just add one of the following code (both variants do the same) to needed place (where you want to display the toolbar) in your theme files:
 `<?php echo do_shortcode("[smbtoolbar]"); ?>`
 
-Or add this code for direct call function:
 `<?php echo smbtoolbar_shortcode(); ?>`
 
-Simple and easy!
-
-
-For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)
 
 **Please Vote and Enjoy**
 
@@ -105,7 +105,7 @@ After installation, a "`Social Buttons`" menu item will appear in the "`Setting
 
 
 == Frequently Asked Questions ==
-= Q. Will this Plugin work on my WordPress.com website? =
+= Q. Will this Plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Q. Can I use this plugin on my language? =
@@ -115,21 +115,28 @@ A. Yes. But If your language is not available then you can make one. This plugin
 A. First, go to page "`Settings`" —> "`Social Buttons`".
 On the plugins page you find the fields where you can enter your `User ID's`, `URL` to your social network profile.
 
+= Q. Does this plugin require modification to the theme? =
+A. Absolutely not. This plugin is added/configured entirely from the website's Admin section.
+
+= Q. Does this require any knowledge of HTML or CSS? =
+A. Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using a simple WordPress settings page.
+
+= Q. It's not working. What could be wrong? =
+A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
+
 = Q. Where to report bug if found? =
 A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) and report.
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html) and share.
+A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
 
 == Screenshots ==
-1. Plugin’s page. Section "User ID's".
-2. Plugin’s page. Section "Display Options".
-3. Plugin’s page. Section "Preview".
-4. Social Media Buttons Toolbar displayed below the content of a post (Twenty Sixteen theme).
-5. Social Media Buttons Toolbar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
-6. Social Media Buttons Toolbar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
-7. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
+1. Plugin settings page.
+2. Social Media Buttons Toolbar displayed below the content of a post (Twenty Sixteen theme).
+3. Social Media Buttons Toolbar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
+4. Social Media Buttons Toolbar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
+5. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
 
 
 == Other Notes ==
@@ -148,7 +155,7 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 **Support**
 
 * Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)
+* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
 
 **Please Vote and Enjoy**
 
@@ -157,10 +164,12 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 1.3 =
+* Some changes in design of settings page.
+* On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)
 = 1.2 =
 * Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
 * The default caption now is empty. The text "Follow me on social media:" is removed.
@@ -182,6 +191,9 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
+= 1.3 =
+* Some changes in design of settings page.
+* On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)
 = 1.2 =
 * Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
 * The default caption now is empty. The text "Follow me on social media:" is removed.

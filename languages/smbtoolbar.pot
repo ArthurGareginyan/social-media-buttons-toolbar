@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-02-21 07:55+0300\n"
+"POT-Creation-Date: 2016-03-21 19:12+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -35,41 +35,36 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:41
+#: inc/settings_page.php:39
 msgid ""
 "This plugin allows you to easily add the social media buttons toolbar to any "
-"place of your web-site."
+"place of your website."
 msgstr ""
 
-#: inc/settings_page.php:42
-msgid ""
-"To use, enter your User ID's, then click \"Save Changes\". It's that simple!"
-msgstr ""
-
-#: inc/settings_page.php:47
+#: inc/settings_page.php:45
 msgid "Donate"
 msgstr ""
 
-#: inc/settings_page.php:49
+#: inc/settings_page.php:48
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
 msgstr ""
 
-#: inc/settings_page.php:55
+#: inc/settings_page.php:54
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:59
 msgid "Help"
 msgstr ""
 
-#: inc/settings_page.php:63
+#: inc/settings_page.php:62
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
 #: inc/settings_page.php:81
-msgid "User ID’s"
+msgid "Buttons"
 msgstr ""
 
 #: inc/settings_page.php:83
@@ -94,6 +89,43 @@ msgstr ""
 #: inc/settings_page.php:211
 msgid ""
 "Enter your User ID's, then click  \"Save Changes\" to update this preview."
+msgstr ""
+
+#: inc/settings_page.php:217
+msgid "Using"
+msgstr ""
+
+#: inc/settings_page.php:219
+msgid ""
+"You have several methods for display the social media buttons toolbar "
+"(further just \"toolbar\") on your website. But first, enter a links for "
+"each buttons, then click \"Save Changes\"."
+msgstr ""
+
+#: inc/settings_page.php:220
+msgid ""
+"<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
+"just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
+"section \"Display options\", then click \"Save Changes\". It's that simple!"
+msgstr ""
+
+#: inc/settings_page.php:221
+msgid ""
+"<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:223
+msgid ""
+"<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
+"use the \"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+
+#: inc/settings_page.php:225
+msgid ""
+"<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want "
+"to display the toolbar) in your theme files:"
 msgstr ""
 
 #: social-media-buttons-toolbar.php:58

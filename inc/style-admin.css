@@ -1,7 +1,7 @@
 /*
  * Social Media Buttons Toolbar
  * Style sheet for plugin's page
- * @since 0.3
+ * @since 1.3
  * @agareginyan
  */
 
@@ -60,15 +60,10 @@ td.help-text {
     position: relative;
 }
 
-
-.description {
-    border-bottom: 1px solid #cacaca;
-}
-
-.about img {
-    max-width: 100%;
-}
-
 .donate {
     text-align: center;
+}
+
+.donate img {
+    max-width: 100%;
 }

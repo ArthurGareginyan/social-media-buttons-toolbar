@@ -12,16 +12,12 @@ Unlike the other plugins, this plugin create a live toolbar. If the buttons do n
 
 It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook.
 
-If you want more options then tell me and I will be happy to add it.
-
 
 ## Features
 
-**Current features:**
-
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
-* Ready for translation (.pot file included).
-* Added Russian translation.
+* Ready for translation (.pot file included)
+* Russian translation
 
 **Supported social media:**
 
@@ -31,24 +27,19 @@ If you want more options then tell me and I will be happy to add it.
 * Google+
 * YouTube
 * Blogger
+* LiveJournal
 * LinkedIn
+* Pinterest
+* Flickr
+* Tumblr
+* VKontakte
+* Odnoklassniki
 * GitHub
 * WordPress
 * Codepen
+* Personal website
 * Email
 * RSS Feed
-
-**Coming soon:**
-
-* Pinterest
-* VKontakte
-* Odnoklassniki
-* Personal web-site
-* Ebay
-* Flickr
-* Specific Feeds
-* Tumblr
-* Vimeo
 
 **Got more ideas? Tell me!**
 

@@ -1,16 +1,16 @@
 <?php
 /**
  * Plugin Name: Social Media Buttons Toolbar
- * Plugin URI: http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html
+ * Plugin URI: https://github.com/ArthurGareginyan/social-media-buttons-toolbar
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 1.3
+ * Version: 1.4
  * License: GPL3
  * Text Domain: smbtoolbar
  * Domain Path: /languages/
  *
- * Copyright 2015  Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2016  Arthur "Berserkr" Gareginyan  (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "Social Media Buttons Toolbar".
  *
@@ -31,6 +31,8 @@
 
 /**
  * Prevent Direct Access
+ *
+ * @since 0.1
  */
 defined('ABSPATH') or die("Restricted access!");
 
@@ -108,15 +110,15 @@ add_action( 'admin_init', 'smbtoolbar_register_settings' );
 /**
  * Render fields for saving social media data to BD
  *
- * @since 0.3
+ * @since 1.4
  */
 function smbtoolbar_media($name, $label, $placeholder, $help=null, $link=null) {
 
     // Declare variables
     $options = get_option( 'smbtoolbar_settings' );
 
-    if ( !empty($options[media][$name][content]) ) :
-        $value = esc_textarea( $options[media][$name][content] );
+    if ( !empty($options["media"][$name]["content"]) ) :
+        $value = esc_textarea( $options["media"][$name]["content"] );
     else :
         $value = "";
     endif;

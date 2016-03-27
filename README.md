@@ -49,7 +49,8 @@ If you want more options then tell me and I will be happy to add it.
 * Specific Feeds
 * Tumblr
 * Vimeo
-* (Got more ideas? Tell me!)
+
+**Got more ideas? Tell me!**
 
 **Using:**
 
@@ -107,8 +108,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-social-media-buttons-toolbar.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/social-media-buttons-toolbar/)
 

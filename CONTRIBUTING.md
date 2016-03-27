@@ -34,9 +34,7 @@ The preferred way to report bugs is to use the [GitHub issue tracker](https://gi
 - Fork [Social Media Buttons Toolbar](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
   ([how to fork a repo](https://help.github.com/articles/fork-a-repo))
 - Make your changes
-- Submit a pull request
-([how to create a pull request](https://help.github.com/articles/fork-a-repo)).
-  Don't put more than one feature/fix in a single pull request.
+- Submit a pull request ([how to create a pull request](https://help.github.com/articles/fork-a-repo)). Don't put more than one feature/fix in a single pull request.
 
 By contributing code to "Social Media Buttons Toolbar" you:
 

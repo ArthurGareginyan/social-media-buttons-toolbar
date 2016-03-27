@@ -1,18 +1,18 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile,
+Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, vkontakte, vk, odnoklassniki, ok, github, wordpress, codepen, personal website, email, rss feed, rss, feed
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
+Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
 
 == Description ==
 
-An easy to use WordPress plugin that gives you the ability to easily add the smart toolbar with social media buttons to any place (post, page, widget, sidebar, footer) of your WordPress web-site.
+An easy to use WordPress plugin that gives you the ability to easily add the smart toolbar with social media buttons to any place (post, page, widget, sidebar, footer) of your WordPress website.
 
 The social media buttons toolbar - is a toolbar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 
@@ -20,18 +20,13 @@ Unlike the other plugins, this plugin create a live toolbar. If the buttons do n
 
 It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook.
 
-If you want more options then tell me and I will be happy to add it.
-
-
 = Features =
-
-**Current features:**
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
 * Ready for translation (.pot file included).
-* Added Russian translation.
+* Russian translation.
 
-**Supported social media:**
+**Supported social media and links:**
 
 * Facebook
 * Twitter
@@ -40,24 +35,17 @@ If you want more options then tell me and I will be happy to add it.
 * YouTube
 * Blogger
 * LinkedIn
+* LiveJournal
+* Pinterest
+* Tumblr
+* VKontakte
+* Odnoklassniki
 * GitHub
 * WordPress
 * Codepen
+* Personal website
 * Email
 * RSS Feed
-
-**Coming soon:**
-
-* Pinterest
-* VKontakte
-* Odnoklassniki
-* Personal web-site
-* Ebay
-* Flickr
-* Specific Feeds
-* Tumblr
-* Vimeo
-* (Got more ideas? Tell me!)
 
 **Using:**
 
@@ -77,9 +65,14 @@ D) For add the toolbar directly to a theme files, just add one of the following 
 `<?php echo smbtoolbar_shortcode(); ?>`
 
 
+**Got more ideas? Tell me!**
+
+* If you have any suggestions to make this plugin better, don't hesitate to contact me.
+
 **Please Vote and Enjoy**
 
 * Your votes really make a difference! Thanks.
+
 
 == Installation ==
 Install "Social Media Buttons Toolbar" just as you would any other WordPress Plugin.
@@ -130,6 +123,9 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow?
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
 1. Plugin settings page.
@@ -150,7 +146,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich is licensed under the Creative Commons (Attribution 3.0 Unported).
+Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich and licensed under the Creative Commons (Attribution 3.0 Unported)[http://creativecommons.org/licenses/by/3.0/].
 
 **Support**
 
@@ -167,6 +163,15 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 1.4 =
+* Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
+* Fixed: "Use of undefined constant media".
+* Plugin URI changed to GitHub repository.
+* Some changes in design of settings page.
+* Added my personal ad about freelance.
+* Some changes in design of settings page.
+* .pot file updated.
+* Russian translation updated.
 = 1.3 =
 * Some changes in design of settings page.
 * On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)
@@ -191,6 +196,14 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
+= 1.4 =
+* Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
+* Fixed: "Use of undefined constant media".
+* Plugin URI changed to GitHub repository.
+* Some changes in design of settings page.
+* Added my personal ad about freelance.
+* .pot file updated.
+* Russian translation updated.
 = 1.3 =
 * Some changes in design of settings page.
 * On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)

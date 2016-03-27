@@ -2,13 +2,15 @@
 
 /**
  * Prevent Direct Access
+ *
+ * @since 0.1
  */
 defined('ABSPATH') or die("Restricted access!");
 
 /**
  * Render Settings Page
  *
- * @since 1.3
+ * @since 1.4
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -35,9 +37,15 @@ function smbtoolbar_render_submenu_page() {
                     <div id="about" class="postbox">
                         <h3 class="title"><?php _e( 'About', 'smbtoolbar' ); ?></h3>
                         <div class="inside">
-                            <div class="aligncenter">
-                                <p><?php _e( 'This plugin allows you to easily add the social media buttons toolbar to any place of your website.', 'smbtoolbar' ) ?></p>
-                            </div>
+                            <p><?php _e( 'This plugin allows you to easily add the social media buttons toolbar to any place of your website.', 'smbtoolbar' ) ?></p>
+                        </div>
+                    </div>
+
+                    <div id="help" class="postbox">
+                        <h3 class="title"><?php _e( 'Help', 'smbtoolbar' ); ?></h3>
+                        <div class="inside">
+                            <p><?php _e( 'If you want more options then tell me and I will be happy to add it.', 'smbtoolbar' ); ?></p>
+                            <p><a href="mailto:arthurgareginyan@gmail.com">arthurgareginyan@gmail.com</a></p>
                         </div>
                     </div>
 
@@ -45,23 +53,21 @@ function smbtoolbar_render_submenu_page() {
                         <h3 class="title"><?php _e( 'Donate', 'smbtoolbar' ); ?></h3>
                         <div class="inside">
                             <img src="<?php echo plugins_url('thanks.png', __FILE__); ?>">
-                            <p class="donate"><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'smbtoolbar' ) ?></p>
-                            <div class="aligncenter">
-                                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                    <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
-                                </a>
-                            </div>
+                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'smbtoolbar' ) ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
+                                <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
+                            </a>
                             <p class="donate"><?php _e( 'Thanks for your support!', 'smbtoolbar' ) ?></p>
                         </div>
                     </div>
 
-                    <div id="help" class="postbox">
-                        <h3 class="title"><?php _e( 'Help', 'smbtoolbar' ); ?></h3>
+                    <div id="freelance" class="postbox">
+                        <h3 class="title"><?php _e( 'Freelance', 'allmetatags' ) ?></h3>
                         <div class="inside">
-                            <div class="aligncenter">
-                                <p><?php _e( 'If you want more options then tell me and I will be happy to add it.', 'smbtoolbar' ); ?></p>
-                                <p><a href="mailto:arthurgareginyan@gmail.com">arthurgareginyan@gmail.com</a></p>
-                            </div>
+                            <img src="<?php echo plugins_url('author.png', __FILE__); ?>">
+                            <p><?php _e( 'Hello, my name is Arthur and I\'m a freelance web designer and developer.', 'allmetatags' ) ?></p>
+                            <p><?php _e( 'Share your thoughts with me. You may have a brilliant idea in your mind and I can make it happen, so let’s get started!', 'allmetatags' ) ?></p>
+                            <p><a href="http://www.arthurgareginyan.com/" target="_blank">www.arthurgareginyan.com</a></p>
                         </div>
                     </div>
 
@@ -118,11 +124,41 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Enter the link to your Blogger profile page',
                                                                 'https://www.blogger.com'
                                         );?>
+                                        <?php smbtoolbar_media( 'livejournal',
+                                                                'LiveJournal',
+                                                                'http://www.livejournal.com/',
+                                                                'Enter the link to your LiveJournal profile page',
+                                                                'http://www.livejournal.com'
+                                        );?>
                                         <?php smbtoolbar_media( 'linkedin',
                                                                 'LinkedIn',
                                                                 'https://linkedin.com/in/arthurgareginyan',
                                                                 'Enter the link to your LinkedIn profile page',
                                                                 'https://linkedin.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'pinterest',
+                                                                'Pinterest',
+                                                                'https://www.pinterest.com/',
+                                                                'Enter the link to your Pinterest profile page',
+                                                                'https://www.pinterest.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'tumblr',
+                                                                'Tumblr',
+                                                                'https://www.tumblr.com/',
+                                                                'Enter the link to your Tumblr profile page',
+                                                                'https://www.tumblr.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'vkontakte',
+                                                                'VKontakte',
+                                                                'https://vk.com/',
+                                                                'Enter the link to your VKontakte profile page',
+                                                                'https://vk.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'odnoklassniki',
+                                                                'Odnoklassniki',
+                                                                'https://ok.ru/',
+                                                                'Enter the link to your Odnoklassniki profile page',
+                                                                'https://ok.ru'
                                         );?>
                                         <?php smbtoolbar_media( 'github',
                                                                 'Github',
@@ -141,6 +177,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'http://codepen.io/berserkr/',
                                                                 'Enter the link to your Codepen profile page',
                                                                 'http://codepen.io'
+                                        );?>
+                                        <?php smbtoolbar_media( 'website',
+                                                                'Personal website',
+                                                                'http://www.arthurgareginyan.com',
+                                                                'Enter the link to your personal website',
+                                                                ''
                                         );?>
                                         <?php smbtoolbar_media( 'email',
                                                                 'Email',

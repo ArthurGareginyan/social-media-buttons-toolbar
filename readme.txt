@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -67,11 +67,11 @@ D) For add the toolbar directly to a theme files, just add one of the following 
 
 **Got more ideas? Tell me!**
 
-* If you have any suggestions to make this plugin better, don't hesitate to contact me.
+If you have any suggestions to make this plugin better, don't hesitate to contact me.
 
 **Please Vote and Enjoy**
 
-* Your votes really make a difference! Thanks.
+Your votes really make a difference! Thanks.
 
 
 == Installation ==
@@ -123,7 +123,7 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
-= Q. I love this plugin! Can I help somehow?
+= Q. I love this plugin! Can I help somehow? =
 A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
 
 
@@ -163,6 +163,8 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 1.5 =
+* Fixed: "Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240".
 = 1.4 =
 * Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
 * Fixed: "Use of undefined constant media".
@@ -196,6 +198,8 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
+= 1.5=
+* Fixed: "Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240".
 = 1.4 =
 * Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
 * Fixed: "Use of undefined constant media".

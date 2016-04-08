@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -65,13 +65,13 @@ D) For add the toolbar directly to a theme files, just add one of the following 
 `<?php echo smbtoolbar_shortcode(); ?>`
 
 
-**Got more ideas? Tell me!**
-
-If you have any suggestions to make this plugin better, don't hesitate to contact me.
-
-**Please Vote and Enjoy**
-
-Your votes really make a difference! Thanks.
+>**Contribution**
+>
+>Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+>
+>* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/social-media-buttons-toolbar?rate=5#postform) this plugin.
+>* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -148,21 +148,23 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-**Support**
-
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
-
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.0 =
+* Some changes in design of settings page.
+* Constants variables added.
+* Text domain changed to "social-media-buttons-toolbar".
+* Added compatibility with the translate.wordpress.org.
+* All images are moved to the directory "images".
+* Image "btn_donateCC_LG.gif" is now located in the "images" directory.
+* Plugin URI changed to GitHub repository.
+* Added my personal ad about freelance.
+* .pot file updated.
+* Russian translation updated.
 = 1.5 =
 * Fixed: "Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240".
 = 1.4 =
@@ -198,24 +200,11 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 
 == Upgrade Notice ==
-= 1.5=
-* Fixed: "Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240".
-= 1.4 =
-* Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
-* Fixed: "Use of undefined constant media".
-* Plugin URI changed to GitHub repository.
-* Some changes in design of settings page.
-* Added my personal ad about freelance.
-* .pot file updated.
-* Russian translation updated.
-= 1.3 =
-* Some changes in design of settings page.
-* On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)
-= 1.2 =
-* Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
-* The default caption now is empty. The text "Follow me on social media:" is removed.
-* Removed extra settings update message.
-* The thanks.png image replaced.
-= 1.1 =
-* Authors URI changed.
-* Icons updated.
+= 2.0 =
+Please update to new release!
+= 1.0 =
+Please update to first stable release!
+= 0.3 =
+Prerelease.
+= 0.2 =
+Please update to beta version.

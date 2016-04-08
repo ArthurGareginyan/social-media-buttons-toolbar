@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.4
+ * @since 2.0
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -21,10 +21,10 @@ function smbtoolbar_render_submenu_page() {
 	?>
 	<div class="wrap">
 		<h2>
-            <?php _e( 'Social Media Buttons Toolbar', 'smbtoolbar' ); ?>
+            <?php _e( 'Social Media Buttons Toolbar', 'social-media-buttons-toolbar' ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'smbtoolbar' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur "Berserkr" Gareginyan</a>', 'social-media-buttons-toolbar' ); ?>
             <span/>
 		</h2>
 
@@ -35,38 +35,38 @@ function smbtoolbar_render_submenu_page() {
                 <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
                     <div id="about" class="postbox">
-                        <h3 class="title"><?php _e( 'About', 'smbtoolbar' ); ?></h3>
+                        <h3 class="title"><?php _e( 'About', 'social-media-buttons-toolbar' ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily add the social media buttons toolbar to any place of your website.', 'smbtoolbar' ) ?></p>
+                            <p><?php _e( 'This plugin allows you to easily add the social media buttons toolbar to any place of your website.', 'social-media-buttons-toolbar' ) ?></p>
                         </div>
                     </div>
 
                     <div id="help" class="postbox">
-                        <h3 class="title"><?php _e( 'Help', 'smbtoolbar' ); ?></h3>
+                        <h3 class="title"><?php _e( 'Help', 'social-media-buttons-toolbar' ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'If you want more options then tell me and I will be happy to add it.', 'smbtoolbar' ); ?></p>
+                            <p><?php _e( 'If you want more options then tell me and I will be happy to add it.', 'social-media-buttons-toolbar' ); ?></p>
                             <p><a href="mailto:arthurgareginyan@gmail.com">arthurgareginyan@gmail.com</a></p>
                         </div>
                     </div>
 
                     <div id="donate" class="postbox">
-                        <h3 class="title"><?php _e( 'Donate', 'smbtoolbar' ); ?></h3>
+                        <h3 class="title"><?php _e( 'Donate', 'social-media-buttons-toolbar' ); ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('thanks.png', __FILE__); ?>">
-                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'smbtoolbar' ) ?></p>
+                            <img src="<?php echo plugins_url('images/thanks.png', __FILE__); ?>">
+                            <p><?php _e( 'If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date.', 'social-media-buttons-toolbar' ) ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Make a donation">
+                                <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
-                            <p class="donate"><?php _e( 'Thanks for your support!', 'smbtoolbar' ) ?></p>
+                            <p><?php _e( 'Thanks for your support!', 'social-media-buttons-toolbar' ) ?></p>
                         </div>
                     </div>
 
                     <div id="freelance" class="postbox">
-                        <h3 class="title"><?php _e( 'Freelance', 'allmetatags' ) ?></h3>
+                        <h3 class="title"><?php _e( 'Freelance', 'social-media-buttons-toolbar' ) ?></h3>
                         <div class="inside">
-                            <img src="<?php echo plugins_url('author.png', __FILE__); ?>">
-                            <p><?php _e( 'Hello, my name is Arthur and I\'m a freelance web designer and developer.', 'allmetatags' ) ?></p>
-                            <p><?php _e( 'Share your thoughts with me. You may have a brilliant idea in your mind and I can make it happen, so let’s get started!', 'allmetatags' ) ?></p>
+                            <img src="<?php echo plugins_url('images/author.png', __FILE__); ?>">
+                            <p><?php _e( 'Hello, my name is Arthur and I\'m a freelance web designer and developer.', 'social-media-buttons-toolbar' ) ?></p>
+                            <p><?php _e( 'Share your thoughts with me. You may have a brilliant idea in your mind and I can make it happen, so let’s get started!', 'social-media-buttons-toolbar' ) ?></p>
                             <p><a href="http://www.arthurgareginyan.com/" target="_blank">www.arthurgareginyan.com</a></p>
                         </div>
                     </div>
@@ -84,9 +84,9 @@ function smbtoolbar_render_submenu_page() {
                             <?php settings_fields( 'smbtoolbar_settings_group' ); ?>
 
                             <div class="postbox" id="Buttons">
-                                <h3 class="title"><?php _e( 'Buttons', 'smbtoolbar' ); ?></h3>
+                                <h3 class="title"><?php _e( 'Buttons', 'social-media-buttons-toolbar' ); ?></h3>
                                 <div class="inside">
-                                    <p class="description"><?php _e( 'Enter your User ID for each service you choose below to make the button link directly to your profile. If you don\'t want to use any of the following options, you can just forget about these.', 'smbtoolbar' ); ?></p>
+                                    <p class="description"><?php _e( 'Enter your User ID for each service you choose below to make the button link directly to your profile. If you don\'t want to use any of the following options, you can just forget about these.', 'social-media-buttons-toolbar' ); ?></p>
                                     <table class="form-table">
                                         <?php smbtoolbar_media( 'facebook',
                                                                 'Facebook',
@@ -197,12 +197,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 ''
                                         );?>
                                     </table>
-                                    <?php submit_button( __( 'Save Changes', 'smbtoolbar' ), 'primary', 'submit', true ); ?>
+                                    <?php submit_button( __( 'Save Changes', 'social-media-buttons-toolbar' ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
 
                             <div class="postbox" id="DisplayOptions">
-                                <h3 class="title"><?php _e( 'Display options', 'smbtoolbar' ) ?></h3>
+                                <h3 class="title"><?php _e( 'Display options', 'social-media-buttons-toolbar' ) ?></h3>
                                 <div class="inside">
                                     <p class="description"></p>
                                     <table class="form-table">
@@ -243,39 +243,39 @@ function smbtoolbar_render_submenu_page() {
                                                                   '50'
                                         );?>
                                     </table>
-                                    <?php submit_button( __( 'Save Changes', 'smbtoolbar' ), 'primary', 'submit', true ); ?>
+                                    <?php submit_button( __( 'Save Changes', 'social-media-buttons-toolbar' ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
 
                             <div class="postbox" id="Preview">
-                                <h3 class="title"><?php _e( 'Preview', 'smbtoolbar' ) ?></h3>
+                                <h3 class="title"><?php _e( 'Preview', 'social-media-buttons-toolbar' ) ?></h3>
                                 <div class="inside">
-                                    <p class="description"><?php _e( 'Enter your User ID\'s, then click  "Save Changes" to update this preview.', 'smbtoolbar' ) ?></p></br>
+                                    <p class="description"><?php _e( 'Enter your User ID\'s, then click  "Save Changes" to update this preview.', 'social-media-buttons-toolbar' ) ?></p></br>
                                     <?php echo smbtoolbar_shortcode(); ?>
                                 </div>
                             </div>
 
                             <div class="postbox" id="Using">
-                                <h3 class="title"><?php _e( 'Using', 'smbtoolbar' ) ?></h3>
+                                <h3 class="title"><?php _e( 'Using', 'social-media-buttons-toolbar' ) ?></h3>
                                 <div class="inside">
-                                    <p><?php _e( 'You have several methods for display the social media buttons toolbar (further just "toolbar") on your website. But first, enter a links for each buttons, then click "Save Changes".', 'smbtoolbar' ) ?></p>
-                                    <p><?php _e( '<b>A)</b> For display the toolbar below content on every Posts or/and Pages, just check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click "Save Changes". It\'s that simple!', 'smbtoolbar' ) ?></p>
-                                    <p><?php _e( '<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the following shortcode:', 'smbtoolbar' ) ?></p>
+                                    <p><?php _e( 'You have several methods for display the social media buttons toolbar (further just "toolbar") on your website. But first, enter a links for each buttons, then click "Save Changes".', 'social-media-buttons-toolbar' ) ?></p>
+                                    <p><?php _e( '<b>A)</b> For display the toolbar below content on every Posts or/and Pages, just check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click "Save Changes". It\'s that simple!', 'social-media-buttons-toolbar' ) ?></p>
+                                    <p><?php _e( '<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the following shortcode:', 'social-media-buttons-toolbar' ) ?></p>
                                     <p><?php highlight_string('[smbtoolbar]'); ?></p>
-                                    <p><?php _e( '<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', 'smbtoolbar' ) ?></p>
+                                    <p><?php _e( '<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', 'social-media-buttons-toolbar' ) ?></p>
                                     <p><?php highlight_string('[smbtoolbar]'); ?></p>
-                                    <p><?php _e( '<b>D)</b> For add the toolbar directly to a theme files, just add one of the following code (both variants do the same) to needed place (where you want to display the toolbar) in your theme files:', 'smbtoolbar' ) ?></p>
+                                    <p><?php _e( '<b>D)</b> For add the toolbar directly to a theme files, just add one of the following code (both variants do the same) to needed place (where you want to display the toolbar) in your theme files:', 'social-media-buttons-toolbar' ) ?></p>
                                     <p><?php highlight_string('<?php echo do_shortcode("[smbtoolbar]"); ?>'); ?></p>
                                     <p><?php highlight_string('<?php echo smbtoolbar_shortcode(); ?>'); ?></p>
                                 </div>
                             </div>
 
-                        </div>
+                        </form>
+
                     </div>
                 </div>
-                <!-- END-FORM -->
-
-            </form>
+            </div>
+            <!-- END-FORM -->
 
         </div>
 

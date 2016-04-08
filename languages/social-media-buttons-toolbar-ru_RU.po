@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-03-28 01:02+0300\n"
-"PO-Revision-Date: 2016-03-28 01:02+0300\n"
+"POT-Creation-Date: 2016-04-08 18:22+0300\n"
+"PO-Revision-Date: 2016-04-08 18:23+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/settings_page.php:24 social-media-buttons-toolbar.php:73
+#: inc/settings_page.php:24 social-media-buttons-toolbar.php:82
 msgid "Social Media Buttons Toolbar"
 msgstr ""
 
@@ -47,10 +47,20 @@ msgstr ""
 "место на вашем веб-сайте."
 
 #: inc/settings_page.php:45
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/settings_page.php:47
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"добавить их."
+
+#: inc/settings_page.php:53
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:48
+#: inc/settings_page.php:56
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
@@ -58,19 +68,9 @@ msgstr ""
 "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
 "сделать этот плагин ещё лучше и держать его современным."
 
-#: inc/settings_page.php:52
+#: inc/settings_page.php:60
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
-
-#: inc/settings_page.php:57
-msgid "Help"
-msgstr "Помощь"
-
-#: inc/settings_page.php:59
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr ""
-"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
-"добавить их."
 
 #: inc/settings_page.php:65
 msgid "Freelance"
@@ -162,11 +162,11 @@ msgid ""
 "to display the toolbar) in your theme files:"
 msgstr ""
 
-#: social-media-buttons-toolbar.php:60
+#: social-media-buttons-toolbar.php:70
 msgid "Settings"
 msgstr "Настройки"
 
-#: social-media-buttons-toolbar.php:73
+#: social-media-buttons-toolbar.php:82
 msgid "Social Buttons"
 msgstr "Социальные кнопки"
 
@@ -183,12 +183,15 @@ msgstr ""
 "только ссылки на ваши профили) в любое место вашего WordPress веб-сайта."
 
 #. Author of the plugin/theme
-msgid "Arthur \"Berserkr\" Gareginyan"
-msgstr "Артур “Берсеркр” Гарегинян"
+msgid "Arthur Gareginyan"
+msgstr "Артур Гарегинян"
 
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Arthur \"Berserkr\" Gareginyan"
+#~ msgstr "Артур “Берсеркр” Гарегинян"
 
 #~ msgid ""
 #~ "This plugin allows you to easily add the social media buttons toolbar to "

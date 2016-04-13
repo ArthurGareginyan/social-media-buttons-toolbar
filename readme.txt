@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, vkontakte, vk, odnoklassniki, ok, github, wordpress, codepen, personal website, email, rss feed, rss, feed
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 1.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html

@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.0
+ * @since 2.1
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -129,6 +129,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'http://www.livejournal.com/',
                                                                 'Enter the link to your LiveJournal profile page',
                                                                 'http://www.livejournal.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'reddit',
+                                                                'Reddit',
+                                                                'https://www.reddit.com/',
+                                                                'Enter the link to your Reddit profile page',
+                                                                'https://www.reddit.com'
                                         );?>
                                         <?php smbtoolbar_media( 'linkedin',
                                                                 'LinkedIn',

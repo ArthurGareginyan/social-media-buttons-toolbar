@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 1.5
+Stable tag: 2.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -154,6 +154,8 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.1 =
+* Added Reddit button.
 = 2.0 =
 * Some changes in design of settings page.
 * Constants variables added.

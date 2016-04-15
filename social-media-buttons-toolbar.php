@@ -2,15 +2,15 @@
 /**
  * Plugin Name: Social Media Buttons Toolbar
  * Plugin URI: https://github.com/ArthurGareginyan/social-media-buttons-toolbar
- * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress web-site.
+ * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.0
+ * Version: 2.1
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
  *
- * Copyright 2015-2016  Arthur Gareginyan  (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "Social Media Buttons Toolbar".
  *
@@ -37,7 +37,7 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Plugin constants
+ * Define constants
  *
  * @since 2.0
  */

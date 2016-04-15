@@ -36,6 +36,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Blogger
 * LinkedIn
 * LiveJournal
+* Reddit
 * Pinterest
 * Tumblr
 * VKontakte

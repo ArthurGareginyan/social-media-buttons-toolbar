@@ -28,6 +28,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * YouTube
 * Blogger
 * LiveJournal
+* Reddit
 * LinkedIn
 * Pinterest
 * Flickr

@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.1
+ * @since 2.2
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -153,6 +153,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://www.tumblr.com/',
                                                                 'Enter the link to your Tumblr profile page',
                                                                 'https://www.tumblr.com'
+                                        );?>
+                                        <?php smbtoolbar_media( 'meetvibe',
+                                                                'MeetVibe',
+                                                                'https://meetvibe.com/',
+                                                                'Enter the link to your MeetVibe profile page',
+                                                                'https://meetvibe.com'
                                         );?>
                                         <?php smbtoolbar_media( 'vkontakte',
                                                                 'VKontakte',

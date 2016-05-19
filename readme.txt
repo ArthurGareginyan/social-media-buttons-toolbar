@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -39,6 +39,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Reddit
 * Pinterest
 * Tumblr
+* MeetVibe
 * VKontakte
 * Odnoklassniki
 * GitHub
@@ -134,6 +135,7 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 3. Social Media Buttons Toolbar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
 4. Social Media Buttons Toolbar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
 5. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
+6. Shortcode placed in the Text Widget.
 
 
 == Other Notes ==
@@ -149,12 +151,18 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
+Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.2 =
+* Added MeetVibe button.
+* Fixed the display property of <li> and <a> elements.
+* Fixed the issue with border that sometimes appeared at bottom of an icons.
 = 2.1 =
 * Added Reddit button.
 = 2.0 =

@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.1
+ * Version: 2.2
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -225,7 +225,7 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
 /**
  * Generate the buttons toolbar
  *
- * @since 2.0
+ * @since 2.2
  */
 function smbtoolbar_tollbar() {
 
@@ -290,13 +290,15 @@ function smbtoolbar_tollbar() {
                         text-align: center;
                     }
                     .smbt-social-icons li {
-                        display:inline-block;
-                        list-style-type:none;
-                        -webkit-user-select:none;
-                        -moz-user-select:none;
+                        display: inline-block;
+                        border-bottom: 0 !important;
+                        list-style-type: none;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
                     }
                     .smbt-social-icons li a {
-                        border-bottom: none;
+                        border-bottom: 0 !important;
+                        display: inline;
                     }
                     .smbt-social-icons li img {
                         width: " . $icon_size . "px;

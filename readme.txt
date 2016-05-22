@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.1
+Stable tag: 2.2.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -159,9 +159,11 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.2.1 =
+* Added the `!important` flag to the display property of `<a>` element.
 = 2.2 =
 * Added MeetVibe button.
-* Fixed the display property of <li> and <a> elements.
+* Fixed the display property of `<li>` and `<a>` elements.
 * Fixed the issue with border that sometimes appeared at bottom of an icons.
 = 2.1 =
 * Added Reddit button.
@@ -174,10 +176,10 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * Image "btn_donateCC_LG.gif" is now located in the "images" directory.
 * Plugin URI changed to GitHub repository.
 * Added my personal ad about freelance.
-* .pot file updated.
+* `.pot` file updated.
 * Russian translation updated.
 = 1.5 =
-* Fixed: "Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240".
+* Fixed: `Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240`.
 = 1.4 =
 * Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
 * Fixed: "Use of undefined constant media".
@@ -185,7 +187,7 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * Some changes in design of settings page.
 * Added my personal ad about freelance.
 * Some changes in design of settings page.
-* .pot file updated.
+* `.pot` file updated.
 * Russian translation updated.
 = 1.3 =
 * Some changes in design of settings page.
@@ -200,7 +202,7 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * Icons updated.
 = 1.0 =
 * Initial release.
-* Added ready for translation (.pot file included).
+* Added ready for translation (`.pot` file included).
 * Added Russian translation.
 = 0.3 =
 * Release candidate.

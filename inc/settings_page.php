@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.2
+ * @since 2.3
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -171,6 +171,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://ok.ru/',
                                                                 'Enter the link to your Odnoklassniki profile page',
                                                                 'https://ok.ru'
+                                        );?>
+                                        <?php smbtoolbar_media( 'telegram',
+                                                                'Telegram',
+                                                                'https://telegram.org/',
+                                                                'Enter the link to your Telegram profile page',
+                                                                'https://telegram.org'
                                         );?>
                                         <?php smbtoolbar_media( 'github',
                                                                 'Github',

@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, vkontakte, vk, odnoklassniki, ok, github, wordpress, codepen, personal website, email, rss feed, rss, feed
+Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, meetvibe, vkontakte, vk, odnoklassniki, ok, telegram, github, wordpress, codepen, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.5
-Stable tag: 2.2.1
+Stable tag: 2.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,6 +42,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * MeetVibe
 * VKontakte
 * Odnoklassniki
+* Telegram
 * GitHub
 * WordPress
 * Codepen
@@ -159,6 +160,8 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.3 =
+* Added Telegram button.
 = 2.2.1 =
 * Added the `!important` flag to the display property of `<a>` element.
 = 2.2 =

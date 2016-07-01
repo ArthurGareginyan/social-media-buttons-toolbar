@@ -94,20 +94,20 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 
 ## Author
 
-Arthur Garegnyan aka Berserkr
+Arthur Garegnyan
 
 * Email: arthurgareginyan@gmail.com
 
 * GitHub: [https://github.com/ArthurGareginyan/](https://github.com/ArthurGareginyan/)
 
-* My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
+* Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
+
+* Donation: [http://www.arthurgareginyan.com/donate.html](http://www.arthurgareginyan.com/donate.html)
 
 
 ## Links
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/social-media-buttons-toolbar/)
-
-* [Donation Page](http://www.arthurgareginyan.com/donate.html)
 
 
 ---

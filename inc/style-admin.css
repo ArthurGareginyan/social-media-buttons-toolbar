@@ -1,7 +1,7 @@
 /*
  * Social Media Buttons Toolbar
  * Style sheet for plugin's page
- * @since 1.4
+ * @since 2.3.1
  * @agareginyan
  */
 
@@ -67,11 +67,14 @@ td.help-text {
 #help {
     text-align: center;
 }
+#help p {
+    margin: 0;
+}
 
 #donate {
     text-align: center;
 }
 
-#freelance {
+#advertisement {
     text-align: center;
 }

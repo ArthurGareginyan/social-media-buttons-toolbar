@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, meetvibe, vkontakte, vk, odnoklassniki, ok, telegram, github, wordpress, codepen, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.5
+Tested up to: 4.6
 Stable tag: 2.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -23,8 +23,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 = Features =
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
-* Ready for translation (.pot file included).
-* Russian translation.
+* Ready for translation (POT file included).
 
 **Supported social media and links:**
 
@@ -50,7 +49,14 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Email
 * RSS Feed
 
-**Using:**
+= Translation =
+
+Please keep in mind that not all translations are up to date. You are welcome to contribute!
+
+* English (default)
+* Russian
+
+= Using =
 
 You have several methods for display the social media buttons toolbar (further just "toolbar") on your website. But first, enter a links for each buttons, then click "Save Changes".
 
@@ -67,14 +73,13 @@ D) For add the toolbar directly to a theme files, just add one of the following 
 
 `<?php echo smbtoolbar_shortcode(); ?>`
 
-
 >**Contribution**
 >
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
->* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/social-media-buttons-toolbar?rate=5#postform) this plugin.
->* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
+>* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/social-media-buttons-toolbar?rate=5#postform) this plugin.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -160,6 +165,13 @@ Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and li
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 2.3.1 =
+* POT file updated.
+* Russian translation updated.
+* Image "thanks.png" removed.
+* Advertisement replaced by new.
+* Added the subject with plugin name to email address on settings page.
+* Function "smbtoolbar_enqueue_scripts" renamed to "smbtoolbar_load_scripts".
 = 2.3 =
 * Added Telegram button.
 = 2.2.1 =

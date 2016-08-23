@@ -18,6 +18,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
 * Ready for translation (.pot file included)
 * Russian translation
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Supported social media:**
 

@@ -159,12 +159,23 @@ Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2
 
 Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
+[Bootstrap](http://getbootstrap.com) released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+
+[Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
+
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.0 =
+* The structure of files changed.
+* Style sheet of settings page improved and better commented.
+* Style sheet of settings page optimized for mobile devices.
+* Added JavaScript file for settings page.
+* Added JavaScript function of automatic remove the "successful" message after 3 seconds.
+* Checkboxes replaced with cool triggers by using Bootstrap framework and Bootstrap-checkbox component.
 = 2.3.1 =
 * POT file updated.
 * Russian translation updated.

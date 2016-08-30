@@ -1,0 +1,103 @@
+/*
+ * Style sheet for plugin settings page
+ *
+ * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ * All Rights Reserved.
+ */
+
+
+/* Titles
+ -------------------------------------------------------------- */
+h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+
+h2 span {
+    margin-top: 1px;
+    font-size: 0.6em;
+    color: black;
+    display: inline;
+    padding: 0;
+}
+
+h2 span a {
+    display: inline;
+    padding: 0;
+}
+
+h3.title {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    border-bottom: 1px solid #eee;
+}
+
+/* Sidebar
+ -------------------------------------------------------------- */
+#side-sortables {
+    position: relative;
+}
+
+#side-sortables .postbox {
+    text-align: center;
+}
+
+#side-sortables #help p {
+    margin: 0;
+}
+
+/* Responsive page
+ -------------------------------------------------------------- */
+@media (max-width: 860px) {
+    .inner-sidebar {
+        display: none !important;
+    }
+    #post-body-content {
+        margin-right: 0 !important;
+    }
+}
+
+/* Help text
+ -------------------------------------------------------------- */
+td.help-text {
+    font-style: italic;
+    font-size: 12px !important;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0px !important;
+}
+
+/* Other
+ -------------------------------------------------------------- */
+.form-table {
+    clear: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.form-table th,
+.form-table td {
+    padding-bottom: 10px;
+}
+
+.form-table input[type=text] {
+    max-width: 80%;
+    padding-top: 5px;
+    background: #fcfcfc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.postbox a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 0 !important;
+}

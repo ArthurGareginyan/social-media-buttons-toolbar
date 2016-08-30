@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.3.1
+ * Version: 3.0
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -86,14 +86,14 @@ add_action( 'admin_menu', 'smbtoolbar_register_submenu_page' );
 /**
  * Attach Settings Page
  *
- * @since 2.0
+ * @since 3.0
  */
-require_once( SMEDIABT_PATH . 'inc/settings_page.php' );
+require_once( SMEDIABT_PATH . 'inc/php/settings_page.php' );
 
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.0
+ * @since 3.0
  */
 function smbtoolbar_load_scripts($hook) {
 
@@ -102,9 +102,17 @@ function smbtoolbar_load_scripts($hook) {
         return;
     }
 
-    wp_enqueue_style('styles', SMEDIABT_URL . 'inc/style-admin.css');
+    // Style sheet
+    wp_enqueue_style( 'admin-css', SMEDIABT_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'bootstrap', SMEDIABT_URL . 'inc/css/bootstrap.css' );
+    wp_enqueue_style( 'bootstrap-theme', SMEDIABT_URL . 'inc/css/bootstrap-theme.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', SMEDIABT_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( 'bootstrap-checkbox', SMEDIABT_URL . 'inc/js/bootstrap-checkbox.min.js' );
+
 }
-add_action('admin_enqueue_scripts', 'smbtoolbar_load_scripts');
+add_action( 'admin_enqueue_scripts', 'smbtoolbar_load_scripts' );
 
 /**
  * Register settings
@@ -271,7 +279,7 @@ function smbtoolbar_tollbar() {
                 }
                 if ($key == "content") {
                     if (!empty($value)) {
-                        $icon = plugins_url( "inc/images/social-media-icons/$slag.png", __FILE__ );
+                        $icon = plugins_url( "inc/img/social-media-icons/$slag.png", __FILE__ );
                         $metatags_arr[] = '<li>
                                                 <a href="' . $value . '" title="' . $label . '" ' . $new_tab . '>
                                                     <img src="' . $icon . '" alt="' . $label . '" />
@@ -324,14 +332,14 @@ function smbtoolbar_tollbar() {
 function smbtoolbar_shortcode() {
     return implode(PHP_EOL, smbtoolbar_tollbar());
 }
-add_shortcode('smbtoolbar', 'smbtoolbar_shortcode');
+add_shortcode( 'smbtoolbar', 'smbtoolbar_shortcode' );
 
 /**
  * Allow shortcodes in the text widget
  *
  * @since 0.2
  */
-add_filter('widget_text', 'do_shortcode');
+add_filter( 'widget_text', 'do_shortcode' );
 
 /**
  * Add toolbar to the beginning of each post or/and page.
@@ -356,7 +364,7 @@ function smbtoolbar_addContent( $content ) {
     // Returns the content.
     return $content;
 }
-add_action('the_content', 'smbtoolbar_addContent');
+add_action( 'the_content', 'smbtoolbar_addContent' );
 
 /**
  * Delete options on uninstall

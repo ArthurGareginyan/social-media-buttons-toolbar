@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 2.3.1
+ * @since 3.0
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -54,7 +54,7 @@ function smbtoolbar_render_submenu_page() {
                         <div class="inside">
                             <p><?php _e( 'If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date.', 'social-media-buttons-toolbar' ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="<?php echo plugins_url('images/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
+                                <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
                             <p><?php _e( 'Thanks for your support!', 'social-media-buttons-toolbar' ); ?></p>
                         </div>
@@ -253,7 +253,7 @@ function smbtoolbar_render_submenu_page() {
                                                                   'Caption',
                                                                   'Enter the caption to your social media buttons toolbar. It will be displays before the toolbar.',
                                                                   'field',
-                                                                  'Follow me on social media:',
+                                                                  'Follow me in social media:',
                                                                   '50'
                                         );?>
                                     </table>

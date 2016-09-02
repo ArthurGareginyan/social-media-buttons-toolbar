@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0
+ * Version: 3.1
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -29,6 +29,7 @@
  *
  */
 
+
 /**
  * Prevent Direct Access
  *
@@ -37,14 +38,15 @@
 defined('ABSPATH') or die("Restricted access!");
 
 /**
- * Define constants
+ * Define global constants
  *
- * @since 2.0
+ * @since 3.1
  */
 defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
 defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
 defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
 defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
+defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.1');
 
 /**
  * Register text domain
@@ -93,7 +95,7 @@ require_once( SMEDIABT_PATH . 'inc/php/settings_page.php' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function smbtoolbar_load_scripts($hook) {
 
@@ -103,13 +105,13 @@ function smbtoolbar_load_scripts($hook) {
     }
 
     // Style sheet
-    wp_enqueue_style( 'admin-css', SMEDIABT_URL . 'inc/css/admin.css' );
-    wp_enqueue_style( 'bootstrap', SMEDIABT_URL . 'inc/css/bootstrap.css' );
-    wp_enqueue_style( 'bootstrap-theme', SMEDIABT_URL . 'inc/css/bootstrap-theme.css' );
+    wp_enqueue_style( 'smbtoolbar-admin-css', SMEDIABT_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( 'smbtoolbar-bootstrap', SMEDIABT_URL . 'inc/css/bootstrap.css' );
+    wp_enqueue_style( 'smbtoolbar-bootstrap-theme', SMEDIABT_URL . 'inc/css/bootstrap-theme.css' );
 
     // JavaScript
-    wp_enqueue_script( 'admin-js', SMEDIABT_URL . 'inc/js/admin.js', array(), false, true );
-    wp_enqueue_script( 'bootstrap-checkbox', SMEDIABT_URL . 'inc/js/bootstrap-checkbox.min.js' );
+    wp_enqueue_script( 'smbtoolbar-admin-js', SMEDIABT_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( 'smbtoolbar-bootstrap-checkbox', SMEDIABT_URL . 'inc/js/bootstrap-checkbox.min.js' );
 
 }
 add_action( 'admin_enqueue_scripts', 'smbtoolbar_load_scripts' );

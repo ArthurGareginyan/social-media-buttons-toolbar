@@ -45,6 +45,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * GitHub
 * WordPress
 * Codepen
+* Skype
 * Personal website
 * Email
 * RSS Feed

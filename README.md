@@ -15,7 +15,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 
 ## Features
 
-* Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
+* Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich
 * Plugin settings page with many settings
 * Preview on plugin settings page
 * Shortcode for add social media buttons from Post/Page Editor
@@ -97,9 +97,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 ## Credits
 
-Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich is licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich is licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-Icon meetvibe.png by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icon [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
 
 ## Author

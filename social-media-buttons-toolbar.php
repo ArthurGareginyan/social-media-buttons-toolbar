@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.2
+ * Version: 3.3
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -40,13 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.1
+ * @since 3.3
  */
 defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
 defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
 defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
 defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
-defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.1');
+defined('SMEDIABT_TEXT') or define('SMEDIABT_TEXT', 'social-media-buttons-toolbar');
+defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.3');
 
 /**
  * Register text domain
@@ -54,7 +55,7 @@ defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.1');
  * @since 2.0
  */
 function smbtoolbar_textdomain() {
-	load_plugin_textdomain( 'social-media-buttons-toolbar', false, SMEDIABT_DIR . '/languages/' );
+	load_plugin_textdomain( SMEDIABT_TEXT, false, SMEDIABT_DIR . '/languages/' );
 }
 add_action( 'init', 'smbtoolbar_textdomain' );
 
@@ -69,11 +70,11 @@ add_action( 'init', 'smbtoolbar_textdomain' );
  * @return array        Array of links to be output on Plugin Admin page.
  */
 function smbtoolbar_settings_link( $links ) {
-	$settings_page = '<a href="' . admin_url( 'options-general.php?page=social-media-buttons-toolbar.php' ) .'">' . __( 'Settings', 'social-media-buttons-toolbar' ) . '</a>';
+	$settings_page = '<a href="' . admin_url( 'options-general.php?page=social-media-buttons-toolbar.php' ) .'">' . __( 'Settings', SMEDIABT_TEXT ) . '</a>';
 	array_unshift( $links, $settings_page );
 	return $links;
 }
-add_filter( "plugin_action_links_".SMEDIABT_BASE, 'smbtoolbar_settings_link' );
+add_filter( 'plugin_action_links_'.SMEDIABT_BASE, 'smbtoolbar_settings_link' );
 
 /**
  * Register "Social Media Buttons Toolbar" submenu in "Settings" Admin Menu
@@ -81,7 +82,7 @@ add_filter( "plugin_action_links_".SMEDIABT_BASE, 'smbtoolbar_settings_link' );
  * @since 2.0
  */
 function smbtoolbar_register_submenu_page() {
-	add_options_page( __( 'Social Media Buttons Toolbar', 'social-media-buttons-toolbar' ), __( 'Social Buttons', 'social-media-buttons-toolbar' ), 'manage_options', basename( __FILE__ ), 'smbtoolbar_render_submenu_page' );
+	add_options_page( __( 'Social Media Buttons Toolbar', SMEDIABT_TEXT ), __( 'Social Buttons', SMEDIABT_TEXT ), 'manage_options', basename( __FILE__ ), 'smbtoolbar_render_submenu_page' );
 }
 add_action( 'admin_menu', 'smbtoolbar_register_submenu_page' );
 
@@ -235,7 +236,7 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
 /**
  * Generate the buttons toolbar
  *
- * @since 2.2.1
+ * @since 3.3
  */
 function smbtoolbar_tollbar() {
 
@@ -253,6 +254,13 @@ function smbtoolbar_tollbar() {
     $margin_right = esc_textarea( $options['margin-right'] );
     if (empty($margin_right)) {
         $margin_right = "10";
+    }
+
+    // Alignment of toolbar
+    if (!empty($options['alignment'])) {
+        $alignment = $options['alignment'];
+    } else {
+        $alignment = 'center';
     }
 
     // Open link in new tab
@@ -297,7 +305,7 @@ function smbtoolbar_tollbar() {
     // Add styling for toolbar
     $styles = "<style>
                     .smbt-social-icons {
-                        text-align: center;
+                        text-align: " . $alignment . ";
                     }
                     .smbt-social-icons li {
                         display: inline-block !important;

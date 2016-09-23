@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-09-04 11:16+0300\n"
-"PO-Revision-Date: 2016-09-04 11:30+0300\n"
+"POT-Creation-Date: 2016-09-23 23:27+0300\n"
+"PO-Revision-Date: 2016-09-23 23:28+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:84
+#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:85
 msgid "Social Media Buttons Toolbar"
 msgstr ""
 
@@ -56,15 +56,17 @@ msgstr "Есть что сказать? Нужна помощь?"
 
 #: inc/php/settings_page.php:53
 msgid "Donate"
-msgstr "Пожертвование"
+msgstr "Поддержать разработку"
 
 #: inc/php/settings_page.php:55
 msgid ""
-"If you like this plugin and find it useful, please help me to make this "
-"plugin even better and keep it up-to-date."
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
-"помогите мне сделать его ещё лучше."
+"Я независимый разработчик, без регулярного дохода, так что каждый маленький "
+"вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
+"создание программ для людей как вы."
 
 #: inc/php/settings_page.php:59
 msgid "Thanks for your support!"
@@ -183,7 +185,7 @@ msgstr "Введите адрес электронной почты с преф�
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
-#: inc/php/settings_page.php:220 inc/php/settings_page.php:266
+#: inc/php/settings_page.php:220 inc/php/settings_page.php:297
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
@@ -218,6 +220,7 @@ msgstr "Размер иконки"
 #: inc/php/settings_page.php:246
 msgid "Enter the size of icons (in px) in your social media buttons toolbar."
 msgstr ""
+"Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
 #: inc/php/settings_page.php:252
 msgid "Margin right"
@@ -228,12 +231,30 @@ msgid ""
 "Enter the size of space (in px) between icons in your social media buttons "
 "toolbar."
 msgstr ""
+"Введите размер пространства (в пикселях) между иконками для вашей панели "
+"социальных медиа кнопок."
 
-#: inc/php/settings_page.php:259
+#: inc/php/settings_page.php:269
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: inc/php/settings_page.php:275
+msgid "Left"
+msgstr "Слева"
+
+#: inc/php/settings_page.php:279
+msgid "Center"
+msgstr "По центру"
+
+#: inc/php/settings_page.php:283
+msgid "Right"
+msgstr "Справа"
+
+#: inc/php/settings_page.php:290
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings_page.php:260
+#: inc/php/settings_page.php:291
 msgid ""
 "Enter the caption to your social media buttons toolbar. It will be displays "
 "before the toolbar."
@@ -241,19 +262,19 @@ msgstr ""
 "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает "
 "над панелью."
 
-#: inc/php/settings_page.php:271
+#: inc/php/settings_page.php:302
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings_page.php:273
+#: inc/php/settings_page.php:304
 msgid "Click \"Save Changes\" to update this preview."
 msgstr "Нажмите кнопку «Сохранить изменения», чтобы обновить этот просмотр."
 
-#: inc/php/settings_page.php:279
+#: inc/php/settings_page.php:310
 msgid "Using"
-msgstr "Использование:"
+msgstr "Как пользоваться"
 
-#: inc/php/settings_page.php:281
+#: inc/php/settings_page.php:312
 msgid ""
 "You have several methods for display the social media buttons toolbar "
 "(further just \"toolbar\") on your website. But first, fill in the required "
@@ -263,37 +284,37 @@ msgstr ""
 "медиа кнопок (далее просто “кнопки”) на вашем вебсайте. Но сначала заполните "
 "поля для каждой нужной кнопки, а затем нажмите “Сохранить изменения”."
 
-#: inc/php/settings_page.php:282
+#: inc/php/settings_page.php:313
 msgid ""
 "<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
 "just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
 "section \"Display options\", then click \"Save Changes\". It's that simple!"
 msgstr ""
 
-#: inc/php/settings_page.php:283
+#: inc/php/settings_page.php:314
 msgid ""
 "<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:285
+#: inc/php/settings_page.php:316
 msgid ""
 "<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
 "use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:287
+#: inc/php/settings_page.php:318
 msgid ""
 "<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "
 "to display the toolbar) in your theme files:"
 msgstr ""
 
-#: social-media-buttons-toolbar.php:72
+#: social-media-buttons-toolbar.php:73
 msgid "Settings"
 msgstr "Настройки"
 
-#: social-media-buttons-toolbar.php:84
+#: social-media-buttons-toolbar.php:85
 msgid "Social Buttons"
 msgstr "Социальные кнопки"
 
@@ -316,6 +337,13 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, please help me to make this "
+#~ "plugin even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
+#~ "помогите мне сделать его ещё лучше."
 
 #~ msgid "Enter the link to your Github profile page"
 #~ msgstr "Введите ссылку на вашу страницу профиля Github"

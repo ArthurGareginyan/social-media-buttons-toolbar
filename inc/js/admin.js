@@ -5,7 +5,7 @@
  * All Rights Reserved.
  */
 
- 
+
 jQuery(document).ready(function($) {
 
     "use strict";
@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
     // Remove the "successful" message after 3 seconds
     if (".updated") {
         setTimeout(function() {
-                $(".updated").fadeOut();
+            $(".updated").fadeOut();
         }, 3000);
     }
 

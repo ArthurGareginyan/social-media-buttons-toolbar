@@ -16,6 +16,10 @@ It give you finer control over buttons. You can configure they on plugins settin
 ## Features
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2) by Ivlichev Victor Petrovich
+* Plugin settings page with many settings
+* Preview on plugin settings page
+* Shortcode for add social media buttons from Post/Page Editor
+* PHP/HTML code for add social media buttons directly in your theme files
 * Ready for translation (.pot file included)
 * Russian translation
 * Published on [WordPess.org](http://wordpess.org/)

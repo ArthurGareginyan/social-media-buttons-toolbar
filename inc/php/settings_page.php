@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.3
+ * @since 3.4
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -86,116 +86,128 @@ function smbtoolbar_render_submenu_page() {
                                     <table class="form-table">
                                         <?php smbtoolbar_media( 'facebook',
                                                                 'Facebook',
-                                                                'https://www.facebook.com/arthur.gareginyan',
+                                                                'https://www.facebook.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Facebook profile page', SMEDIABT_TEXT ),
                                                                 'hhttps://www.facebook.com'
                                         ); ?>
                                         <?php smbtoolbar_media(  'twitter',
                                                                 'Twitter',
-                                                                'https://twitter.com/AGareginyan',
+                                                                'https://twitter.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Twitter profile page', SMEDIABT_TEXT ),
                                                                 'https://twitter.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'instagram',
                                                                 'Instagram',
-                                                                'http://instagram.com/arthur_gareginyan/',
+                                                                'http://instagram.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Instagram profile page', SMEDIABT_TEXT ),
                                                                 'http://instagram.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'google-plus',
                                                                 'Google+',
-                                                                'https://plus.google.com/u/0/+ArthurGareginyan/',
+                                                                'https://plus.google.com/u/0/+YourUsernameHere',
                                                                 __( 'Enter the link to your Google+ profile page', SMEDIABT_TEXT ),
                                                                 'https://plus.google.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'youtube',
                                                                 'YouTube',
-                                                                'https://www.youtube.com/channel/UCvQenE1DumnZy1k5sTvgmSA',
+                                                                'https://www.youtube.com/channel/YourChannelIdentifierHere',
                                                                 __( 'Enter the link to your YouTube profile page', SMEDIABT_TEXT ),
                                                                 'https://www.youtube.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'blogger',
                                                                 'Blogger',
-                                                                'http://oneberserk.blogspot.com',
+                                                                'http://YourBlogNameHere.blogspot.com',
                                                                 __( 'Enter the link to your Blogger profile page', SMEDIABT_TEXT ),
                                                                 'https://www.blogger.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'livejournal',
                                                                 'LiveJournal',
-                                                                'http://www.livejournal.com/',
+                                                                'http://YourUsernameHere.livejournal.com',
                                                                 __( 'Enter the link to your LiveJournal profile page', SMEDIABT_TEXT ),
                                                                 'http://www.livejournal.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'reddit',
                                                                 'Reddit',
-                                                                'https://www.reddit.com/',
+                                                                'https://www.reddit.com/user/YourUsernameHere',
                                                                 __( 'Enter the link to your Reddit profile page', SMEDIABT_TEXT ),
                                                                 'https://www.reddit.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'linkedin',
                                                                 'LinkedIn',
-                                                                'https://linkedin.com/in/arthurgareginyan',
+                                                                'https://linkedin.com/in/YourUsernameHere',
                                                                 __( 'Enter the link to your LinkedIn profile page', SMEDIABT_TEXT ),
                                                                 'https://linkedin.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'pinterest',
                                                                 'Pinterest',
-                                                                'https://www.pinterest.com/',
+                                                                'https://www.pinterest.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Pinterest profile page', SMEDIABT_TEXT ),
                                                                 'https://www.pinterest.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'tumblr',
                                                                 'Tumblr',
-                                                                'https://www.tumblr.com/',
+                                                                'https://www.tumblr.com/blog/YourBlogNameHere',
                                                                 __( 'Enter the link to your Tumblr profile page', SMEDIABT_TEXT ),
                                                                 'https://www.tumblr.com'
                                         ); ?>
+                                        <?php smbtoolbar_media( 'soundcloud',
+                                                                'SoundCloud',
+                                                                'https://soundcloud.com/YourUsernameHere',
+                                                                __( 'Enter the link to your SoundCloud profile page', SMEDIABT_TEXT ),
+                                                                'https://soundcloud.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'spotify',
+                                                                'Spotify',
+                                                                'http://open.spotify.com/user/YourUsernameHere',
+                                                                __( 'Enter the link to your Spotify profile page', SMEDIABT_TEXT ),
+                                                                'https://www.spotify.com'
+                                        ); ?>
                                         <?php smbtoolbar_media( 'meetvibe',
                                                                 'MeetVibe',
-                                                                'https://meetvibe.com/',
+                                                                'https://meetvibe.com/YourUsernameHere',
                                                                 __( 'Enter the link to your MeetVibe profile page', SMEDIABT_TEXT ),
                                                                 'https://meetvibe.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'vkontakte',
                                                                 'VKontakte',
-                                                                'https://vk.com/',
+                                                                'https://vk.com/id_YourIdentifierHere',
                                                                 __( 'Enter the link to your VKontakte profile page', SMEDIABT_TEXT ),
                                                                 'https://vk.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'odnoklassniki',
                                                                 'Odnoklassniki',
-                                                                'https://ok.ru/',
+                                                                'https://ok.ru/profile/YourIdentifierHere',
                                                                 __( 'Enter the link to your Odnoklassniki profile page', SMEDIABT_TEXT ),
                                                                 'https://ok.ru'
                                         ); ?>
                                         <?php smbtoolbar_media( 'telegram',
                                                                 'Telegram',
-                                                                'https://telegram.org/',
+                                                                'https://telegram.me/YourUsernameHere',
                                                                 __( 'Enter the link to your Telegram profile page', SMEDIABT_TEXT ),
                                                                 'https://telegram.org'
                                         ); ?>
                                         <?php smbtoolbar_media( 'github',
                                                                 'GitHub',
-                                                                'https://github.com/ArthurGareginyan',
+                                                                'https://github.com/YourUsernameHere',
                                                                 __( 'Enter the link to your GitHub profile page', SMEDIABT_TEXT ),
                                                                 'https://github.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'wordpress',
                                                                 'WordPress',
-                                                                'https://profiles.wordpress.org/arthur-gareginyan/',
+                                                                'https://profiles.wordpress.org/YourUsernameHere',
                                                                 __( 'Enter the link to your WordPress profile page', SMEDIABT_TEXT ),
                                                                 'https://wordpress.org'
                                         ); ?>
                                         <?php smbtoolbar_media( 'codepen',
                                                                 'CodePen',
-                                                                'http://codepen.io/berserkr/',
+                                                                'http://codepen.io/YourUsernameHere',
                                                                 __( 'Enter the link to your CodePen profile page', SMEDIABT_TEXT ),
                                                                 'http://codepen.io'
                                         ); ?>
                                         <?php smbtoolbar_media( 'skype',
                                                                 'Skype',
-                                                                'skype:YourName?call',
-                                                                __( 'Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile.', SMEDIABT_TEXT ),
+                                                                'skype:YourUsernameHere?call',
+                                                                __( 'Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile', SMEDIABT_TEXT ),
                                                                 'https://www.skype.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'website',
@@ -206,13 +218,13 @@ function smbtoolbar_render_submenu_page() {
                                         ); ?>
                                         <?php smbtoolbar_media( 'email',
                                                                 'Email',
-                                                                'mailto:arthurgareginyan@gmail.com',
+                                                                'mailto:YourUsernameHere@gmail.com',
                                                                 __( 'Enter your email address with prefix <b>mailto:</b>', SMEDIABT_TEXT ),
                                                                 ''
                                         ); ?>
                                         <?php smbtoolbar_media( 'rss-feed',
                                                                 'RSS Feed',
-                                                                'http://arthurgareginyan.com/feed',
+                                                                'http://YourDomainNameHere.com/feed',
                                                                 __( 'Enter the link to your RSS Feed', SMEDIABT_TEXT ),
                                                                 ''
                                         ); ?>

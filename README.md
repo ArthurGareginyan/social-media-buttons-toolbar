@@ -8,7 +8,7 @@ An easy to use WordPress plugin that gives you the ability to easily add the sma
 
 The social media buttons toolbar - is a toolbar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 
-Unlike the other plugins, this plugin create a live toolbar. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few and it always centered.
+Unlike the other plugins, this plugin create a live toolbar. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few. Also it can be aligned to left, center or right.
 
 It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook.
 
@@ -38,9 +38,11 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Pinterest
 * Flickr
 * Tumblr
+* SoundCloud
+* Spotify
 * MeetVibe
-* VKontakte
-* Odnoklassniki
+* VKontakte (vk.com)
+* Odnoklassniki (ok.ru)
 * Telegram
 * GitHub
 * WordPress

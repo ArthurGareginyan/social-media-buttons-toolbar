@@ -1,0 +1,347 @@
+# Translation of Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: 2016-10-02 03:36+0300\n"
+"PO-Revision-Date: 2016-10-02 03:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. Plugin Name of the plugin/theme
+#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:85
+msgid "Social Media Buttons Toolbar"
+msgstr "Barra de Botones de Social Media"
+
+#: inc/php/settings_page.php:27
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+msgstr ""
+"por <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+
+#: inc/php/settings_page.php:38
+msgid "About"
+msgstr "Acerca  de"
+
+#: inc/php/settings_page.php:40
+msgid ""
+"This plugin allows you to easily add the social media buttons toolbar to any place "
+"of your website."
+msgstr ""
+"Este plugin te permite añadir fácilmente una barra de botones de social media en "
+"cualquier parte de tu sitio web."
+
+#: inc/php/settings_page.php:45
+msgid "Help"
+msgstr "Ayuda"
+
+#: inc/php/settings_page.php:47
+msgid "Got something to say? Need help?"
+msgstr "¿Tienes algo que decir? ¿Necesitas ayuda?"
+
+#: inc/php/settings_page.php:53
+msgid "Donate"
+msgstr "Hacer una donación"
+
+#: inc/php/settings_page.php:55
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building things for "
+"people like you to enjoy."
+msgstr ""
+"Soy un desarrollador independiente, sin ingresos fijos, por tanto cualquier "
+"pequeña contribución me ayudará a cubrir mis gastos y me permitirá dedicar más "
+"tiempo a hacer cosas que puedan disfrutar personas como tú."
+
+#: inc/php/settings_page.php:59
+msgid "Thanks for your support!"
+msgstr "¡Gracias por su colaboración!"
+
+#: inc/php/settings_page.php:64
+msgid "Advertisement"
+msgstr "Advertencia"
+
+#: inc/php/settings_page.php:83
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/php/settings_page.php:85
+msgid ""
+"Just fill in the required fields to make a buttons. The social networking buttons "
+"will lead directly to your profile pages. If you don't want to use any of the "
+"following buttons, you can not fill them and then they do not appear."
+msgstr ""
+"Sólo llena los campos requeridos para hacer los botones. Los botones de cada red "
+"social conducirán directamente a tu página de perfil en esa red. Si no quieres "
+"usar alguno de los botones, sencillamente no lo llenes y no aparecerá."
+
+#: inc/php/settings_page.php:90
+msgid "Enter the link to your Facebook profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Facebook"
+
+#: inc/php/settings_page.php:96
+msgid "Enter the link to your Twitter profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Twitter"
+
+#: inc/php/settings_page.php:102
+msgid "Enter the link to your Instagram profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Instagram"
+
+#: inc/php/settings_page.php:108
+msgid "Enter the link to your Google+ profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Google+"
+
+#: inc/php/settings_page.php:114
+msgid "Enter the link to your YouTube profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Youtube"
+
+#: inc/php/settings_page.php:120
+msgid "Enter the link to your Blogger profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Blogger"
+
+#: inc/php/settings_page.php:126
+msgid "Enter the link to your LiveJournal profile page"
+msgstr "Ingresa el enlace a tu página de perfil de LiveJournal"
+
+#: inc/php/settings_page.php:132
+msgid "Enter the link to your Reddit profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Reddit"
+
+#: inc/php/settings_page.php:138
+msgid "Enter the link to your LinkedIn profile page"
+msgstr "Ingresa el enlace a tu página de perfil de LinkedIn"
+
+#: inc/php/settings_page.php:144
+msgid "Enter the link to your Pinterest profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Pinterest"
+
+#: inc/php/settings_page.php:150
+msgid "Enter the link to your Tumblr profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Tumblr"
+
+#: inc/php/settings_page.php:156
+msgid "Enter the link to your SoundCloud profile page"
+msgstr "Ingresa el enlace a tu página de perfil de SoundCloud"
+
+#: inc/php/settings_page.php:162
+msgid "Enter the link to your Spotify profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Spotify"
+
+#: inc/php/settings_page.php:168
+msgid "Enter the link to your MeetVibe profile page"
+msgstr "Ingresa el enlace a tu página de perfil de MeetVibe"
+
+#: inc/php/settings_page.php:174
+msgid "Enter the link to your VKontakte profile page"
+msgstr "Ingresa el enlace a tu página de perfil de VKontakte"
+
+#: inc/php/settings_page.php:180
+msgid "Enter the link to your Odnoklassniki profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Odnoklassniki"
+
+#: inc/php/settings_page.php:186
+msgid "Enter the link to your Telegram profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Telegram"
+
+#: inc/php/settings_page.php:192
+msgid "Enter the link to your GitHub profile page"
+msgstr "Ingresa el enlace a tu página de perfil de GitHub"
+
+#: inc/php/settings_page.php:198
+msgid "Enter the link to your WordPress profile page"
+msgstr "Ingresa el enlace a tu página de perfil de WordPress"
+
+#: inc/php/settings_page.php:204
+msgid "Enter the link to your CodePen profile page"
+msgstr "Ingresa el enlace a tu página de perfil de CodePen"
+
+#: inc/php/settings_page.php:210
+msgid ""
+"Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?"
+"add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
+msgstr ""
+"Ingresa tu nombre de Skype con prefijo <b>skype:</b> y sufijo <b>?call</b>, o <b>?"
+"add</b>, o <b>?chat</b>, o <b>?userinfo</b> para ver el perfil"
+
+#: inc/php/settings_page.php:216
+msgid "Enter the link to your personal website"
+msgstr "Ingresa el enlace a tu sitio web personal"
+
+#: inc/php/settings_page.php:222
+msgid "Enter your email address with prefix <b>mailto:</b>"
+msgstr "Ingresa tu dirección de correo electrónico con prefijo <b>mailto:</b>"
+
+#: inc/php/settings_page.php:228
+msgid "Enter the link to your RSS Feed"
+msgstr "Ingresa el enlace a tu Feed de RSS"
+
+#: inc/php/settings_page.php:232 inc/php/settings_page.php:309
+msgid "Save Changes"
+msgstr "Guardar las modificaciones"
+
+#: inc/php/settings_page.php:237
+msgid "Display options"
+msgstr "Opciones de presentación"
+
+#: inc/php/settings_page.php:242
+msgid "Show on Posts"
+msgstr "Mostrar en Entradas"
+
+#: inc/php/settings_page.php:243
+msgid "Display toolbar below content on Posts"
+msgstr "Mostrar la barra abajo del contenido en Entradas"
+
+#: inc/php/settings_page.php:247
+msgid "Show on Pages"
+msgstr "Mostrar en Páginas"
+
+#: inc/php/settings_page.php:248
+msgid "Display toolbar below content on Pages"
+msgstr "Mostrar la barra abajo del contenido en Páginas"
+
+#: inc/php/settings_page.php:252
+msgid "Open link in new tab/window"
+msgstr "Abrir enlace en una nueva pestaña/ventana"
+
+#: inc/php/settings_page.php:257
+msgid "Icon size"
+msgstr "Tamaño de ícono"
+
+#: inc/php/settings_page.php:258
+msgid "Enter the size of icons (in px) in your social media buttons toolbar."
+msgstr ""
+"Ingrese el tamaño de los íconos (en píxeles) en tu barra de botones Social Media"
+
+#: inc/php/settings_page.php:264
+msgid "Margin right"
+msgstr "Margen derecho"
+
+#: inc/php/settings_page.php:265
+msgid ""
+"Enter the size of space (in px) between icons in your social media buttons toolbar."
+msgstr ""
+"Ingresa el espacio (en píxeles) entre íconos en tu barra de botones de Social Media"
+
+#: inc/php/settings_page.php:281
+msgid "Alignment"
+msgstr "Alineación"
+
+#: inc/php/settings_page.php:287
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/php/settings_page.php:291
+msgid "Center"
+msgstr "Centro"
+
+#: inc/php/settings_page.php:295
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/php/settings_page.php:302
+msgid "Caption"
+msgstr "Leyenda"
+
+#: inc/php/settings_page.php:303
+msgid ""
+"Enter the caption to your social media buttons toolbar. It will be displays before "
+"the toolbar."
+msgstr ""
+"Ingresa la leyenda para tu barra de botones de Social Media. Aparecerá arriba de "
+"la barra de botones."
+
+#: inc/php/settings_page.php:314
+msgid "Preview"
+msgstr "Vista previa"
+
+#: inc/php/settings_page.php:316
+msgid "Click \"Save Changes\" to update this preview."
+msgstr "Haz clic en \"Guardar los cambios\" para actualizar esta previsualización."
+
+#: inc/php/settings_page.php:322
+msgid "Using"
+msgstr "Utilizando"
+
+#: inc/php/settings_page.php:324
+msgid ""
+"You have several methods for display the social media buttons toolbar (further "
+"just \"toolbar\") on your website. But first, fill in the required fields, then "
+"click \"Save Changes\"."
+msgstr ""
+"Tienes varios métodos para mostrar la barra de botones de social media (en "
+"adelante, la llamaremos sencillamente \"barra\") en tu sitio web. Pero primero, "
+"llena los campos requeridos, y luego haz clic en \"Guardar cambios\"."
+
+#: inc/php/settings_page.php:325
+msgid ""
+"<b>A)</b> For display the toolbar below content on every Posts or/and Pages, just "
+"check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the section "
+"\"Display options\", then click \"Save Changes\". It's that simple!"
+msgstr ""
+"<b>A)</b> Para mosrar la barra después del contenido de cada Entrada y/o de cada "
+"Página, sólo marca la casilla \"Mostrar en Entradas\" y/o \"Mostrar en Páginas\" "
+"en la sección \"Opciones de pantalla\", luego haz clic en \"Guardar los cambios\". "
+"¡Así de simple!"
+
+#: inc/php/settings_page.php:326
+msgid ""
+"<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+"<b>B)</b>Para añadir la barra dentro de una entrada desde el Editor de Entradas/"
+"Páginas de Wordpress usa el siguiente shortcode:"
+
+#: inc/php/settings_page.php:328
+msgid ""
+"<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) use the "
+"\"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+"<b>C)</b> Para añadir la barra al área de widgets (en la barra lateral, en el pie, "
+"u otro) usa el widget \"Text\" y agregálo dentro del siguiente shortcode:"
+
+#: inc/php/settings_page.php:330
+msgid ""
+"<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want to "
+"display the toolbar) in your theme files:"
+msgstr ""
+"<b>D)</b> Para añadir la barra directamente a los archivos del tema, sólo agrega "
+"uno de los siguientes códigos (cualquiera de los dos hace lo mismo) en el lugar "
+"deseado (donde quieres que aparezca la barra) en los archivos de tu tema:"
+
+#: social-media-buttons-toolbar.php:73
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: social-media-buttons-toolbar.php:85
+msgid "Social Buttons"
+msgstr "Botones Sociales"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/social-media-buttons-toolbar"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily add the smart toolbar with social media buttons (not share, only link to "
+"your profiles) to any place of your WordPress website."
+msgstr ""
+"Añade fácilmente una barra inteligente con botones de social media (no para "
+"compartir, sólo para enlazar a tus perfiles sociales) en cualquier parte tu sitio "
+"web hecho en Wordpress."
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr ""

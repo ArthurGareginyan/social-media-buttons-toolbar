@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.4
+ * @since 3.6
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -149,6 +149,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://www.tumblr.com/blog/YourBlogNameHere',
                                                                 __( 'Enter the link to your Tumblr profile page', SMEDIABT_TEXT ),
                                                                 'https://www.tumblr.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'snapchat',
+                                                                'Snapchat',
+                                                                'https://www.snapchat.com/add/YourUsernameHere',
+                                                                __( 'Enter the link to your Snapchat profile page', SMEDIABT_TEXT ),
+                                                                'https://www.snapchat.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'soundcloud',
                                                                 'SoundCloud',

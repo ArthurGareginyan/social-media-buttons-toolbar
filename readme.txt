@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, soundcloud, spotify, meetvibe, vkontakte, vk, odnoklassniki, ok, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, blogger, livejournal, linkedIn, pinterest, tumblr, soundcloud, spotify, meetvibe, vkontakte, vk, odnoklassniki, ok, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.5
+Stable tag: 3.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -23,6 +23,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 = Features =
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich
+* [Icons](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
 * Plugin settings page with many settings
 * Preview on plugin settings page
 * Shortcode for add social media buttons from Post/Page Editor
@@ -42,6 +43,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Reddit
 * Pinterest
 * Tumblr
+* Snapchat
 * SoundCloud
 * Spotify
 * MeetVibe
@@ -152,6 +154,7 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 4. Social Media Buttons Toolbar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
 5. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
 6. Shortcode placed in the Text Widget.
+7. All buttons.
 
 
 == Other Notes ==
@@ -179,6 +182,8 @@ Icon [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareg
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.6 =
+* Added option for Snapchat button.
 = 3.5 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 = 3.4 =

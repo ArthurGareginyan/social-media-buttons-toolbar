@@ -16,6 +16,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 ## Features
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich
+* [Some icons](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
 * Plugin settings page with many settings
 * Preview on plugin settings page
 * Shortcode for add social media buttons from Post/Page Editor
@@ -38,6 +39,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Pinterest
 * Flickr
 * Tumblr
+* Snapchat
 * SoundCloud
 * Spotify
 * MeetVibe
@@ -57,6 +59,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 **Using:**
 
 Use the following shortcode in your posts, pages or text widgets (sidebar, footer) to display the social media buttons toolbar:
+
 ```
 [smbtoolbar]
 ```
@@ -64,11 +67,13 @@ Use the following shortcode in your posts, pages or text widgets (sidebar, foote
 Also you can use the following methods to add the social media buttons toolbar directly to theme files.
 
 WordPress has a very easy function called do_shortcode() that lets you add shortcodes in your themes. Simply add the following code to needed place in your theme where you want the buttons to appear:
+
 ```
 <?php echo do_shortcode("[smbtoolbar]"); ?>
 ```
 
 Or add this code for direct call function:
+
 ```
 <?php echo smbtoolbar_shortcode(); ?>
 ```

@@ -23,7 +23,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 = Features =
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich
-* [Icons](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
+* [Some icons](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
 * Plugin settings page with many settings
 * Preview on plugin settings page
 * Shortcode for add social media buttons from Post/Page Editor

@@ -32,6 +32,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Instagram
 * Google+
 * YouTube
+* Vimeo
 * Blogger
 * LiveJournal
 * Reddit

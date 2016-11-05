@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.6
+ * @since 3.7
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -60,12 +60,9 @@ function smbtoolbar_render_submenu_page() {
                         </div>
                     </div>
 
-                    <div id="advertisement" class="postbox">
-                        <h3 class="title"><?php _e( 'Advertisement', SMEDIABT_TEXT ); ?></h3>
-                        <div class="inside">
-                            <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=36439_5_1_21" target="_blank" rel="nofollow"><img style="border:0px" src="http://www.elegantthemes.com/affiliates/media/banners/divi_250x250.jpg" width="250" height="250" alt="Divi WordPress Theme"></a>
-                        </div>
-                    </div>
+                    <a href="//www.iconfinder.com/?ref=ArthurGareginyan" target="_blank" rel="nofollow">
+                        <img style="border:0px" src="<?php echo plugins_url('../img/banner.png', __FILE__); ?>" width="280" height="180" alt="">
+                    </a>
 
                 </div>
             </div>
@@ -113,6 +110,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://www.youtube.com/channel/YourChannelIdentifierHere',
                                                                 __( 'Enter the link to your YouTube profile page', SMEDIABT_TEXT ),
                                                                 'https://www.youtube.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'vimeo',
+                                                                'Vimeo',
+                                                                'https://vimeo.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Vimeo profile page', SMEDIABT_TEXT ),
+                                                                'https://vimeo.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'blogger',
                                                                 'Blogger',

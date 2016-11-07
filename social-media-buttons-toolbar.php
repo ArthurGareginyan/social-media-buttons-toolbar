@@ -236,7 +236,7 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
 /**
  * Generate the buttons toolbar
  *
- * @since 3.3
+ * @since 3.8
  */
 function smbtoolbar_tollbar() {
 
@@ -309,6 +309,7 @@ function smbtoolbar_tollbar() {
                     }
                     .smbt-social-icons li {
                         margin: 0px !important;
+                        padding: 0px !important;
                         display: inline-block !important;
                         border-bottom: 0 !important;
                         list-style-type: none;

@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.7
+Stable tag: 3.8
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,6 +45,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Pinterest
 * Tumblr
 * Snapchat
+* IMDb
 * SoundCloud
 * Spotify
 * MeetVibe
@@ -171,7 +172,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-Icons snapchat.png and [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png and snapchat.png](https://www.iconfinder.com/iconsets/square-logo-buttons) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
 [Bootstrap](http://getbootstrap.com) released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
@@ -183,6 +184,9 @@ Icons snapchat.png and [meetvibe.png](https://www.iconfinder.com/iconsets/meetvi
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.8 =
+* Added option for IMDb button.
+* Added CSS fix for compatibility with some themes.
 = 3.7 =
 * Added option for Vimeo button.
 * Translations updated.

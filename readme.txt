@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, soundcloud, spotify, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, imdb, soundcloud, spotify, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.8
+Stable tag: 3.8.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,7 +18,7 @@ The social media buttons toolbar - is a toolbar with set of icons of the popular
 
 Unlike the other plugins, this plugin creates a live toolbar. The toolbar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook.
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options then tell me and I will be happy to add it.
 
 = Features =
 
@@ -184,6 +184,10 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.8.1 =
+* Added "!important" declarations to stylesheet in order to fix compatibility issues with some themes.
+* Fixed error "Use of undefined constant SSTOPB_TEXT...".
+* Readme for translations updated.
 = 3.8 =
 * Added option for IMDb button.
 * Added CSS fix for compatibility with some themes.

@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.8
+ * @since 3.8.1
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -299,15 +299,15 @@ function smbtoolbar_render_submenu_page() {
                                                 <ul>
                                                     <li>
                                                         <input type="radio" name="smbtoolbar_settings[alignment]" value="left" <?php checked('left', $alignment); ?> >
-                                                        <?php _e( 'Left', SSTOPB_TEXT ); ?>
+                                                        <?php _e( 'Left', SMEDIABT_TEXT ); ?>
                                                     </li>
                                                     <li>
                                                         <input type="radio" name="smbtoolbar_settings[alignment]" value="center" <?php checked('', $alignment); ?> <?php checked('center', $alignment); ?> >
-                                                        <?php _e( 'Center', SSTOPB_TEXT ); ?>
+                                                        <?php _e( 'Center', SMEDIABT_TEXT ); ?>
                                                     </li>
                                                     <li>
                                                         <input type="radio" name="smbtoolbar_settings[alignment]" value="right" <?php checked('right', $alignment); ?> >
-                                                        <?php _e( 'Right', SSTOPB_TEXT ); ?>
+                                                        <?php _e( 'Right', SMEDIABT_TEXT ); ?>
                                                     </li>
                                                     </ul>
                                             </td>

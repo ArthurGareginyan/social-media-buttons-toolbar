@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.8.1
+Stable tag: 3.8.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -184,6 +184,8 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.8.2 =
+* Added some CSS code in order to fix compatibility issues with some themes.
 = 3.8.1 =
 * Added "!important" declarations to stylesheet in order to fix compatibility issues with some themes.
 * Fixed error "Use of undefined constant SSTOPB_TEXT...".

@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, imdb, soundcloud, spotify, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, imdb, soundcloud, spotify, dloky, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.8.2
+Stable tag: 3.9
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -23,7 +23,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 = Features =
 
 * Icon set ["Social Buttons 2"](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich
-* [Some icons](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
+* [Some icons](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
 * Plugin settings page with many settings
 * Preview on plugin settings page
 * Shortcode for add social media buttons from Post/Page Editor
@@ -48,6 +48,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * IMDb
 * SoundCloud
 * Spotify
+* Dloky
 * MeetVibe
 * VKontakte (vk.com)
 * Odnoklassniki (ok.ru)
@@ -172,7 +173,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png and snapchat.png](https://www.iconfinder.com/iconsets/square-logo-buttons) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png, dloky.png and snapchat.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
 [Bootstrap](http://getbootstrap.com) released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
@@ -184,6 +185,9 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.9 =
+* Added option for Dloky button.
+* Image of the donate button changed.
 = 3.8.2 =
 * Added some CSS code in order to fix compatibility issues with some themes.
 = 3.8.1 =

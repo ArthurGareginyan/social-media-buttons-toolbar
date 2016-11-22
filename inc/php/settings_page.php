@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.8.1
+ * @since 3.9
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -54,7 +54,7 @@ function smbtoolbar_render_submenu_page() {
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SMEDIABT_TEXT ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
-                                <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
+                                <img src="<?php echo plugins_url('../img/donate.png', __FILE__); ?>" alt="Make a donation">
                             </a>
                             <p><?php _e( 'Thanks for your support!', SMEDIABT_TEXT ); ?></p>
                         </div>
@@ -176,6 +176,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'http://open.spotify.com/user/YourUsernameHere',
                                                                 __( 'Enter the link to your Spotify profile page', SMEDIABT_TEXT ),
                                                                 'https://www.spotify.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'dloky',
+                                                                'Dloky',
+                                                                'https://dloky.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Dloky profile page', SMEDIABT_TEXT ),
+                                                                'https://dloky.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'meetvibe',
                                                                 'MeetVibe',

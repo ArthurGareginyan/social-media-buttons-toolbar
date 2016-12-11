@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, imdb, soundcloud, spotify, dloky, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, twitch, imdb, soundcloud, spotify, dloky, meetvibe, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.6
-Stable tag: 3.9
+Tested up to: 4.7
+Stable tag: 3.10
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,6 +45,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Pinterest
 * Tumblr
 * Snapchat
+* Twitch
 * IMDb
 * SoundCloud
 * Spotify
@@ -185,6 +186,8 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.10 =
+* Added option for Twitch button.
 = 3.9 =
 * Added option for Dloky button.
 * Image of the donate button changed.

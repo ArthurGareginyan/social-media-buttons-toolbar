@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.9
+ * @since 3.10
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -158,6 +158,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://www.snapchat.com/add/YourUsernameHere',
                                                                 __( 'Enter the link to your Snapchat profile page', SMEDIABT_TEXT ),
                                                                 'https://www.snapchat.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'twitch',
+                                                                'Twitch',
+                                                                'https://www.twitch.tv/YourUsernameHere',
+                                                                __( 'Enter the link to your Twitch profile page', SMEDIABT_TEXT ),
+                                                                'https://www.twitch.tv'
                                         ); ?>
                                         <?php smbtoolbar_media( 'imdb',
                                                                 'IMDb',

@@ -174,7 +174,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png, dloky.png and snapchat.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png, dloky.png, snapchat.png and twitch.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
 [Bootstrap](http://getbootstrap.com) released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 

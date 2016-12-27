@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-12-11 10:50+0300\n"
-"PO-Revision-Date: 2016-12-11 10:51+0300\n"
+"POT-Creation-Date: 2016-12-27 20:17+0300\n"
+"PO-Revision-Date: 2016-12-27 20:17+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -165,30 +165,38 @@ msgid "Enter the link to your MeetVibe profile page"
 msgstr "Введите ссылку на вашу страницу профиля MeetVibe"
 
 #: inc/php/settings_page.php:201
+msgid "Enter the link to your Steam profile page"
+msgstr "Введите ссылку на вашу страницу профиля Steam"
+
+#: inc/php/settings_page.php:207
+msgid "Enter the link to your Discord profile page"
+msgstr "Введите ссылку на вашу страницу профиля Discord"
+
+#: inc/php/settings_page.php:213
 msgid "Enter the link to your VKontakte profile page"
 msgstr "Введите ссылку на вашу страницу профиля ВКонтакте"
 
-#: inc/php/settings_page.php:207
+#: inc/php/settings_page.php:219
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr "Введите ссылку на вашу страницу профиля Одноклассники"
 
-#: inc/php/settings_page.php:213
+#: inc/php/settings_page.php:225
 msgid "Enter the link to your Telegram profile page"
 msgstr "Введите ссылку на вашу страницу профиля Telegram"
 
-#: inc/php/settings_page.php:219
+#: inc/php/settings_page.php:231
 msgid "Enter the link to your GitHub profile page"
 msgstr "Введите ссылку на вашу страницу профиля GitHub"
 
-#: inc/php/settings_page.php:225
+#: inc/php/settings_page.php:237
 msgid "Enter the link to your WordPress profile page"
 msgstr "Введите ссылку на вашу страницу профиля WordPress"
 
-#: inc/php/settings_page.php:231
+#: inc/php/settings_page.php:243
 msgid "Enter the link to your CodePen profile page"
 msgstr "Введите ссылку на вашу страницу профиля CodePen"
 
-#: inc/php/settings_page.php:237
+#: inc/php/settings_page.php:249
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -197,60 +205,60 @@ msgstr ""
 "b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра "
 "профиля"
 
-#: inc/php/settings_page.php:243
+#: inc/php/settings_page.php:255
 msgid "Enter the link to your personal website"
 msgstr "Введите ссылку на ваш персональный сайт"
 
-#: inc/php/settings_page.php:249
+#: inc/php/settings_page.php:261
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
 
-#: inc/php/settings_page.php:255
+#: inc/php/settings_page.php:267
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
-#: inc/php/settings_page.php:259 inc/php/settings_page.php:336
+#: inc/php/settings_page.php:271 inc/php/settings_page.php:348
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings_page.php:264
+#: inc/php/settings_page.php:276
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/settings_page.php:269
+#: inc/php/settings_page.php:281
 msgid "Show on Posts"
 msgstr "Показать в записях"
 
-#: inc/php/settings_page.php:270
+#: inc/php/settings_page.php:282
 msgid "Display toolbar below content on Posts"
 msgstr "Показывать кнопки под содержанием в записях"
 
-#: inc/php/settings_page.php:274
+#: inc/php/settings_page.php:286
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/settings_page.php:275
+#: inc/php/settings_page.php:287
 msgid "Display toolbar below content on Pages"
 msgstr "Показывать кнопки под содержанием на страницах"
 
-#: inc/php/settings_page.php:279
+#: inc/php/settings_page.php:291
 msgid "Open link in new tab/window"
 msgstr "Открыть ссылку в новом окне/вкладке"
 
-#: inc/php/settings_page.php:284
+#: inc/php/settings_page.php:296
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings_page.php:285
+#: inc/php/settings_page.php:297
 msgid "Enter the size of icons (in px) in your social media buttons toolbar."
 msgstr ""
 "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/settings_page.php:291
+#: inc/php/settings_page.php:303
 msgid "Margin right"
 msgstr "Отступ справа"
 
-#: inc/php/settings_page.php:292
+#: inc/php/settings_page.php:304
 msgid ""
 "Enter the size of space (in px) between icons in your social media buttons "
 "toolbar."
@@ -258,27 +266,27 @@ msgstr ""
 "Введите размер пространства (в пикселях) между иконками для вашей панели "
 "социальных медиа кнопок."
 
-#: inc/php/settings_page.php:308
+#: inc/php/settings_page.php:320
 msgid "Alignment"
 msgstr "Выравнивание"
 
-#: inc/php/settings_page.php:314
+#: inc/php/settings_page.php:326
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/settings_page.php:318
+#: inc/php/settings_page.php:330
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/settings_page.php:322
+#: inc/php/settings_page.php:334
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/settings_page.php:329
+#: inc/php/settings_page.php:341
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings_page.php:330
+#: inc/php/settings_page.php:342
 msgid ""
 "Enter the caption to your social media buttons toolbar. It will be displays "
 "before the toolbar."
@@ -286,20 +294,20 @@ msgstr ""
 "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает "
 "над панелью."
 
-#: inc/php/settings_page.php:341
+#: inc/php/settings_page.php:353
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings_page.php:343
+#: inc/php/settings_page.php:355
 msgid "Click \"Save Changes\" to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
 
-#: inc/php/settings_page.php:349
+#: inc/php/settings_page.php:361
 msgid "Using"
 msgstr "Как пользоваться"
 
-#: inc/php/settings_page.php:351
+#: inc/php/settings_page.php:363
 msgid ""
 "You have several methods for display the social media buttons toolbar "
 "(further just \"toolbar\") on your website. But first, fill in the required "
@@ -309,31 +317,39 @@ msgstr ""
 "медиа кнопок (далее просто “кнопки”) на вашем вебсайте. Но сначала заполните "
 "поля для каждой нужной кнопки, а затем нажмите “Сохранить изменения”."
 
-#: inc/php/settings_page.php:352
+#: inc/php/settings_page.php:364
 msgid ""
 "<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
 "just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
 "section \"Display options\", then click \"Save Changes\". It's that simple!"
 msgstr ""
 
-#: inc/php/settings_page.php:353
+#: inc/php/settings_page.php:365
 msgid ""
 "<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:355
+#: inc/php/settings_page.php:367
 msgid ""
 "<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
 "use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:357
+#: inc/php/settings_page.php:369
 msgid ""
 "<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "
 "to display the toolbar) in your theme files:"
 msgstr ""
+
+#: inc/php/settings_page.php:372
+msgid ""
+"It's that simple! If you want more options then tell me and I will be happy "
+"to add it."
+msgstr ""
+"Это так просто! Если вы хотите иметь больше опций, то скажите мне об этом и "
+"я буду счастлив добавить их."
 
 #: social-media-buttons-toolbar.php:73
 msgid "Settings"

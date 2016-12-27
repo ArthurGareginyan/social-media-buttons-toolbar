@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.10
+ * @since 3.11
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -195,6 +195,18 @@ function smbtoolbar_render_submenu_page() {
                                                                 __( 'Enter the link to your MeetVibe profile page', SMEDIABT_TEXT ),
                                                                 'https://meetvibe.com'
                                         ); ?>
+                                        <?php smbtoolbar_media( 'steam',
+                                                                'Steam',
+                                                                'http://store.steampowered.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Steam profile page', SMEDIABT_TEXT ),
+                                                                'http://store.steampowered.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'discord',
+                                                                'Discord',
+                                                                'https://discordapp.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Discord profile page', SMEDIABT_TEXT ),
+                                                                'https://discordapp.com'
+                                        ); ?>
                                         <?php smbtoolbar_media( 'vkontakte',
                                                                 'VKontakte',
                                                                 'https://vk.com/id_YourIdentifierHere',
@@ -357,6 +369,7 @@ function smbtoolbar_render_submenu_page() {
                                     <p><?php _e( '<b>D)</b> For add the toolbar directly to a theme files, just add one of the following code (both variants do the same) to needed place (where you want to display the toolbar) in your theme files:', SMEDIABT_TEXT ); ?></p>
                                     <p><?php highlight_string('<?php echo do_shortcode("[smbtoolbar]"); ?>'); ?></p>
                                     <p><?php highlight_string('<?php echo smbtoolbar_shortcode(); ?>'); ?></p>
+                                    <p><?php _e( 'It\'s that simple! If you want more options then tell me and I will be happy to add it.', SMEDIABT_TEXT ); ?></p>
                                 </div>
                             </div>
 

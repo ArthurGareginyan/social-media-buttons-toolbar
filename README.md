@@ -4,7 +4,7 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/social-media-buttons-toolbar/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily add the smart toolbar with social media buttons to any place (post, page, widget, sidebar, footer) of your WordPress web-site. 
+An easy to use WordPress plugin that gives you the ability to easily add the smart toolbar with social media buttons to any place (post, page, widget, sidebar, footer) of your WordPress website. 
 
 The social media buttons toolbar - is a toolbar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 

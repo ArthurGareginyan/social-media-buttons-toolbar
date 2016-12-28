@@ -46,6 +46,8 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Spotify
 * Dloky
 * MeetVibe
+* Steam
+* Discord
 * VKontakte (vk.com)
 * Odnoklassniki (ok.ru)
 * Telegram

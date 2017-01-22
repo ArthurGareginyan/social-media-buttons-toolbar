@@ -10,7 +10,7 @@
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
  *
- * Copyright 2015-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "Social Media Buttons Toolbar".
  *

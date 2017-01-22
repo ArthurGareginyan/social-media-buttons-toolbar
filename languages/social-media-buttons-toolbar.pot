@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2016-12-27 20:17+0300\n"
+"POT-Creation-Date: 2017-01-23 02:20+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:85
+#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:105
 msgid "Social Media Buttons Toolbar"
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings_page.php:53
+#: inc/php/settings_page.php:53 social-media-buttons-toolbar.php:89
 msgid "Donate"
 msgstr ""
 
@@ -149,177 +149,181 @@ msgid "Enter the link to your Dloky profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:195
-msgid "Enter the link to your MeetVibe profile page"
+msgid "Enter the link to your Goodreads profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:201
-msgid "Enter the link to your Steam profile page"
+msgid "Enter the link to your MeetVibe profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:207
-msgid "Enter the link to your Discord profile page"
+msgid "Enter the link to your Steam profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:213
-msgid "Enter the link to your VKontakte profile page"
+msgid "Enter the link to your Discord profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:219
-msgid "Enter the link to your Odnoklassniki profile page"
+msgid "Enter the link to your VKontakte profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:225
-msgid "Enter the link to your Telegram profile page"
+msgid "Enter the link to your Odnoklassniki profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:231
-msgid "Enter the link to your GitHub profile page"
+msgid "Enter the link to your Telegram profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:237
-msgid "Enter the link to your WordPress profile page"
+msgid "Enter the link to your GitHub profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:243
-msgid "Enter the link to your CodePen profile page"
+msgid "Enter the link to your WordPress profile page"
 msgstr ""
 
 #: inc/php/settings_page.php:249
+msgid "Enter the link to your CodePen profile page"
+msgstr ""
+
+#: inc/php/settings_page.php:255
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
 msgstr ""
 
-#: inc/php/settings_page.php:255
+#: inc/php/settings_page.php:261
 msgid "Enter the link to your personal website"
 msgstr ""
 
-#: inc/php/settings_page.php:261
+#: inc/php/settings_page.php:267
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr ""
 
-#: inc/php/settings_page.php:267
+#: inc/php/settings_page.php:273
 msgid "Enter the link to your RSS Feed"
 msgstr ""
 
-#: inc/php/settings_page.php:271 inc/php/settings_page.php:348
+#: inc/php/settings_page.php:277 inc/php/settings_page.php:354
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings_page.php:276
+#: inc/php/settings_page.php:282
 msgid "Display options"
 msgstr ""
 
-#: inc/php/settings_page.php:281
+#: inc/php/settings_page.php:287
 msgid "Show on Posts"
 msgstr ""
 
-#: inc/php/settings_page.php:282
+#: inc/php/settings_page.php:288
 msgid "Display toolbar below content on Posts"
 msgstr ""
 
-#: inc/php/settings_page.php:286
+#: inc/php/settings_page.php:292
 msgid "Show on Pages"
 msgstr ""
 
-#: inc/php/settings_page.php:287
+#: inc/php/settings_page.php:293
 msgid "Display toolbar below content on Pages"
 msgstr ""
 
-#: inc/php/settings_page.php:291
+#: inc/php/settings_page.php:297
 msgid "Open link in new tab/window"
 msgstr ""
 
-#: inc/php/settings_page.php:296
+#: inc/php/settings_page.php:302
 msgid "Icon size"
 msgstr ""
 
-#: inc/php/settings_page.php:297
+#: inc/php/settings_page.php:303
 msgid "Enter the size of icons (in px) in your social media buttons toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:303
+#: inc/php/settings_page.php:309
 msgid "Margin right"
 msgstr ""
 
-#: inc/php/settings_page.php:304
+#: inc/php/settings_page.php:310
 msgid ""
 "Enter the size of space (in px) between icons in your social media buttons "
 "toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:320
+#: inc/php/settings_page.php:326
 msgid "Alignment"
 msgstr ""
 
-#: inc/php/settings_page.php:326
+#: inc/php/settings_page.php:332
 msgid "Left"
 msgstr ""
 
-#: inc/php/settings_page.php:330
+#: inc/php/settings_page.php:336
 msgid "Center"
 msgstr ""
 
-#: inc/php/settings_page.php:334
+#: inc/php/settings_page.php:340
 msgid "Right"
 msgstr ""
 
-#: inc/php/settings_page.php:341
+#: inc/php/settings_page.php:347
 msgid "Caption"
 msgstr ""
 
-#: inc/php/settings_page.php:342
+#: inc/php/settings_page.php:348
 msgid ""
 "Enter the caption to your social media buttons toolbar. It will be displays "
 "before the toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:353
+#: inc/php/settings_page.php:359
 msgid "Preview"
 msgstr ""
 
-#: inc/php/settings_page.php:355
+#: inc/php/settings_page.php:361
 msgid "Click \"Save Changes\" to update this preview."
 msgstr ""
 
-#: inc/php/settings_page.php:361
+#: inc/php/settings_page.php:367
 msgid "Using"
 msgstr ""
 
-#: inc/php/settings_page.php:363
+#: inc/php/settings_page.php:369
 msgid ""
 "You have several methods for display the social media buttons toolbar "
 "(further just \"toolbar\") on your website. But first, fill in the required "
 "fields, then click \"Save Changes\"."
 msgstr ""
 
-#: inc/php/settings_page.php:364
+#: inc/php/settings_page.php:370
 msgid ""
 "<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
 "just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
 "section \"Display options\", then click \"Save Changes\". It's that simple!"
 msgstr ""
 
-#: inc/php/settings_page.php:365
+#: inc/php/settings_page.php:371
 msgid ""
 "<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:367
+#: inc/php/settings_page.php:373
 msgid ""
 "<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
 "use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:369
+#: inc/php/settings_page.php:375
 msgid ""
 "<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "
 "to display the toolbar) in your theme files:"
 msgstr ""
 
-#: inc/php/settings_page.php:372
+#: inc/php/settings_page.php:378
 msgid ""
 "It's that simple! If you want more options then tell me and I will be happy "
 "to add it."
@@ -329,7 +333,7 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: social-media-buttons-toolbar.php:85
+#: social-media-buttons-toolbar.php:105
 msgid "Social Buttons"
 msgstr ""
 

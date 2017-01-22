@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.11
+ * @since 3.12
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -85,13 +85,13 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Facebook',
                                                                 'https://www.facebook.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Facebook profile page', SMEDIABT_TEXT ),
-                                                                'hhttps://www.facebook.com'
+                                                                '//www.facebook.com'
                                         ); ?>
                                         <?php smbtoolbar_media(  'twitter',
                                                                 'Twitter',
                                                                 'https://twitter.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Twitter profile page', SMEDIABT_TEXT ),
-                                                                'https://twitter.com'
+                                                                '//twitter.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'instagram',
                                                                 'Instagram',
@@ -103,25 +103,25 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Google+',
                                                                 'https://plus.google.com/u/0/+YourUsernameHere',
                                                                 __( 'Enter the link to your Google+ profile page', SMEDIABT_TEXT ),
-                                                                'https://plus.google.com'
+                                                                '//plus.google.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'youtube',
                                                                 'YouTube',
                                                                 'https://www.youtube.com/channel/YourChannelIdentifierHere',
                                                                 __( 'Enter the link to your YouTube profile page', SMEDIABT_TEXT ),
-                                                                'https://www.youtube.com'
+                                                                '//www.youtube.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'vimeo',
                                                                 'Vimeo',
                                                                 'https://vimeo.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Vimeo profile page', SMEDIABT_TEXT ),
-                                                                'https://vimeo.com'
+                                                                '//vimeo.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'blogger',
                                                                 'Blogger',
                                                                 'http://YourBlogNameHere.blogspot.com',
                                                                 __( 'Enter the link to your Blogger profile page', SMEDIABT_TEXT ),
-                                                                'https://www.blogger.com'
+                                                                '//www.blogger.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'livejournal',
                                                                 'LiveJournal',
@@ -133,37 +133,37 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Reddit',
                                                                 'https://www.reddit.com/user/YourUsernameHere',
                                                                 __( 'Enter the link to your Reddit profile page', SMEDIABT_TEXT ),
-                                                                'https://www.reddit.com'
+                                                                '//www.reddit.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'linkedin',
                                                                 'LinkedIn',
                                                                 'https://linkedin.com/in/YourUsernameHere',
                                                                 __( 'Enter the link to your LinkedIn profile page', SMEDIABT_TEXT ),
-                                                                'https://linkedin.com'
+                                                                '//linkedin.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'pinterest',
                                                                 'Pinterest',
                                                                 'https://www.pinterest.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Pinterest profile page', SMEDIABT_TEXT ),
-                                                                'https://www.pinterest.com'
+                                                                '//www.pinterest.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'tumblr',
                                                                 'Tumblr',
                                                                 'https://www.tumblr.com/blog/YourBlogNameHere',
                                                                 __( 'Enter the link to your Tumblr profile page', SMEDIABT_TEXT ),
-                                                                'https://www.tumblr.com'
+                                                                '//www.tumblr.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'snapchat',
                                                                 'Snapchat',
                                                                 'https://www.snapchat.com/add/YourUsernameHere',
                                                                 __( 'Enter the link to your Snapchat profile page', SMEDIABT_TEXT ),
-                                                                'https://www.snapchat.com'
+                                                                '//www.snapchat.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'twitch',
                                                                 'Twitch',
                                                                 'https://www.twitch.tv/YourUsernameHere',
                                                                 __( 'Enter the link to your Twitch profile page', SMEDIABT_TEXT ),
-                                                                'https://www.twitch.tv'
+                                                                '//www.twitch.tv'
                                         ); ?>
                                         <?php smbtoolbar_media( 'imdb',
                                                                 'IMDb',
@@ -175,25 +175,31 @@ function smbtoolbar_render_submenu_page() {
                                                                 'SoundCloud',
                                                                 'https://soundcloud.com/YourUsernameHere',
                                                                 __( 'Enter the link to your SoundCloud profile page', SMEDIABT_TEXT ),
-                                                                'https://soundcloud.com'
+                                                                '//soundcloud.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'spotify',
                                                                 'Spotify',
                                                                 'http://open.spotify.com/user/YourUsernameHere',
                                                                 __( 'Enter the link to your Spotify profile page', SMEDIABT_TEXT ),
-                                                                'https://www.spotify.com'
+                                                                '//www.spotify.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'dloky',
                                                                 'Dloky',
                                                                 'https://dloky.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Dloky profile page', SMEDIABT_TEXT ),
-                                                                'https://dloky.com'
+                                                                '//dloky.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'goodreads',
+                                                                'Goodreads',
+                                                                'https://www.goodreads.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Goodreads profile page', SMEDIABT_TEXT ),
+                                                                '//www.goodreads.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'meetvibe',
                                                                 'MeetVibe',
                                                                 'https://meetvibe.com/YourUsernameHere',
                                                                 __( 'Enter the link to your MeetVibe profile page', SMEDIABT_TEXT ),
-                                                                'https://meetvibe.com'
+                                                                '//meetvibe.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'steam',
                                                                 'Steam',
@@ -205,37 +211,37 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Discord',
                                                                 'https://discordapp.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Discord profile page', SMEDIABT_TEXT ),
-                                                                'https://discordapp.com'
+                                                                '//discordapp.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'vkontakte',
                                                                 'VKontakte',
                                                                 'https://vk.com/id_YourIdentifierHere',
                                                                 __( 'Enter the link to your VKontakte profile page', SMEDIABT_TEXT ),
-                                                                'https://vk.com'
+                                                                '//vk.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'odnoklassniki',
                                                                 'Odnoklassniki',
                                                                 'https://ok.ru/profile/YourIdentifierHere',
                                                                 __( 'Enter the link to your Odnoklassniki profile page', SMEDIABT_TEXT ),
-                                                                'https://ok.ru'
+                                                                '//ok.ru'
                                         ); ?>
                                         <?php smbtoolbar_media( 'telegram',
                                                                 'Telegram',
                                                                 'https://telegram.me/YourUsernameHere',
                                                                 __( 'Enter the link to your Telegram profile page', SMEDIABT_TEXT ),
-                                                                'https://telegram.org'
+                                                                '//telegram.org'
                                         ); ?>
                                         <?php smbtoolbar_media( 'github',
                                                                 'GitHub',
                                                                 'https://github.com/YourUsernameHere',
                                                                 __( 'Enter the link to your GitHub profile page', SMEDIABT_TEXT ),
-                                                                'https://github.com'
+                                                                '//github.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'wordpress',
                                                                 'WordPress',
                                                                 'https://profiles.wordpress.org/YourUsernameHere',
                                                                 __( 'Enter the link to your WordPress profile page', SMEDIABT_TEXT ),
-                                                                'https://wordpress.org'
+                                                                '//wordpress.org'
                                         ); ?>
                                         <?php smbtoolbar_media( 'codepen',
                                                                 'CodePen',
@@ -247,7 +253,7 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Skype',
                                                                 'skype:YourUsernameHere?call',
                                                                 __( 'Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile', SMEDIABT_TEXT ),
-                                                                'https://www.skype.com'
+                                                                '//www.skype.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'website',
                                                                 'Personal website',

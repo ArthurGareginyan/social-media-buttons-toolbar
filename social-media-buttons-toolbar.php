@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.11
+ * Version: 3.12
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -40,14 +40,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.11
+ * @since 3.12
  */
 defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
 defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
 defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
 defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
 defined('SMEDIABT_TEXT') or define('SMEDIABT_TEXT', 'social-media-buttons-toolbar');
-defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.11');
+defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.12');
 
 /**
  * Register text domain
@@ -75,6 +75,26 @@ function smbtoolbar_settings_link( $links ) {
 	return $links;
 }
 add_filter( 'plugin_action_links_'.SMEDIABT_BASE, 'smbtoolbar_settings_link' );
+
+/**
+ * Print additional links to plugin meta row
+ *
+ * @since 3.6
+ */
+function smbtoolbar_plugin_row_meta( $links, $file ) {
+
+    if ( strpos( $file, 'social-media-buttons-toolbar.php' ) !== false ) {
+
+        $new_links = array(
+                           'donate' => '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SMEDIABT_TEXT ) . '</a>'
+                           );
+
+        $links = array_merge( $links, $new_links );
+    }
+
+    return $links;
+}
+add_filter( 'plugin_row_meta', 'smbtoolbar_plugin_row_meta', 10, 2 );
 
 /**
  * Register "Social Media Buttons Toolbar" submenu in "Settings" Admin Menu

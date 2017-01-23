@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.12
+ * @since 3.13
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -212,6 +212,12 @@ function smbtoolbar_render_submenu_page() {
                                                                 'https://discordapp.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Discord profile page', SMEDIABT_TEXT ),
                                                                 '//discordapp.com'
+                                        ); ?>
+                                        <?php smbtoolbar_media( 'yelp',
+                                                                'Yelp',
+                                                                'https://www.yelp.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Yelp profile page', SMEDIABT_TEXT ),
+                                                                '//www.yelp.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'vkontakte',
                                                                 'VKontakte',

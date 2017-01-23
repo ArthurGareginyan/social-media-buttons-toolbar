@@ -49,6 +49,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * MeetVibe
 * Steam
 * Discord
+* Yelp
 * VKontakte (vk.com)
 * Odnoklassniki (ok.ru)
 * Telegram

@@ -5,7 +5,7 @@
  * Description: Easily add the smart toolbar with social media buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.13
+ * Version: 3.14
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -27,6 +27,21 @@
  * You should have received a copy of the GNU General Public License
  * along with "Social Media Buttons Toolbar".  If not, see <http://www.gnu.org/licenses/>.
  *
+ *
+ *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
+ *              ██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██║   ██║██╔══██╗
+ *              ███████║██████╔╝   ██║   ███████║██║   ██║██████╔╝
+ *              ██╔══██║██╔══██╗   ██║   ██╔══██║██║   ██║██╔══██╗
+ *              ██║  ██║██║  ██║   ██║   ██║  ██║╚██████╔╝██║  ██║
+ *              ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+ *
+ *   ██████╗  █████╗ ██████╗ ███████╗ ██████╗ ██╗███╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗
+ *  ██╔════╝ ██╔══██╗██╔══██╗██╔════╝██╔════╝ ██║████╗  ██║╚██╗ ██╔╝██╔══██╗████╗  ██║
+ *  ██║  ███╗███████║██████╔╝█████╗  ██║  ███╗██║██╔██╗ ██║ ╚████╔╝ ███████║██╔██╗ ██║
+ *  ██║   ██║██╔══██║██╔══██╗██╔══╝  ██║   ██║██║██║╚██╗██║  ╚██╔╝  ██╔══██║██║╚██╗██║
+ *  ╚██████╔╝██║  ██║██║  ██║███████╗╚██████╔╝██║██║ ╚████║   ██║   ██║  ██║██║ ╚████║
+ *   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
+ *
  */
 
 
@@ -40,14 +55,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 3.13
+ * @since 3.14
  */
 defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
 defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
 defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
 defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
 defined('SMEDIABT_TEXT') or define('SMEDIABT_TEXT', 'social-media-buttons-toolbar');
-defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.13');
+defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '3.14');
 
 /**
  * Register text domain
@@ -116,7 +131,7 @@ require_once( SMEDIABT_PATH . 'inc/php/settings_page.php' );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 3.1
+ * @since 3.14
  */
 function smbtoolbar_load_scripts($hook) {
 
@@ -127,16 +142,16 @@ function smbtoolbar_load_scripts($hook) {
 
     // Style sheet
     wp_enqueue_style( 'smbtoolbar-admin-css', SMEDIABT_URL . 'inc/css/admin.css' );
-    wp_enqueue_style( 'smbtoolbar-bootstrap', SMEDIABT_URL . 'inc/css/bootstrap.css' );
-    wp_enqueue_style( 'smbtoolbar-bootstrap-theme', SMEDIABT_URL . 'inc/css/bootstrap-theme.css' );
+    wp_enqueue_style( 'smbtoolbar-bootstrap-css', SMEDIABT_URL . 'inc/css/bootstrap.css' );
+    wp_enqueue_style( 'smbtoolbar-bootstrap-theme-css', SMEDIABT_URL . 'inc/css/bootstrap-theme.css' );
 
     // JavaScript
     wp_enqueue_script( 'smbtoolbar-admin-js', SMEDIABT_URL . 'inc/js/admin.js', array(), false, true );
-    wp_enqueue_script( 'smbtoolbar-bootstrap-checkbox', SMEDIABT_URL . 'inc/js/bootstrap-checkbox.min.js' );
+    wp_enqueue_script( 'smbtoolbar-bootstrap-checkbox-js', SMEDIABT_URL . 'inc/js/bootstrap-checkbox.min.js' );
 
 }
 add_action( 'admin_enqueue_scripts', 'smbtoolbar_load_scripts' );
-
+    
 /**
  * Register settings
  *
@@ -256,7 +271,7 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
 /**
  * Generate the buttons toolbar
  *
- * @since 3.8.2
+ * @since 3.14
  */
 function smbtoolbar_tollbar() {
 
@@ -290,6 +305,13 @@ function smbtoolbar_tollbar() {
         $new_tab = '';
     }
 
+    // Enable Tolltips
+    if (!empty($options['tooltips'])) {
+        $tooltips = 'data-toggle="tooltip"';
+    } else {
+        $tooltips = '';
+    }
+
     // Add a caption above of buttons
     $caption = esc_textarea( $options['caption'] );
     if (empty($caption)) {
@@ -311,7 +333,7 @@ function smbtoolbar_tollbar() {
                     if (!empty($value)) {
                         $icon = plugins_url( "inc/img/social-media-icons/$slag.png", __FILE__ );
                         $metatags_arr[] = '<li>
-                                                <a href="' . $value . '" title="' . $label . '" ' . $new_tab . '>
+                                                <a href="' . $value . '" ' . $tooltips . ' title="' . $label . '" ' . $new_tab . '>
                                                     <img src="' . $icon . '" alt="' . $label . '" />
                                                 </a>
                                             </li>';
@@ -323,7 +345,8 @@ function smbtoolbar_tollbar() {
     $metatags_arr[] = '</ul>';
 
     // Add stylesheet for toolbar
-    $styles = "<style>
+    $tooltip_css = file_get_contents( SMEDIABT_URL . 'inc/css/bootstrap-tooltip.css' );
+    $css = "<style>
                     /*
                      * WP plugin 'Social Media Buttons Toolbar'
                      * by Arthur Gareginyan http://www.arthurgareginyan.com
@@ -348,17 +371,36 @@ function smbtoolbar_tollbar() {
                     .smbt-social-icons li img {
                         width: " . $icon_size . "px !important;
                         height: " . $icon_size . "px !important;
-                        margin-right: " . $margin_right . "px !important;
-                    }
-                </style>";
-    
+                        margin: " . ( $margin_right / 2 ) . "px !important;
+                        vertical-align: top;
+                    }"
+                    . $tooltip_css .
+               "</style>";
+
+    // Add script for toolbar
+    if (!empty($options['tooltips'])) {
+        $tooltip_js = file_get_contents( SMEDIABT_URL . 'inc/js/bootstrap-tooltip.js' );
+        $js = "<script type='text/javascript'>"
+                    . $tooltip_js .
+
+                    "jQuery(document).ready(function($) {
+                        // Enable Bootstrap Tooltips
+                        $('[data-toggle=\"tooltip\"]').tooltip();
+                    });
+               </script>";
+    } else {
+        $js = '';
+    }
+
     if ( count( $metatags_arr ) > 0 ) {
         array_unshift( $metatags_arr, $caption );
-        array_push( $metatags_arr, $styles );
+        array_push( $metatags_arr, $css );
+        array_push( $metatags_arr, $js );
     }
 
     // Return the content of array
     return $metatags_arr;
+    
 }
 
 /**

@@ -1,12 +1,12 @@
 /*
  * Style sheet for plugin settings page
  *
- * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ * Copyright (c) 2016-2017 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
  * All Rights Reserved.
  */
 
 
-/* Titles
+/* Title and Description of page
  -------------------------------------------------------------- */
 h2 {
     text-align: center;
@@ -26,6 +26,8 @@ h2 span a {
     padding: 0;
 }
 
+/* Titles of sections
+ -------------------------------------------------------------- */
 h3.title {
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
     border-bottom: 1px solid #eee;

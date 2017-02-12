@@ -1,7 +1,7 @@
 /*
  * JS functions for plugin settings page
  *
- * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ * Copyright (c) 2016-2017 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
  * All Rights Reserved.
  */
 
@@ -17,7 +17,10 @@ jQuery(document).ready(function($) {
         }, 3000);
     }
 
-    // Bootstrap Checkbox
+    // Enable Bootstrap Checkboxes
     $(':checkbox').checkboxpicker();
+
+    // Enable Bootstrap Tooltips
+    $('[data-toggle="tooltip"]').tooltip();
 
 });

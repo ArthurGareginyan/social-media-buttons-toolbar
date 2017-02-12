@@ -1,10 +1,10 @@
 === Social Media Buttons Toolbar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, twitch, imdb, soundcloud, spotify, dloky, Goodreads, meetvibe, steam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, pinterest, tumblr, snapchat, twitch, imdb, soundcloud, spotify, dloky, Goodreads, meetvibe, meetup, steam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 3.13
+Stable tag: 3.14
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * [Some icons](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com)
 * Plugin settings page with many settings
 * Preview on plugin settings page
+* Bootstrap Tooltips with name of the social media above every button
 * Shortcode for add social media buttons from Post/Page Editor
 * PHP/HTML code for add social media buttons directly in your theme files
 * Ready for translation (POT file included)
@@ -52,6 +53,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Dloky
 * Goodreads
 * MeetVibe
+* Meetup
 * Steam
 * Discord
 * Yelp
@@ -107,17 +109,17 @@ Install "Social Media Buttons Toolbar" just as you would any other WordPress Plu
 
 Automatically via WordPress:
 
-1. Log into Dashboard of your WordPress website.
+1. Log into Admin area of your WordPress website.
 2. Go to "`Plugins`" —> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
 
-Manual via FTP:
+Manually via FTP access:
 
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Dashboard of your WordPress website.
+4. Log into Admin area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
 After installation, a "`Social Buttons`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin's administration page.
@@ -163,6 +165,7 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 5. Social Media Buttons Toolbar displayed in the footer using a simple call the function directly from theme file (vCard theme).
 6. Shortcode placed in the Text Widget.
 7. All buttons.
+8. Bootstrap tooltip with name of the social media displayed above button when you hover over the button.
 
 
 == Other Notes ==
@@ -178,7 +181,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 Icon set [Social Buttons 2](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
-Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png and goodreads.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGareginyan), [imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png, goodreads.png and meetup.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 
 [Bootstrap](http://getbootstrap.com) released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
@@ -190,20 +193,24 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 == Changelog ==
+= 3.14 =
+* Added option for the Meetup button.
+* Added option for the Bootstrap Tooltips.
+* The position of the buttons relative to each other has improved. The "Margin right" option renamed to "Margin".
 = 3.13 =
-* Added option for Yelp button.
+* Added option for the Yelp button.
 = 3.12 =
-* Added option for Goodreads button.
+* Added option for the Goodreads button.
 * Social media icons more optimized. Weight is reduced by 50%.
 * Links on the settings page cleared from http and https.
 * Added additional donate link on the Plugins page.
 = 3.11 =
-* Added option for Steam button.
-* Added option for Discord button.
+* Added option for the Steam button.
+* Added option for the Discord button.
 = 3.10 =
-* Added option for Twitch button.
+* Added option for the Twitch button.
 = 3.9 =
-* Added option for Dloky button.
+* Added option for the Dloky button.
 * Image of the donate button changed.
 = 3.8.2 =
 * Added some CSS code in order to fix compatibility issues with some themes.
@@ -212,19 +219,19 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * Fixed error "Use of undefined constant SSTOPB_TEXT...".
 * Readme for translations updated.
 = 3.8 =
-* Added option for IMDb button.
+* Added option for the IMDb button.
 * Added CSS fix for compatibility with some themes.
 = 3.7 =
-* Added option for Vimeo button.
+* Added option for the Vimeo button.
 * Translations updated.
 * Ad banner replaced with new.
 = 3.6 =
-* Added option for Snapchat button.
+* Added option for the Snapchat button.
 = 3.5 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 = 3.4 =
-* Added option for SoundCloud button.
-* Added option for Spotify button.
+* Added option for the SoundCloud button.
+* Added option for the Spotify button.
 * Improved examples in the fields on the settings page.
 * POT file updated.
 * Russian translation updated.
@@ -233,7 +240,7 @@ Icons [meetvibe.png](https://www.iconfinder.com/iconsets/meetvibe?ref=ArthurGare
 * Added the Readme.txt file for translation contribution.
 * Added global constant for plugin text-domain.
 = 3.2 =
-* Added option for Skype button.
+* Added option for the Skype button.
 * Ready for translation improved.
 * Texts on settings page improved.
 * Russian translation improved.
@@ -316,7 +323,3 @@ Please update to new release!
 Please update to new release!
 = 1.0 =
 Please update to first stable release!
-= 0.3 =
-Prerelease.
-= 0.2 =
-Please update to beta version.

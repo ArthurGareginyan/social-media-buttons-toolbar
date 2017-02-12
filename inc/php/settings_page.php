@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.13
+ * @since 3.14
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -97,7 +97,7 @@ function smbtoolbar_render_submenu_page() {
                                                                 'Instagram',
                                                                 'http://instagram.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Instagram profile page', SMEDIABT_TEXT ),
-                                                                'http://instagram.com'
+                                                                '//instagram.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'google-plus',
                                                                 'Google+',
@@ -127,7 +127,7 @@ function smbtoolbar_render_submenu_page() {
                                                                 'LiveJournal',
                                                                 'http://YourUsernameHere.livejournal.com',
                                                                 __( 'Enter the link to your LiveJournal profile page', SMEDIABT_TEXT ),
-                                                                'http://www.livejournal.com'
+                                                                '//www.livejournal.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'reddit',
                                                                 'Reddit',
@@ -169,7 +169,7 @@ function smbtoolbar_render_submenu_page() {
                                                                 'IMDb',
                                                                 'http://www.imdb.com/name/YourUsernameHere',
                                                                 __( 'Enter the link to your IMDb profile page', SMEDIABT_TEXT ),
-                                                                'http://www.imdb.com'
+                                                                '//www.imdb.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'soundcloud',
                                                                 'SoundCloud',
@@ -201,11 +201,17 @@ function smbtoolbar_render_submenu_page() {
                                                                 __( 'Enter the link to your MeetVibe profile page', SMEDIABT_TEXT ),
                                                                 '//meetvibe.com'
                                         ); ?>
+                                        <?php smbtoolbar_media( 'meetup',
+                                                                'Meetup',
+                                                                'https://www.meetup.com/YourUsernameHere',
+                                                                __( 'Enter the link to your Meetup profile page', SMEDIABT_TEXT ),
+                                                                '//www.meetup.com'
+                                        ); ?>
                                         <?php smbtoolbar_media( 'steam',
                                                                 'Steam',
                                                                 'http://store.steampowered.com/YourUsernameHere',
                                                                 __( 'Enter the link to your Steam profile page', SMEDIABT_TEXT ),
-                                                                'http://store.steampowered.com'
+                                                                '//store.steampowered.com'
                                         ); ?>
                                         <?php smbtoolbar_media( 'discord',
                                                                 'Discord',
@@ -253,7 +259,7 @@ function smbtoolbar_render_submenu_page() {
                                                                 'CodePen',
                                                                 'http://codepen.io/YourUsernameHere',
                                                                 __( 'Enter the link to your CodePen profile page', SMEDIABT_TEXT ),
-                                                                'http://codepen.io'
+                                                                '//codepen.io'
                                         ); ?>
                                         <?php smbtoolbar_media( 'skype',
                                                                 'Skype',
@@ -291,17 +297,22 @@ function smbtoolbar_render_submenu_page() {
                                     <table class="form-table">
                                         <?php smbtoolbar_setting('show_posts',
                                                                   __( 'Show on Posts', SMEDIABT_TEXT ),
-                                                                  __( 'Display toolbar below content on Posts', SMEDIABT_TEXT ),
+                                                                  __( 'Display toolbar below content on Posts.', SMEDIABT_TEXT ),
                                                                   'check'
                                         ); ?>
                                         <?php smbtoolbar_setting('show_pages',
                                                                   __( 'Show on Pages', SMEDIABT_TEXT ),
-                                                                  __( 'Display toolbar below content on Pages', SMEDIABT_TEXT ),
+                                                                  __( 'Display toolbar below content on Pages.', SMEDIABT_TEXT ),
                                                                   'check'
                                         ); ?>
                                         <?php smbtoolbar_setting('new_tab',
-                                                                  __( 'Open link in new tab/window', SMEDIABT_TEXT ),
-                                                                  '',
+                                                                  __( 'Open in new tab', SMEDIABT_TEXT ),
+                                                                  __( 'Open link in a new tab/window.', SMEDIABT_TEXT ),
+                                                                  'check'
+                                        ); ?>
+                                        <?php smbtoolbar_setting('tooltips',
+                                                                  __( 'Tooltips', SMEDIABT_TEXT ),
+                                                                  __( 'Enable/disable a tooltips with name of the social media above every button.', SMEDIABT_TEXT ),
                                                                   'check'
                                         ); ?>
                                         <?php smbtoolbar_setting('icon-size',
@@ -312,7 +323,7 @@ function smbtoolbar_render_submenu_page() {
                                                                   '2'
                                         ); ?>
                                         <?php smbtoolbar_setting('margin-right',
-                                                                  __( 'Margin right', SMEDIABT_TEXT ),
+                                                                  __( 'Margin', SMEDIABT_TEXT ),
                                                                   __( 'Enter the size of space (in px) between icons in your social media buttons toolbar.', SMEDIABT_TEXT ),
                                                                   'field',
                                                                   '10',

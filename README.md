@@ -143,8 +143,8 @@ Arthur Garegnyan
 ---
 #### Technologies:
 
-[![HTML5](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-64.png)]()
-[![CSS3](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png)]()
-[![PHP](http://php.net/images/logos/php-med-trans-light.gif)]()
-[![WordPress](https://cdn2.iconfinder.com/data/icons/publicons/64/wordpress-64.png)](https://wordpress.org)
-[![License](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![HTML5](http://mycyberuniverse.com/public-files/images/logos/HTML5.png)]()
+[![CSS3](http://mycyberuniverse.com/public-files/images/logos/CSS3.png)]()
+[![PHP](http://mycyberuniverse.com/public-files/images/logos/PHP.png)]()
+[![WordPress](http://mycyberuniverse.com/public-files/images/logos/WordPress.png)](https://wordpress.org)
+[![License](http://mycyberuniverse.com/public-files/images/logos/GPLv3.png)](http://www.gnu.org/licenses/gpl-3.0.html)

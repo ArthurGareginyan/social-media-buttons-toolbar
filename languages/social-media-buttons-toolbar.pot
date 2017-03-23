@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-02-11 22:37+0300\n"
+"POT-Creation-Date: 2017-03-22 23:32+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -21,54 +21,210 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: inc/php/settings_page.php:24 social-media-buttons-toolbar.php:120
-msgid "Social Media Buttons Toolbar"
+#: inc/php/settings_page.php:21 social-media-buttons-toolbar.php:120
+msgid "Social Media Follow Buttons Bar"
 msgstr ""
 
-#: inc/php/settings_page.php:27
+#: inc/php/settings_page.php:24
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
 msgstr ""
 
-#: inc/php/settings_page.php:38
+#: inc/php/settings_page.php:32 social-media-buttons-toolbar.php:88
+msgid "Settings"
+msgstr ""
+
+#: inc/php/settings_page.php:33 inc/php/settings_page.php:53
+msgid "Usage"
+msgstr ""
+
+#: inc/php/settings_page.php:34
+msgid "F.A.Q."
+msgstr ""
+
+#: inc/php/settings_page.php:35 inc/php/settings_page.php:120
+msgid "Author"
+msgstr ""
+
+#: inc/php/settings_page.php:36 inc/php/settings_page.php:129
+#: inc/php/settings_tab.php:36
+msgid "Support"
+msgstr ""
+
+#: inc/php/settings_page.php:37
+msgid "Family"
+msgstr ""
+
+#: inc/php/settings_page.php:55
+msgid ""
+"You have several methods for display the social media follow buttons bar "
+"(further just \"bar\") on your website. But first, fill in the required "
+"fields, then click \"Save Changes\"."
+msgstr ""
+
+#: inc/php/settings_page.php:56
+msgid ""
+"<b>A)</b> For display the bar below content on every Posts or/and Pages, "
+"just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
+"section \"Display options\", then click \"Save Changes\". It's that simple!"
+msgstr ""
+
+#: inc/php/settings_page.php:57
+msgid ""
+"<b>B)</b> For add the bar inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+
+#: inc/php/settings_page.php:59
+msgid ""
+"<b>C)</b> For add the bar to the widget area (in sidebar, footer etc.) use "
+"the \"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+
+#: inc/php/settings_page.php:61
+msgid ""
+"<b>D)</b> For add the bar directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want "
+"to display the bar) in your theme files:"
+msgstr ""
+
+#: inc/php/settings_page.php:64
+msgid ""
+"It's that simple! If you want more options then tell me and I will be happy "
+"to add it."
+msgstr ""
+
+#: inc/php/settings_page.php:73
+msgid "Frequent Questions"
+msgstr ""
+
+#: inc/php/settings_page.php:76
+msgid "Will this plugin work on my WordPress.COM website?"
+msgstr ""
+
+#: inc/php/settings_page.php:77
+msgid ""
+"Sorry, this plugin is available for use only on self-hosted (WordPress.org) "
+"websites."
+msgstr ""
+
+#: inc/php/settings_page.php:80
+msgid "Can I use this plugin on my language?"
+msgstr ""
+
+#: inc/php/settings_page.php:81
+msgid ""
+"Yes. But If your language is not available then you can make one. This "
+"plugin is ready for translation. The<code>.pot</code>file is included and "
+"placed in <code>languages</code> folder. Many of plugin users would be "
+"delighted if you shared your translation with the community. Just send the "
+"translation files (<code>*.po, *.mo</code>) to me at the <a href=\"mailto:"
+"arthurgareginyan@gmail.com?subject=Social Media Follow Buttons Bar"
+"\">arthurgareginyan@gmail.com</a> and I will include the translation within "
+"the next plugin update."
+msgstr ""
+
+#: inc/php/settings_page.php:84
+msgid "How does it work?"
+msgstr ""
+
+#: inc/php/settings_page.php:85
+msgid ""
+"First, go to page <code>Settings</code> &#8680; <code>Social Buttons</code>."
+msgstr ""
+
+#: inc/php/settings_page.php:86
+msgid ""
+"On the plugins page you find the fields where you can enter your<code>User "
+"ID's</code>,<code>URL</code>to your social network profile."
+msgstr ""
+
+#: inc/php/settings_page.php:89
+msgid "Does this plugin require modification to the theme?"
+msgstr ""
+
+#: inc/php/settings_page.php:90
+msgid ""
+"Absolutely not. This plugin is added/configured entirely from the website's "
+"Admin section."
+msgstr ""
+
+#: inc/php/settings_page.php:93
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr ""
+
+#: inc/php/settings_page.php:94
+msgid ""
+"Absolutely not. This plugin can be configured with no knowledge of HTML or "
+"CSS, using a simple WordPress settings page."
+msgstr ""
+
+#: inc/php/settings_page.php:97
+msgid "It's not working. What could be wrong?"
+msgstr ""
+
+#: inc/php/settings_page.php:98
+msgid ""
+"As with every plugin, it's possible that things don't work. The most common "
+"reason for this is that the plugin has a conflict with another plugin you're "
+"using. It's impossible to tell what could be wrong exactly, but if you post "
+"a support request in the plugin's support forum on WordPress.org, I'd be "
+"happy to give it a look and try to help out. Please include as much "
+"information as possible, including a link to your website where the problem "
+"can be seen."
+msgstr ""
+
+#: inc/php/settings_page.php:101
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/settings_page.php:105
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr ""
+
+#: inc/php/settings_page.php:109
+msgid "I love this plugin! Can I help somehow?"
+msgstr ""
+
+#: inc/php/settings_tab.php:21
 msgid "About"
 msgstr ""
 
-#: inc/php/settings_page.php:40
+#: inc/php/settings_tab.php:23
 msgid ""
 "This plugin allows you to easily add the social media buttons toolbar to any "
 "place of your website."
 msgstr ""
 
-#: inc/php/settings_page.php:45
+#: inc/php/settings_tab.php:28
 msgid "Help"
 msgstr ""
 
-#: inc/php/settings_page.php:47
+#: inc/php/settings_tab.php:30
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings_page.php:53 social-media-buttons-toolbar.php:104
-msgid "Donate"
-msgstr ""
-
-#: inc/php/settings_page.php:55
+#: inc/php/settings_tab.php:38
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings_page.php:59
+#: inc/php/settings_tab.php:39
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/php/settings_tab.php:40
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/php/settings_page.php:80
+#: inc/php/settings_tab.php:62
 msgid "Buttons"
 msgstr ""
 
-#: inc/php/settings_page.php:82
+#: inc/php/settings_tab.php:64
 msgid ""
 "Just fill in the required fields to make a buttons. The social networking "
 "buttons will lead directly to your profile pages. If you don't want to use "
@@ -76,286 +232,247 @@ msgid ""
 "appear."
 msgstr ""
 
-#: inc/php/settings_page.php:87
+#: inc/php/settings_tab.php:69
 msgid "Enter the link to your Facebook profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:93
+#: inc/php/settings_tab.php:75
 msgid "Enter the link to your Twitter profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:99
+#: inc/php/settings_tab.php:81
 msgid "Enter the link to your Instagram profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:105
+#: inc/php/settings_tab.php:87
 msgid "Enter the link to your Google+ profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:111
+#: inc/php/settings_tab.php:93
 msgid "Enter the link to your YouTube profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:117
+#: inc/php/settings_tab.php:99
 msgid "Enter the link to your Vimeo profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:123
+#: inc/php/settings_tab.php:105
 msgid "Enter the link to your Blogger profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:129
+#: inc/php/settings_tab.php:111
 msgid "Enter the link to your LiveJournal profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:135
+#: inc/php/settings_tab.php:117
 msgid "Enter the link to your Reddit profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:141
+#: inc/php/settings_tab.php:123
 msgid "Enter the link to your LinkedIn profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:147
+#: inc/php/settings_tab.php:129
 msgid "Enter the link to your Pinterest profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:153
+#: inc/php/settings_tab.php:135
 msgid "Enter the link to your Tumblr profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:159
+#: inc/php/settings_tab.php:141
 msgid "Enter the link to your Snapchat profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:165
+#: inc/php/settings_tab.php:147
 msgid "Enter the link to your Twitch profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:171
+#: inc/php/settings_tab.php:153
+msgid "Enter the link to your Patreon profile page"
+msgstr ""
+
+#: inc/php/settings_tab.php:159
 msgid "Enter the link to your IMDb profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:177
+#: inc/php/settings_tab.php:165
 msgid "Enter the link to your SoundCloud profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:183
+#: inc/php/settings_tab.php:171
 msgid "Enter the link to your Spotify profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:189
+#: inc/php/settings_tab.php:177
 msgid "Enter the link to your Dloky profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:195
+#: inc/php/settings_tab.php:183
 msgid "Enter the link to your Goodreads profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:201
+#: inc/php/settings_tab.php:189
 msgid "Enter the link to your MeetVibe profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:207
+#: inc/php/settings_tab.php:195
 msgid "Enter the link to your Meetup profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:213
+#: inc/php/settings_tab.php:201
 msgid "Enter the link to your Steam profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:219
+#: inc/php/settings_tab.php:207
 msgid "Enter the link to your Discord profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:225
+#: inc/php/settings_tab.php:213
 msgid "Enter the link to your Yelp profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:231
+#: inc/php/settings_tab.php:219
 msgid "Enter the link to your VKontakte profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:237
+#: inc/php/settings_tab.php:225
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:243
+#: inc/php/settings_tab.php:231
 msgid "Enter the link to your Telegram profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:249
+#: inc/php/settings_tab.php:237
 msgid "Enter the link to your GitHub profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:255
+#: inc/php/settings_tab.php:243
 msgid "Enter the link to your WordPress profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:261
+#: inc/php/settings_tab.php:249
 msgid "Enter the link to your CodePen profile page"
 msgstr ""
 
-#: inc/php/settings_page.php:267
+#: inc/php/settings_tab.php:255
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
 msgstr ""
 
-#: inc/php/settings_page.php:273
+#: inc/php/settings_tab.php:261
 msgid "Enter the link to your personal website"
 msgstr ""
 
-#: inc/php/settings_page.php:279
+#: inc/php/settings_tab.php:267
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr ""
 
-#: inc/php/settings_page.php:285
+#: inc/php/settings_tab.php:273
 msgid "Enter the link to your RSS Feed"
 msgstr ""
 
-#: inc/php/settings_page.php:289 inc/php/settings_page.php:371
+#: inc/php/settings_tab.php:277 inc/php/settings_tab.php:359
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings_page.php:294
+#: inc/php/settings_tab.php:282
 msgid "Display options"
 msgstr ""
 
-#: inc/php/settings_page.php:299
+#: inc/php/settings_tab.php:287
 msgid "Show on Posts"
 msgstr ""
 
-#: inc/php/settings_page.php:300
+#: inc/php/settings_tab.php:288
 msgid "Display toolbar below content on Posts."
 msgstr ""
 
-#: inc/php/settings_page.php:304
+#: inc/php/settings_tab.php:292
 msgid "Show on Pages"
 msgstr ""
 
-#: inc/php/settings_page.php:305
+#: inc/php/settings_tab.php:293
 msgid "Display toolbar below content on Pages."
 msgstr ""
 
-#: inc/php/settings_page.php:309
+#: inc/php/settings_tab.php:297
 msgid "Open in new tab"
 msgstr ""
 
-#: inc/php/settings_page.php:310
+#: inc/php/settings_tab.php:298
 msgid "Open link in a new tab/window."
 msgstr ""
 
-#: inc/php/settings_page.php:314
+#: inc/php/settings_tab.php:302
 msgid "Tooltips"
 msgstr ""
 
-#: inc/php/settings_page.php:315
+#: inc/php/settings_tab.php:303
 msgid ""
 "Enable/disable a tooltips with name of the social media above every button."
 msgstr ""
 
-#: inc/php/settings_page.php:319
+#: inc/php/settings_tab.php:307
 msgid "Icon size"
 msgstr ""
 
-#: inc/php/settings_page.php:320
+#: inc/php/settings_tab.php:308
 msgid "Enter the size of icons (in px) in your social media buttons toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:326
+#: inc/php/settings_tab.php:314
 msgid "Margin"
 msgstr ""
 
-#: inc/php/settings_page.php:327
+#: inc/php/settings_tab.php:315
 msgid ""
 "Enter the size of space (in px) between icons in your social media buttons "
 "toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:343
+#: inc/php/settings_tab.php:331
 msgid "Alignment"
 msgstr ""
 
-#: inc/php/settings_page.php:349
+#: inc/php/settings_tab.php:337
 msgid "Left"
 msgstr ""
 
-#: inc/php/settings_page.php:353
+#: inc/php/settings_tab.php:341
 msgid "Center"
 msgstr ""
 
-#: inc/php/settings_page.php:357
+#: inc/php/settings_tab.php:345
 msgid "Right"
 msgstr ""
 
-#: inc/php/settings_page.php:364
+#: inc/php/settings_tab.php:352
 msgid "Caption"
 msgstr ""
 
-#: inc/php/settings_page.php:365
+#: inc/php/settings_tab.php:353
 msgid ""
 "Enter the caption to your social media buttons toolbar. It will be displays "
 "before the toolbar."
 msgstr ""
 
-#: inc/php/settings_page.php:376
+#: inc/php/settings_tab.php:364
 msgid "Preview"
 msgstr ""
 
-#: inc/php/settings_page.php:378
+#: inc/php/settings_tab.php:366
 msgid "Click \"Save Changes\" to update this preview."
 msgstr ""
 
-#: inc/php/settings_page.php:384
-msgid "Using"
-msgstr ""
-
-#: inc/php/settings_page.php:386
-msgid ""
-"You have several methods for display the social media buttons toolbar "
-"(further just \"toolbar\") on your website. But first, fill in the required "
-"fields, then click \"Save Changes\"."
-msgstr ""
-
-#: inc/php/settings_page.php:387
-msgid ""
-"<b>A)</b> For display the toolbar below content on every Posts or/and Pages, "
-"just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the "
-"section \"Display options\", then click \"Save Changes\". It's that simple!"
-msgstr ""
-
-#: inc/php/settings_page.php:388
-msgid ""
-"<b>B)</b> For add the toolbar inside a post from WP Post/Page Editor use the "
-"following shortcode:"
-msgstr ""
-
-#: inc/php/settings_page.php:390
-msgid ""
-"<b>C)</b> For add the toolbar to the widget area (in sidebar, footer etc.) "
-"use the \"Text\" widget and add inside it the following shortcode:"
-msgstr ""
-
-#: inc/php/settings_page.php:392
-msgid ""
-"<b>D)</b> For add the toolbar directly to a theme files, just add one of the "
-"following code (both variants do the same) to needed place (where you want "
-"to display the toolbar) in your theme files:"
-msgstr ""
-
-#: inc/php/settings_page.php:395
-msgid ""
-"It's that simple! If you want more options then tell me and I will be happy "
-"to add it."
-msgstr ""
-
-#: social-media-buttons-toolbar.php:88
-msgid "Settings"
+#: social-media-buttons-toolbar.php:104
+msgid "Donate"
 msgstr ""
 
 #: social-media-buttons-toolbar.php:120
-msgid "Social Buttons"
+msgid "Social Media Follow Buttons"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -364,8 +481,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily add the smart toolbar with social media buttons (not share, only link "
-"to your profiles) to any place of your WordPress website."
+"Easily add the smart bar with social media follow buttons (not share, only "
+"link to your profiles) to any place of your WordPress website."
 msgstr ""
 
 #. Author of the plugin/theme

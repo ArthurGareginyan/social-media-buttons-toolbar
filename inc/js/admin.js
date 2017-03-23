@@ -23,4 +23,10 @@ jQuery(document).ready(function($) {
     // Enable Bootstrap Tooltips
     $('[data-toggle="tooltip"]').tooltip();
 
+    // Dynamic content
+    $( ".include-tab-author" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-author" );
+    $( ".include-tab-support" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-support" );
+    $( ".include-tab-family" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/page-for-include.html #include-tab-family" );
+    $( ".additional-css" ).load( "http://mycyberuniverse.com/public-files/dynamic-content/styles.html" );
+
 });

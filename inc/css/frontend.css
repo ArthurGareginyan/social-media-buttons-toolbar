@@ -1,0 +1,24 @@
+/*
+ * WP plugin 'Social Media Follow Buttons Bar' by Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ *
+ * Copyright (c) 2017 Arthur Gareginyan. All Rights Reserved.
+ */
+
+
+.smbt-social-icons li {
+    margin: 0px !important;
+    padding: 0px !important;
+    background-image: none !important;
+    display: inline-block !important;
+    border-bottom: 0 !important;
+    list-style-type: none !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.smbt-social-icons li a {
+    border-bottom: 0 !important;
+    display: inline !important;
+}
+.smbt-social-icons li img {
+    vertical-align: top;
+}

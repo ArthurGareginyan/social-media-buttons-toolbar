@@ -8,7 +8,7 @@ Stable tag: 4.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add the smart toolbar with social media follow buttons (not share, only link to your social media profiles) to any place of your WordPress website.
+Easily add the smart bar with social media follow buttons (not share, only link to your social media profiles) to any place of your WordPress website.
 
 == Description ==
 

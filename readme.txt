@@ -122,7 +122,7 @@ Manually via FTP access:
 4. Log into Admin area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "`Social Buttons`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin's administration page.
+After installation, a "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin's administration page.
 
 [More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -158,14 +158,14 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 
 
 == Screenshots ==
-1. Plugin settings page.
-2. Social Media Follow Buttons Bar displayed below the content of a post (Twenty Sixteen theme).
-3. Social Media Follow Buttons Bar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
-4. Social Media Follow Buttons Bar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
+1. All social media buttons.
+2. Bootstrap tooltip with name of the social media displayed above button when you hover over the button.
+3. Social Media Follow Buttons Bar displayed below the content of a post (Twenty Sixteen theme).
+4. Social Media Follow Buttons Bar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
 5. Social Media Follow Buttons Bar displayed in the footer using a simple call the function directly from theme file (vCard theme).
-6. Shortcode placed in the Text Widget.
-7. All buttons.
-8. Bootstrap tooltip with name of the social media displayed above button when you hover over the button.
+6. Social Media Follow Buttons Bar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
+7. Shortcode placed in the Text Widget.
+8. Plugin settings page.
 
 
 == Other Notes ==

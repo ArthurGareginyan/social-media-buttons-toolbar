@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Tab
  *
- * @since 4.0
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -170,6 +170,12 @@ defined('ABSPATH') or die("Restricted access!");
                                                         'http://open.spotify.com/user/YourUsernameHere',
                                                         __( 'Enter the link to your Spotify profile page', SMEDIABT_TEXT ),
                                                         '//www.spotify.com'
+                                ); ?>
+                                <?php smbtoolbar_media( 'bandcamp',
+                                                        'Bandcamp',
+                                                        'https://bandcamp.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Bandcamp profile page', SMEDIABT_TEXT ),
+                                                        '//bandcamp.com'
                                 ); ?>
                                 <?php smbtoolbar_media( 'dloky',
                                                         'Dloky',

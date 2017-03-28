@@ -5,7 +5,7 @@
  * Description: Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0
+ * Version: 4.1
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -55,14 +55,14 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Define global constants
  *
- * @since 4.0
+ * @since 4.1
  */
 defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
 defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
 defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
 defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
 defined('SMEDIABT_TEXT') or define('SMEDIABT_TEXT', 'social-media-buttons-toolbar');
-defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '4.0');
+defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '4.1');
 
 /**
  * Register text domain

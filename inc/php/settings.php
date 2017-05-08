@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Tab
  *
- * @since 4.1
+ * @since 4.2
  */
 ?>
     <!-- SIDEBAR -->
@@ -24,20 +24,20 @@ defined('ABSPATH') or die("Restricted access!");
                 </div>
             </div>
 
-            <div id="help" class="postbox">
-                <h3 class="title"><?php _e( 'Help', SMEDIABT_TEXT ); ?></h3>
-                <div class="inside">
-                    <p><?php _e( 'Got something to say? Need help?', SMEDIABT_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=Social Media Follow Buttons Bar">arthurgareginyan@gmail.com</a></p>
-                </div>
-            </div>
-
             <div id="support" class="postbox">
                 <h3 class="title"><?php _e( 'Support', SMEDIABT_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SMEDIABT_TEXT ); ?></p>
                     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', SMEDIABT_TEXT ); ?></a>
                     <p><?php _e( 'Thanks for your support!', SMEDIABT_TEXT ); ?></p>
+                </div>
+            </div>
+
+            <div id="help" class="postbox">
+                <h3 class="title"><?php _e( 'Help', SMEDIABT_TEXT ); ?></h3>
+                <div class="inside">
+                    <p><?php _e( 'Got something to say? Need help?', SMEDIABT_TEXT ); ?></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=Social Media Follow Buttons Bar">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ defined('ABSPATH') or die("Restricted access!");
                     <div class="postbox" id="Buttons">
                         <h3 class="title"><?php _e( 'Buttons', SMEDIABT_TEXT ); ?></h3>
                         <div class="inside">
-                            <p class="description"><?php _e( 'Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don\'t want to use any of the following buttons, you can not fill them and then they do not appear.', SMEDIABT_TEXT ); ?></p>
+                            <p class="note"><?php _e( 'Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don\'t want to use any of the following buttons, you can not fill them and then they do not appear.', SMEDIABT_TEXT ); ?></p>
                             <table class="form-table">
                                 <?php smbtoolbar_media( 'facebook',
                                                         'Facebook',
@@ -93,6 +93,12 @@ defined('ABSPATH') or die("Restricted access!");
                                                         __( 'Enter the link to your YouTube profile page', SMEDIABT_TEXT ),
                                                         '//www.youtube.com'
                                 ); ?>
+                                <?php smbtoolbar_media( 'youtube-gaming',
+                                                        'YouTube Gaming',
+                                                        'https://gaming.youtube.com/channel/YourChannelIdentifierHere',
+                                                        __( 'Enter the link to your YouTube Gaming profile page', SMEDIABT_TEXT ),
+                                                        '//gaming.youtube.com'
+                                ); ?>
                                 <?php smbtoolbar_media( 'vimeo',
                                                         'Vimeo',
                                                         'https://vimeo.com/YourUsernameHere',
@@ -122,6 +128,12 @@ defined('ABSPATH') or die("Restricted access!");
                                                         'https://linkedin.com/in/YourUsernameHere',
                                                         __( 'Enter the link to your LinkedIn profile page', SMEDIABT_TEXT ),
                                                         '//linkedin.com'
+                                ); ?>
+                                <?php smbtoolbar_media( 'xing',
+                                                        'XING',
+                                                        'https://www.xing.com/YourUsernameHere',
+                                                        __( 'Enter the link to your XING profile page', SMEDIABT_TEXT ),
+                                                        '//www.xing.com'
                                 ); ?>
                                 <?php smbtoolbar_media( 'pinterest',
                                                         'Pinterest',
@@ -183,6 +195,18 @@ defined('ABSPATH') or die("Restricted access!");
                                                         __( 'Enter the link to your Dloky profile page', SMEDIABT_TEXT ),
                                                         '//dloky.com'
                                 ); ?>
+                                <?php smbtoolbar_media( 'amazon',
+                                                        'Amazon',
+                                                        'https://www.amazon.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Amazon profile page', SMEDIABT_TEXT ),
+                                                        '//www.amazon.com'
+                                ); ?>
+                                <?php smbtoolbar_media( 'bookbub',
+                                                        'BookBub',
+                                                        'https://www.bookbub.com/YourUsernameHere',
+                                                        __( 'Enter the link to your BookBub profile page', SMEDIABT_TEXT ),
+                                                        '//www.bookbub.com'
+                                ); ?>
                                 <?php smbtoolbar_media( 'goodreads',
                                                         'Goodreads',
                                                         'https://www.goodreads.com/YourUsernameHere',
@@ -206,6 +230,12 @@ defined('ABSPATH') or die("Restricted access!");
                                                         'http://store.steampowered.com/YourUsernameHere',
                                                         __( 'Enter the link to your Steam profile page', SMEDIABT_TEXT ),
                                                         '//store.steampowered.com'
+                                ); ?>
+                                <?php smbtoolbar_media( 'beam',
+                                                        'Beam',
+                                                        'http://beam.pro/YourUsernameHere',
+                                                        __( 'Enter the link to your Beam profile page', SMEDIABT_TEXT ),
+                                                        '//beam.pro'
                                 ); ?>
                                 <?php smbtoolbar_media( 'discord',
                                                         'Discord',
@@ -280,6 +310,7 @@ defined('ABSPATH') or die("Restricted access!");
                                                         ''
                                 ); ?>
                             </table>
+                            <p class="note"><b><?php _e( 'Note!', SMEDIABT_TEXT ); ?></b> <?php _e( 'If you did not find the button you need, then tell me and I will gladly add it for you.', SMEDIABT_TEXT ); ?></p>
                             <?php submit_button( __( 'Save Changes', SMEDIABT_TEXT ), 'primary', 'submit', true ); ?>
                         </div>
                     </div>
@@ -287,7 +318,8 @@ defined('ABSPATH') or die("Restricted access!");
                     <div class="postbox" id="DisplayOptions">
                         <h3 class="title"><?php _e( 'Display options', SMEDIABT_TEXT ); ?></h3>
                         <div class="inside">
-                            <p class="description"></p>
+                            <p class="note"><?php _e( 'There you can configure this plugin.', SMEDIABT_TEXT ); ?></p>
+
                             <table class="form-table">
                                 <?php smbtoolbar_setting('show_posts',
                                                           __( 'Show on Posts', SMEDIABT_TEXT ),
@@ -332,7 +364,7 @@ defined('ABSPATH') or die("Restricted access!");
                                         $alignment = '';
                                     endif;
                                 ?>
-                                <tr valign='top'>
+                                <tr>
                                     <th scope='row'>
                                         <?php _e( 'Alignment', SMEDIABT_TEXT ); ?>
                                     </th>
@@ -369,8 +401,17 @@ defined('ABSPATH') or die("Restricted access!");
                     <div class="postbox" id="Preview">
                         <h3 class="title"><?php _e( 'Preview', SMEDIABT_TEXT ); ?></h3>
                         <div class="inside">
-                            <p class="description"><?php _e( 'Click "Save Changes" to update this preview.', SMEDIABT_TEXT ); ?></p></br>
+                            <p class="note"><?php _e( 'Click the "Save Changes" button to update this preview.', SMEDIABT_TEXT ); ?></p><br>
                             <?php echo smbtoolbar_shortcode(); ?>
+                        </div>
+                    </div>
+
+                    <div id="support-addition" class="postbox">
+                        <h3 class="title"><?php _e( 'Support', SMEDIABT_TEXT ); ?></h3>
+                        <div class="inside">
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', SMEDIABT_TEXT ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', SMEDIABT_TEXT ); ?></a>
+                            <p><?php _e( 'Thanks for your support!', SMEDIABT_TEXT ); ?></p>
                         </div>
                     </div>
 

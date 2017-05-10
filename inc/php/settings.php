@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Tab
  *
- * @since 4.2
+ * @since 4.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -128,6 +128,12 @@ defined('ABSPATH') or die("Restricted access!");
                                                         'https://linkedin.com/in/YourUsernameHere',
                                                         __( 'Enter the link to your LinkedIn profile page', SMEDIABT_TEXT ),
                                                         '//linkedin.com'
+                                ); ?>
+                                <?php smbtoolbar_media( 'diaspora',
+                                                        'diaspora',
+                                                        'https://diasporafoundation.org/YourUsernameHere',
+                                                        __( 'Enter the link to your diaspora profile page', SMEDIABT_TEXT ),
+                                                        '//diasporafoundation.org'
                                 ); ?>
                                 <?php smbtoolbar_media( 'xing',
                                                         'XING',

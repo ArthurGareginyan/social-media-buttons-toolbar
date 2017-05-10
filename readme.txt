@@ -1,10 +1,10 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, diaspora, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.2
+Stable tag: 4.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -34,7 +34,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 
 * Beautiful icons
 * Preview on plugin settings page
-* Bootstrap Tooltips with name of the social media above every button
+* Tooltips with name of the social media above every button
 * Shortcode for add social media follow buttons from Post/Page Editor
 * PHP/HTML code for add social media follow buttons directly in your theme files
 * And much, much more!
@@ -50,6 +50,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Vimeo
 * Blogger
 * LinkedIn
+* diaspora
 * XING
 * LiveJournal
 * Reddit
@@ -197,6 +198,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.3 =
+* Added option for the diaspora button.
 
 = 4.2 =
 * The design of the plugin settings page is completely redone.

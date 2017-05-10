@@ -35,6 +35,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Vimeo
 * Blogger
 * LinkedIn
+* diaspora
 * LiveJournal
 * Reddit
 * Pinterest

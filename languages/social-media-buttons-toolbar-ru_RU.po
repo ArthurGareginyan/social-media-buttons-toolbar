@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-05-10 15:17+0300\n"
-"PO-Revision-Date: 2017-05-10 15:18+0300\n"
+"POT-Creation-Date: 2017-05-17 17:50+0300\n"
+"PO-Revision-Date: 2017-05-17 17:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -73,7 +73,7 @@ msgid "Author"
 msgstr "Автор"
 
 #: inc/php/page.php:44 inc/php/page.php:176 inc/php/settings.php:28
-#: inc/php/settings.php:416
+#: inc/php/settings.php:472
 msgid "Support"
 msgstr "Поддержка"
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr "Вот так просто!"
 
-#: inc/php/page.php:78 inc/php/settings.php:319
+#: inc/php/page.php:78 inc/php/settings.php:365
 msgid "Note!"
 msgstr "Примечание!"
 
@@ -287,13 +287,13 @@ msgstr "О плагине"
 
 #: inc/php/settings.php:23
 msgid ""
-"This plugin allows you to easily add the social media buttons toolbar to any "
-"place of your website."
+"This plugin allows you to easily add the social media follow buttons bar to "
+"any place of your website."
 msgstr ""
 "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
 "место на вашем веб-сайте."
 
-#: inc/php/settings.php:30 inc/php/settings.php:418
+#: inc/php/settings.php:30 inc/php/settings.php:474
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -303,11 +303,11 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:31 inc/php/settings.php:419
+#: inc/php/settings.php:31 inc/php/settings.php:475
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:420
+#: inc/php/settings.php:32 inc/php/settings.php:476
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -319,11 +319,11 @@ msgstr "Помощь"
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:57
 msgid "Buttons"
 msgstr "Кнопки"
 
-#: inc/php/settings.php:64
+#: inc/php/settings.php:59
 msgid ""
 "Just fill in the required fields to make a buttons. The social networking "
 "buttons will lead directly to your profile pages. If you don't want to use "
@@ -335,15 +335,15 @@ msgstr ""
 "хотите использовать любой из следующих кнопок, то вы можете не заполнить их "
 "и тогда они не появятся."
 
-#: inc/php/settings.php:69
+#: inc/php/settings.php:66
 msgid "Enter the link to your Facebook profile page"
 msgstr "Введите ссылку на вашу страницу профиля Facebook"
 
-#: inc/php/settings.php:75
+#: inc/php/settings.php:73
 msgid "Enter the link to your Twitter profile page"
 msgstr "Введите ссылку на вашу страницу профиля Twitter"
 
-#: inc/php/settings.php:81
+#: inc/php/settings.php:80
 msgid "Enter the link to your Instagram profile page"
 msgstr "Введите ссылку на вашу страницу профиля Instagram"
 
@@ -351,143 +351,147 @@ msgstr "Введите ссылку на вашу страницу профил�
 msgid "Enter the link to your Google+ profile page"
 msgstr "Введите ссылку на вашу страницу профиля Google+"
 
-#: inc/php/settings.php:93
+#: inc/php/settings.php:94
 msgid "Enter the link to your YouTube profile page"
 msgstr "Введите ссылку на вашу страницу профиля YouTube"
 
-#: inc/php/settings.php:99
+#: inc/php/settings.php:101
 msgid "Enter the link to your YouTube Gaming profile page"
 msgstr "Введите ссылку на вашу страницу профиля YouTube Gaming"
 
-#: inc/php/settings.php:105
+#: inc/php/settings.php:108
 msgid "Enter the link to your Vimeo profile page"
 msgstr "Введите ссылку на вашу страницу профиля Vimeo"
 
-#: inc/php/settings.php:111
+#: inc/php/settings.php:115
 msgid "Enter the link to your Blogger profile page"
 msgstr "Введите ссылку на вашу страницу профиля Blogger"
 
-#: inc/php/settings.php:117
+#: inc/php/settings.php:122
 msgid "Enter the link to your LiveJournal profile page"
 msgstr "Введите ссылку на вашу страницу профиля LiveJournal"
 
-#: inc/php/settings.php:123
+#: inc/php/settings.php:129
 msgid "Enter the link to your Reddit profile page"
 msgstr "Введите ссылку на вашу страницу профиля Reddit"
 
-#: inc/php/settings.php:129
+#: inc/php/settings.php:136
 msgid "Enter the link to your LinkedIn profile page"
 msgstr "Введите ссылку на вашу страницу профиля LinkedIn"
 
-#: inc/php/settings.php:135
-msgid "Enter the link to your diaspora profile page"
-msgstr "Введите ссылку на вашу страницу профиля diaspora"
+#: inc/php/settings.php:143
+msgid "Enter the link to your Diaspora profile page"
+msgstr "Введите ссылку на вашу страницу профиля Diaspora"
 
-#: inc/php/settings.php:141
+#: inc/php/settings.php:150
 msgid "Enter the link to your XING profile page"
 msgstr "Введите ссылку на вашу страницу профиля XING"
 
-#: inc/php/settings.php:147
+#: inc/php/settings.php:157
 msgid "Enter the link to your Pinterest profile page"
 msgstr "Введите ссылку на вашу страницу профиля Pinterest"
 
-#: inc/php/settings.php:153
+#: inc/php/settings.php:164
+msgid "Enter the link to your Flickr profile page"
+msgstr "Введите ссылку на вашу страницу профиля Flickr"
+
+#: inc/php/settings.php:171
 msgid "Enter the link to your Tumblr profile page"
 msgstr "Введите ссылку на вашу страницу профиля Tumblr"
 
-#: inc/php/settings.php:159
+#: inc/php/settings.php:178
 msgid "Enter the link to your Snapchat profile page"
 msgstr "Введите ссылку на вашу страницу профиля Snapchat"
 
-#: inc/php/settings.php:165
+#: inc/php/settings.php:185
 msgid "Enter the link to your Twitch profile page"
 msgstr "Введите ссылку на вашу страницу профиля Twitch"
 
-#: inc/php/settings.php:171
+#: inc/php/settings.php:192
 msgid "Enter the link to your Patreon profile page"
 msgstr "Введите ссылку на вашу страницу профиля Patreon"
 
-#: inc/php/settings.php:177
+#: inc/php/settings.php:199
 msgid "Enter the link to your IMDb profile page"
 msgstr "Введите ссылку на вашу страницу профиля IMDb"
 
-#: inc/php/settings.php:183
+#: inc/php/settings.php:206
 msgid "Enter the link to your SoundCloud profile page"
 msgstr "Введите ссылку на вашу страницу профиля SoundCloud"
 
-#: inc/php/settings.php:189
+#: inc/php/settings.php:213
 msgid "Enter the link to your Spotify profile page"
 msgstr "Введите ссылку на вашу страницу профиля Spotify"
 
-#: inc/php/settings.php:195
+#: inc/php/settings.php:220
 msgid "Enter the link to your Bandcamp profile page"
 msgstr "Введите ссылку на вашу страницу профиля Bandcamp"
 
-#: inc/php/settings.php:201
+#: inc/php/settings.php:227
 msgid "Enter the link to your Dloky profile page"
 msgstr "Введите ссылку на вашу страницу профиля Dloky"
 
-#: inc/php/settings.php:207
+#: inc/php/settings.php:234
 msgid "Enter the link to your Amazon profile page"
 msgstr "Введите ссылку на вашу страницу профиля Amazon"
 
-#: inc/php/settings.php:213
+#: inc/php/settings.php:241
 msgid "Enter the link to your BookBub profile page"
 msgstr "Введите ссылку на вашу страницу профиля BookBub"
 
-#: inc/php/settings.php:219
+#: inc/php/settings.php:248
 msgid "Enter the link to your Goodreads profile page"
 msgstr "Введите ссылку на вашу страницу профиля Goodreads"
 
-#: inc/php/settings.php:225
+#: inc/php/settings.php:255
 msgid "Enter the link to your MeetVibe profile page"
 msgstr "Введите ссылку на вашу страницу профиля MeetVibe"
 
-#: inc/php/settings.php:231
+#: inc/php/settings.php:262
 msgid "Enter the link to your Meetup profile page"
 msgstr "Введите ссылку на вашу страницу профиля Meetup"
 
-#: inc/php/settings.php:237
+#: inc/php/settings.php:269
 msgid "Enter the link to your Steam profile page"
 msgstr "Введите ссылку на вашу страницу профиля Steam"
 
-#: inc/php/settings.php:243
+#: inc/php/settings.php:276
 msgid "Enter the link to your Beam profile page"
 msgstr "Введите ссылку на вашу страницу профиля Beam"
 
-#: inc/php/settings.php:249
+#: inc/php/settings.php:283
 msgid "Enter the link to your Discord profile page"
 msgstr "Введите ссылку на вашу страницу профиля Discord"
 
-#: inc/php/settings.php:255
+#: inc/php/settings.php:290
 msgid "Enter the link to your Yelp profile page"
 msgstr "Введите ссылку на вашу страницу профиля Yelp"
 
-#: inc/php/settings.php:261
+#: inc/php/settings.php:297
 msgid "Enter the link to your VKontakte profile page"
 msgstr "Введите ссылку на вашу страницу профиля ВКонтакте"
 
-#: inc/php/settings.php:267
+#: inc/php/settings.php:304
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr "Введите ссылку на вашу страницу профиля Одноклассники"
 
-#: inc/php/settings.php:273
+#: inc/php/settings.php:311
 msgid "Enter the link to your Telegram profile page"
 msgstr "Введите ссылку на вашу страницу профиля Telegram"
 
-#: inc/php/settings.php:279
+#: inc/php/settings.php:318
 msgid "Enter the link to your GitHub profile page"
 msgstr "Введите ссылку на вашу страницу профиля GitHub"
 
-#: inc/php/settings.php:285
+#: inc/php/settings.php:325
 msgid "Enter the link to your WordPress profile page"
 msgstr "Введите ссылку на вашу страницу профиля WordPress"
 
-#: inc/php/settings.php:291
+#: inc/php/settings.php:332
 msgid "Enter the link to your CodePen profile page"
 msgstr "Введите ссылку на вашу страницу профиля CodePen"
 
-#: inc/php/settings.php:297
+#: inc/php/settings.php:339
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -496,125 +500,124 @@ msgstr ""
 "b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра "
 "профиля"
 
-#: inc/php/settings.php:303
+#: inc/php/settings.php:346
 msgid "Enter the link to your personal website"
 msgstr "Введите ссылку на ваш персональный сайт"
 
-#: inc/php/settings.php:309
+#: inc/php/settings.php:353
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
 
-#: inc/php/settings.php:315
+#: inc/php/settings.php:360
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
-#: inc/php/settings.php:319
+#: inc/php/settings.php:365
 msgid ""
 "If you did not find the button you need, then tell me and I will gladly add "
 "it for you."
 msgstr ""
 
-#: inc/php/settings.php:320 inc/php/settings.php:403
+#: inc/php/settings.php:366 inc/php/settings.php:459
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:325
+#: inc/php/settings.php:371
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/settings.php:327
+#: inc/php/settings.php:373
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings.php:331
+#: inc/php/settings.php:377
 msgid "Show on Posts"
 msgstr "Показать в записях"
 
-#: inc/php/settings.php:332
+#: inc/php/settings.php:378
 msgid "Display toolbar below content on Posts."
 msgstr "Показывать кнопки под содержанием в записях"
 
-#: inc/php/settings.php:336
+#: inc/php/settings.php:383
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/settings.php:337
+#: inc/php/settings.php:384
 msgid "Display toolbar below content on Pages."
 msgstr "Показывать кнопки под содержанием на страницах"
 
-#: inc/php/settings.php:341
+#: inc/php/settings.php:389
 msgid "Open in new tab"
 msgstr "Открыть в новой вкладке"
 
-#: inc/php/settings.php:342
+#: inc/php/settings.php:390
 msgid "Open link in a new tab/window."
 msgstr "Открыть ссылку в новом окне/вкладке"
 
-#: inc/php/settings.php:346
+#: inc/php/settings.php:395
 msgid "Tooltips"
 msgstr "Подсказки"
 
-#: inc/php/settings.php:347
+#: inc/php/settings.php:396
 msgid ""
 "Enable/disable a tooltips with name of the social media above every button."
 msgstr ""
 "Включить/отключить всплывающие подсказки с названием социальных медиа над "
 "каждой кнопкой."
 
-#: inc/php/settings.php:351
+#: inc/php/settings.php:401
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:352
-msgid "Enter the size of icons (in px) in your social media buttons toolbar."
+#: inc/php/settings.php:402
+msgid ""
+"Enter the size of icons (in px) in your social media follow buttons bar."
 msgstr ""
 "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/settings.php:358
+#: inc/php/settings.php:409
 msgid "Margin"
 msgstr "Отступ"
 
-#: inc/php/settings.php:359
+#: inc/php/settings.php:410
 msgid ""
-"Enter the size of space (in px) between icons in your social media buttons "
-"toolbar."
+"Enter the size of space (in px) between icons in your social media follow "
+"buttons bar."
 msgstr ""
-"Введите размер пространства (в пикселях) между иконками для вашей панели "
-"социальных медиа кнопок."
 
-#: inc/php/settings.php:375
+#: inc/php/settings.php:430
 msgid "Alignment"
 msgstr "Выравнивание"
 
-#: inc/php/settings.php:381
+#: inc/php/settings.php:436
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/settings.php:385
+#: inc/php/settings.php:440
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/settings.php:389
+#: inc/php/settings.php:444
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/settings.php:396
+#: inc/php/settings.php:451
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings.php:397
+#: inc/php/settings.php:452
 msgid ""
-"Enter the caption to your social media buttons toolbar. It will be displays "
-"before the toolbar."
+"Enter the caption to your social media follow buttons bar. It will be "
+"displays before the toolbar."
 msgstr ""
 "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает "
 "над панелью."
 
-#: inc/php/settings.php:408
+#: inc/php/settings.php:464
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings.php:410
+#: inc/php/settings.php:466
 msgid "Click the \"Save Changes\" button to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
@@ -636,6 +639,16 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Enter the link to your diaspora profile page"
+#~ msgstr "Введите ссылку на вашу страницу профиля diaspora"
+
+#~ msgid ""
+#~ "Enter the size of space (in px) between icons in your social media "
+#~ "buttons toolbar."
+#~ msgstr ""
+#~ "Введите размер пространства (в пикселях) между иконками для вашей панели "
+#~ "социальных медиа кнопок."
 
 #~ msgid ""
 #~ "You have several methods for display the social media follow buttons bar "
@@ -666,7 +679,7 @@ msgstr "http://www.arthurgareginyan.com"
 #~ "Гарегинян</a>"
 
 #~ msgid ""
-#~ "You have several methods for display the social media buttons toolbar "
+#~ "You have several methods for display the social media follow buttons bar "
 #~ "(further just \"toolbar\") on your website. But first, fill in the "
 #~ "required fields, then click \"Save Changes\"."
 #~ msgstr ""
@@ -747,7 +760,7 @@ msgstr "http://www.arthurgareginyan.com"
 #~ "изменения”, чтобы обновить этот просмотр."
 
 #~ msgid ""
-#~ "You have several methods for display the social media buttons toolbar "
+#~ "You have several methods for display the social media follow buttons bar "
 #~ "(further just \"toolbar\") on your website. But first, enter a links for "
 #~ "each buttons, then click \"Save Changes\"."
 #~ msgstr ""
@@ -797,8 +810,8 @@ msgstr "http://www.arthurgareginyan.com"
 #~ msgstr "Артур “Берсеркр” Гарегинян"
 
 #~ msgid ""
-#~ "This plugin allows you to easily add the social media buttons toolbar to "
-#~ "any place of your web-site."
+#~ "This plugin allows you to easily add the social media follow buttons bar "
+#~ "to any place of your web-site."
 #~ msgstr ""
 #~ "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
 #~ "место на вашем веб-сайте."

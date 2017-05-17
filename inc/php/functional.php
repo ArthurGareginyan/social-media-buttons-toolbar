@@ -12,23 +12,23 @@ defined('ABSPATH') or die("Restricted access!");
  *
  * @since 1.4
  */
-function smbtoolbar_media($name, $label, $placeholder, $help=null, $link=null) {
+function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null ) {
 
     // Declare variables
     $options = get_option( 'smbtoolbar_settings' );
 
-    if ( !empty($options["media"][$name]["content"]) ) :
+    if ( !empty( $options["media"][$name]["content"] ) ) {
         $value = esc_textarea( $options["media"][$name]["content"] );
-    else :
+    } else {
         $value = "";
-    endif;
+    }
 
     // Generate the table
-    if ( !empty($link) ) :
+    if ( !empty( $link ) ) {
         $link_out = "<a href='$link' target='_blank'>$label</a>";
-    else :
+    } else {
         $link_out = "$label";
-    endif;
+    }
 
     $label = "<input type='hidden' name='smbtoolbar_settings[media][$name][label]' value='$label'>";
     $slug = "<input type='hidden' name='smbtoolbar_settings[media][$name][slug]' value='$name'>";
@@ -45,16 +45,16 @@ function smbtoolbar_media($name, $label, $placeholder, $help=null, $link=null) {
                     $field_out
                 </td>
             </tr>";
-    if ( !empty($help) ) :
+    if ( !empty( $help ) ) {
         $help_out = "<tr>
                         <td></td>
                         <td class='help-text'>
                             $help
                         </td>
                      </tr>";
-    else :
+    } else {
         $help_out = "";
-    endif;
+    }
 
     // Print the generated table
     echo $out . $help_out;
@@ -63,30 +63,30 @@ function smbtoolbar_media($name, $label, $placeholder, $help=null, $link=null) {
 /**
  * Render checkboxes and fields for saving settings data to BD
  *
- * @since 1.0
+ * @since 4.4
  */
-function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder=null, $size=null) {
+function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
     // Declare variables
     $options = get_option( 'smbtoolbar_settings' );
 
-    if ( !empty($options[$name]) ) :
+    if ( !empty( $options[$name] ) ) {
         $value = esc_textarea( $options[$name] );
-    else :
+    } else {
         $value = "";
-    endif;
+    }
 
     // Generate the table
-    if ( !empty($options[$name]) ) :
+    if ( !empty( $options[$name] ) ) {
         $checked = "checked='checked'";
-    else :
+    } else {
         $checked = "";
-    endif;
+    }
 
     if ( $field == "check" ) {
         $input = "<input type='checkbox' name='smbtoolbar_settings[$name]' id='smbtoolbar_settings[$name]' $checked >";
     } elseif ( $field == "field" ) {
-        $input = "<input type='text' name='smbtoolbar_settings[$name]' size='$size' value='$value' placeholder='$placeholder'>";
+        $input = "<input type='text' name='smbtoolbar_settings[$name]' id='smbtoolbar_settings[$name]' size='$size' value='$value' placeholder='$placeholder'>";
     }
 
     // Put table to the variables $out and $help_out
@@ -98,25 +98,25 @@ function smbtoolbar_setting($name, $label, $help=null, $field=null, $placeholder
                     $input
                 </td>
             </tr>";
-    if ( !empty($help) ) :
+    if ( !empty( $help ) ) {
         $help_out = "<tr>
                         <td></td>
                         <td class='help-text'>
                             $help
                         </td>
                      </tr>";
-    else :
+    } else {
         $help_out = "";
-    endif;
+    }
 
     // Print the generated table
     echo $out . $help_out;
 }
 
 /**
- * Generate the buttons
+ * Generate the buttons and make shortcode
  *
- * @since 4.2
+ * @since 4.4
  */
 function smbtoolbar_tollbar() {
 
@@ -125,14 +125,14 @@ function smbtoolbar_tollbar() {
     $media = $options['media'];
 
     // Open link in new tab
-    if (!empty($options['new_tab'])) {
+    if ( !empty( $options['new_tab'] ) ) {
         $new_tab = 'target="blank"';
     } else {
         $new_tab = '';
     }
 
     // Enable Tolltips
-    if (!empty($options['tooltips'])) {
+    if ( !empty( $options['tooltips'] ) ) {
         $tooltips = 'data-toggle="tooltip"';
     } else {
         $tooltips = '';
@@ -140,27 +140,35 @@ function smbtoolbar_tollbar() {
 
     // Add a caption above of buttons
     $caption = esc_textarea( $options['caption'] );
-    if (empty($caption)) {
+    if ( empty( $caption ) ) {
         $caption = "";
     }
 
-    // Generate the Buttons
+    // Generate buttons
     $metatags_arr[] = '<ul class="smbt-social-icons">';
-    if ( !empty($media) ) {
-        foreach ($media as $name) {
-            foreach ($name as $key => $value) {
-                if ($key == "slug") {
+    if ( !empty( $media ) ) {
+        foreach ( $media as $name ) {
+            foreach ( $name as $key => $value ) {
+                if ( $key == "slug" ) {
                     $slag = $value;
                 }
-                if ($key == "label") {
+                if ( $key == "label" ) {
                     $label = $value;
                 }
-                if ($key == "content") {
-                    if (!empty($value)) {
+                if ( $key == "content" ) {
+                    if ( !empty( $value ) ) {
                         $icon = SMEDIABT_URL . "inc/img/social-media-icons/$slag.png";
                         $metatags_arr[] = '<li>
-                                                <a href="' . $value . '" ' . $tooltips . ' title="' . $label . '" ' . $new_tab . '>
-                                                    <img src="' . $icon . '" alt="' . $label . '" />
+                                                <a
+                                                    href="' . $value . '"
+                                                    ' . $tooltips . '
+                                                    title="' . $label . '"
+                                                    ' . $new_tab . '
+                                                >
+                                                    <img
+                                                        src="' . $icon . '"
+                                                        alt="' . $label . '"
+                                                    />
                                                 </a>
                                             </li>';
                     }
@@ -171,7 +179,7 @@ function smbtoolbar_tollbar() {
     $metatags_arr[] = '</ul>';
 
     // Add script for buttons
-    if (!empty($options['tooltips'])) {
+    if ( !empty( $options['tooltips'] ) ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
 
@@ -220,13 +228,13 @@ function smbtoolbar_addContent( $content ) {
     $options = get_option( 'smbtoolbar_settings' );
 
     if ( is_single() ) {
-        if ( !empty($options['show_posts']) && $options['show_posts'] == "on" ) {
+        if ( !empty( $options['show_posts'] ) && $options['show_posts'] == "on" ) {
             $content = $content . smbtoolbar_shortcode();
         }
     }
 
     if ( is_page() ) {
-        if ( !empty($options['show_pages']) && $options['show_pages'] == "on" ) {
+        if ( !empty( $options['show_pages'] ) && $options['show_pages'] == "on" ) {
             $content = $content . smbtoolbar_shortcode();
         }
     }

@@ -1,10 +1,10 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, diaspora, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, diaspora, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.3.1
+Stable tag: 4.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,6 +42,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 **Supported social media and links:**
 
 * Facebook
+* Flickr
 * Twitter
 * Instagram
 * Google+
@@ -50,7 +51,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Vimeo
 * Blogger
 * LinkedIn
-* diaspora
+* Diaspora
 * XING
 * LiveJournal
 * Reddit
@@ -187,7 +188,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
 * The Entrepreneur image that used on banner is from [Pixabay](https://pixabay.com/en/entrepreneur-start-start-up-career-696976/) and licensed under the [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 * Icons [youtube.png, meetvibe.png, beam.png, wordpress.png, twitter.png, imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png, amazon.png, bookbub.png, goodreads.png, reddit.png, meetup.png, codepen.png, instagram.png, patreon.png, bandcamp.png, youtube-gaming.png, xing.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](http://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
-* Icons [facebook.png, google-plus.png, vimeo.png, blogger.png, linkedin.png, livejournal.png, pinterest.png, tumblr.png, soundcloud.png, spotify.png, yelp.png, vkontakte.png, odnoklassniki.png, telegram.png, github.png, skype.png, website.png, email.png, rss-feed.png](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+* Icons [facebook.png, flickr.png, google-plus.png, vimeo.png, blogger.png, linkedin.png, livejournal.png, pinterest.png, tumblr.png, soundcloud.png, spotify.png, yelp.png, vkontakte.png, odnoklassniki.png, telegram.png, github.png, skype.png, website.png, email.png, rss-feed.png](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
 
@@ -199,11 +200,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.4 =
+* Added option for the Flickr social network.
+* Code formatting improved.
+* Extra JS code for Bootstrap tooltips removed from the "admin.js" file.
+* Added ID to every field on the settings page.
+
 = 4.3.1 =
 * Fixed the bug due to which the the "Warning: Illegal string offset 'version' in" and the "Warning: Illegal string offset 'old_version' in" warnings are displayed. (Thanks to Sven Brill)
 
 = 4.3 =
-* Added option for the diaspora social network.
+* Added option for the Diaspora social network.
 
 = 4.2 =
 * The design of the plugin settings page is completely redone.

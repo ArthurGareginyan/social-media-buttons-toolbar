@@ -22,21 +22,21 @@ function smbtoolbar_load_scripts_base() {
 
     // Read options from BD, sanitiz data and declare variables
     $options = get_option( 'smbtoolbar_settings' );
-    
+
     // Size of icons
     $icon_size = esc_textarea( $options['icon-size'] );
-    if (empty($icon_size)) {
+    if ( empty( $icon_size ) ) {
         $icon_size = "64";
     }
-    
+
     // Space between icons
     $margin_right = esc_textarea( $options['margin-right'] );
-    if (empty($margin_right)) {
+    if ( empty( $margin_right ) ) {
         $margin_right = "10";
     }
-    
+
     // Alignment of toolbar
-    if (!empty($options['alignment'])) {
+    if ( !empty( $options['alignment'] ) ) {
         $alignment = $options['alignment'];
     } else {
         $alignment = 'center';
@@ -64,7 +64,7 @@ function smbtoolbar_load_scripts_base() {
  *
  * @since 4.2
  */
-function smbtoolbar_load_scripts_admin($hook) {
+function smbtoolbar_load_scripts_admin( $hook ) {
 
     // Return if the page is not a settings page of this plugin
     if ( 'settings_page_social-media-buttons-toolbar' != $hook ) {

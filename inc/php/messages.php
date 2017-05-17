@@ -16,7 +16,7 @@ function smbtoolbar_hello_message() {
 
     $options = get_option( 'smbtoolbar_settings' );
 
-    if ( !empty($options) ) {
+    if ( !empty( $options ) ) {
         return;
     }
 

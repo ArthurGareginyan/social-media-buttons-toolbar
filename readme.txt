@@ -1,10 +1,10 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, vimeo, blogger, livejournal, linkedIn, diaspora, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, discord, yelp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, skype, personal website, email, rss feed, rss, feed, tooltips, bootstrap tooltip,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.4
+Stable tag: 4.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -48,11 +48,13 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Google+
 * YouTube
 * YouTube Gaming
+* Periscope
 * Vimeo
 * Blogger
 * LinkedIn
 * Diaspora
 * XING
+* Buzzsprout
 * LiveJournal
 * Reddit
 * Pinterest
@@ -152,6 +154,9 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
+A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
+
 = Q. Where to report bug if found? =
 A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) and report.
 
@@ -199,6 +204,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.5 =
+* Added option for the Buzzsprout social network.
+* Added option for the Periscope social network.
+* F.A.Q. section updated.
+* Code formatting improved.
 
 = 4.4 =
 * Added option for the Flickr social network.
@@ -426,13 +437,18 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+
 = 4.2 =
 Please update to new release!
+
 = 4.0 =
 Please update to new release!
+
 = 3.0 =
 Please update to new release!
+
 = 2.0 =
 Please update to new release!
+
 = 1.0 =
 Please update to first stable release!

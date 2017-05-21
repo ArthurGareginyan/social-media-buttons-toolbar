@@ -5,7 +5,7 @@
  * Description: Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.4
+ * Version: 4.5
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -50,19 +50,19 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
  * @since 4.1
  */
-defined('SMEDIABT_DIR') or define('SMEDIABT_DIR', dirname(plugin_basename(__FILE__)));
-defined('SMEDIABT_BASE') or define('SMEDIABT_BASE', plugin_basename(__FILE__));
-defined('SMEDIABT_URL') or define('SMEDIABT_URL', plugin_dir_url(__FILE__));
-defined('SMEDIABT_PATH') or define('SMEDIABT_PATH', plugin_dir_path(__FILE__));
-defined('SMEDIABT_TEXT') or define('SMEDIABT_TEXT', 'social-media-buttons-toolbar');
-defined('SMEDIABT_VERSION') or define('SMEDIABT_VERSION', '4.4');
+defined( 'SMEDIABT_DIR' ) or define( 'SMEDIABT_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'SMEDIABT_BASE' ) or define( 'SMEDIABT_BASE', plugin_basename( __FILE__ ) );
+defined( 'SMEDIABT_URL' ) or define( 'SMEDIABT_URL', plugin_dir_url( __FILE__ ) );
+defined( 'SMEDIABT_PATH' ) or define( 'SMEDIABT_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'SMEDIABT_TEXT' ) or define( 'SMEDIABT_TEXT', 'social-media-buttons-toolbar' );
+defined( 'SMEDIABT_VERSION' ) or define( 'SMEDIABT_VERSION', '4.5' );
 
 /**
  * Load the plugin modules

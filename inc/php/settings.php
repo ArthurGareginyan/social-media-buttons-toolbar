@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 4.4
+ * @since 4.5
  */
 ?>
     <!-- SIDEBAR -->
@@ -102,6 +102,13 @@ defined('ABSPATH') or die("Restricted access!");
                                                         '//gaming.youtube.com'
                                                        );
                                 ?>
+                                <?php smbtoolbar_media( 'periscope',
+                                                        'Periscope',
+                                                        'https://www.periscope.tv/YourUsernameHere',
+                                                        __( 'Enter the link to your Periscope profile page', SMEDIABT_TEXT ),
+                                                        '//www.periscope.tv'
+                                                       );
+                                ?>
                                 <?php smbtoolbar_media( 'vimeo',
                                                         'Vimeo',
                                                         'https://vimeo.com/YourUsernameHere',
@@ -115,6 +122,13 @@ defined('ABSPATH') or die("Restricted access!");
                                                         __( 'Enter the link to your Blogger profile page', SMEDIABT_TEXT ),
                                                         '//www.blogger.com'
                                                        );
+                                ?>
+                                <?php smbtoolbar_media( 'buzzsprout',
+                                                        'Buzzsprout',
+                                                        'https://www.buzzsprout.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Buzzsprout profile page', SMEDIABT_TEXT ),
+                                                        '//www.buzzsprout.com'
+                       );
                                 ?>
                                 <?php smbtoolbar_media( 'livejournal',
                                                         'LiveJournal',

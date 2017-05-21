@@ -15,16 +15,24 @@ It give you finer control over buttons. You can configure they on plugins settin
 
 ## Features
 
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface with many settings
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
+
+**Key features include...**
+
 * Beautiful icons
-* Plugin settings page with many settings
 * Preview on plugin settings page
-* Bootstrap Tooltips with name of the social media above every button
+* Tooltips with name of the social media above every button
 * Shortcode for add social media follow buttons from Post/Page Editor
 * PHP/HTML code for add social media follow buttons directly in your theme files
-* Ready for translation (POT file included)
-* Published on [WordPess.org](http://wordpess.org/)
+* And much, much more!
 
-**Supported social media:**
+**Supported social media and links:**
 
 * Facebook
 * Flickr
@@ -33,10 +41,13 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Google+
 * YouTube
 * YouTube Gaming
+* Periscope
 * Vimeo
 * Blogger
 * LinkedIn
-* diaspora
+* Diaspora
+* XING
+* Buzzsprout
 * LiveJournal
 * Reddit
 * Pinterest
@@ -49,10 +60,13 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Spotify
 * Bandcamp
 * Dloky
+* Amazon
+* BookBub
 * Goodreads
 * MeetVibe
 * Meetup
 * Steam
+* Beam
 * Discord
 * Yelp
 * VKontakte (vk.com)

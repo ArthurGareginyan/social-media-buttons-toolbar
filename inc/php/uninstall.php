@@ -10,9 +10,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Delete options on uninstall
  *
- * @since 0.1
+ * @since 4.6
  */
 function smbtoolbar_uninstall() {
-    delete_option( 'smbtoolbar_settings' );
+    delete_option( SMEDIABT_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, 'smbtoolbar_uninstall' );
+register_uninstall_hook( __FILE__, SMEDIABT_PREFIX . '_uninstall' );

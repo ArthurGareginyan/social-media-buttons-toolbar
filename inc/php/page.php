@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.0
+ * @since 4.6
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -22,7 +22,7 @@ function smbtoolbar_render_submenu_page() {
     ?>
     <div class="wrap">
         <h2>
-            <?php _e( 'Social Media Follow Buttons Bar', SMEDIABT_TEXT ); ?>
+            <?php echo SMEDIABT_NAME; ?>
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', SMEDIABT_TEXT ),

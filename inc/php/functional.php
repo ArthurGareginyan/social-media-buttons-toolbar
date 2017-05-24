@@ -10,12 +10,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render fields for saving social media data to BD
  *
- * @since 1.4
+ * @since 4.6
  */
 function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null ) {
 
-    // Declare variables
-    $options = get_option( 'smbtoolbar_settings' );
+    // Read options from BD
+    $options = get_option( SMEDIABT_SETTINGS . '_settings' );
 
     if ( !empty( $options["media"][$name]["content"] ) ) {
         $value = esc_textarea( $options["media"][$name]["content"] );
@@ -30,9 +30,9 @@ function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null )
         $link_out = "$label";
     }
 
-    $label = "<input type='hidden' name='smbtoolbar_settings[media][$name][label]' value='$label'>";
-    $slug = "<input type='hidden' name='smbtoolbar_settings[media][$name][slug]' value='$name'>";
-    $field_out = "<input type='text' name='smbtoolbar_settings[media][$name][content]' size='50' value='$value' placeholder='$placeholder'>";
+    $label = "<input type='hidden' name='" . SMEDIABT_SETTINGS . "_settings[media][$name][label]' value='$label'>";
+    $slug = "<input type='hidden' name='" . SMEDIABT_SETTINGS . "_settings[media][$name][slug]' value='$name'>";
+    $field_out = "<input type='text' name='" . SMEDIABT_SETTINGS . "_settings[media][$name][content]' size='50' value='$value' placeholder='$placeholder'>";
 
     // Put table to the variables $out and $help_out
     $out = "<tr>
@@ -63,12 +63,12 @@ function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null )
 /**
  * Render checkboxes and fields for saving settings data to BD
  *
- * @since 4.4
+ * @since 4.6
  */
 function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
-    // Declare variables
-    $options = get_option( 'smbtoolbar_settings' );
+    // Read options from BD
+    $options = get_option( SMEDIABT_SETTINGS . '_settings' );
 
     if ( !empty( $options[$name] ) ) {
         $value = esc_textarea( $options[$name] );
@@ -84,9 +84,9 @@ function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholde
     }
 
     if ( $field == "check" ) {
-        $input = "<input type='checkbox' name='smbtoolbar_settings[$name]' id='smbtoolbar_settings[$name]' $checked >";
+        $input = "<input type='checkbox' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' $checked >";
     } elseif ( $field == "field" ) {
-        $input = "<input type='text' name='smbtoolbar_settings[$name]' id='smbtoolbar_settings[$name]' size='$size' value='$value' placeholder='$placeholder'>";
+        $input = "<input type='text' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' >";
     }
 
     // Put table to the variables $out and $help_out
@@ -116,12 +116,12 @@ function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholde
 /**
  * Generate the buttons and make shortcode
  *
- * @since 4.4
+ * @since 4.6
  */
 function smbtoolbar_tollbar() {
 
-    // Read options from BD, sanitiz data and declare variables
-    $options = get_option( 'smbtoolbar_settings' );
+    // Read options from BD
+    $options = get_option( SMEDIABT_SETTINGS . '_settings' );
     $media = $options['media'];
 
     // Open link in new tab
@@ -205,12 +205,12 @@ function smbtoolbar_tollbar() {
 /**
  * Create the shortcode "[smbtoolbar]"
  *
- * @since 0.2
+ * @since 4.6
  */
 function smbtoolbar_shortcode() {
     return implode(PHP_EOL, smbtoolbar_tollbar());
 }
-add_shortcode( 'smbtoolbar', 'smbtoolbar_shortcode' );
+add_shortcode( 'smbtoolbar', SMEDIABT_PREFIX . '_shortcode' );
 
 /**
  * Allow shortcodes in the text widget
@@ -222,10 +222,10 @@ add_filter( 'widget_text', 'do_shortcode' );
 /**
  * Add buttons to the beginning of each post or/and page.
  *
- * @since 0.2
+ * @since 4.6
  */
 function smbtoolbar_addContent( $content ) {
-    $options = get_option( 'smbtoolbar_settings' );
+    $options = get_option( SMEDIABT_SETTINGS . '_settings' );
 
     if ( is_single() ) {
         if ( !empty( $options['show_posts'] ) && $options['show_posts'] == "on" ) {
@@ -242,4 +242,4 @@ function smbtoolbar_addContent( $content ) {
     // Returns the content.
     return $content;
 }
-add_action( 'the_content', 'smbtoolbar_addContent' );
+add_action( 'the_content', SMEDIABT_PREFIX . '_addContent' );

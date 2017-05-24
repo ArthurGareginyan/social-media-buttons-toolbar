@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.7
-Stable tag: 4.5
+Stable tag: 4.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -204,6 +204,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.6 =
+* Added new constants: "_SLUG", "_PREFIX", "_SETTINGS" and "_NAME".
+* Value of the "_VERSION" constant replaced with information from the plugin header data.
+* All references to the plugin name, slug, prefix are replaced with constants.
+* Added default values to empty options.
+* The "_load_scripts_base" function improved.
+* The "name" attribute removed from the "<form>" tag.
 
 = 4.5 =
 * Added option for the Buzzsprout social network.

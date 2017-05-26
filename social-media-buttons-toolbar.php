@@ -5,27 +5,25 @@
  * Description: Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.6
+ * Version: 4.7
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
  *
  * Copyright 2015-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
- * This file is part of "Social Media Follow Buttons Bar".
- *
- * "Social Media Follow Buttons Bar" is free software: you can redistribute it and/or modify
+ * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * "Social Media Follow Buttons Bar" is distributed in the hope that it will be useful,
+ * This plugin is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with "Social Media Follow Buttons Bar".  If not, see <http://www.gnu.org/licenses/>.
+ * along with this plugin. If not, see <http://www.gnu.org/licenses/>.
  *
  *
  *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
@@ -55,27 +53,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Define global constants
  *
- * @since 4.6
+ * @since 4.7
  */
-defined( 'SMEDIABT_DIR' ) or define( 'SMEDIABT_DIR', dirname( plugin_basename( __FILE__ ) ) );
-defined( 'SMEDIABT_BASE' ) or define( 'SMEDIABT_BASE', plugin_basename( __FILE__ ) );
-defined( 'SMEDIABT_URL' ) or define( 'SMEDIABT_URL', plugin_dir_url( __FILE__ ) );
-defined( 'SMEDIABT_PATH' ) or define( 'SMEDIABT_PATH', plugin_dir_path( __FILE__ ) );
-defined( 'SMEDIABT_TEXT' ) or define( 'SMEDIABT_TEXT', 'social-media-buttons-toolbar' );
-defined( 'SMEDIABT_SLUG' ) or define( 'SMEDIABT_SLUG', 'social-media-buttons-toolbar' );
-defined( 'SMEDIABT_PREFIX' ) or define( 'SMEDIABT_PREFIX', 'smbtoolbar' );
-defined( 'SMEDIABT_SETTINGS' ) or define( 'SMEDIABT_SETTINGS', 'smbtoolbar' );
-defined( 'SMEDIABT_NAME' ) or define( 'SMEDIABT_NAME', 'Social Media Follow Buttons Bar' );
-defined( 'SMEDIABT_VERSION' ) or define( 'SMEDIABT_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
+$plugin_data = get_file_data( __FILE__, array( 'name'=>'Plugin Name', 'version'=>'Version', 'text'=>'Text Domain' ) );
+function smbtoolbar_define_constants( $constant_name, $value ) {
+    $constant_name = 'SMEDIABT_' . $constant_name;
+    if ( !defined( $constant_name ) )
+        define( $constant_name, $value );
+}
+smbtoolbar_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+smbtoolbar_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+smbtoolbar_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+smbtoolbar_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+smbtoolbar_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+smbtoolbar_define_constants( 'NAME', $plugin_data['name'] );
+smbtoolbar_define_constants( 'VERSION', $plugin_data['version'] );
+smbtoolbar_define_constants( 'TEXT', $plugin_data['text'] );
+smbtoolbar_define_constants( 'PREFIX', 'smbtoolbar' );
+smbtoolbar_define_constants( 'SETTINGS', 'smbtoolbar' );
 
 /**
  * Load the plugin modules
  *
- * @since 4.2
+ * @since 4.7
  */
 require_once( SMEDIABT_PATH . 'inc/php/core.php' );
-require_once( SMEDIABT_PATH . 'inc/php/enqueue.php' );
+require_once( SMEDIABT_PATH . 'inc/php/upgrade.php' );
 require_once( SMEDIABT_PATH . 'inc/php/version.php' );
+require_once( SMEDIABT_PATH . 'inc/php/enqueue.php' );
 require_once( SMEDIABT_PATH . 'inc/php/functional.php' );
 require_once( SMEDIABT_PATH . 'inc/php/page.php' );
 require_once( SMEDIABT_PATH . 'inc/php/messages.php' );

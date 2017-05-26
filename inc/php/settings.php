@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.6
+ * @since 4.7
  */
 ?>
     <!-- SIDEBAR -->
@@ -54,11 +54,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( SMEDIABT_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the BD
+                        // Get options from the database
                         $options = get_option( SMEDIABT_SETTINGS . '_settings' );
 
-                        // Set default value if the option is empty
-                        $alignment = isset( $options['alignment'] ) && !empty( $options['alignment'] ) ? $options['alignment'] : '';
+                        // Set default value if option is empty
+                        $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : '';
                     ?>
 
                     <div class="postbox" id="Buttons">
@@ -136,7 +136,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://www.buzzsprout.com/YourUsernameHere',
                                                         __( 'Enter the link to your Buzzsprout profile page', SMEDIABT_TEXT ),
                                                         '//www.buzzsprout.com'
-                       );
+                                                       );
                                 ?>
                                 <?php smbtoolbar_media( 'livejournal',
                                                         'LiveJournal',
@@ -164,6 +164,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://diasporafoundation.org/YourUsernameHere',
                                                         __( 'Enter the link to your Diaspora profile page', SMEDIABT_TEXT ),
                                                         '//diasporafoundation.org'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'deviantart',
+                                                        'DeviantArt',
+                                                        'http://www.deviantart.com/YourUsernameHere',
+                                                        __( 'Enter the link to your DeviantArt profile page', SMEDIABT_TEXT ),
+                                                        '//www.deviantart.com'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'xing',
@@ -443,15 +450,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     <td>
                                         <ul>
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="left" <?php checked('left', $alignment); ?> >
+                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="left" <?php checked( 'left', $alignment ); ?> >
                                                 <?php _e( 'Left', SMEDIABT_TEXT ); ?>
                                             </li>
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="center" <?php checked('', $alignment); ?> <?php checked('center', $alignment); ?> >
+                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="center" <?php checked( '', $alignment ); ?> <?php checked( 'center', $alignment ); ?> >
                                                 <?php _e( 'Center', SMEDIABT_TEXT ); ?>
                                             </li>
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="right" <?php checked('right', $alignment); ?> >
+                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="right" <?php checked( 'right', $alignment ); ?> >
                                                 <?php _e( 'Right', SMEDIABT_TEXT ); ?>
                                             </li>
                                             </ul>

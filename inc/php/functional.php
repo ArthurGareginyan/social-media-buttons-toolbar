@@ -61,7 +61,7 @@ function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null )
 }
 
 /**
- * Render checkboxes and fields for saving settings data to BD
+ * Render checkboxes and fields for saving settings data to database
  *
  * @since 4.6
  */

@@ -48,12 +48,12 @@ function smbtoolbar_hello_message() {
 /**
  * Error message (When the old version of plugin installed) - Bootstrap Modal
  *
- * @since 4.6
+ * @since 4.7
  */
 function smbtoolbar_error_message() {
 
     $info = get_option( SMEDIABT_SETTINGS . '_service_info' );
-    $old_version = isset( $info['old_version'] ) && !empty( $info['old_version'] ) ? $info['old_version'] : '0';
+    $old_version = !empty( $info['old_version'] ) ? $info['old_version'] : '0';
 
     if ( $old_version != '1' ) {
         return;

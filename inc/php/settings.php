@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.7
+ * @since 4.8
  */
 ?>
     <!-- SIDEBAR -->
@@ -234,6 +234,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://soundcloud.com/YourUsernameHere',
                                                         __( 'Enter the link to your SoundCloud profile page', SMEDIABT_TEXT ),
                                                         '//soundcloud.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'plugdj',
+                                                       'Plug.dj',
+                                                       'https://plug.dj/YourUsernameHere',
+                                                       __( 'Enter the link to your Plug.dj profile page', SMEDIABT_TEXT ),
+                                                       '//plug.dj'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'spotify',

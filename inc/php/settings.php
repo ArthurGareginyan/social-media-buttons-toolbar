@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.8
+ * @since 4.9
  */
 ?>
     <!-- SIDEBAR -->
@@ -325,6 +325,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://www.yelp.com/YourUsernameHere',
                                                         __( 'Enter the link to your Yelp profile page', SMEDIABT_TEXT ),
                                                         '//www.yelp.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'stumbleupon',
+                                                        'StumbleUpon',
+                                                        'http://www.stumbleupon.com/YourUsernameHere',
+                                                        __( 'Enter the link to your StumbleUpon profile page', SMEDIABT_TEXT ),
+                                                        '//www.stumbleupon.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'bloglovin',
+                                                        'Bloglovin',
+                                                        'https://www.bloglovin.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Bloglovin profile page', SMEDIABT_TEXT ),
+                                                        '//www.bloglovin.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'whatsapp',
+                                                        'WhatsApp',
+                                                        'https://www.whatsapp.com/YourUsernameHere',
+                                                        __( 'Enter the link to your WhatsApp profile page', SMEDIABT_TEXT ),
+                                                        '//www.whatsapp.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'line',
+                                                        'LINE',
+                                                        'https://line.me/YourUsernameHere',
+                                                        __( 'Enter the link to your LINE profile page', SMEDIABT_TEXT ),
+                                                        '//line.me'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'vkontakte',

@@ -84,6 +84,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Skype
 * Personal website
 * Email
+* Telephone
 * RSS Feed
 
 **Got more ideas? Tell me!**

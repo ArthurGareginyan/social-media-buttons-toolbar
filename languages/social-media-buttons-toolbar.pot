@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-05-30 11:59+0300\n"
+"POT-Creation-Date: 2017-06-04 13:32+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: inc/php/page.php:44 inc/php/page.php:178 inc/php/settings.php:28 inc/php/settings.php:527
+#: inc/php/page.php:44 inc/php/page.php:178 inc/php/settings.php:29 inc/php/settings.php:535
 msgid "Support"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:77 inc/php/settings.php:429
+#: inc/php/page.php:77 inc/php/settings.php:437
 msgid "Note!"
 msgstr ""
 
@@ -271,339 +271,347 @@ msgid ""
 "This plugin allows you to easily add the social media follow buttons bar to any place of your website."
 msgstr ""
 
-#: inc/php/settings.php:30 inc/php/settings.php:529
+#: inc/php/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: inc/php/settings.php:31 inc/php/settings.php:537
 msgid ""
 "I'm an independent developer, without a regular income, so every little contribution helps cover my "
 "costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:31 inc/php/settings.php:530
+#: inc/php/settings.php:32 inc/php/settings.php:538
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:531
+#: inc/php/settings.php:33 inc/php/settings.php:539
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:38
 msgid "Help"
 msgstr ""
 
-#: inc/php/settings.php:39
+#: inc/php/settings.php:40
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings.php:65
+#: inc/php/settings.php:66
 msgid "Buttons"
 msgstr ""
 
-#: inc/php/settings.php:67
+#: inc/php/settings.php:68
 msgid ""
 "Just fill in the required fields to make a buttons. The social networking buttons will lead directly "
 "to your profile pages. If you don't want to use any of the following buttons, you can not fill them "
 "and then they do not appear."
 msgstr ""
 
-#: inc/php/settings.php:74
+#: inc/php/settings.php:75
 msgid "Enter the link to your Facebook profile page"
 msgstr ""
 
-#: inc/php/settings.php:81
+#: inc/php/settings.php:82
 msgid "Enter the link to your Twitter profile page"
 msgstr ""
 
-#: inc/php/settings.php:88
+#: inc/php/settings.php:89
 msgid "Enter the link to your Instagram profile page"
 msgstr ""
 
-#: inc/php/settings.php:95
+#: inc/php/settings.php:96
 msgid "Enter the link to your Google+ profile page"
 msgstr ""
 
-#: inc/php/settings.php:102
+#: inc/php/settings.php:103
 msgid "Enter the link to your YouTube profile page"
 msgstr ""
 
-#: inc/php/settings.php:109
+#: inc/php/settings.php:110
 msgid "Enter the link to your YouTube Gaming profile page"
 msgstr ""
 
-#: inc/php/settings.php:116
+#: inc/php/settings.php:117
 msgid "Enter the link to your Periscope profile page"
 msgstr ""
 
-#: inc/php/settings.php:123
+#: inc/php/settings.php:124
 msgid "Enter the link to your Vimeo profile page"
 msgstr ""
 
-#: inc/php/settings.php:130
+#: inc/php/settings.php:131
 msgid "Enter the link to your Blogger profile page"
 msgstr ""
 
-#: inc/php/settings.php:137
+#: inc/php/settings.php:138
 msgid "Enter the link to your Buzzsprout profile page"
 msgstr ""
 
-#: inc/php/settings.php:144
+#: inc/php/settings.php:145
 msgid "Enter the link to your LiveJournal profile page"
 msgstr ""
 
-#: inc/php/settings.php:151
+#: inc/php/settings.php:152
 msgid "Enter the link to your Reddit profile page"
 msgstr ""
 
-#: inc/php/settings.php:158
+#: inc/php/settings.php:159
 msgid "Enter the link to your LinkedIn profile page"
 msgstr ""
 
-#: inc/php/settings.php:165
+#: inc/php/settings.php:166
 msgid "Enter the link to your Diaspora profile page"
 msgstr ""
 
-#: inc/php/settings.php:172
+#: inc/php/settings.php:173
 msgid "Enter the link to your DeviantArt profile page"
 msgstr ""
 
-#: inc/php/settings.php:179
+#: inc/php/settings.php:180
 msgid "Enter the link to your XING profile page"
 msgstr ""
 
-#: inc/php/settings.php:186
+#: inc/php/settings.php:187
 msgid "Enter the link to your Pinterest profile page"
 msgstr ""
 
-#: inc/php/settings.php:193
+#: inc/php/settings.php:194
 msgid "Enter the link to your Flickr profile page"
 msgstr ""
 
-#: inc/php/settings.php:200
+#: inc/php/settings.php:201
 msgid "Enter the link to your Tumblr profile page"
 msgstr ""
 
-#: inc/php/settings.php:207
+#: inc/php/settings.php:208
 msgid "Enter the link to your Snapchat profile page"
 msgstr ""
 
-#: inc/php/settings.php:214
+#: inc/php/settings.php:215
 msgid "Enter the link to your Twitch profile page"
 msgstr ""
 
-#: inc/php/settings.php:221
+#: inc/php/settings.php:222
 msgid "Enter the link to your Patreon profile page"
 msgstr ""
 
-#: inc/php/settings.php:228
+#: inc/php/settings.php:229
 msgid "Enter the link to your IMDb profile page"
 msgstr ""
 
-#: inc/php/settings.php:235
+#: inc/php/settings.php:236
 msgid "Enter the link to your SoundCloud profile page"
 msgstr ""
 
-#: inc/php/settings.php:242
+#: inc/php/settings.php:243
 msgid "Enter the link to your Plug.dj profile page"
 msgstr ""
 
-#: inc/php/settings.php:249
+#: inc/php/settings.php:250
 msgid "Enter the link to your Spotify profile page"
 msgstr ""
 
-#: inc/php/settings.php:256
+#: inc/php/settings.php:257
 msgid "Enter the link to your Bandcamp profile page"
 msgstr ""
 
-#: inc/php/settings.php:263
+#: inc/php/settings.php:264
 msgid "Enter the link to your Dloky profile page"
 msgstr ""
 
-#: inc/php/settings.php:270
+#: inc/php/settings.php:271
 msgid "Enter the link to your Amazon profile page"
 msgstr ""
 
-#: inc/php/settings.php:277
+#: inc/php/settings.php:278
 msgid "Enter the link to your BookBub profile page"
 msgstr ""
 
-#: inc/php/settings.php:284
+#: inc/php/settings.php:285
 msgid "Enter the link to your Goodreads profile page"
 msgstr ""
 
-#: inc/php/settings.php:291
+#: inc/php/settings.php:292
 msgid "Enter the link to your MeetVibe profile page"
 msgstr ""
 
-#: inc/php/settings.php:298
+#: inc/php/settings.php:299
 msgid "Enter the link to your Meetup profile page"
 msgstr ""
 
-#: inc/php/settings.php:305
+#: inc/php/settings.php:306
 msgid "Enter the link to your Steam profile page"
 msgstr ""
 
-#: inc/php/settings.php:312
-msgid "Enter the link to your Beam profile page"
+#: inc/php/settings.php:313
+msgid "Enter the link to your Mixer profile page"
 msgstr ""
 
-#: inc/php/settings.php:319
+#: inc/php/settings.php:320
 msgid "Enter the link to your Discord profile page"
 msgstr ""
 
-#: inc/php/settings.php:326
+#: inc/php/settings.php:327
 msgid "Enter the link to your Yelp profile page"
 msgstr ""
 
-#: inc/php/settings.php:333
+#: inc/php/settings.php:334
 msgid "Enter the link to your StumbleUpon profile page"
 msgstr ""
 
-#: inc/php/settings.php:340
+#: inc/php/settings.php:341
 msgid "Enter the link to your Bloglovin profile page"
 msgstr ""
 
-#: inc/php/settings.php:347
+#: inc/php/settings.php:348
 msgid "Enter the link to your WhatsApp profile page"
 msgstr ""
 
-#: inc/php/settings.php:354
+#: inc/php/settings.php:355
 msgid "Enter the link to your LINE profile page"
 msgstr ""
 
-#: inc/php/settings.php:361
+#: inc/php/settings.php:362
 msgid "Enter the link to your VKontakte profile page"
 msgstr ""
 
-#: inc/php/settings.php:368
+#: inc/php/settings.php:369
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr ""
 
-#: inc/php/settings.php:375
+#: inc/php/settings.php:376
 msgid "Enter the link to your Telegram profile page"
 msgstr ""
 
-#: inc/php/settings.php:382
+#: inc/php/settings.php:383
 msgid "Enter the link to your GitHub profile page"
 msgstr ""
 
-#: inc/php/settings.php:389
+#: inc/php/settings.php:390
 msgid "Enter the link to your WordPress profile page"
 msgstr ""
 
-#: inc/php/settings.php:396
+#: inc/php/settings.php:397
 msgid "Enter the link to your CodePen profile page"
 msgstr ""
 
-#: inc/php/settings.php:403
+#: inc/php/settings.php:404
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</"
 "b>, or <b>?userinfo</b> for view profile"
 msgstr ""
 
-#: inc/php/settings.php:410
+#: inc/php/settings.php:411
 msgid "Enter the link to your personal website"
 msgstr ""
 
-#: inc/php/settings.php:417
+#: inc/php/settings.php:418
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr ""
 
-#: inc/php/settings.php:424
+#: inc/php/settings.php:425
+msgid "Enter your telephone number with prefix <b>tel://</b>"
+msgstr ""
+
+#: inc/php/settings.php:432
 msgid "Enter the link to your RSS Feed"
 msgstr ""
 
-#: inc/php/settings.php:429
+#: inc/php/settings.php:437
 msgid "If you did not find the button you need, then tell me and I will gladly add it for you."
 msgstr ""
 
-#: inc/php/settings.php:430 inc/php/settings.php:513
+#: inc/php/settings.php:438 inc/php/settings.php:521
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings.php:435
+#: inc/php/settings.php:443
 msgid "Display options"
 msgstr ""
 
-#: inc/php/settings.php:437
+#: inc/php/settings.php:445
 msgid "There you can configure this plugin."
 msgstr ""
 
-#: inc/php/settings.php:441
+#: inc/php/settings.php:449
 msgid "Show on Posts"
 msgstr ""
 
-#: inc/php/settings.php:442
+#: inc/php/settings.php:450
 msgid "Display toolbar below content on Posts."
 msgstr ""
 
-#: inc/php/settings.php:447
+#: inc/php/settings.php:455
 msgid "Show on Pages"
 msgstr ""
 
-#: inc/php/settings.php:448
+#: inc/php/settings.php:456
 msgid "Display toolbar below content on Pages."
 msgstr ""
 
-#: inc/php/settings.php:453
+#: inc/php/settings.php:461
 msgid "Open in new tab"
 msgstr ""
 
-#: inc/php/settings.php:454
+#: inc/php/settings.php:462
 msgid "Open link in a new tab/window."
 msgstr ""
 
-#: inc/php/settings.php:459
+#: inc/php/settings.php:467
 msgid "Tooltips"
 msgstr ""
 
-#: inc/php/settings.php:460
+#: inc/php/settings.php:468
 msgid "Enable/disable a tooltips with name of the social media above every button."
 msgstr ""
 
-#: inc/php/settings.php:465
+#: inc/php/settings.php:473
 msgid "Icon size"
 msgstr ""
 
-#: inc/php/settings.php:466
+#: inc/php/settings.php:474
 msgid "Enter the size of icons (in px) in your social media follow buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:473
+#: inc/php/settings.php:481
 msgid "Margin"
 msgstr ""
 
-#: inc/php/settings.php:474
+#: inc/php/settings.php:482
 msgid "Enter the size of space (in px) between icons in your social media follow buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:483
+#: inc/php/settings.php:491
 msgid "Alignment"
 msgstr ""
 
-#: inc/php/settings.php:489
+#: inc/php/settings.php:497
 msgid "Left"
 msgstr ""
 
-#: inc/php/settings.php:493
+#: inc/php/settings.php:501
 msgid "Center"
 msgstr ""
 
-#: inc/php/settings.php:497
+#: inc/php/settings.php:505
 msgid "Right"
 msgstr ""
 
-#: inc/php/settings.php:504
+#: inc/php/settings.php:512
 msgid "Caption"
 msgstr ""
 
-#: inc/php/settings.php:505
+#: inc/php/settings.php:513
 msgid ""
 "Enter the caption to your social media follow buttons bar. It will be displays before the toolbar."
 msgstr ""
 
-#: inc/php/settings.php:519
+#: inc/php/settings.php:527
 msgid "Preview"
 msgstr ""
 
-#: inc/php/settings.php:521
+#: inc/php/settings.php:529
 msgid "Click the \"Save Changes\" button to update this preview."
 msgstr ""
 

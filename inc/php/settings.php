@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.9
+ * @since 4.10
  */
 ?>
     <!-- SIDEBAR -->
@@ -21,6 +21,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'About', SMEDIABT_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'This plugin allows you to easily add the social media follow buttons bar to any place of your website.', SMEDIABT_TEXT ); ?></p>
+                    <p class="version"><?php _e( 'Version', SMEDIABT_TEXT ); ?> <?php echo SMEDIABT_VERSION; ?></p>
                 </div>
             </div>
 
@@ -306,11 +307,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         '//store.steampowered.com'
                                                        );
                                 ?>
-                                <?php smbtoolbar_media( 'beam',
-                                                        'Beam',
-                                                        'http://beam.pro/YourUsernameHere',
-                                                        __( 'Enter the link to your Beam profile page', SMEDIABT_TEXT ),
-                                                        '//beam.pro'
+                                <?php smbtoolbar_media( 'mixer',
+                                                        'Mixer',
+                                                        'https://mixer.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Mixer profile page', SMEDIABT_TEXT ),
+                                                        '//mixer.com'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'discord',
@@ -415,6 +416,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'Email',
                                                         'mailto:YourUsernameHere@gmail.com',
                                                         __( 'Enter your email address with prefix <b>mailto:</b>', SMEDIABT_TEXT ),
+                                                        ''
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'telephone',
+                                                        'Telephone',
+                                                        'tel://1-555-555-5555',
+                                                        __( 'Enter your telephone number with prefix <b>tel://</b>', SMEDIABT_TEXT ),
                                                         ''
                                                        );
                                 ?>

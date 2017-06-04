@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.6
+ * @since 4.10
  */
 function smbtoolbar_hello_message() {
 
@@ -29,7 +29,7 @@ function smbtoolbar_hello_message() {
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', SMEDIABT_TEXT ); ?></p>
                         <p><?php printf(
-                                        __( 'Thank you for installing my plugin! I hope you will love it %s', SMEDIABT_TEXT ),
+                                        __( 'Thank you for installing my plugin! I hope you will love it! %s', SMEDIABT_TEXT ),
                                         '&#x1F603;'
                                         );
                             ?></p>

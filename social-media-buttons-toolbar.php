@@ -5,12 +5,12 @@
  * Description: Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.10
+ * Version: 4.11
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
  *
- * Copyright 2015-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
+ * Copyright 2015-2017 Arthur Gareginyan ( website : http://www.arthurgareginyan.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

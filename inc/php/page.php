@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.11
+ * @since 4.12
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -122,12 +122,15 @@ function smbtoolbar_render_submenu_page() {
                         <div class="answer-1"><?php _e( 'Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.', $text ); ?></div>
 
                         <div class="question-2"><?php _e( 'Can I use this plugin on my language?', $text ); ?></div>
-                        <div class="answer-2"><?php printf(
-                                                            __( 'Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the <code>languages</code> folder. Just send the PO file to me at the %s and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
-                                                          );
+                        <div class="answer-2"><?php _e( 'Yes. This plugin is ready for translation and has already been translated into several languages.', $text ); ?><br><br>
+                                              <?php printf(
+                                                            __( 'If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the "languages" folder, in order to create a translation PO file. Just send the PO file to me at the %s and I will include this translation within the next plugin update.', $text ),
+                                                            '<a href="https://translate.wordpress.org/projects/wp-plugins/' . $slug . '" target="_blank">translation page</a>',
+                                                            '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
+                                                           );
                                               ?><br><br>
-                                              <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?></div>
+                                              <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?><br><br>
+                                              <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
                         <div class="answer-3"><?php _e( 'On the "Settings" tab, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It\'s that simple!', $text ); ?></div>
@@ -159,7 +162,7 @@ function smbtoolbar_render_submenu_page() {
                         <div class="question-10"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
                         <div class="answer-10"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please send me an email to %s. Thank you!', $text ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Suggestions about the ' . $name . '">arthurgareginyan@gmail.com</a>'
+                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Suggestions about the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
                                                           );
                                               ?></div>
 

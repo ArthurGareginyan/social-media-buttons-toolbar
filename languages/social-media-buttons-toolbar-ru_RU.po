@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-06-16 03:36+0300\n"
-"PO-Revision-Date: 2017-06-16 03:36+0300\n"
+"POT-Creation-Date: 2017-06-19 19:41+0300\n"
+"PO-Revision-Date: 2017-06-19 19:42+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -67,12 +67,12 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:50 inc/php/page.php:189
+#: inc/php/page.php:50 inc/php/page.php:192
 msgid "Author"
 msgstr "Автор"
 
-#: inc/php/page.php:51 inc/php/page.php:198 inc/php/settings.php:28
-#: inc/php/settings.php:563
+#: inc/php/page.php:51 inc/php/page.php:201 inc/php/settings.php:28
+#: inc/php/settings.php:588
 msgid "Support"
 msgstr "Поддержка"
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr "Вот так просто!"
 
-#: inc/php/page.php:86 inc/php/settings.php:463
+#: inc/php/page.php:86 inc/php/settings.php:485
 msgid "Note!"
 msgstr "Примечание!"
 
@@ -179,40 +179,50 @@ msgstr ""
 msgid "Can I use this plugin on my language?"
 msgstr "Можно ли использовать этот плагин на моём языке?"
 
-#: inc/php/page.php:126
-#, php-format
+#: inc/php/page.php:125
 msgid ""
 "Yes. This plugin is ready for translation and has already been translated "
-"into several languages. But If your language is not available then you can "
-"make one. The POT file is included and placed in the <code>languages</code> "
-"folder. Just send the PO file to me at the %s and I will include this "
-"translation within the next plugin update. Many of plugin users would be "
-"delighted if you share your translation with the community. Thanks for your "
-"contribution!"
+"into several languages."
 msgstr ""
 
-#: inc/php/page.php:130
+#: inc/php/page.php:127
+#, php-format
+msgid ""
+"If you want to help translate this plugin then please visit the %s. You can "
+"also use the POT file, that is included and placed in the \"languages\" "
+"folder, in order to create a translation PO file. Just send the PO file to "
+"me at the %s and I will include this translation within the next plugin "
+"update."
+msgstr ""
+
+#: inc/php/page.php:132
 msgid ""
 "Maybe not all existed translations are up to date. You are welcome to "
 "contribute corrections!"
 msgstr ""
 
-#: inc/php/page.php:132
+#: inc/php/page.php:133
+msgid ""
+"Many of plugin users would be delighted if you share your translation with "
+"the community. Thanks for your contribution!"
+msgstr ""
+
+#: inc/php/page.php:135
 msgid "How does it work?"
 msgstr "Как оно работает?"
 
-#: inc/php/page.php:133
+#: inc/php/page.php:136
 msgid ""
 "On the \"Settings\" tab, select the desired settings and click the \"Save "
 "changes\" button. Enjoy your fancy social media follow buttons. It's that "
 "simple!"
 msgstr ""
 
-#: inc/php/page.php:135
+#: inc/php/page.php:138
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Этот плагин требует изменения темы?"
 
-#: inc/php/page.php:136
+#: inc/php/page.php:139
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
@@ -220,11 +230,11 @@ msgstr ""
 "Абсолютно нет. Этот плагин настраивается полностью на странице настроек "
 "плагина."
 
-#: inc/php/page.php:138
+#: inc/php/page.php:141
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Требуются ли какие-либо знания HTML или CSS?"
 
-#: inc/php/page.php:139
+#: inc/php/page.php:142
 msgid ""
 "Absolutely not. This plugin can be configured with no knowledge of HTML or "
 "CSS, using an easy-to-use plugin settings page."
@@ -232,24 +242,24 @@ msgstr ""
 "Абсолютно нет. Этот плагин можно настроить без знания HTML или CSS, с "
 "помощью простой в использовании страницы настройки плагина."
 
-#: inc/php/page.php:141
+#: inc/php/page.php:144
 msgid ""
 "What I need to do if the Google PageSpeed test says that this plugin images "
 "must be compressed?"
 msgstr ""
 
-#: inc/php/page.php:142
+#: inc/php/page.php:145
 msgid ""
 "The images that uses in this plugin are already compressed, but I will do my "
 "best to find out what else can be done with the images in order to compress "
 "them even better."
 msgstr ""
 
-#: inc/php/page.php:144
+#: inc/php/page.php:147
 msgid "It's not working. What could be wrong?"
 msgstr "Оно не работает. Что может быть не так?"
 
-#: inc/php/page.php:145
+#: inc/php/page.php:148
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -258,7 +268,7 @@ msgid ""
 "browser's cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:146
+#: inc/php/page.php:149
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
 "support request in the plugin's support forum on WordPress.org, I'd be happy "
@@ -266,13 +276,13 @@ msgid ""
 "possible, including a link to your website where the problem can be seen."
 msgstr ""
 
-#: inc/php/page.php:148
+#: inc/php/page.php:151
 msgid ""
 "The last WordPress update is preventing me from editing my website that is "
 "using this plugin. Why is this?"
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:152
 msgid ""
 "This plugin can not cause such problem. More likely, the problem are related "
 "to the settings of the website. It could just be a cache, so please try to "
@@ -281,43 +291,43 @@ msgid ""
 "please try to re-login to the website, this too can help."
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:154
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:153
+#: inc/php/page.php:156
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 "Пожалуйста, посетите %s страницу плагина на GitHub %s и сообщите об ошибке."
 
-#: inc/php/page.php:159
+#: inc/php/page.php:162
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:161
+#: inc/php/page.php:164
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:166
+#: inc/php/page.php:169
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Я очень люблю этот плагин! Могу Я чем-то помочь?"
 
-#: inc/php/page.php:168
+#: inc/php/page.php:171
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, "
 "click on the donate button, and thank you!"
 msgstr ""
 
-#: inc/php/page.php:174
+#: inc/php/page.php:177
 msgid "My question wasn't answered here."
 msgstr "Моего вопроса здесь нет."
 
-#: inc/php/page.php:176
+#: inc/php/page.php:179
 #, php-format
 msgid ""
 "You can ask your question on the plugin support page %s. But please keep in "
@@ -337,7 +347,7 @@ msgstr ""
 "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
 "место на вашем веб-сайте."
 
-#: inc/php/settings.php:30 inc/php/settings.php:565
+#: inc/php/settings.php:30 inc/php/settings.php:590
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -347,11 +357,11 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:31 inc/php/settings.php:566
+#: inc/php/settings.php:31 inc/php/settings.php:591
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:567
+#: inc/php/settings.php:32 inc/php/settings.php:592
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -405,11 +415,11 @@ msgstr "Введите ссылку на вашу страницу профил�
 
 #: inc/php/settings.php:115
 msgid "Enter the link to your iTunes profile page"
-msgstr ""
+msgstr "Введите ссылку на вашу страницу профиля iTunes"
 
 #: inc/php/settings.php:122
 msgid "Enter the link to your Apple Music profile page"
-msgstr ""
+msgstr "Введите ссылку на вашу страницу профиля Apple Music"
 
 #: inc/php/settings.php:129
 msgid "Enter the link to your Periscope profile page"
@@ -556,34 +566,46 @@ msgid "Enter the link to your 500px profile page"
 msgstr "Введите ссылку на вашу страницу профиля 500px"
 
 #: inc/php/settings.php:381
+msgid "Enter the link to your Behance profile page"
+msgstr "Введите ссылку на вашу страницу профиля Behance"
+
+#: inc/php/settings.php:388
+msgid "Enter the link to your Polyvore profile page"
+msgstr "Введите ссылку на вашу страницу профиля Polyvore"
+
+#: inc/php/settings.php:395
+msgid "Enter the link to your Yellow Pages profile page"
+msgstr "Введите ссылку на вашу страницу профиля Yellow Pages"
+
+#: inc/php/settings.php:402
 msgid "Enter the link to your LINE profile page"
 msgstr "Введите ссылку на вашу страницу профиля LINE"
 
-#: inc/php/settings.php:388
+#: inc/php/settings.php:409
 msgid "Enter the link to your VKontakte profile page"
 msgstr "Введите ссылку на вашу страницу профиля ВКонтакте"
 
-#: inc/php/settings.php:395
+#: inc/php/settings.php:416
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr "Введите ссылку на вашу страницу профиля Одноклассники"
 
-#: inc/php/settings.php:402
+#: inc/php/settings.php:423
 msgid "Enter the link to your Telegram profile page"
 msgstr "Введите ссылку на вашу страницу профиля Telegram"
 
-#: inc/php/settings.php:409
+#: inc/php/settings.php:430
 msgid "Enter the link to your GitHub profile page"
 msgstr "Введите ссылку на вашу страницу профиля GitHub"
 
-#: inc/php/settings.php:416
+#: inc/php/settings.php:437
 msgid "Enter the link to your WordPress profile page"
 msgstr "Введите ссылку на вашу страницу профиля WordPress"
 
-#: inc/php/settings.php:423
+#: inc/php/settings.php:444
 msgid "Enter the link to your CodePen profile page"
 msgstr "Введите ссылку на вашу страницу профиля CodePen"
 
-#: inc/php/settings.php:430
+#: inc/php/settings.php:451
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -592,116 +614,117 @@ msgstr ""
 "b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра "
 "профиля"
 
-#: inc/php/settings.php:437
+#: inc/php/settings.php:458
 msgid "Enter the link to your personal website"
 msgstr "Введите ссылку на ваш персональный сайт"
 
-#: inc/php/settings.php:444
+#: inc/php/settings.php:465
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
 
-#: inc/php/settings.php:451
+#: inc/php/settings.php:472
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr "Введите номер телефона с префиксом <b>tel://</b>"
 
-#: inc/php/settings.php:458
+#: inc/php/settings.php:479
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
-#: inc/php/settings.php:463
+#: inc/php/settings.php:486
+#, php-format
 msgid ""
-"If you did not find the button you need, then tell me and I will gladly add "
-"it for you."
+"If you did not find the button you need, then %s and I will gladly add it "
+"for you."
 msgstr ""
 
-#: inc/php/settings.php:465 inc/php/settings.php:549
+#: inc/php/settings.php:490 inc/php/settings.php:574
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:471
+#: inc/php/settings.php:496
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/settings.php:473
+#: inc/php/settings.php:498
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings.php:477
+#: inc/php/settings.php:502
 msgid "Show on Posts"
 msgstr "Показать в записях"
 
-#: inc/php/settings.php:478
+#: inc/php/settings.php:503
 msgid "Display toolbar below content on Posts."
 msgstr "Показывать кнопки под содержанием в записях"
 
-#: inc/php/settings.php:483
+#: inc/php/settings.php:508
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/settings.php:484
+#: inc/php/settings.php:509
 msgid "Display toolbar below content on Pages."
 msgstr "Показывать кнопки под содержанием на страницах"
 
-#: inc/php/settings.php:489
+#: inc/php/settings.php:514
 msgid "Open in new tab"
 msgstr "Открыть в новой вкладке"
 
-#: inc/php/settings.php:490
+#: inc/php/settings.php:515
 msgid "Open link in a new tab/window."
 msgstr "Открыть ссылку в новом окне/вкладке"
 
-#: inc/php/settings.php:495
+#: inc/php/settings.php:520
 msgid "Tooltips"
 msgstr "Подсказки"
 
-#: inc/php/settings.php:496
+#: inc/php/settings.php:521
 msgid ""
 "Enable/disable a tooltips with name of the social media above every button."
 msgstr ""
 "Включить/отключить всплывающие подсказки с названием социальных медиа над "
 "каждой кнопкой."
 
-#: inc/php/settings.php:501
+#: inc/php/settings.php:526
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:502
+#: inc/php/settings.php:527
 msgid ""
 "Enter the size of icons (in px) in your social media follow buttons bar."
 msgstr ""
 "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/settings.php:509
+#: inc/php/settings.php:534
 msgid "Margin"
 msgstr "Отступ"
 
-#: inc/php/settings.php:510
+#: inc/php/settings.php:535
 msgid ""
 "Enter the size of space (in px) between icons in your social media follow "
 "buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:519
+#: inc/php/settings.php:544
 msgid "Alignment"
 msgstr "Выравнивание"
 
-#: inc/php/settings.php:525
+#: inc/php/settings.php:550
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/settings.php:529
+#: inc/php/settings.php:554
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/settings.php:533
+#: inc/php/settings.php:558
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/settings.php:540
+#: inc/php/settings.php:565
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings.php:541
+#: inc/php/settings.php:566
 msgid ""
 "Enter the caption to your social media follow buttons bar. It will be "
 "displays before the toolbar."
@@ -709,11 +732,11 @@ msgstr ""
 "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает "
 "над панелью."
 
-#: inc/php/settings.php:555
+#: inc/php/settings.php:580
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings.php:557
+#: inc/php/settings.php:582
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."

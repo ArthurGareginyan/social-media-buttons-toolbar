@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.11
+ * @since 4.12
  */
 ?>
     <!-- SIDEBAR -->
@@ -375,6 +375,27 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         '//500px.com'
                                                        );
                                 ?>
+                                <?php smbtoolbar_media( 'behance',
+                                                        'Behance',
+                                                        'https://www.behance.net/YourUsernameHere',
+                                                        __( 'Enter the link to your Behance profile page', $text ),
+                                                        '//www.behance.net'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'polyvore',
+                                                        'Polyvore',
+                                                        'http://www.polyvore.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Polyvore profile page', $text ),
+                                                        '//www.polyvore.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'yellowpages',
+                                                        'Yellow Pages',
+                                                        'https://www.yellowpages.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Yellow Pages profile page', $text ),
+                                                        '//www.yellowpages.com'
+                                                       );
+                                ?>
                                 <?php smbtoolbar_media( 'line',
                                                         'LINE',
                                                         'https://line.me/YourUsernameHere',
@@ -460,7 +481,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                        );
                                 ?>
                             </table>
-                            <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'If you did not find the button you need, then tell me and I will gladly add it for you.', $text ); ?></p>
+
+                            <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
+                                                                                                __( 'If you did not find the button you need, then %s and I will gladly add it for you.', $text ),
+                                                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Request a new button for the ' . $name . ' plugin">tell me</a>'
+                                                                                               ); ?></p>
 
                             <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
 

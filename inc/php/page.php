@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.12
+ * @since 4.12.1
  */
 function smbtoolbar_render_submenu_page() {
 
@@ -32,7 +32,7 @@ function smbtoolbar_render_submenu_page() {
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', $text ),
-                                  '<a href="http://www.arthurgareginyan.com" target="_blank">',
+                                  '<a href="https://www.arthurgareginyan.com" target="_blank">',
                                   '</a>'
                              );
                 ?>
@@ -169,7 +169,7 @@ function smbtoolbar_render_submenu_page() {
                         <div class="question-11"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
                         <div class="answer-11"><?php printf(
                                                             __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', $text ),
-                                                                '<a href="http://www.arthurgareginyan.com/donate.html" target="_blank">',
+                                                                '<a href="https://www.arthurgareginyan.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>

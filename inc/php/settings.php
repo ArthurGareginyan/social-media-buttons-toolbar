@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.12
+ * @since 4.12.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -454,7 +454,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 ?>
                                 <?php smbtoolbar_media( 'website',
                                                         'Personal website',
-                                                        'http://www.arthurgareginyan.com',
+                                                        'https://www.arthurgareginyan.com',
                                                         __( 'Enter the link to your personal website', $text ),
                                                         ''
                                                        );

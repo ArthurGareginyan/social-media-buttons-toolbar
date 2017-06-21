@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  *
- * @since 4.10
+ * @since 4.12.1
  */
 function smbtoolbar_hello_message() {
 
@@ -25,7 +25,7 @@ function smbtoolbar_hello_message() {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="http://mycyberuniverse.com/public-files/images/Arthur.png">
+                        <img src="https://mycyberuniverse.com/public-files/images/Arthur.png">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p><?php _e( 'Hello. I\'m Arthur, the author of this plugin.', SMEDIABT_TEXT ); ?></p>
                         <p><?php printf(

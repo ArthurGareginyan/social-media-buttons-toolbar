@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-06-21 14:14+0300\n"
-"PO-Revision-Date: 2017-06-21 14:14+0300\n"
+"POT-Creation-Date: 2017-07-02 22:17+0300\n"
+"PO-Revision-Date: 2017-07-02 22:18+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -72,7 +72,7 @@ msgid "Author"
 msgstr "Автор"
 
 #: inc/php/page.php:51 inc/php/page.php:201 inc/php/settings.php:28
-#: inc/php/settings.php:588
+#: inc/php/settings.php:609
 msgid "Support"
 msgstr "Поддержка"
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr "Вот так просто!"
 
-#: inc/php/page.php:86 inc/php/settings.php:485
+#: inc/php/page.php:86 inc/php/settings.php:506
 msgid "Note!"
 msgstr "Примечание!"
 
@@ -347,7 +347,7 @@ msgstr ""
 "Этот плагин позволяет легко добавить блок социальных медиа кнопок в любое "
 "место на вашем веб-сайте."
 
-#: inc/php/settings.php:30 inc/php/settings.php:590
+#: inc/php/settings.php:30 inc/php/settings.php:611
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -357,11 +357,11 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:31 inc/php/settings.php:591
+#: inc/php/settings.php:31 inc/php/settings.php:612
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:592
+#: inc/php/settings.php:32 inc/php/settings.php:613
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -582,30 +582,42 @@ msgid "Enter the link to your LINE profile page"
 msgstr "Введите ссылку на вашу страницу профиля LINE"
 
 #: inc/php/settings.php:409
+msgid "Enter the link to your Hireology profile page"
+msgstr "Введите ссылку на вашу страницу профиля Hireology"
+
+#: inc/php/settings.php:416
+msgid "Enter the link to your Kompoz profile page"
+msgstr "Введите ссылку на вашу страницу профиля Kompoz"
+
+#: inc/php/settings.php:423
+msgid "Enter the link to your SoundBlend profile page"
+msgstr "Введите ссылку на вашу страницу профиля SoundBlend"
+
+#: inc/php/settings.php:430
 msgid "Enter the link to your VKontakte profile page"
 msgstr "Введите ссылку на вашу страницу профиля ВКонтакте"
 
-#: inc/php/settings.php:416
+#: inc/php/settings.php:437
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr "Введите ссылку на вашу страницу профиля Одноклассники"
 
-#: inc/php/settings.php:423
+#: inc/php/settings.php:444
 msgid "Enter the link to your Telegram profile page"
 msgstr "Введите ссылку на вашу страницу профиля Telegram"
 
-#: inc/php/settings.php:430
+#: inc/php/settings.php:451
 msgid "Enter the link to your GitHub profile page"
 msgstr "Введите ссылку на вашу страницу профиля GitHub"
 
-#: inc/php/settings.php:437
+#: inc/php/settings.php:458
 msgid "Enter the link to your WordPress profile page"
 msgstr "Введите ссылку на вашу страницу профиля WordPress"
 
-#: inc/php/settings.php:444
+#: inc/php/settings.php:465
 msgid "Enter the link to your CodePen profile page"
 msgstr "Введите ссылку на вашу страницу профиля CodePen"
 
-#: inc/php/settings.php:451
+#: inc/php/settings.php:472
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -614,117 +626,117 @@ msgstr ""
 "b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра "
 "профиля"
 
-#: inc/php/settings.php:458
+#: inc/php/settings.php:479
 msgid "Enter the link to your personal website"
 msgstr "Введите ссылку на ваш персональный сайт"
 
-#: inc/php/settings.php:465
+#: inc/php/settings.php:486
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
 
-#: inc/php/settings.php:472
+#: inc/php/settings.php:493
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr "Введите номер телефона с префиксом <b>tel://</b>"
 
-#: inc/php/settings.php:479
+#: inc/php/settings.php:500
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
-#: inc/php/settings.php:486
+#: inc/php/settings.php:507
 #, php-format
 msgid ""
 "If you did not find the button you need, then %s and I will gladly add it "
 "for you."
 msgstr ""
 
-#: inc/php/settings.php:490 inc/php/settings.php:574
+#: inc/php/settings.php:511 inc/php/settings.php:595
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:496
+#: inc/php/settings.php:517
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/settings.php:498
+#: inc/php/settings.php:519
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings.php:502
+#: inc/php/settings.php:523
 msgid "Show on Posts"
 msgstr "Показать в записях"
 
-#: inc/php/settings.php:503
+#: inc/php/settings.php:524
 msgid "Display toolbar below content on Posts."
 msgstr "Показывать кнопки под содержанием в записях"
 
-#: inc/php/settings.php:508
+#: inc/php/settings.php:529
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/settings.php:509
+#: inc/php/settings.php:530
 msgid "Display toolbar below content on Pages."
 msgstr "Показывать кнопки под содержанием на страницах"
 
-#: inc/php/settings.php:514
+#: inc/php/settings.php:535
 msgid "Open in new tab"
 msgstr "Открыть в новой вкладке"
 
-#: inc/php/settings.php:515
+#: inc/php/settings.php:536
 msgid "Open link in a new tab/window."
 msgstr "Открыть ссылку в новом окне/вкладке"
 
-#: inc/php/settings.php:520
+#: inc/php/settings.php:541
 msgid "Tooltips"
 msgstr "Подсказки"
 
-#: inc/php/settings.php:521
+#: inc/php/settings.php:542
 msgid ""
 "Enable/disable a tooltips with name of the social media above every button."
 msgstr ""
 "Включить/отключить всплывающие подсказки с названием социальных медиа над "
 "каждой кнопкой."
 
-#: inc/php/settings.php:526
+#: inc/php/settings.php:547
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:527
+#: inc/php/settings.php:548
 msgid ""
 "Enter the size of icons (in px) in your social media follow buttons bar."
 msgstr ""
 "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/settings.php:534
+#: inc/php/settings.php:555
 msgid "Margin"
 msgstr "Отступ"
 
-#: inc/php/settings.php:535
+#: inc/php/settings.php:556
 msgid ""
 "Enter the size of space (in px) between icons in your social media follow "
 "buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:544
+#: inc/php/settings.php:565
 msgid "Alignment"
 msgstr "Выравнивание"
 
-#: inc/php/settings.php:550
+#: inc/php/settings.php:571
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/settings.php:554
+#: inc/php/settings.php:575
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/settings.php:558
+#: inc/php/settings.php:579
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/settings.php:565
+#: inc/php/settings.php:586
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings.php:566
+#: inc/php/settings.php:587
 msgid ""
 "Enter the caption to your social media follow buttons bar. It will be "
 "displays before the toolbar."
@@ -732,11 +744,11 @@ msgstr ""
 "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает "
 "над панелью."
 
-#: inc/php/settings.php:580
+#: inc/php/settings.php:601
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings.php:582
+#: inc/php/settings.php:603
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."

@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.12.1
+ * @since 4.13
  */
 ?>
     <!-- SIDEBAR -->
@@ -401,6 +401,27 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://line.me/YourUsernameHere',
                                                         __( 'Enter the link to your LINE profile page', $text ),
                                                         '//line.me'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'hireology',
+                                                        'Hireology',
+                                                        'https://hireology.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Hireology profile page', $text ),
+                                                        '//hireology.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'kompoz',
+                                                        'Kompoz',
+                                                        'https://www.kompoz.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Kompoz profile page', $text ),
+                                                        '//www.kompoz.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'soundblend',
+                                                        'SoundBlend',
+                                                        'https://www.soundblend.com/YourUsernameHere',
+                                                        __( 'Enter the link to your SoundBlend profile page', $text ),
+                                                        '//www.soundblend.com'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'vkontakte',

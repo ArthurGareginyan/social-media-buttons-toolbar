@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.13
+ * @since 4.14
  */
 ?>
     <!-- SIDEBAR -->
@@ -60,7 +60,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : '';
                     ?>
 
-                    <div class="postbox" id="Buttons">
+                    <div class="postbox" id="buttons">
                         <h3 class="title"><?php _e( 'Buttons', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don\'t want to use any of the following buttons, you can not fill them and then they do not appear.', $text ); ?></p>
@@ -107,6 +107,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'https://gaming.youtube.com/channel/YourChannelIdentifierHere',
                                                         __( 'Enter the link to your YouTube Gaming profile page', $text ),
                                                         '//gaming.youtube.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'google-play',
+                                                        'Google Play',
+                                                        'https://play.google.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Google Play profile page', $text ),
+                                                        '//play.google.com'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'itunes',
@@ -403,6 +410,41 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         '//line.me'
                                                        );
                                 ?>
+                                <?php smbtoolbar_media( 'itch',
+                                                        'itch',
+                                                        'https://itch.io/YourUsernameHere',
+                                                        __( 'Enter the link to your itch profile page', $text ),
+                                                        '//itch.io'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'mastodon',
+                                                        'Mastodon',
+                                                        'https://mastodon.social/YourUsernameHere',
+                                                        __( 'Enter the link to your Mastodon profile page', $text ),
+                                                        '//mastodon.social'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'remind',
+                                                        'Remind',
+                                                        'https://www.remind.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Remind profile page', $text ),
+                                                        '//www.remind.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'trademe',
+                                                        'Trade Me',
+                                                        'https://www.trademe.co.nz/YourUsernameHere',
+                                                        __( 'Enter the link to your Trade Me profile page', $text ),
+                                                        '//www.trademe.co.nz'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'vsco',
+                                                        'VSCO',
+                                                        'https://vsco.co/YourUsernameHere',
+                                                        __( 'Enter the link to your VSCO profile page', $text ),
+                                                        '//vsco.co'
+                                                       );
+                                ?>
                                 <?php smbtoolbar_media( 'hireology',
                                                         'Hireology',
                                                         'https://hireology.com/YourUsernameHere',
@@ -513,7 +555,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="DisplayOptions">
+                    <div class="postbox" id="displayo-ptions">
                         <h3 class="title"><?php _e( 'Display options', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'There you can configure this plugin.', $text ); ?></p>
@@ -521,13 +563,13 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <table class="form-table">
                                 <?php smbtoolbar_setting( 'show_posts',
                                                           __( 'Show on Posts', $text ),
-                                                          __( 'Display toolbar below content on Posts.', $text ),
+                                                          __( 'Automatically display toolbar below content on Posts.', $text ),
                                                           'check'
                                                          );
                                 ?>
                                 <?php smbtoolbar_setting( 'show_pages',
                                                           __( 'Show on Pages', $text ),
-                                                          __( 'Display toolbar below content on Pages.', $text ),
+                                                          __( 'Automatically display toolbar below content on Pages.', $text ),
                                                           'check'
                                                          );
                                 ?>
@@ -539,7 +581,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 ?>
                                 <?php smbtoolbar_setting( 'tooltips',
                                                           __( 'Tooltips', $text ),
-                                                          __( 'Enable/disable a tooltips with name of the social media above every button.', $text ),
+                                                          __( 'Enable a tooltips with name of the social media above every button.', $text ),
                                                           'check'
                                                          );
                                 ?>
@@ -597,7 +639,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="Preview">
+                    <div class="postbox" id="preview">
                         <h3 class="title"><?php _e( 'Preview', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Click the "Save changes" button to update this preview.', $text ); ?></p><br>

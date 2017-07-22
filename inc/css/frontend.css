@@ -5,7 +5,7 @@
  * @uthor       Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.2
+ * @since       4.14
  */
 
 
@@ -19,10 +19,20 @@
     -webkit-user-select: none;
     -moz-user-select: none;
 }
+.smbt-social-icons li:before {
+    content: "" !important;
+    content: none !important;
+}
+.smbt-social-icons li:after {
+    content: "" !important;
+    content: none !important;
+}
 .smbt-social-icons li a {
     border-bottom: 0 !important;
     display: inline !important;
 }
 .smbt-social-icons li img {
+    margin: 0px !important;
+    padding: 0px !important;
     vertical-align: top;
 }

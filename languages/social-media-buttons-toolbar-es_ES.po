@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development (trunk)\n"
-"POT-Creation-Date: 2017-07-02 22:18+0300\n"
-"PO-Revision-Date: 2017-07-02 22:19+0300\n"
+"POT-Creation-Date: 2017-07-23 01:58+0300\n"
+"PO-Revision-Date: 2017-07-23 01:59+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -73,7 +73,7 @@ msgid "Author"
 msgstr "Autor"
 
 #: inc/php/page.php:51 inc/php/page.php:201 inc/php/settings.php:28
-#: inc/php/settings.php:609
+#: inc/php/settings.php:651
 msgid "Support"
 msgstr "Soporte"
 
@@ -147,7 +147,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:86 inc/php/settings.php:506
+#: inc/php/page.php:86 inc/php/settings.php:548
 msgid "Note!"
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr ""
 "Este plugin te permite añadir fácilmente una barra de botones de social media en "
 "cualquier parte de tu sitio web."
 
-#: inc/php/settings.php:30 inc/php/settings.php:611
+#: inc/php/settings.php:30 inc/php/settings.php:653
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building things for "
@@ -347,11 +347,11 @@ msgstr ""
 "pequeña contribución me ayudará a cubrir mis gastos y me permitirá dedicar más "
 "tiempo a hacer cosas que puedan disfrutar personas como tú."
 
-#: inc/php/settings.php:31 inc/php/settings.php:612
+#: inc/php/settings.php:31 inc/php/settings.php:654
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:613
+#: inc/php/settings.php:32 inc/php/settings.php:655
 msgid "Thanks for your support!"
 msgstr "¡Gracias por su colaboración!"
 
@@ -402,210 +402,234 @@ msgid "Enter the link to your YouTube Gaming profile page"
 msgstr "Ingresa el enlace a tu página de perfil de YouTube Gaming"
 
 #: inc/php/settings.php:115
+msgid "Enter the link to your Google Play profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Google Play"
+
+#: inc/php/settings.php:122
 msgid "Enter the link to your iTunes profile page"
 msgstr "Ingresa el enlace a tu página de perfil de iTunes"
 
-#: inc/php/settings.php:122
+#: inc/php/settings.php:129
 msgid "Enter the link to your Apple Music profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Apple Music"
 
-#: inc/php/settings.php:129
+#: inc/php/settings.php:136
 msgid "Enter the link to your Periscope profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Periscope"
 
-#: inc/php/settings.php:136
+#: inc/php/settings.php:143
 msgid "Enter the link to your Vimeo profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Vimeo"
 
-#: inc/php/settings.php:143
+#: inc/php/settings.php:150
 msgid "Enter the link to your Blogger profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Blogger"
 
-#: inc/php/settings.php:150
+#: inc/php/settings.php:157
 msgid "Enter the link to your Buzzsprout profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Buzzsprout"
 
-#: inc/php/settings.php:157
+#: inc/php/settings.php:164
 msgid "Enter the link to your LiveJournal profile page"
 msgstr "Ingresa el enlace a tu página de perfil de LiveJournal"
 
-#: inc/php/settings.php:164
+#: inc/php/settings.php:171
 msgid "Enter the link to your Reddit profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Reddit"
 
-#: inc/php/settings.php:171
+#: inc/php/settings.php:178
 msgid "Enter the link to your LinkedIn profile page"
 msgstr "Ingresa el enlace a tu página de perfil de LinkedIn"
 
-#: inc/php/settings.php:178
+#: inc/php/settings.php:185
 msgid "Enter the link to your Diaspora profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Diaspora"
 
-#: inc/php/settings.php:185
+#: inc/php/settings.php:192
 msgid "Enter the link to your DeviantArt profile page"
 msgstr "Ingresa el enlace a tu página de perfil de DeviantArt"
 
-#: inc/php/settings.php:192
+#: inc/php/settings.php:199
 msgid "Enter the link to your XING profile page"
 msgstr "Ingresa el enlace a tu página de perfil de XING"
 
-#: inc/php/settings.php:199
+#: inc/php/settings.php:206
 msgid "Enter the link to your Pinterest profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Pinterest"
 
-#: inc/php/settings.php:206
+#: inc/php/settings.php:213
 msgid "Enter the link to your Flickr profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Flickr"
 
-#: inc/php/settings.php:213
+#: inc/php/settings.php:220
 msgid "Enter the link to your Tumblr profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Tumblr"
 
-#: inc/php/settings.php:220
+#: inc/php/settings.php:227
 msgid "Enter the link to your Snapchat profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Snapchat"
 
-#: inc/php/settings.php:227
+#: inc/php/settings.php:234
 msgid "Enter the link to your Twitch profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Twitch"
 
-#: inc/php/settings.php:234
+#: inc/php/settings.php:241
 msgid "Enter the link to your Patreon profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Patreon"
 
-#: inc/php/settings.php:241
+#: inc/php/settings.php:248
 msgid "Enter the link to your IMDb profile page"
 msgstr "Ingresa el enlace a tu página de perfil de IMDb"
 
-#: inc/php/settings.php:248
+#: inc/php/settings.php:255
 msgid "Enter the link to your SoundCloud profile page"
 msgstr "Ingresa el enlace a tu página de perfil de SoundCloud"
 
-#: inc/php/settings.php:255
+#: inc/php/settings.php:262
 msgid "Enter the link to your Plug.dj profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Plug.dj"
 
-#: inc/php/settings.php:262
+#: inc/php/settings.php:269
 msgid "Enter the link to your Spotify profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Spotify"
 
-#: inc/php/settings.php:269
+#: inc/php/settings.php:276
 msgid "Enter the link to your Bandcamp profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Bandcamp"
 
-#: inc/php/settings.php:276
+#: inc/php/settings.php:283
 msgid "Enter the link to your Dloky profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Dloky"
 
-#: inc/php/settings.php:283
+#: inc/php/settings.php:290
 msgid "Enter the link to your Amazon profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Amazon"
 
-#: inc/php/settings.php:290
+#: inc/php/settings.php:297
 msgid "Enter the link to your BookBub profile page"
 msgstr "Ingresa el enlace a tu página de perfil de BookBub"
 
-#: inc/php/settings.php:297
+#: inc/php/settings.php:304
 msgid "Enter the link to your Goodreads profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Goodreads"
 
-#: inc/php/settings.php:304
+#: inc/php/settings.php:311
 msgid "Enter the link to your MeetVibe profile page"
 msgstr "Ingresa el enlace a tu página de perfil de MeetVibe"
 
-#: inc/php/settings.php:311
+#: inc/php/settings.php:318
 msgid "Enter the link to your Meetup profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Meetup"
 
-#: inc/php/settings.php:318
+#: inc/php/settings.php:325
 msgid "Enter the link to your Steam profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Steam"
 
-#: inc/php/settings.php:325
+#: inc/php/settings.php:332
 msgid "Enter the link to your Mixer profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Mixer"
 
-#: inc/php/settings.php:332
+#: inc/php/settings.php:339
 msgid "Enter the link to your Discord profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Discord"
 
-#: inc/php/settings.php:339
+#: inc/php/settings.php:346
 msgid "Enter the link to your Yelp profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Yelp"
 
-#: inc/php/settings.php:346
+#: inc/php/settings.php:353
 msgid "Enter the link to your StumbleUpon profile page"
 msgstr "Ingresa el enlace a tu página de perfil de StumbleUpon"
 
-#: inc/php/settings.php:353
+#: inc/php/settings.php:360
 msgid "Enter the link to your Bloglovin profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Bloglovin"
 
-#: inc/php/settings.php:360
+#: inc/php/settings.php:367
 msgid "Enter the link to your WhatsApp profile page"
 msgstr "Ingresa el enlace a tu página de perfil de WhatsApp"
 
-#: inc/php/settings.php:367
+#: inc/php/settings.php:374
 msgid "Enter the link to your Medium profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Medium"
 
-#: inc/php/settings.php:374
+#: inc/php/settings.php:381
 msgid "Enter the link to your 500px profile page"
 msgstr "Ingresa el enlace a tu página de perfil de 500px"
 
-#: inc/php/settings.php:381
+#: inc/php/settings.php:388
 msgid "Enter the link to your Behance profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Behance"
 
-#: inc/php/settings.php:388
+#: inc/php/settings.php:395
 msgid "Enter the link to your Polyvore profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Polyvore"
 
-#: inc/php/settings.php:395
+#: inc/php/settings.php:402
 msgid "Enter the link to your Yellow Pages profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Yellow Pages"
 
-#: inc/php/settings.php:402
+#: inc/php/settings.php:409
 msgid "Enter the link to your LINE profile page"
 msgstr "Ingresa el enlace a tu página de perfil de LINE"
 
-#: inc/php/settings.php:409
+#: inc/php/settings.php:416
+msgid "Enter the link to your itch profile page"
+msgstr "Ingresa el enlace a tu página de perfil de itch"
+
+#: inc/php/settings.php:423
+msgid "Enter the link to your Mastodon profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Mastodon"
+
+#: inc/php/settings.php:430
+msgid "Enter the link to your Remind profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Remind"
+
+#: inc/php/settings.php:437
+msgid "Enter the link to your Trade Me profile page"
+msgstr "Ingresa el enlace a tu página de perfil de Trade Me"
+
+#: inc/php/settings.php:444
+msgid "Enter the link to your VSCO profile page"
+msgstr "Ingresa el enlace a tu página de perfil de VSCO"
+
+#: inc/php/settings.php:451
 msgid "Enter the link to your Hireology profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Hireology"
 
-#: inc/php/settings.php:416
+#: inc/php/settings.php:458
 msgid "Enter the link to your Kompoz profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Kompoz"
 
-#: inc/php/settings.php:423
+#: inc/php/settings.php:465
 msgid "Enter the link to your SoundBlend profile page"
 msgstr "Ingresa el enlace a tu página de perfil de SoundBlend"
 
-#: inc/php/settings.php:430
+#: inc/php/settings.php:472
 msgid "Enter the link to your VKontakte profile page"
 msgstr "Ingresa el enlace a tu página de perfil de VKontakte"
 
-#: inc/php/settings.php:437
+#: inc/php/settings.php:479
 msgid "Enter the link to your Odnoklassniki profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Odnoklassniki"
 
-#: inc/php/settings.php:444
+#: inc/php/settings.php:486
 msgid "Enter the link to your Telegram profile page"
 msgstr "Ingresa el enlace a tu página de perfil de Telegram"
 
-#: inc/php/settings.php:451
+#: inc/php/settings.php:493
 msgid "Enter the link to your GitHub profile page"
 msgstr "Ingresa el enlace a tu página de perfil de GitHub"
 
-#: inc/php/settings.php:458
+#: inc/php/settings.php:500
 msgid "Enter the link to your WordPress profile page"
 msgstr "Ingresa el enlace a tu página de perfil de WordPress"
 
-#: inc/php/settings.php:465
+#: inc/php/settings.php:507
 msgid "Enter the link to your CodePen profile page"
 msgstr "Ingresa el enlace a tu página de perfil de CodePen"
 
-#: inc/php/settings.php:472
+#: inc/php/settings.php:514
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?"
 "add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -613,113 +637,113 @@ msgstr ""
 "Ingresa tu nombre de Skype con prefijo <b>skype:</b> y sufijo <b>?call</b>, o <b>?"
 "add</b>, o <b>?chat</b>, o <b>?userinfo</b> para ver el perfil"
 
-#: inc/php/settings.php:479
+#: inc/php/settings.php:521
 msgid "Enter the link to your personal website"
 msgstr "Ingresa el enlace a tu sitio web personal"
 
-#: inc/php/settings.php:486
+#: inc/php/settings.php:528
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Ingresa tu dirección de correo electrónico con prefijo <b>mailto:</b>"
 
-#: inc/php/settings.php:493
+#: inc/php/settings.php:535
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr ""
 
-#: inc/php/settings.php:500
+#: inc/php/settings.php:542
 msgid "Enter the link to your RSS Feed"
 msgstr "Ingresa el enlace a tu Feed de RSS"
 
-#: inc/php/settings.php:507
+#: inc/php/settings.php:549
 #, php-format
 msgid ""
 "If you did not find the button you need, then %s and I will gladly add it for you."
 msgstr ""
 
-#: inc/php/settings.php:511 inc/php/settings.php:595
+#: inc/php/settings.php:553 inc/php/settings.php:637
 msgid "Save changes"
 msgstr "Guardar las modificaciones"
 
-#: inc/php/settings.php:517
+#: inc/php/settings.php:559
 msgid "Display options"
 msgstr "Opciones de presentación"
 
-#: inc/php/settings.php:519
+#: inc/php/settings.php:561
 msgid "There you can configure this plugin."
 msgstr ""
 
-#: inc/php/settings.php:523
+#: inc/php/settings.php:565
 msgid "Show on Posts"
 msgstr "Mostrar en Entradas"
 
-#: inc/php/settings.php:524
-msgid "Display toolbar below content on Posts."
-msgstr "Mostrar la barra abajo del contenido en Entradas"
+#: inc/php/settings.php:566
+msgid "Automatically display toolbar below content on Posts."
+msgstr ""
 
-#: inc/php/settings.php:529
+#: inc/php/settings.php:571
 msgid "Show on Pages"
 msgstr "Mostrar en Páginas"
 
-#: inc/php/settings.php:530
-msgid "Display toolbar below content on Pages."
-msgstr "Mostrar la barra abajo del contenido en Páginas"
+#: inc/php/settings.php:572
+msgid "Automatically display toolbar below content on Pages."
+msgstr ""
 
-#: inc/php/settings.php:535
+#: inc/php/settings.php:577
 msgid "Open in new tab"
 msgstr "Abrir en una nueva pestaña"
 
-#: inc/php/settings.php:536
+#: inc/php/settings.php:578
 msgid "Open link in a new tab/window."
 msgstr "¿Abrir enlace en una nueva pestaña/ventana?"
 
-#: inc/php/settings.php:541
+#: inc/php/settings.php:583
 msgid "Tooltips"
 msgstr ""
 
-#: inc/php/settings.php:542
-msgid "Enable/disable a tooltips with name of the social media above every button."
+#: inc/php/settings.php:584
+msgid "Enable a tooltips with name of the social media above every button."
 msgstr ""
 
-#: inc/php/settings.php:547
+#: inc/php/settings.php:589
 msgid "Icon size"
 msgstr "Tamaño de ícono"
 
-#: inc/php/settings.php:548
+#: inc/php/settings.php:590
 msgid "Enter the size of icons (in px) in your social media follow buttons bar."
 msgstr ""
 "Ingrese el tamaño de los íconos (en píxeles) en tu barra de botones Social Media"
 
-#: inc/php/settings.php:555
+#: inc/php/settings.php:597
 msgid "Margin"
 msgstr "Margen"
 
-#: inc/php/settings.php:556
+#: inc/php/settings.php:598
 msgid ""
 "Enter the size of space (in px) between icons in your social media follow buttons "
 "bar."
 msgstr ""
 "Ingresa el espacio (en píxeles) entre íconos en tu barra de botones de Social Media"
 
-#: inc/php/settings.php:565
+#: inc/php/settings.php:607
 msgid "Alignment"
 msgstr "Alineación"
 
-#: inc/php/settings.php:571
+#: inc/php/settings.php:613
 msgid "Left"
 msgstr "Izquierda"
 
-#: inc/php/settings.php:575
+#: inc/php/settings.php:617
 msgid "Center"
 msgstr "Centro"
 
-#: inc/php/settings.php:579
+#: inc/php/settings.php:621
 msgid "Right"
 msgstr "Derecha"
 
-#: inc/php/settings.php:586
+#: inc/php/settings.php:628
 msgid "Caption"
 msgstr "Leyenda"
 
-#: inc/php/settings.php:587
+#: inc/php/settings.php:629
 msgid ""
 "Enter the caption to your social media follow buttons bar. It will be displays "
 "before the toolbar."
@@ -727,11 +751,11 @@ msgstr ""
 "Ingresa la leyenda para tu barra de botones de Social Media. Aparecerá arriba de "
 "la barra de botones."
 
-#: inc/php/settings.php:601
+#: inc/php/settings.php:643
 msgid "Preview"
 msgstr "Vista previa"
 
-#: inc/php/settings.php:603
+#: inc/php/settings.php:645
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 
@@ -759,6 +783,12 @@ msgstr "Arthur Gareginyan"
 #. Author URI of the plugin/theme
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
+
+#~ msgid "Display toolbar below content on Posts."
+#~ msgstr "Mostrar la barra abajo del contenido en Entradas"
+
+#~ msgid "Display toolbar below content on Pages."
+#~ msgstr "Mostrar la barra abajo del contenido en Páginas"
 
 #~ msgid "Enter the link to your Beam profile page"
 #~ msgstr "Ingresa el enlace a tu página de perfil de Beam"

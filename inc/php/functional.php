@@ -8,27 +8,18 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Render fields for saving social media data to BD
+ * Render fields for saving social media data to database
  *
- * @since 4.6
+ * @since 4.15
  */
 function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null ) {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( SMEDIABT_SETTINGS . '_settings' );
-
-    if ( !empty( $options["media"][$name]["content"] ) ) {
-        $value = esc_textarea( $options["media"][$name]["content"] );
-    } else {
-        $value = "";
-    }
+    $value = !empty( $options["media"][$name]["content"] ) ? esc_textarea( $options["media"][$name]["content"] ) : '';
 
     // Generate the table
-    if ( !empty( $link ) ) {
-        $link_out = "<a href='$link' target='_blank'>$label</a>";
-    } else {
-        $link_out = "$label";
-    }
+    $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
 
     $label = "<input type='hidden' name='" . SMEDIABT_SETTINGS . "_settings[media][$name][label]' value='$label'>";
     $slug = "<input type='hidden' name='" . SMEDIABT_SETTINGS . "_settings[media][$name][slug]' value='$name'>";
@@ -63,30 +54,21 @@ function smbtoolbar_media( $name, $label, $placeholder, $help=null, $link=null )
 /**
  * Render checkboxes and fields for saving settings data to database
  *
- * @since 4.6
+ * @since 4.15
  */
 function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( SMEDIABT_SETTINGS . '_settings' );
-
-    if ( !empty( $options[$name] ) ) {
-        $value = esc_textarea( $options[$name] );
-    } else {
-        $value = "";
-    }
+    $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
     // Generate the table
-    if ( !empty( $options[$name] ) ) {
-        $checked = "checked='checked'";
-    } else {
-        $checked = "";
-    }
+    $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
     if ( $field == "check" ) {
-        $input = "<input type='checkbox' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' $checked >";
+        $input = "<input type='checkbox' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' $checked class='$name' >";
     } elseif ( $field == "field" ) {
-        $input = "<input type='text' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' >";
+        $input = "<input type='text' name='" . SMEDIABT_SETTINGS . "_settings[$name]' id='" . SMEDIABT_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' class='$name' >";
     }
 
     // Put table to the variables $out and $help_out
@@ -116,33 +98,22 @@ function smbtoolbar_setting( $name, $label, $help=null, $field=null, $placeholde
 /**
  * Generate the buttons and make shortcode
  *
- * @since 4.6
+ * @since 4.15
  */
 function smbtoolbar_tollbar() {
 
-    // Read options from BD
+    // Read options from database and declare variables
     $options = get_option( SMEDIABT_SETTINGS . '_settings' );
     $media = $options['media'];
 
     // Open link in new tab
-    if ( !empty( $options['new_tab'] ) ) {
-        $new_tab = 'target="blank"';
-    } else {
-        $new_tab = '';
-    }
+    $new_tab = !empty( $options['new_tab'] ) ? 'target="blank"' : '';
 
     // Enable Tolltips
-    if ( !empty( $options['tooltips'] ) ) {
-        $tooltips = 'data-toggle="tooltip"';
-    } else {
-        $tooltips = '';
-    }
+    $tooltips = !empty( $options['tooltips'] ) ? 'data-toggle="tooltip"' : '';
 
     // Add a caption above of buttons
-    $caption = esc_textarea( $options['caption'] );
-    if ( empty( $caption ) ) {
-        $caption = "";
-    }
+    $caption = !empty( $options['caption'] ) ? esc_textarea( $options['caption'] ) : '';
 
     // Generate buttons
     $metatags_arr[] = '<ul class="smbt-social-icons">';
@@ -199,7 +170,7 @@ function smbtoolbar_tollbar() {
 
     // Return the content of array
     return $metatags_arr;
-    
+
 }
 
 /**

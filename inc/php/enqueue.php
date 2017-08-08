@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Base for the _load_scripts hook
  *
- * @since 4.11
+ * @since 4.15
  */
 function smbtoolbar_load_scripts_base( $options ) {
 
@@ -25,26 +25,10 @@ function smbtoolbar_load_scripts_base( $options ) {
     // Style sheet
     wp_enqueue_style( $prefix . '-frontend-css', $url . 'inc/css/frontend.css' );
 
-    // Size of icons
-    $icon_size = esc_textarea( $options['icon-size'] );
-    if ( empty( $icon_size ) ) {
-        $icon_size = "64";
-    }
-
-    // Space between icons
-    $margin_right = esc_textarea( $options['margin-right'] );
-    if ( empty( $margin_right ) ) {
-        $margin_right = "10";
-    }
-
-    // Alignment of toolbar
-    if ( !empty( $options['alignment'] ) ) {
-        $alignment = $options['alignment'];
-    } else {
-        $alignment = 'center';
-    }
-
     // Dynamic CSS. Create CSS and injected it into the stylesheet
+    $icon_size = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
+    $margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
+    $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
     $custom_css = "
                     .smbt-social-icons {
                         text-align: " . $alignment . " !important;
@@ -52,7 +36,7 @@ function smbtoolbar_load_scripts_base( $options ) {
                     .smbt-social-icons li img {
                         width: " . $icon_size . "px !important;
                         height: " . $icon_size . "px !important;
-                        margin: " . ( $margin_right / 2 ) . "px !important;
+                        margin: " . ( $margin / 2 ) . "px !important;
                     }
                   ";
     wp_add_inline_style( $prefix . '-frontend-css', $custom_css );
@@ -62,7 +46,7 @@ function smbtoolbar_load_scripts_base( $options ) {
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.11
+ * @since 4.15
  */
 function smbtoolbar_load_scripts_admin( $hook ) {
 
@@ -78,14 +62,8 @@ function smbtoolbar_load_scripts_admin( $hook ) {
         return;
     }
 
-    // Read options from BD
+    // Read options from database
     $options = get_option( $settings . '_settings' );
-
-    // Style sheet
-    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
-
-    // JavaScript
-    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
     wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
@@ -94,6 +72,12 @@ function smbtoolbar_load_scripts_admin( $hook ) {
 
     // Other libraries
     wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js' );
+
+    // Style sheet
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Call the function that contain a basis of scripts
     smbtoolbar_load_scripts_base( $options );
@@ -114,7 +98,7 @@ function smbtoolbar_load_scripts_frontend() {
     $url = SMEDIABT_URL;
     $settings = SMEDIABT_SETTINGS;
 
-    // Read options from BD
+    // Read options from database
     $options = get_option( $settings . '_settings' );
 
     // Call the function that contain a basis of scripts

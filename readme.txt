@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.14
+Stable tag: 4.15
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -235,6 +235,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.15 =
+* Preview section on the settings page changed to live preview.
+* Stylesheet in the admin.css file improved.
+* The '!important' declarations in the admin.css file removed.
+* Code formatting in the admin.js file improved.
+* Code commenting improved.
+* Load of the additional remote CSS file removed from the admin.js file.
+* Changed the sorting of enqueueing of scripts.
+* The ''Family' page tab renamed to 'Store'.
+* Added ad banner of my store website.
 
 = 4.14 =
 * Added option for the Google Play.

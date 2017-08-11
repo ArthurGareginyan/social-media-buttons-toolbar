@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab Content
  *
- * @since 4.16
+ * @since 4.17
  */
 ?>
     <div class="has-sidebar sm-padded">
@@ -42,7 +42,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         '//www.facebook.com'
                                                        );
                                 ?>
-                                <?php smbtoolbar_media(  'twitter',
+                                <?php smbtoolbar_media( 'twitter',
                                                         'Twitter',
                                                         'https://twitter.com/YourUsernameHere',
                                                         __( 'Enter the link to your Twitter profile page', $text ),
@@ -225,10 +225,10 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'plugdj',
-                                                       'Plug.dj',
-                                                       'https://plug.dj/YourUsernameHere',
-                                                       __( 'Enter the link to your Plug.dj profile page', $text ),
-                                                       '//plug.dj'
+                                                        'Plug.dj',
+                                                        'https://plug.dj/YourUsernameHere',
+                                                        __( 'Enter the link to your Plug.dj profile page', $text ),
+                                                        '//plug.dj'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'spotify',
@@ -474,6 +474,55 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                         'http://codepen.io/YourUsernameHere',
                                                         __( 'Enter the link to your CodePen profile page', $text ),
                                                         '//codepen.io'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'askfm',
+                                                        'ASKfm',
+                                                        'https://ask.fm/YourUsernameHere',
+                                                        __( 'Enter the link to your ASKfm profile page', $text ),
+                                                        '//ask.fm'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'ebay',
+                                                        'eBay',
+                                                        'https://www.ebay.com/YourUsernameHere',
+                                                        __( 'Enter the link to your eBay profile page', $text ),
+                                                        '//www.ebay.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'hangouts',
+                                                        'Hangouts',
+                                                        'https://hangouts.google.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Hangouts profile page', $text ),
+                                                        '//hangouts.google.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'houzz',
+                                                        'Houzz',
+                                                        'https://www.houzz.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Houzz profile page', $text ),
+                                                        '//www.houzz.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'quora',
+                                                        'Quora',
+                                                        'https://www.quora.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Quora profile page', $text ),
+                                                        '//www.quora.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'steemit',
+                                                        'Steemit',
+                                                        'https://steemit.com/YourUsernameHere',
+                                                        __( 'Enter the link to your Steemit profile page', $text ),
+                                                        '//steemit.com'
+                                                       );
+                                ?>
+                                <?php smbtoolbar_media( 'theartstack',
+                                                        'ArtStack',
+                                                        'https://theartstack.com/YourUsernameHere',
+                                                        __( 'Enter the link to your ArtStack profile page', $text ),
+                                                        '//theartstack.com'
                                                        );
                                 ?>
                                 <?php smbtoolbar_media( 'skype',

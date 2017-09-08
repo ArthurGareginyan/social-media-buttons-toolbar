@@ -84,15 +84,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     <td>
                                         <ul class="alignment">
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="left" <?php checked( 'left', $alignment ); ?> >
+                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="left" <?php checked( 'left', $alignment ); ?> >
                                                 <?php _e( 'Left', $text ); ?>
                                             </li>
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="center" <?php checked( '', $alignment ); ?> <?php checked( 'center', $alignment ); ?> >
+                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="center" <?php checked( '', $alignment ); ?> <?php checked( 'center', $alignment ); ?> >
                                                 <?php _e( 'Center', $text ); ?>
                                             </li>
                                             <li>
-                                                <input type="radio" name="smbtoolbar_settings[alignment]" value="right" <?php checked( 'right', $alignment ); ?> >
+                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="right" <?php checked( 'right', $alignment ); ?> >
                                                 <?php _e( 'Right', $text ); ?>
                                             </li>
                                             </ul>

@@ -2,22 +2,18 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Base for the _load_scripts hook
- *
- * @since 4.15
  */
-function smbtoolbar_load_scripts_base( $options ) {
+function spacexchimp_p005_load_scripts_base( $options ) {
 
     // Put value of constants to variables for easier access
-    $slug = SMEDIABT_SLUG;
-    $prefix = SMEDIABT_PREFIX;
-    $url = SMEDIABT_URL;
+    $slug = SPACEXCHIMP_P005_SLUG;
+    $prefix = SPACEXCHIMP_P005_PREFIX;
+    $url = SPACEXCHIMP_P005_URL;
 
     // Load jQuery library
     wp_enqueue_script( 'jquery' );
@@ -45,16 +41,14 @@ function smbtoolbar_load_scripts_base( $options ) {
 
 /**
  * Load scripts and style sheet for settings page
- *
- * @since 4.15
  */
-function smbtoolbar_load_scripts_admin( $hook ) {
+function spacexchimp_p005_load_scripts_admin( $hook ) {
 
     // Put value of constants to variables for easier access
-    $slug = SMEDIABT_SLUG;
-    $prefix = SMEDIABT_PREFIX;
-    $url = SMEDIABT_URL;
-    $settings = SMEDIABT_SETTINGS;
+    $slug = SPACEXCHIMP_P005_SLUG;
+    $prefix = SPACEXCHIMP_P005_PREFIX;
+    $url = SPACEXCHIMP_P005_URL;
+    $settings = SPACEXCHIMP_P005_SETTINGS;
 
     // Return if the page is not a settings page of this plugin
     $settings_page = 'settings_page_' . $slug;
@@ -70,6 +64,9 @@ function smbtoolbar_load_scripts_admin( $hook ) {
     wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
     wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js' );
 
+    // Font Awesome library
+    wp_enqueue_style( $prefix . '-font-awesome-css', $url . 'inc/lib/font-awesome/css/font-awesome.css', 'screen' );
+
     // Other libraries
     wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js' );
 
@@ -80,33 +77,31 @@ function smbtoolbar_load_scripts_admin( $hook ) {
     wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Call the function that contain a basis of scripts
-    smbtoolbar_load_scripts_base( $options );
+    spacexchimp_p005_load_scripts_base( $options );
 
 }
-add_action( 'admin_enqueue_scripts', SMEDIABT_PREFIX . '_load_scripts_admin' );
+add_action( 'admin_enqueue_scripts', 'spacexchimp_p005_load_scripts_admin' );
 
 /**
  * Load scripts and style sheet for front end of website
- *
- * @since 4.11
  */
-function smbtoolbar_load_scripts_frontend() {
+function spacexchimp_p005_load_scripts_frontend() {
 
     // Put value of constants to variables for easier access
-    $slug = SMEDIABT_SLUG;
-    $prefix = SMEDIABT_PREFIX;
-    $url = SMEDIABT_URL;
-    $settings = SMEDIABT_SETTINGS;
+    $slug = SPACEXCHIMP_P005_SLUG;
+    $prefix = SPACEXCHIMP_P005_PREFIX;
+    $url = SPACEXCHIMP_P005_URL;
+    $settings = SPACEXCHIMP_P005_SETTINGS;
 
     // Read options from database
     $options = get_option( $settings . '_settings' );
 
     // Call the function that contain a basis of scripts
-    smbtoolbar_load_scripts_base( $options );
+    spacexchimp_p005_load_scripts_base( $options );
 
     // Other libraries
     wp_enqueue_style( $prefix . '-bootstrap-tooltip-css', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css' );
     wp_enqueue_script( $prefix . '-bootstrap-tooltip-js', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js' );
 
 }
-add_action( 'wp_enqueue_scripts', SMEDIABT_PREFIX . '_load_scripts_frontend' );
+add_action( 'wp_enqueue_scripts', 'spacexchimp_p005_load_scripts_frontend' );

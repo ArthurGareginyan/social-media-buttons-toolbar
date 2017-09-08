@@ -2,10 +2,9 @@
  * Plugin JavaScript and jQuery code for the admin pages of website
  *
  * @package     Social Media Follow Buttons Bar
- * @uthor       Arthur Gareginyan
+ * @author      Arthur Gareginyan
  * @link        https://www.arthurgareginyan.com
  * @copyright   Copyright (c) 2016-2017 Arthur Gareginyan. All Rights Reserved.
- * @since       4.16
  */
 
 
@@ -19,9 +18,6 @@ jQuery(document).ready(function($) {
             $('.updated').fadeOut();
         }, 3000);
     }
-
-    // Enable Bootstrap Checkboxes
-    $(':checkbox').checkboxpicker();
 
     // Add dynamic content to page tabs. Needed for having an up to date content.
     $('.include-tab-author').load('https://www.spacexchimp.com/assets/dynamic-content/plugins.html #include-tab-author');
@@ -39,6 +35,23 @@ jQuery(document).ready(function($) {
          }
     });
 
+    // Enable switches
+    $('.control-switch').checkboxpicker();
+
+    // Enable number fields
+    $('.control-number .btn-danger').on('click', function(){
+        var input = $(this).parent().siblings('input');
+        var value = parseInt(input.val());
+        input.val(value - 1);
+        input.change();
+    });
+    $('.control-number .btn-success').on('click', function(){
+        var input = $(this).parent().siblings('input');
+        var value = parseInt(input.val());
+        input.val(value + 1);
+        input.change();
+    });
+
     // Live preview
     $('.new_tab').on('change', function() {
         var val = $(this).val();
@@ -51,7 +64,6 @@ jQuery(document).ready(function($) {
             }
         });
     });
-
     $('.tooltips').on('change', function() {
         var val = $(this).val();
         var position = $(this).next().children().hasClass('btn-success');
@@ -69,23 +81,19 @@ jQuery(document).ready(function($) {
             }
         });
     });
-
     function LiveInlineStyles() {
-        var icon_size = $('.icon-size').val() || '64';
-        var margin = $('.margin-right').val() / 2 || '5';
+        var icon_size = $('.icon-size input').val() || '64';
+        var margin = $('.margin-right input').val() / 2 || '5';
         icon_size = 'width:' + icon_size + 'px !important; height:' + icon_size + 'px !important;';
         margin = 'margin:' + margin + 'px !important;';
         $('#preview .smbt-social-icons img').attr('style',icon_size + margin);
     }
-
-    $('.icon-size').change(function() {
+    $('.icon-size input').change(function() {
         LiveInlineStyles();
     });
-
-    $('.margin-right').change(function() {
+    $('.margin-right input').change(function() {
         LiveInlineStyles();
     });
-
     $('.alignment').change(function() {
         var alignment = $('input[type=radio]:checked', '.alignment').val() || 'center';
         alignment = 'text-align:' + alignment + ' !important;';

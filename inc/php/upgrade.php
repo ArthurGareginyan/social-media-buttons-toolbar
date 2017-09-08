@@ -2,20 +2,16 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Upgrade plugin data in the database to version 4.10
- *
- * @since 4.10
  */
-function smbtoolbar_upgrade_4_10_settings() {
+function spacexchimp_p005_upgrade_4_10() {
 
     // Read plugin settings from the database
-    $settings = get_option( SMEDIABT_SETTINGS . '_settings' );
+    $settings = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $array = !empty( $settings['media'] ) ? $settings['media'] : array();
     $old_key = 'beam';
     $new_key = 'mixer';
@@ -35,7 +31,7 @@ function smbtoolbar_upgrade_4_10_settings() {
     $settings['media']['mixer']['slug'] = 'mixer';
 
     // Update plugin setting in the database
-    update_option( SMEDIABT_SETTINGS . '_settings', $settings );
+    update_option( SPACEXCHIMP_P005_SETTINGS . '_settings', $settings );
 
 }
-smbtoolbar_upgrade_4_10_settings();
+spacexchimp_p005_upgrade_4_10();

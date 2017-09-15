@@ -51,10 +51,8 @@ function spacexchimp_p005_load_scripts_admin( $hook ) {
     $settings = SPACEXCHIMP_P005_SETTINGS;
 
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'settings_page_' . $slug;
-    if ( $settings_page != $hook ) {
-        return;
-    }
+    $settings_page = 'space-x-chimp_page_spacexchimp/' . $slug;
+    if ( $settings_page != $hook ) return;
 
     // Read options from database
     $options = get_option( $settings . '_settings' );

@@ -16,14 +16,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <form action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( SPACEXCHIMP_P005_SETTINGS . '_settings_group' ); ?>
 
-                    <?php
-                        // Get options from the database
-                        $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
-
-                        // Set default value if option is empty
-                        $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : '';
-                    ?>
-
                     <button type="submit" name="submit" id="submit" class="btn btn-info btn-lg button-save-top">
                         <i class="fa fa-save" aria-hidden="true"></i>
                         <span><?php _e( 'Save changes', $text ); ?></span>
@@ -75,35 +67,16 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                      __( 'Enter the size of space (in pixels) between icons in your social media follow buttons bar.', $text ),
                                                                      '10'
                                                                    );
-                                ?>
-
-                                <tr>
-                                    <th scope='row'>
-                                        <?php _e( 'Alignment', $text ); ?>
-                                    </th>
-                                    <td>
-                                        <ul class="alignment">
-                                            <li>
-                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="left" <?php checked( 'left', $alignment ); ?> >
-                                                <?php _e( 'Left', $text ); ?>
-                                            </li>
-                                            <li>
-                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="center" <?php checked( '', $alignment ); ?> <?php checked( 'center', $alignment ); ?> >
-                                                <?php _e( 'Center', $text ); ?>
-                                            </li>
-                                            <li>
-                                                <input type="radio" name="spacexchimp_p005_settings[alignment]" value="right" <?php checked( 'right', $alignment ); ?> >
-                                                <?php _e( 'Right', $text ); ?>
-                                            </li>
-                                            </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td class='help-text'><?php _e( 'You can choose the alignment of the buttons bar.', $text ); ?></td>
-                                </tr>
-
-                                <?php
+                                    spacexchimp_p005_control_choice( 'alignment',
+                                                                     array(
+                                                                            'left'   => __( 'Left', $text ),
+                                                                            'center' => __( 'Center', $text ),
+                                                                            'right'  => __( 'Right', $text )
+                                                                          ),
+                                                                     __( 'Alignment', $text ),
+                                                                     __( 'You can choose the alignment of the buttons bar.', $text ),
+                                                                     'center'
+                                                                   );
                                     spacexchimp_p005_control_field( 'caption',
                                                                     __( 'Caption', $text ),
                                                                     __( 'Enter the caption to your social media follow buttons bar. It will be displays before the toolbar.', $text ),

@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.21
+Stable tag: 4.22
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -250,6 +250,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.22 =
+* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Added branded footer text on the plugin's settings page.
 
 = 4.21 =
 * The hard coded HTML radio options are replaced with the PHP function that dynamically creates radio.

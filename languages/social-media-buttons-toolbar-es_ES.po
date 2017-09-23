@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development (trunk)\n"
-"POT-Creation-Date: 2017-09-15 14:27+0300\n"
-"PO-Revision-Date: 2017-09-15 14:27+0300\n"
+"POT-Creation-Date: 2017-09-23 04:51+0300\n"
+"PO-Revision-Date: 2017-09-23 04:51+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -30,7 +30,7 @@ msgstr "Ajustes"
 msgid "Donate"
 msgstr "Donar"
 
-#: inc/php/core.php:73
+#: inc/php/core.php:52
 msgid "Social Media Follow Buttons"
 msgstr "Social Media Follow Buttons"
 
@@ -121,7 +121,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:46 inc/php/settings.php:128 inc/php/sidebar.php:23
+#: inc/php/page.php:46 inc/php/settings.php:97 inc/php/sidebar.php:23
 msgid "Support"
 msgstr "Soporte"
 
@@ -199,7 +199,7 @@ msgstr ""
 msgid "It's that simple!"
 msgstr "¡Es así de simple!"
 
-#: inc/php/page.php:82 inc/php/settings.php:39
+#: inc/php/page.php:82
 msgid "Note!"
 msgstr "¡Nota!"
 
@@ -423,7 +423,7 @@ msgstr ""
 msgid "Support Me"
 msgstr ""
 
-#: inc/php/page.php:196 inc/php/settings.php:135 inc/php/sidebar.php:30
+#: inc/php/page.php:196 inc/php/settings.php:104 inc/php/sidebar.php:30
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
@@ -458,15 +458,15 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
-#: inc/php/settings.php:29 inc/php/settings.php:117
+#: inc/php/settings.php:21 inc/php/settings.php:86
 msgid "Save changes"
 msgstr "Guardar las modificaciones"
 
-#: inc/php/settings.php:33
+#: inc/php/settings.php:25
 msgid "Buttons"
 msgstr "Botones"
 
-#: inc/php/settings.php:35
+#: inc/php/settings.php:27
 msgid ""
 "Just fill in the required fields to make a buttons. The social networking buttons "
 "will lead directly to your profile pages. If you don't want to use any of the "
@@ -476,66 +476,60 @@ msgstr ""
 "social conducirán directamente a tu página de perfil en esa red. Si no quieres "
 "usar alguno de los botones, sencillamente no lo llenes y no aparecerá."
 
-#: inc/php/settings.php:40
-#, php-format
-msgid ""
-"If you did not find the button you need, then %s and I will gladly add it for you."
-msgstr ""
-
-#: inc/php/settings.php:47
+#: inc/php/settings.php:35
 msgid "Display options"
 msgstr "Opciones de presentación"
 
-#: inc/php/settings.php:49
+#: inc/php/settings.php:37
 msgid "There you can configure this plugin."
 msgstr "Aquí puedes configurar este complemento."
 
-#: inc/php/settings.php:53
+#: inc/php/settings.php:41
 msgid "Show on Posts"
 msgstr "Mostrar en Entradas"
 
-#: inc/php/settings.php:54
+#: inc/php/settings.php:42
 msgid "Automatically display toolbar below content on Posts."
 msgstr ""
 
-#: inc/php/settings.php:57
+#: inc/php/settings.php:45
 msgid "Show on Pages"
 msgstr "Mostrar en Páginas"
 
-#: inc/php/settings.php:58
+#: inc/php/settings.php:46
 msgid "Automatically display toolbar below content on Pages."
 msgstr ""
 
-#: inc/php/settings.php:61
+#: inc/php/settings.php:49
 msgid "Open in new tab"
 msgstr "Abrir en una nueva pestaña"
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:50
 msgid "Open link in a new tab/window."
 msgstr "¿Abrir enlace en una nueva pestaña/ventana?"
 
-#: inc/php/settings.php:65
+#: inc/php/settings.php:53
 msgid "Tooltips"
 msgstr ""
 
-#: inc/php/settings.php:66
+#: inc/php/settings.php:54
 msgid "Enable a tooltips with name of the social media above every button."
 msgstr ""
 
-#: inc/php/settings.php:69
+#: inc/php/settings.php:57
 msgid "Icon size"
 msgstr "Tamaño de ícono"
 
-#: inc/php/settings.php:70
+#: inc/php/settings.php:58
 msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgstr ""
 "Ingrese el tamaño de los íconos (en píxeles) en tu barra de botones Social Media."
 
-#: inc/php/settings.php:74
+#: inc/php/settings.php:62
 msgid "Margin"
 msgstr "Margen"
 
-#: inc/php/settings.php:75
+#: inc/php/settings.php:63
 msgid ""
 "Enter the size of space (in pixels) between icons in your social media follow "
 "buttons bar."
@@ -543,31 +537,31 @@ msgstr ""
 "Ingresa el espacio (en píxeles) entre íconos en tu barra de botones de Social "
 "Media."
 
-#: inc/php/settings.php:82
-msgid "Alignment"
-msgstr "Alineación"
-
-#: inc/php/settings.php:88
+#: inc/php/settings.php:68
 msgid "Left"
 msgstr "Izquierda"
 
-#: inc/php/settings.php:92
+#: inc/php/settings.php:69
 msgid "Center"
 msgstr "Centro"
 
-#: inc/php/settings.php:96
+#: inc/php/settings.php:70
 msgid "Right"
 msgstr "Derecha"
 
-#: inc/php/settings.php:103
+#: inc/php/settings.php:72
+msgid "Alignment"
+msgstr "Alineación"
+
+#: inc/php/settings.php:73
 msgid "You can choose the alignment of the buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:108
+#: inc/php/settings.php:77
 msgid "Caption"
 msgstr "Leyenda"
 
-#: inc/php/settings.php:109
+#: inc/php/settings.php:78
 msgid ""
 "Enter the caption to your social media follow buttons bar. It will be displays "
 "before the toolbar."
@@ -575,15 +569,15 @@ msgstr ""
 "Ingresa la leyenda para tu barra de botones de Social Media. Aparecerá arriba de "
 "la barra de botones."
 
-#: inc/php/settings.php:120
+#: inc/php/settings.php:89
 msgid "Live Preview"
 msgstr "Vista Previa"
 
-#: inc/php/settings.php:122
+#: inc/php/settings.php:91
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Has clic en el botón \"Guardar Cambios\" para actualizar esta vista previa."
 
-#: inc/php/settings.php:130 inc/php/sidebar.php:25
+#: inc/php/settings.php:99 inc/php/sidebar.php:25
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building things for "
@@ -593,7 +587,7 @@ msgstr ""
 "pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo "
 "construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:137 inc/php/sidebar.php:32
+#: inc/php/settings.php:106 inc/php/sidebar.php:32
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 

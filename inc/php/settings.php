@@ -28,10 +28,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <table class="form-table">
                                 <?php require_once( SPACEXCHIMP_P005_PATH . 'inc/php/list.php' ); ?>
                             </table>
-                            <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                                __( 'If you did not find the button you need, then %s and I will gladly add it for you.', $text ),
-                                                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Request a new button for the ' . $name . ' plugin">tell me</a>'
-                                                                                               ); ?></p>
                         </div>
                     </div>
 

@@ -20,7 +20,7 @@ add_action( 'init', 'spacexchimp_p005_textdomain' );
  * and inserts a link to the plugin admin page
  */
 function spacexchimp_p005_settings_link( $links ) {
-    $page = '<a href="' . admin_url( 'admin.php?page=spacexchimp/' . SPACEXCHIMP_P005_SLUG ) .'">' . __( 'Settings', SPACEXCHIMP_P005_TEXT ) . '</a>';
+    $page = '<a href="' . admin_url( 'options-general.php?page=' . SPACEXCHIMP_P005_SLUG . '.php' ) .'">' . __( 'Settings', SPACEXCHIMP_P005_TEXT ) . '</a>';
     array_unshift( $links, $page );
     return $links;
 }
@@ -44,54 +44,19 @@ function spacexchimp_p005_plugin_row_meta( $links, $file ) {
 add_filter( 'plugin_row_meta', 'spacexchimp_p005_plugin_row_meta', 10, 2 );
 
 /**
- * Register brand menu item in the Admin Menu
- */
-function spacexchimp_p005_register_admin_menu() {
-
-    // Return if the brand menu item is already existed
-    if ( !empty ( $GLOBALS['admin_page_hooks']['spacexchimp'] ) ) return;
-
-    $page_title = 'Space X-Chimp';
-    $menu_title = 'Space X-Chimp';
-    $capability = 'manage_options';
-    $menu_slug  = 'spacexchimp';
-    $function   = null;
-    $icon_url   = 'dashicons-star-filled';
-    $position   = 66;
-
-    add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position );
-}
-add_action( 'admin_menu', 'spacexchimp_p005_register_admin_menu' );
-
-/**
- * Register plugin's submenu item in the brand menu item
+ * Register a submenu item in the top-level menu item "Settings"
  */
 function spacexchimp_p005_register_submenu_page() {
 
-    $parent_slug = 'spacexchimp';
     $page_title  = SPACEXCHIMP_P005_NAME;
     $menu_title  = __( 'Social Media Follow Buttons', SPACEXCHIMP_P005_TEXT );
     $capability  = 'manage_options';
-    $menu_slug   = 'spacexchimp/' . SPACEXCHIMP_P005_SLUG;
+    $menu_slug   = SPACEXCHIMP_P005_SLUG;
     $function    = 'spacexchimp_p005_render_submenu_page';
 
-    add_submenu_page( $parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
+    add_options_page( $page_title, $menu_title, $capability, $menu_slug, $function );
 }
 add_action( 'admin_menu', 'spacexchimp_p005_register_submenu_page' );
-
-/**
- * Remove the 'Space X-Chimp' sub menu item in the brand menu item
- */
-function spacexchimp_p005_remove_submenu_item() {
-
-    // Read global variable
-    global $submenu;
-
-    if ( isset( $submenu['spacexchimp'] ) ) {
-        unset( $submenu['spacexchimp'][0] );
-    }
-}
-add_action( 'admin_menu', 'spacexchimp_p005_remove_submenu_item' );
 
 /**
  * Register settings
@@ -111,7 +76,7 @@ function spacexchimp_p005_admin_footer_text() {
     $current_screen = get_current_screen();
 
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'space-x-chimp_page_spacexchimp/' . SPACEXCHIMP_P005_SLUG;
+    $settings_page = 'settings_page_' . SPACEXCHIMP_P005_SLUG;
     if ( $settings_page != $current_screen->id ) return;
 
     // Filter footer text

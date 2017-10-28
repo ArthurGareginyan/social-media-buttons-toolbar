@@ -1,0 +1,652 @@
+# Translation of Development (trunk) in German (Germany)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: 2017-10-28 15:01+0300\n"
+"PO-Revision-Date: 2017-10-28 15:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: social-media-buttons-toolbar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/php/core.php:23 inc/php/page.php:43
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/php/core.php:37
+msgid "Donate"
+msgstr "Spende"
+
+#: inc/php/core.php:52
+msgid "Social Media Follow Buttons"
+msgstr "Social Media Follow Buttons"
+
+#: inc/php/list.php:1
+#, php-format
+msgid "Enter the link to your %s profile page"
+msgstr "Geben Sie den Link zu Ihrer %s Profil Seite ein"
+
+#: inc/php/list.php:1
+msgid ""
+"Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?"
+"add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
+msgstr ""
+"Geben Sie Ihren Skype Namen mit Prefix <b>skype:</b> und suffix <b>?call</b>, oder "
+"<b>?add</b>, oder <b>?chat</b>, oder <b>?userinfo</b> für Ihr Profil ein"
+
+#: inc/php/list.php:1
+msgid "Enter the link to your personal website"
+msgstr "Link zu Ihrer persönlichen Webseite"
+
+#: inc/php/list.php:1
+msgid "Enter your email address with prefix <b>mailto:</b>"
+msgstr "Geben Sie Ihre Email Adresse mit dem Prefix  <b>mailto:</b> ein"
+
+#: inc/php/list.php:1
+msgid "Enter your telephone number with prefix <b>tel://</b>"
+msgstr "Geben Sie Ihre Telefonnummer mit dem Prefix  <b>tel://</b> ein"
+
+#: inc/php/list.php:1
+msgid "Enter the link to your RSS Feed"
+msgstr "Geben Sie den Link zu Ihrem RSS Feed ein"
+
+#: inc/php/messages.php:26
+msgid "Hello. I'm Arthur, the author of this plugin."
+msgstr "Hallo! Ich bin Arthur, der Autor dieses plugins."
+
+#: inc/php/messages.php:28
+#, php-format
+msgid "Thank you for installing my plugin! I hope you will love it! %s"
+msgstr ""
+"Danke, dass Sie mein Plugin installiert haben. Ich hoffe, sie werden es mögen. %s"
+
+#: inc/php/messages.php:68
+msgid "You have installed an old version of this plugin."
+msgstr "Sie haben eine veraltete Version dieses Plugin installiert."
+
+#: inc/php/messages.php:69
+msgid "Please update the plugin to the latest version, and all will be fine."
+msgstr "Bitte installieren Sie die aktuelle Version des Plugins und alles wir gut."
+
+#: inc/php/page.php:30
+#, php-format
+msgid "by %s Space X-Chimp Studio %s"
+msgstr "by %s Space X-Chimp Studio %s"
+
+#: inc/php/page.php:36
+msgid "Version"
+msgstr "Version"
+
+#: inc/php/page.php:44
+msgid "Usage"
+msgstr "Verwendung"
+
+#: inc/php/page.php:45
+msgid "F.A.Q."
+msgstr "F.A.Q."
+
+#: inc/php/page.php:46 inc/php/settings.php:97 inc/php/sidebar.php:23
+msgid "Support"
+msgstr "Support"
+
+#: inc/php/page.php:47
+msgid "Store"
+msgstr "Store"
+
+#: inc/php/page.php:63
+msgid "Usage Instructions"
+msgstr "Anleitung"
+
+#: inc/php/page.php:65
+msgid ""
+"To display the social media follow buttons bar on the front end of your website, "
+"simply follow these steps:"
+msgstr ""
+"Um die \"social media follow buttons bar\" am Front-End Ihrer Webseite anzuzeigen, "
+"befolgen Sie die folgenden Schritte:"
+
+#: inc/php/page.php:67
+msgid "Go to the \"Settings\" tab."
+msgstr "Gehen Sie zum Tab \"Einstellungen\"."
+
+#: inc/php/page.php:68
+msgid "Fill in the required fields."
+msgstr "Füllen Sie die benötigten Felder aus."
+
+#: inc/php/page.php:69
+msgid "Select the desired settings."
+msgstr "Wählen Sie die gewünschten Einstellungen aus."
+
+#: inc/php/page.php:70
+msgid "Click the \"Save changes\" button."
+msgstr "Klicken Sie den \"Änderungen speichern\" button."
+
+#: inc/php/page.php:71
+msgid ""
+"Now you have several methods for display the social media follow buttons bar "
+"(further just \"buttons\"). Just choose the one that is more suitable for your "
+"case."
+msgstr ""
+"Jetzt haben Sie unterschiedliche Möglichkeiten um die \"social media follow "
+"buttons bar\" (im Folgenden \"buttons\") anzuzeigen. Wählen Sie die, die für Sie "
+"am Besten passt."
+
+#: inc/php/page.php:72
+msgid ""
+"<b>A)</b> For display the buttons below a content on every Posts or/and Pages, "
+"just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the section "
+"\"Display options\", then click the \"Save changes\" button."
+msgstr ""
+"<b>A)</b> Um die Buttons unterhalb eines Contents bei jedem Post und/oder Seite "
+"anzuzeigen, wählen Sie die Checkbox \"Zeige in Posts\" und/oder \"Zeige auf Seiten "
+"im Bereich \"Anzeigeoptionen\", dann klicken Sie den Button \"Änderungen speichern"
+"\"."
+
+#: inc/php/page.php:73
+msgid ""
+"<b>B)</b> For add the buttons inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+"<b>B)</b> Um die Buttons innerhalb eines Posts/einer Seite anzuzeigen, benutzen "
+"Sie den folgenden Shortcode:"
+
+#: inc/php/page.php:75
+msgid ""
+"<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the "
+"\"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+"<b>C)</b> Um die Buttons in einem Widget-Bereich (Sidebar, Fusszeile, etc.) "
+"anzuzeigen, benutzen Sie das \"Text\" Widget und fügen Sie den folgenden Shortcode "
+"ein:"
+
+#: inc/php/page.php:77
+msgid ""
+"<b>D)</b> For add the buttons directly to a theme files, just add the following "
+"code to needed place (where you want to display the buttons) in your theme files:"
+msgstr ""
+"<b>D)</b> Um die Buttons direkt zu einem Theme hinzuzufügen, fügen Sie den "
+"folgenden Code an der gewünschten Stelle (wo Sie die Buttons angezeigt haben "
+"wollen) in Ihrem Theme ein:"
+
+#: inc/php/page.php:80
+msgid "Enjoy your fancy social media follow buttons."
+msgstr "Viel Spaß mit den social media follow buttons."
+
+#: inc/php/page.php:80
+msgid "It's that simple!"
+msgstr "Es ist ganz einfach!"
+
+#: inc/php/page.php:82
+msgid "Note!"
+msgstr "Achtung!"
+
+#: inc/php/page.php:82
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+"Wenn Sie mehr Optionen benötigen, sagen Sie es mir und ich freue mich, diese "
+"hinzuzufügen."
+
+#: inc/php/page.php:91
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: inc/php/page.php:95
+msgid ""
+"If you have a question, please read the Frequently Asked Questions below to see if "
+"the answer is here."
+msgstr ""
+"Wenn Sie Fragen haben, lesen Sie bitte die F.A.Q.s und schauen Sie nach, ob Ihre "
+"Antwort dabei ist."
+
+#: inc/php/page.php:117
+msgid "Will this plugin work on my WordPress.COM website?"
+msgstr "Funktioniert dieses Plugin auf meiner WordPress.COM Webseite?"
+
+#: inc/php/page.php:118
+msgid ""
+"Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
+"websites."
+msgstr ""
+"Leider nicht. Dieses Plugin ist nur verfügbar auf self-hosted (WordPress.ORG) "
+"Webseiten."
+
+#: inc/php/page.php:120
+msgid "Can I use this plugin on my language?"
+msgstr "Kann ich das Plugin in meiner Sprache verwenden?"
+
+#: inc/php/page.php:121
+msgid ""
+"Yes. This plugin is ready for translation and has already been translated into "
+"several languages."
+msgstr "Ja, dieses Plugin übersetzbar und bereits in mehreren Sprachen verfügbar."
+
+#: inc/php/page.php:123
+#, php-format
+msgid ""
+"If you want to help translate this plugin then please visit the %s. You can also "
+"use the POT file, that is included and placed in the \"languages\" folder, in "
+"order to create a translation PO file. Just send the PO file to me at the %s and I "
+"will include this translation within the next plugin update."
+msgstr ""
+"Wenn Sie bei der Übersetzung dieses Plugins helfen wollen, besuchen Sie die Seite "
+"%s. Sie können auch die POT Datei, die Sie im \"languages\" Ordner finden, "
+"verwenden, um eine PO Übersetzungsdatei zu erstellen. Senden Sie die übersetzte PO "
+"Datei direkt an %s und ich werde die Übersetzung beim nächsten Plugin Update "
+"hinzufügen."
+
+#: inc/php/page.php:128
+msgid ""
+"Maybe not all existed translations are up to date. You are welcome to contribute "
+"corrections!"
+msgstr ""
+"Vielleicht sind nicht alle vorhandenen Übersetzungen aktuell. Gerne können Sie an "
+"den Korrekturen mitwirken."
+
+#: inc/php/page.php:129
+msgid ""
+"Many of plugin users would be delighted if you share your translation with the "
+"community. Thanks for your contribution!"
+msgstr ""
+"Viele Benutzer des Plugins freuen sich darüber, wenn Sie Ihre Übersetzung mit der "
+"Öffentlichkeit teilen. Danke für Ihre Mithilfe!"
+
+#: inc/php/page.php:131
+msgid "How does it work?"
+msgstr "Wie arbeitet das Plugin?"
+
+#: inc/php/page.php:132
+msgid ""
+"On the \"Settings\" tab, select the desired settings and click the \"Save changes"
+"\" button. Enjoy your fancy social media follow buttons. It's that simple!"
+msgstr ""
+"Am Tab \"Einstellungen\" wählen Sie die gewünschten Einstellungen aus und klicken "
+"den Button \"Änderungen speichern\".  Viel Spaß mit den social media follow "
+"buttons. Es ist ganz einfach!"
+
+#: inc/php/page.php:134
+msgid "Does this plugin requires any modification of the theme?"
+msgstr "Benötigt das Plugin Veränderungen am Theme."
+
+#: inc/php/page.php:135
+msgid ""
+"Absolutely not. This plugin is configurable entirely from the plugin settings page."
+msgstr ""
+"Absolut nicht. Alle Konfigurationen des Plugins finden Sie auf Einstellungsseite "
+"des Plugins."
+
+#: inc/php/page.php:137
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr "Brauche ich HTML oder CCS Kenntnisse?"
+
+#: inc/php/page.php:138
+msgid ""
+"Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, "
+"using an easy-to-use plugin settings page."
+msgstr ""
+"Absolut nicht. Dieses Plugin kann ohne Kenntnisse von HTML oder CSS konfiguriert "
+"werden."
+
+#: inc/php/page.php:140
+msgid ""
+"What I need to do if the Google PageSpeed test says that this plugin images must "
+"be compressed?"
+msgstr ""
+"Was muss ich machen, wenn der Google PageSpeed Test sagt, dass Grafiken das Plugin "
+"komprimiert werden müssen?"
+
+#: inc/php/page.php:141
+msgid ""
+"The images that uses in this plugin are already compressed, but I will do my best "
+"to find out what else can be done with the images in order to compress them even "
+"better."
+msgstr ""
+"Die Grafiken, die innerhalb des Plugins verwendet werden, sind bereits "
+"komprimiert. Gerne suche ich auch nach einer besseren Komprimierung, wenn es "
+"benötigt wird."
+
+#: inc/php/page.php:143
+msgid "It's not working. What could be wrong?"
+msgstr "Es funktioniert nicht. Was könnte falsch sein?"
+
+#: inc/php/page.php:144
+msgid ""
+"As with every plugin, it's possible that things don't work. The most common reason "
+"for this is a web browser's cache. Every web browser stores a cache of the "
+"websites you visit (pages, images, and etc.) to reduce bandwidth usage and server "
+"load. This is called the browser's cache.​ Clearing your browser's cache may solve "
+"the problem."
+msgstr ""
+"Wie bei jedem Plugin ist es möglich, dass nicht alles funktioniert. Der häufigste "
+"Grund dafür ist der Cache Ihres Webbrowsers. Jeder Webbrowser speichert den Cache "
+"der besuchten Webseite (Seiten, Bilder, usw.) um die Bandbreite zu reduzieren. Das "
+"nennt man den Browser Cache. Wenn Sie den Cache Ihres Browsers löschen, könnte das "
+"Problem behoben sein."
+
+#: inc/php/page.php:145
+msgid ""
+"It's impossible to tell what could be wrong exactly, but if you post a support "
+"request in the plugin's support forum on WordPress.org, I'd be happy to give it a "
+"look and try to help out. Please include as much information as possible, "
+"including a link to your website where the problem can be seen."
+msgstr ""
+"Es ist unmöglich genau festzustellen was falsch ist. Wenn Sie jedoch eine Support "
+"Anfrage im Plugins Support Forum von WordPress.ORG stellen, helfe ich Ihnen gerne. "
+"Bitte fügen Sie so viele Informationen wie möglich und einen Link zu der Webseite "
+"hinzu, wo das Problem auftritt."
+
+#: inc/php/page.php:147
+msgid ""
+"The last WordPress update is preventing me from editing my website that is using "
+"this plugin. Why is this?"
+msgstr ""
+"Das letzte WordPress-Update hindert mich daran, meine Webseite, die dieses Plugin "
+"verwendet, zu bearbeiten. Warum ist das so?"
+
+#: inc/php/page.php:148
+msgid ""
+"This plugin can not cause such problem. More likely, the problem are related to "
+"the settings of the website. It could just be a cache, so please try to clear your "
+"website's cache (may be you using a caching plugin, or some web service such as "
+"the CloudFlare) and then the cache of your web browser. Also please try to re-"
+"login to the website, this too can help."
+msgstr ""
+"Dieses Plugin kann ein solches Problem nicht verursachen. Wahrscheinlich hängt das "
+"Problem mit den Einstellungen der Webseite zusammen. Es könnte einfach nur ein "
+"Cache sein. Versuchen Sie daher, den Cache Ihrer Webseite zu löschen "
+"(möglicherweise verwenden Sie ein Caching-Plugin oder einen Webservice wie "
+"CloudFlare) und danach den Cache Ihres Webbrowsers. Versuchen Sie auch, sich "
+"erneut auf der Webseite anzumelden, auch dies kann helfen."
+
+#: inc/php/page.php:150
+msgid "Where to report bug if found?"
+msgstr "Wo kann ich eine Fehler melden?"
+
+#: inc/php/page.php:152
+#, php-format
+msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
+msgstr ""
+"Besuchen Sie die %s zugehörige Plugin-Seite auf GitHub %s, um Fehler zu melden."
+
+#: inc/php/page.php:158
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr ""
+"Wo können Sie Ideen oder Vorschläge loswerden, um das Plugin besser zu machen?"
+
+#: inc/php/page.php:160
+#, php-format
+msgid "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
+msgstr ""
+"Alle Vorschläge sind willkommen! Bitte senden Sie mir eine E-Mail an % s. Vielen "
+"Dank!"
+
+#: inc/php/page.php:165
+msgid "I love this plugin! Can I help somehow?"
+msgstr "Ich liebe dieses Plugin! Kann ich Irgendwie helfen?"
+
+#: inc/php/page.php:167
+#, php-format
+msgid ""
+"Yes, any financial contributions are welcome! Just visit %s my website %s, click "
+"on the donate button, and thank you!"
+msgstr ""
+"Ja, jede finanzielle Unterstützung ist Willkommen! Besuchen Sie %s meine Webseite "
+"%s, klicken Sie auf den Spenden Button und Danke!"
+
+#: inc/php/page.php:173
+msgid "My question wasn't answered here."
+msgstr "Meine Fragen wurden nicht beantwortet."
+
+#: inc/php/page.php:175
+#, php-format
+msgid ""
+"You can ask your question on the plugin support page %s. But please keep in mind "
+"that this plugin is free, and there is no a special support team, so I have no way "
+"to answer everyone."
+msgstr ""
+"Sie können Ihre Frage auf der Plugin Support Seite %s stellen. Aber bitte bedenken "
+"Sie, dass dieses Plugin kostenlos ist. Es gibt kein Support Team, deshalb habe ich "
+"keine Möglichkeit jedem zu antworten."
+
+#: inc/php/page.php:188
+msgid "Support Me"
+msgstr "Unterstützen Sie mich"
+
+#: inc/php/page.php:196 inc/php/settings.php:104 inc/php/sidebar.php:30
+msgid "Donate with PayPal"
+msgstr "Spende mit PayPal"
+
+#: inc/php/page.php:201
+#, php-format
+msgid ""
+"Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp "
+"Studio %s."
+msgstr ""
+"Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space "
+"X-Chimp Studio %s."
+
+#: inc/php/page.php:209
+msgid ""
+"My intention is to create projects that will make this world a better place. I'm "
+"really passionate about my work, I like what I'm doing and hope that you will be "
+"enriched by my projects too."
+msgstr ""
+"Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort "
+"machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, "
+"dass Sie auch von meinen Projekten bereichert werden."
+
+#: inc/php/page.php:210
+msgid ""
+"I spend a lot of time and effort trying to make sure that the themes, plugins and "
+"other things I build are useful, and the ultimate proof of that for me is that you "
+"actually want to use them. But, I’m an independent developer, without a regular "
+"income, so every little contribution helps cover my costs and lets me spend more "
+"time building things for people like you to enjoy."
+msgstr ""
+"Ich habe viel Zeit und Mühe darauf verwendet sicherzustellen, dass die Themes, "
+"Plugins und andere Dinge, die ich entwickle, nützlich sind. Der ultimative Beweis "
+"für mich ist, dass Sie sie tatsächlich verwenden. Aber ich bin ein unabhängiger "
+"Entwickler ohne regelmäßiges Einkommen. Jeder kleine Beitrag trägt dazu bei, meine "
+"Kosten zu decken und schenkt mir mehr Zeit damit zu verbringen, Dinge für Leute "
+"wie Sie zu gestalten."
+
+#: inc/php/page.php:211
+msgid "If you appreciate my work, you can buy me a coffee!"
+msgstr "Wenn Ihnen meine Arbeit gefällt, können Sie mir gerne einen Kaffee kaufen!"
+
+#: inc/php/page.php:212
+msgid "Thank you for your support!"
+msgstr "Danke für Ihre Unterstützung!"
+
+#: inc/php/settings.php:21 inc/php/settings.php:86
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: inc/php/settings.php:25
+msgid "Buttons"
+msgstr "Buttons"
+
+#: inc/php/settings.php:27
+msgid ""
+"Just fill in the required fields to make a buttons. The social networking buttons "
+"will lead directly to your profile pages. If you don't want to use any of the "
+"following buttons, you can not fill them and then they do not appear."
+msgstr ""
+"Füllen die benötigten Felder aus, um einen Button zu erzeugen. Die Buttons des "
+"sozialen Netzwerkes leiten Sie direkt auf die Profilseite. Wenn Sie die Felder "
+"leer lassen, erscheinen diese sozialen Netzwerke auch nicht als Button."
+
+#: inc/php/settings.php:35
+msgid "Display options"
+msgstr "Anzeigeoptionen"
+
+#: inc/php/settings.php:37
+msgid "There you can configure this plugin."
+msgstr "Hier können Sie das Plugin konfigurieren."
+
+#: inc/php/settings.php:41
+msgid "Show on Posts"
+msgstr "In Posts anzeigen"
+
+#: inc/php/settings.php:42
+msgid "Automatically display toolbar below content on Posts."
+msgstr "Die Toolbar automatisch unterhalb des Inhalts von Posts anzeigen."
+
+#: inc/php/settings.php:45
+msgid "Show on Pages"
+msgstr "Auf Seiten anzeigen"
+
+#: inc/php/settings.php:46
+msgid "Automatically display toolbar below content on Pages."
+msgstr "Die Toolbar automatisch unterhalb des Inhalts von Seiten anzeigen."
+
+#: inc/php/settings.php:49
+msgid "Open in new tab"
+msgstr "Öffne in neuem Tab"
+
+#: inc/php/settings.php:50
+msgid "Open link in a new tab/window."
+msgstr "Link in einem neuen Tab/Fenster öffnen."
+
+#: inc/php/settings.php:53
+msgid "Tooltips"
+msgstr "Tooltip"
+
+#: inc/php/settings.php:54
+msgid "Enable a tooltips with name of the social media above every button."
+msgstr ""
+"Aktivieren Sie einen Tooltip mit dem Namen des sozialen Netzwerks über jedem "
+"Button."
+
+#: inc/php/settings.php:57
+msgid "Icon size"
+msgstr "Icon Grösse"
+
+#: inc/php/settings.php:58
+msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
+msgstr ""
+"Geben Sie die Grösse der Icons (in Pixeln) der \"social media follow buttons bar\" "
+"ein."
+
+#: inc/php/settings.php:62
+msgid "Margin"
+msgstr "Rand"
+
+#: inc/php/settings.php:63
+msgid ""
+"Enter the size of space (in pixels) between icons in your social media follow "
+"buttons bar."
+msgstr ""
+"Geben Sie die Grösse des Zwischenraums (in Pixeln) zwischen den Icons der \"social "
+"media follow buttons bar\" ein."
+
+#: inc/php/settings.php:68
+msgid "Left"
+msgstr "Links"
+
+#: inc/php/settings.php:69
+msgid "Center"
+msgstr "Mittig"
+
+#: inc/php/settings.php:70
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/php/settings.php:72
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: inc/php/settings.php:73
+msgid "You can choose the alignment of the buttons bar."
+msgstr "Wählen Sie die Ausrichtung der buttons bar."
+
+#: inc/php/settings.php:77
+msgid "Caption"
+msgstr "Überschrift"
+
+#: inc/php/settings.php:78
+msgid ""
+"Enter the caption to your social media follow buttons bar. It will be displays "
+"before the toolbar."
+msgstr ""
+"Fügen Sie die Überschrift zu Ihrer \"social media follow buttons bar\" hinzu. "
+"Diese wird vor der Toolbar angezeigt."
+
+#: inc/php/settings.php:89
+msgid "Live Preview"
+msgstr "Live Vorschau"
+
+#: inc/php/settings.php:91
+msgid "Click the \"Save changes\" button to update this preview."
+msgstr ""
+"Klicken Sie den Button \"Änderungen speichern\" um die Vorschau zu aktualisieren."
+
+#: inc/php/settings.php:99 inc/php/sidebar.php:25
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building things for "
+"people like you to enjoy."
+msgstr ""
+"Ich bin ein unabhängiger Entwickler ohne regelmäßiges Einkommen. Jeder kleine "
+"Beitrag trägt dazu bei, meine Kosten zu decken und ich kann mehr Zeit damit "
+"verbringen, Dinge für Leute wie Sie zu entwickeln."
+
+#: inc/php/settings.php:106 inc/php/sidebar.php:32
+msgid "Thanks for your support!"
+msgstr "Danke für Ihre Unterstützung!"
+
+#: inc/php/sidebar.php:16
+msgid "About"
+msgstr "Über"
+
+#: inc/php/sidebar.php:18
+msgid ""
+"This plugin allows you to easily add the social media follow buttons bar to any "
+"place of your website."
+msgstr ""
+"Mit Hilfe dieses Plugins können Sie auf einfache Weise die \"social media follow "
+"buttons bar\" überall auf Ihrer Webseite hinzufügen."
+
+#: inc/php/sidebar.php:37
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/php/sidebar.php:39
+msgid "If you have a question, please read the information in the FAQ section."
+msgstr "Wenn Sie Fragen haben, lesen Sie bitte auch die Fragen im FAQ Bereich."
+
+#. Plugin Name of the plugin/theme
+msgid "Social Media Follow Buttons Bar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/social-media-buttons-toolbar"
+msgstr "https://github.com/ArthurGareginyan/social-media-buttons-toolbar"
+
+#. Description of the plugin/theme
+msgid ""
+"Easily add the smart bar with social media follow buttons (not share, only link to "
+"your profiles) to any place of your WordPress website."
+msgstr ""
+"Fügt eine Smart Bar mit social media follow buttons an eine beliebige Stelle auf "
+"Ihrer WordPress Webseite."
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Arthur Gareginyan"
+
+#. Author URI of the plugin/theme
+msgid "https://www.arthurgareginyan.com"
+msgstr "https://www.arthurgareginyan.com"

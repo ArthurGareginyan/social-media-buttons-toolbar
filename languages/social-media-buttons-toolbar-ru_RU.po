@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2017-09-23 04:51+0300\n"
-"PO-Revision-Date: 2017-09-23 04:51+0300\n"
+"POT-Creation-Date: 2017-10-27 18:42+0300\n"
+"PO-Revision-Date: 2017-10-27 18:42+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -33,37 +33,12 @@ msgstr "Поддержать"
 msgid "Social Media Follow Buttons"
 msgstr "Социальные Медиа Кнопки Следования"
 
-#: inc/php/list.php:14 inc/php/list.php:21 inc/php/list.php:28
-#: inc/php/list.php:35 inc/php/list.php:42 inc/php/list.php:49
-#: inc/php/list.php:56 inc/php/list.php:63 inc/php/list.php:70
-#: inc/php/list.php:77 inc/php/list.php:84 inc/php/list.php:91
-#: inc/php/list.php:98 inc/php/list.php:105 inc/php/list.php:112
-#: inc/php/list.php:119 inc/php/list.php:126 inc/php/list.php:133
-#: inc/php/list.php:140 inc/php/list.php:147 inc/php/list.php:154
-#: inc/php/list.php:161 inc/php/list.php:168 inc/php/list.php:175
-#: inc/php/list.php:182 inc/php/list.php:189 inc/php/list.php:196
-#: inc/php/list.php:203 inc/php/list.php:210 inc/php/list.php:217
-#: inc/php/list.php:224 inc/php/list.php:231 inc/php/list.php:238
-#: inc/php/list.php:245 inc/php/list.php:252 inc/php/list.php:259
-#: inc/php/list.php:266 inc/php/list.php:273 inc/php/list.php:280
-#: inc/php/list.php:287 inc/php/list.php:294 inc/php/list.php:301
-#: inc/php/list.php:308 inc/php/list.php:315 inc/php/list.php:322
-#: inc/php/list.php:329 inc/php/list.php:336 inc/php/list.php:343
-#: inc/php/list.php:350 inc/php/list.php:357 inc/php/list.php:364
-#: inc/php/list.php:371 inc/php/list.php:378 inc/php/list.php:385
-#: inc/php/list.php:392 inc/php/list.php:399 inc/php/list.php:406
-#: inc/php/list.php:413 inc/php/list.php:420 inc/php/list.php:427
-#: inc/php/list.php:434 inc/php/list.php:441 inc/php/list.php:448
-#: inc/php/list.php:455 inc/php/list.php:462 inc/php/list.php:469
-#: inc/php/list.php:476 inc/php/list.php:483 inc/php/list.php:490
-#: inc/php/list.php:497 inc/php/list.php:504 inc/php/list.php:511
-#: inc/php/list.php:518 inc/php/list.php:525 inc/php/list.php:532
-#: inc/php/list.php:539 inc/php/list.php:546 inc/php/list.php:553
+#: inc/php/list.php:1
 #, php-format
 msgid "Enter the link to your %s profile page"
 msgstr "Введите ссылку на вашу страницу профиля %s"
 
-#: inc/php/list.php:560
+#: inc/php/list.php:1
 msgid ""
 "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or "
 "<b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
@@ -72,19 +47,19 @@ msgstr ""
 "b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра "
 "профиля"
 
-#: inc/php/list.php:567
+#: inc/php/list.php:1
 msgid "Enter the link to your personal website"
 msgstr "Введите ссылку на ваш персональный сайт"
 
-#: inc/php/list.php:574
+#: inc/php/list.php:1
 msgid "Enter your email address with prefix <b>mailto:</b>"
 msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
 
-#: inc/php/list.php:581
+#: inc/php/list.php:1
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr "Введите номер телефона с префиксом <b>tel://</b>"
 
-#: inc/php/list.php:588
+#: inc/php/list.php:1
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 

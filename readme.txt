@@ -1,10 +1,10 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, blackberry-world, iheart, livestream, tunein, untappd, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.29
+Stable tag: 4.30
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -133,6 +133,11 @@ It give you finer control over buttons. You can configure they on plugins settin
 * WeChat
 * Weibo
 * about.me
+* Untappd
+* TuneIn
+* iHeart
+* BlackBerry World
+* Livestream
 * Personal website
 * Email
 * Telephone
@@ -174,7 +179,7 @@ Developing plugins is long and tedious work. If you benefit or enjoy this plugin
 
 Install "Social Media Follow Buttons Bar" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin Panel:
+Automatically via WordPress Admin Area:
 
 1. Log into Admin Panel of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
@@ -204,7 +209,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`Social Media Follow Buttons`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
 
 = Q. Does this plugin requires any modification of the theme? =
 A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
@@ -261,7 +266,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * The Entrepreneur image that used on banner is from [Pixabay](https://pixabay.com/en/entrepreneur-start-start-up-career-696976/) and licensed under the [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
-* Icons [about-me.png, facebook-group.png, stitcher.png, strava.png, wechat.png, weibo.png, feedsfloor.png, bitbucket.png, dailypaintworks.png, flipboard.png, gab.png, minds.png, theknot.png, viber.png, etsy.png, tripadvisor.png, stackoverflow.png, stackexchange.png, wattpad.png, itunes-podcasts.png, email.png, facebook.png, linkedin.png, google-play.png, itch.png, mastodon.png, remind.png, trademe.png, vsco.png, hireology.png, kompoz.png, soundblend.png, itunes.png, apple-music.png, medium.png, 500px.png, behance.png, polyvore.png, yellowpages.png, mixer.png, telephone.png, bloglovin.png, line.png, stumbleupon.png, whatsapp.png, plugdj.png, deviantart.png, buzzsprout.png, periscope.png, youtube.png, meetvibe.png, wordpress.png, twitter.png, imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png, amazon.png, bookbub.png, goodreads.png, reddit.png, meetup.png, codepen.png, askfm.png, ebay.png, hangouts.png, houzz.png, quora.png, steemit.png, theartstack.png, instagram.png, patreon.png, bandcamp.png, youtube-gaming.png, xing.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](https://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
+* Icons [blackberry-world.png, iheart.png, livestream.png, tunein.png, untappd.png, about-me.png, facebook-group.png, stitcher.png, strava.png, wechat.png, weibo.png, feedsfloor.png, bitbucket.png, dailypaintworks.png, flipboard.png, gab.png, minds.png, theknot.png, viber.png, etsy.png, tripadvisor.png, stackoverflow.png, stackexchange.png, wattpad.png, itunes-podcasts.png, email.png, facebook.png, linkedin.png, google-play.png, itch.png, mastodon.png, remind.png, trademe.png, vsco.png, hireology.png, kompoz.png, soundblend.png, itunes.png, apple-music.png, medium.png, 500px.png, behance.png, polyvore.png, yellowpages.png, mixer.png, telephone.png, bloglovin.png, line.png, stumbleupon.png, whatsapp.png, plugdj.png, deviantart.png, buzzsprout.png, periscope.png, youtube.png, meetvibe.png, wordpress.png, twitter.png, imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png, amazon.png, bookbub.png, goodreads.png, reddit.png, meetup.png, codepen.png, askfm.png, ebay.png, hangouts.png, houzz.png, quora.png, steemit.png, theartstack.png, instagram.png, patreon.png, bandcamp.png, youtube-gaming.png, xing.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](https://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 * Icons [flickr.png, google-plus.png, vimeo.png, blogger.png, livejournal.png, pinterest.png, tumblr.png, soundcloud.png, spotify.png, yelp.png, vkontakte.png, odnoklassniki.png, telegram.png, github.png, skype.png, website.png, rss-feed.png](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
@@ -273,6 +278,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.30 =
+* Added option for the Untappd.
+* Added option for the TuneIn.
+* Added option for the iHeart.
+* Added option for the BlackBerry World.
+* Added option for the Livestream.
 
 = 4.29 =
 * Added option for the Strava.

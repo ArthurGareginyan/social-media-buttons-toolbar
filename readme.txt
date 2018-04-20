@@ -1,10 +1,10 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
 Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, blackberry-world, iheart, livestream, tunein, untappd, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip,
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
+Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.30
+Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -156,12 +156,12 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/social-media-buttons-toolbar).
 
-**System requirements**
+**Minimum system requirements:**
 
 * [PHP](https://php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
-**Recommendations:**
+**Recommended system requirements:**
 
 * [PHP](https://php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
@@ -170,9 +170,9 @@ If you want to help translate this plugin then please visit the [translation pag
 
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
-* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 * [Rate and Review](https://wordpress.org/support/view/plugin-reviews/social-media-buttons-toolbar?rate=5#postform) this plugin.
-* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) if you have any ideas or suggestions to make this plugin better.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -181,7 +181,7 @@ Install "Social Media Follow Buttons Bar" just as you would any other WordPress 
 
 Automatically via WordPress Admin Area:
 
-1. Log into Admin Panel of your WordPress website.
+1. Log in to Admin Area of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -191,10 +191,10 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin Panel of your WordPress website.
+4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -205,14 +205,14 @@ After installation and activation, the "`Social Media Follow Buttons`" menu ite
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to us at the arthurgareginyan@gmail.com and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
 
 = Q. Does this plugin requires any modification of the theme? =
-A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
+A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.
@@ -225,17 +225,17 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this? =
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
 = Q. Where to report bug if found? =
-A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) and report.
+A. Bug reports are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and report. Thank you!
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Any suggestions are very welcome! Please send us an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
+A. Any suggestions are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and share. Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [the website of the creator](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any contributions are very welcome! Please visit [our donation page](https://www.spacexchimp.com/donate.html). Thank you!
 
 
 == Screenshots ==
@@ -254,7 +254,7 @@ A. Yes, any financial contributions are welcome! Just visit [the website of the 
 
 ****
 
-"Social Media Follow Buttons Bar" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com). Earlier the project was called "Social Media Buttons Toolbar".
+"Social Media Follow Buttons Bar" is one of the own software projects of [Space X-Chimp](https://www.spacexchimp.com). Earlier the project was called "Social Media Buttons Toolbar".
 
 **License**
 
@@ -263,8 +263,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * The Entrepreneur image that used on banner is from [Pixabay](https://pixabay.com/en/entrepreneur-start-start-up-career-696976/) and licensed under the [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 * Icons [blackberry-world.png, iheart.png, livestream.png, tunein.png, untappd.png, about-me.png, facebook-group.png, stitcher.png, strava.png, wechat.png, weibo.png, feedsfloor.png, bitbucket.png, dailypaintworks.png, flipboard.png, gab.png, minds.png, theknot.png, viber.png, etsy.png, tripadvisor.png, stackoverflow.png, stackexchange.png, wattpad.png, itunes-podcasts.png, email.png, facebook.png, linkedin.png, google-play.png, itch.png, mastodon.png, remind.png, trademe.png, vsco.png, hireology.png, kompoz.png, soundblend.png, itunes.png, apple-music.png, medium.png, 500px.png, behance.png, polyvore.png, yellowpages.png, mixer.png, telephone.png, bloglovin.png, line.png, stumbleupon.png, whatsapp.png, plugdj.png, deviantart.png, buzzsprout.png, periscope.png, youtube.png, meetvibe.png, wordpress.png, twitter.png, imdb.png, dloky.png, snapchat.png, steam.png, discord.png, twitch.png, amazon.png, bookbub.png, goodreads.png, reddit.png, meetup.png, codepen.png, askfm.png, ebay.png, hangouts.png, houzz.png, quora.png, steemit.png, theartstack.png, instagram.png, patreon.png, bandcamp.png, youtube-gaming.png, xing.png](https://www.iconfinder.com/iconsets/square-logo-buttons?ref=ArthurGareginyan) by [Arthur Gareginyan](https://www.arthurgareginyan.com) and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 * Icons [flickr.png, google-plus.png, vimeo.png, blogger.png, livejournal.png, pinterest.png, tumblr.png, soundcloud.png, spotify.png, yelp.png, vkontakte.png, odnoklassniki.png, telegram.png, github.png, skype.png, website.png, rss-feed.png](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
@@ -273,11 +273,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Links**
 
-* [Developer Website](https://www.arthurgareginyan.com)
-* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
+* [Developer website](https://www.spacexchimp.com)
+* [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
 
 
 == Changelog ==
+
+= 4.31 =
+* Some texts updated, and typos corrected.
+* All translation files updated.
+* The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
+* The human.txt file updated.
 
 = 4.30 =
 * Added option for the Untappd.
@@ -324,7 +330,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
 
 = 4.22 =
-* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Fixed the issue due to which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
 * Added branded footer text on the plugin's settings page.
 
 = 4.21 =

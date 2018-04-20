@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Buttons Toolbar\n"
-"POT-Creation-Date: 2018-03-04 01:49+0300\n"
+"POT-Creation-Date: 2018-04-20 01:16+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,8 +14,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: social-media-buttons-toolbar.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
-"esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -37,9 +36,7 @@ msgid "Enter the link to your %s profile page"
 msgstr ""
 
 #: inc/php/list.php:1
-msgid ""
-"Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?"
-"userinfo</b> for view profile"
+msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
 msgstr ""
 
 #: inc/php/list.php:1
@@ -125,15 +122,11 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:71
-msgid ""
-"Now you have several methods for display the social media follow buttons bar (further just \"buttons\"). Just choose "
-"the one that is more suitable for your case."
+msgid "Now you have several methods for display the social media follow buttons bar (further just \"buttons\"). Just choose the one that is more suitable for your case."
 msgstr ""
 
 #: inc/php/page.php:72
-msgid ""
-"<b>A)</b> For display the buttons below a content on every Posts or/and Pages, just check the checkbox \"Show on "
-"Posts\" or/and \"Show on Pages\" in the section \"Display options\", then click the \"Save changes\" button."
+msgid "<b>A)</b> For display the buttons below a content on every Posts or/and Pages, just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the section \"Display options\", then click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:73
@@ -141,15 +134,11 @@ msgid "<b>B)</b> For add the buttons inside a post from WP Post/Page Editor use 
 msgstr ""
 
 #: inc/php/page.php:75
-msgid ""
-"<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it "
-"the following shortcode:"
+msgid "<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
 #: inc/php/page.php:77
-msgid ""
-"<b>D)</b> For add the buttons directly to a theme files, just add the following code to needed place (where you want "
-"to display the buttons) in your theme files:"
+msgid "<b>D)</b> For add the buttons directly to a theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
 msgstr ""
 
 #: inc/php/page.php:80
@@ -195,10 +184,7 @@ msgstr ""
 
 #: inc/php/page.php:129
 #, php-format
-msgid ""
-"If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included "
-"and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the "
-"%s and we will include this translation within the next plugin update."
+msgid "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update."
 msgstr ""
 
 #: inc/php/page.php:134
@@ -206,9 +192,7 @@ msgid "Maybe not all existed translations are up to date. You are welcome to con
 msgstr ""
 
 #: inc/php/page.php:135
-msgid ""
-"Many of plugin users would be delighted if you share your translation with the community. Thanks for your "
-"contribution!"
+msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
 #: inc/php/page.php:137
@@ -216,9 +200,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:138
-msgid ""
-"On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. Enjoy your fancy social "
-"media follow buttons. It's that simple!"
+msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. Enjoy your fancy social media follow buttons. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:140
@@ -234,9 +216,7 @@ msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
 #: inc/php/page.php:144
-msgid ""
-"Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings "
-"page."
+msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
 msgstr ""
 
 #: inc/php/page.php:146
@@ -244,9 +224,7 @@ msgid "What I need to do if the Google PageSpeed test says that this plugin imag
 msgstr ""
 
 #: inc/php/page.php:147
-msgid ""
-"The images that uses in this plugin are already compressed, but I will do my best to find out what else can be done "
-"with the images in order to compress them even better."
+msgid "The images that uses in this plugin are already compressed, but I will do my best to find out what else can be done with the images in order to compress them even better."
 msgstr ""
 
 #: inc/php/page.php:149
@@ -254,31 +232,19 @@ msgid "It's not working. What could be wrong?"
 msgstr ""
 
 #: inc/php/page.php:150
-msgid ""
-"As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's "
-"cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth "
-"usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
+msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr ""
 
 #: inc/php/page.php:151
-msgid ""
-"It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum "
-"on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as "
-"possible, including a link to your website where the problem can be seen."
+msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
 msgstr ""
 
 #: inc/php/page.php:153
-msgid ""
-"The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is "
-"this?"
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr ""
 
 #: inc/php/page.php:154
-msgid ""
-"This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It "
-"could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web "
-"service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, "
-"this too can help."
+msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr ""
 
 #: inc/php/page.php:156
@@ -287,7 +253,7 @@ msgstr ""
 
 #: inc/php/page.php:158
 #, php-format
-msgid "Please visit %s this page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
+msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:164
@@ -296,9 +262,7 @@ msgstr ""
 
 #: inc/php/page.php:166
 #, php-format
-msgid ""
-"Any suggestions are very welcome! Just contact us %s here %s. Please do not forget to specify the name of the "
-"plugin. Thank you!"
+msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:172
@@ -307,9 +271,7 @@ msgstr ""
 
 #: inc/php/page.php:174
 #, php-format
-msgid ""
-"Yes, any financial contributions are welcome! Just visit %s the website of the creator %s, click on the donate "
-"button, and thank you!"
+msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr ""
 
 #: inc/php/page.php:180
@@ -318,9 +280,7 @@ msgstr ""
 
 #: inc/php/page.php:182
 #, php-format
-msgid ""
-"You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a "
-"special support team, so we have no way to answer everyone."
+msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
 #: inc/php/page.php:196
@@ -337,17 +297,11 @@ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space
 msgstr ""
 
 #: inc/php/page.php:217
-msgid ""
-"My intention is to create projects that will make this world a better place. I'm really passionate about my work, I "
-"like what I'm doing and hope that you will be enriched by my projects too."
+msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 msgstr ""
 
 #: inc/php/page.php:218
-msgid ""
-"I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, "
-"and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, "
-"without a regular income, so every little contribution helps cover my costs and lets me spend more time building "
-"things for people like you to enjoy."
+msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
 #: inc/php/page.php:219
@@ -367,9 +321,7 @@ msgid "Buttons"
 msgstr ""
 
 #: inc/php/settings.php:27
-msgid ""
-"Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile "
-"pages. If you don't want to use any of the following buttons, you can not fill them and then they do not appear."
+msgid "Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don't want to use any of the following buttons, you can not fill them and then they do not appear."
 msgstr ""
 
 #: inc/php/settings.php:35
@@ -465,9 +417,7 @@ msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 
 #: inc/php/settings.php:99 inc/php/sidebar.php:32
-msgid ""
-"I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets "
-"me spend more time building things for people like you to enjoy."
+msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
 #: inc/php/settings.php:106 inc/php/sidebar.php:39
@@ -499,15 +449,13 @@ msgid "https://github.com/ArthurGareginyan/social-media-buttons-toolbar"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid ""
-"Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of "
-"your WordPress website."
+msgid "Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Arthur Gareginyan"
+msgid "Space X-Chimp"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.arthurgareginyan.com"
+msgid "https://www.spacexchimp.com"
 msgstr ""

@@ -282,7 +282,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 = 4.33 =
 * The 'list.php' file replaced with the 'items.php'.
 * Added callback function for getting a list of all buttons.
-* The 'smbt-social-icons' class renamed to 'sxc-follow-buttons'.
+* The 'smbt-social-icons' CSS class renamed to 'sxc-follow-buttons'.
 * CSS code in the file 'admin.css' is optimized.
 * CSS code in the file 'frontend.css' is optimized.
 * The '_tollbar()' function is improved.

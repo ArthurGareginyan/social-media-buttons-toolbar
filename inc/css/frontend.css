@@ -1,5 +1,5 @@
 /*
- * WP plugin Social Media Follow Buttons Bar by Space X-Chimp ( https://www.spacexchimp.com ).
+ * WordPress plugin Social Media Follow Buttons Bar by Space X-Chimp ( https://www.spacexchimp.com ).
  *
  * @package     Social Media Follow Buttons Bar
  * @author      Arthur Gareginyan
@@ -8,9 +8,10 @@
  */
 
 
-.smbt-social-icons li {
-    margin: 0px !important;
-    padding: 0px !important;
+/* Reset styles to default for la and a elements */
+.sxc-follow-buttons li {
+    margin: 0 !important;
+    padding: 0 !important;
     background-image: none !important;
     display: inline-block !important;
     border-bottom: 0 !important;
@@ -18,21 +19,21 @@
     -webkit-user-select: none;
     -moz-user-select: none;
 }
-.smbt-social-icons li:before {
+.sxc-follow-buttons li::before {
     content: "" !important;
     content: none !important;
 }
-.smbt-social-icons li:after {
+.sxc-follow-buttons li::after {
     content: "" !important;
     content: none !important;
 }
-.smbt-social-icons li a {
+.sxc-follow-buttons li a {
     border-bottom: 0 !important;
     display: inline !important;
     box-shadow: none !important;
 }
-.smbt-social-icons li img {
-    margin: 0px !important;
-    padding: 0px !important;
+.sxc-follow-buttons li img {
+    margin: 0 !important;
+    padding: 0 !important;
     vertical-align: top;
 }

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-04-20 01:16+0300\n"
+"POT-Creation-Date: 2018-05-03 19:31+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -30,28 +30,28 @@ msgstr ""
 msgid "Social Media Follow Buttons"
 msgstr ""
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 #, php-format
 msgid "Enter the link to your %s profile page"
 msgstr ""
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
 msgstr ""
 
-#: inc/php/list.php:1
-msgid "Enter the link to your personal website"
-msgstr ""
-
-#: inc/php/list.php:1
-msgid "Enter your email address with prefix <b>mailto:</b>"
-msgstr ""
-
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr ""
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
+msgid "Enter your email address with prefix <b>mailto:</b>"
+msgstr ""
+
+#: inc/php/items.php:1
+msgid "Enter the link to your personal website"
+msgstr ""
+
+#: inc/php/items.php:1
 msgid "Enter the link to your RSS Feed"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/settings.php:97 inc/php/sidebar.php:30
+#: inc/php/page.php:46 inc/php/settings.php:114 inc/php/sidebar.php:30
 msgid "Support"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgid "<b>A)</b> For display the buttons below a content on every Posts or/and P
 msgstr ""
 
 #: inc/php/page.php:73
-msgid "<b>B)</b> For add the buttons inside a post from WP Post/Page Editor use the following shortcode:"
+msgid "<b>B)</b> For add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
 msgstr ""
 
 #: inc/php/page.php:75
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Support Me"
 msgstr ""
 
-#: inc/php/page.php:204 inc/php/settings.php:104 inc/php/sidebar.php:37
+#: inc/php/page.php:204 inc/php/settings.php:121 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Thank you for your support!"
 msgstr ""
 
-#: inc/php/settings.php:21 inc/php/settings.php:86
+#: inc/php/settings.php:21 inc/php/settings.php:103
 msgid "Save changes"
 msgstr ""
 
@@ -324,103 +324,103 @@ msgstr ""
 msgid "Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don't want to use any of the following buttons, you can not fill them and then they do not appear."
 msgstr ""
 
-#: inc/php/settings.php:35
+#: inc/php/settings.php:52
 msgid "Display options"
 msgstr ""
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:54
 msgid "There you can configure this plugin."
 msgstr ""
 
-#: inc/php/settings.php:41
+#: inc/php/settings.php:58
 msgid "Show on Posts"
 msgstr ""
 
-#: inc/php/settings.php:42
+#: inc/php/settings.php:59
 msgid "Automatically display toolbar below content on Posts."
 msgstr ""
 
-#: inc/php/settings.php:45
+#: inc/php/settings.php:62
 msgid "Show on Pages"
 msgstr ""
 
-#: inc/php/settings.php:46
+#: inc/php/settings.php:63
 msgid "Automatically display toolbar below content on Pages."
 msgstr ""
 
-#: inc/php/settings.php:49
+#: inc/php/settings.php:66
 msgid "Open in new tab"
 msgstr ""
 
-#: inc/php/settings.php:50
+#: inc/php/settings.php:67
 msgid "Open link in a new tab/window."
 msgstr ""
 
-#: inc/php/settings.php:53
+#: inc/php/settings.php:70
 msgid "Tooltips"
 msgstr ""
 
-#: inc/php/settings.php:54
+#: inc/php/settings.php:71
 msgid "Enable a tooltips with name of the social media above every button."
 msgstr ""
 
-#: inc/php/settings.php:57
+#: inc/php/settings.php:74
 msgid "Icon size"
 msgstr ""
 
-#: inc/php/settings.php:58
+#: inc/php/settings.php:75
 msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:79
 msgid "Margin"
 msgstr ""
 
-#: inc/php/settings.php:63
+#: inc/php/settings.php:80
 msgid "Enter the size of space (in pixels) between icons in your social media follow buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:68
+#: inc/php/settings.php:85
 msgid "Left"
 msgstr ""
 
-#: inc/php/settings.php:69
+#: inc/php/settings.php:86
 msgid "Center"
 msgstr ""
 
-#: inc/php/settings.php:70
+#: inc/php/settings.php:87
 msgid "Right"
 msgstr ""
 
-#: inc/php/settings.php:72
+#: inc/php/settings.php:89
 msgid "Alignment"
 msgstr ""
 
-#: inc/php/settings.php:73
+#: inc/php/settings.php:90
 msgid "You can choose the alignment of the buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:77
+#: inc/php/settings.php:94
 msgid "Caption"
 msgstr ""
 
-#: inc/php/settings.php:78
+#: inc/php/settings.php:95
 msgid "Enter the caption to your social media follow buttons bar. It will be displays before the toolbar."
 msgstr ""
 
-#: inc/php/settings.php:89
+#: inc/php/settings.php:106
 msgid "Live Preview"
 msgstr ""
 
-#: inc/php/settings.php:91
+#: inc/php/settings.php:108
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 
-#: inc/php/settings.php:99 inc/php/sidebar.php:32
+#: inc/php/settings.php:116 inc/php/sidebar.php:32
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:106 inc/php/sidebar.php:39
+#: inc/php/settings.php:123 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr ""
 

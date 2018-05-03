@@ -14,17 +14,18 @@ function spacexchimp_p005_tollbar() {
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $media = !empty( $options['media'] ) ? $options['media'] : array();
 
-    // Open link in new tab
+    // Generate open window code
     $new_tab = !empty( $options['new_tab'] ) ? 'target="blank"' : '';
 
-    // Enable Tolltips
+    // Generate Tolltips
     $tooltips = !empty( $options['tooltips'] ) ? 'data-toggle="tooltip"' : '';
 
-    // Add a caption above of buttons
+    // Generate caption
     $caption = !empty( $options['caption'] ) ? esc_textarea( $options['caption'] ) : '';
 
     // Generate buttons
-    $toolbar_arr[] = '<ul class="smbt-social-icons">';
+    $toolbar_arr[] = $caption;
+    $toolbar_arr[] = '<ul class="sxc-follow-buttons">';
     if ( !empty( $media ) ) {
         foreach ( $media as $name ) {
             $slug = !empty( $name['slug'] ) ? $name['slug'] : '';
@@ -65,7 +66,6 @@ function spacexchimp_p005_tollbar() {
     }
 
     if ( count( $toolbar_arr ) > 0 ) {
-        array_unshift( $toolbar_arr, $caption );
         array_push( $toolbar_arr, $js );
     }
 
@@ -109,3 +109,21 @@ function spacexchimp_p005_addContent( $content ) {
     return $content;
 }
 add_action( 'the_content', 'spacexchimp_p005_addContent' );
+
+/**
+ * Callback for getting a list of all buttons
+ * @return array with the merged data of both arrays; '_get_items_media()' and '_get_items_additional()'
+ */
+function spacexchimp_p005_get_items_all() {
+
+    // Get all media options and declare variable
+    $array_1 = spacexchimp_p005_get_items_media();
+    $array_2 = spacexchimp_p005_get_items_additional();
+
+    // Merge two arrays
+    $array = array_merge( $array_1, $array_2 );
+
+    // Return the content of array
+    return $array;
+
+}

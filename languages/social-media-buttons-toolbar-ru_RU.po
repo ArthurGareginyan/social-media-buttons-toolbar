@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-04-20 01:37+0300\n"
-"PO-Revision-Date: 2018-04-20 01:37+0300\n"
+"POT-Creation-Date: 2018-05-03 19:31+0300\n"
+"PO-Revision-Date: 2018-05-03 19:31+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -32,28 +32,28 @@ msgstr "Поддержать"
 msgid "Social Media Follow Buttons"
 msgstr "Социальные Медиа Кнопки Следования"
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 #, php-format
 msgid "Enter the link to your %s profile page"
 msgstr "Введите ссылку на вашу страницу профиля %s"
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
 msgstr "Введите свое имя в Skype с приставкой <b>skype:</b> и суффиксом <b>?call</b>, или <b>?add</b>, или <b>?chat</b>, или <b>?userinfo</b> для просмотра профиля"
 
-#: inc/php/list.php:1
-msgid "Enter the link to your personal website"
-msgstr "Введите ссылку на ваш персональный сайт"
-
-#: inc/php/list.php:1
-msgid "Enter your email address with prefix <b>mailto:</b>"
-msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
-
-#: inc/php/list.php:1
+#: inc/php/items.php:1
 msgid "Enter your telephone number with prefix <b>tel://</b>"
 msgstr "Введите номер телефона с префиксом <b>tel://</b>"
 
-#: inc/php/list.php:1
+#: inc/php/items.php:1
+msgid "Enter your email address with prefix <b>mailto:</b>"
+msgstr "Введите адрес электронной почты с префиксом <b>mailto:</b>"
+
+#: inc/php/items.php:1
+msgid "Enter the link to your personal website"
+msgstr "Введите ссылку на ваш персональный сайт"
+
+#: inc/php/items.php:1
 msgid "Enter the link to your RSS Feed"
 msgstr "Введите ссылку на ваш RSS поток"
 
@@ -91,7 +91,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/settings.php:97 inc/php/sidebar.php:30
+#: inc/php/page.php:46 inc/php/settings.php:114 inc/php/sidebar.php:30
 msgid "Support"
 msgstr "Поддержка"
 
@@ -132,8 +132,8 @@ msgid "<b>A)</b> For display the buttons below a content on every Posts or/and P
 msgstr "<b>А)</b> Для отображения кнопок ниже содержимого на каждой странице или/и страницах, просто установите флажок “Показывать в записях” или/и “Показывать на страницах” в разделе “Настройки отображения”, затем нажмите кнопку “Сохранить изменения”."
 
 #: inc/php/page.php:73
-msgid "<b>B)</b> For add the buttons inside a post from WP Post/Page Editor use the following shortcode:"
-msgstr "<b>Б)</b> Для добавления кнопок внутри сообщения из редактора WP Post/Page используйте следующий короткий код:"
+msgid "<b>B)</b> For add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
+msgstr "<b>Б)</b> Для добавления кнопок внутри сообщения из редактора WordPress Post/Page используйте следующий короткий код:"
 
 #: inc/php/page.php:75
 msgid "<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
@@ -289,7 +289,7 @@ msgstr "Вы можете задать ваш вопрос на %s этой ст
 msgid "Support Me"
 msgstr "Поддержать меня"
 
-#: inc/php/page.php:204 inc/php/settings.php:104 inc/php/sidebar.php:37
+#: inc/php/page.php:204 inc/php/settings.php:121 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
@@ -314,7 +314,7 @@ msgstr "Если вы цените мою работу, то вы можете �
 msgid "Thank you for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings.php:21 inc/php/settings.php:86
+#: inc/php/settings.php:21 inc/php/settings.php:103
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
@@ -326,103 +326,103 @@ msgstr "Кнопки"
 msgid "Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don't want to use any of the following buttons, you can not fill them and then they do not appear."
 msgstr "Просто заполните необходимые поля, чтобы создать кнопки. Кнопки социальных медиа будут вести непосредственно к вашим страницам профиля. Если вы не хотите использовать любой из следующих кнопок, то вы можете не заполнить их и тогда они не появятся."
 
-#: inc/php/settings.php:35
+#: inc/php/settings.php:52
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:54
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings.php:41
+#: inc/php/settings.php:58
 msgid "Show on Posts"
 msgstr "Показывать в записях"
 
-#: inc/php/settings.php:42
+#: inc/php/settings.php:59
 msgid "Automatically display toolbar below content on Posts."
 msgstr "Автоматически отображать панель инструментов под содержимым сообщений."
 
-#: inc/php/settings.php:45
+#: inc/php/settings.php:62
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/settings.php:46
+#: inc/php/settings.php:63
 msgid "Automatically display toolbar below content on Pages."
 msgstr "Автоматически отображать панель инструментов ниже содержимого на страницах."
 
-#: inc/php/settings.php:49
+#: inc/php/settings.php:66
 msgid "Open in new tab"
 msgstr "Открыть в новой вкладке"
 
-#: inc/php/settings.php:50
+#: inc/php/settings.php:67
 msgid "Open link in a new tab/window."
 msgstr "Открыть ссылку в новом окне/вкладке."
 
-#: inc/php/settings.php:53
+#: inc/php/settings.php:70
 msgid "Tooltips"
 msgstr "Подсказки"
 
-#: inc/php/settings.php:54
+#: inc/php/settings.php:71
 msgid "Enable a tooltips with name of the social media above every button."
 msgstr "Включите всплывающие подсказки с именем социальных сетей над каждой кнопкой."
 
-#: inc/php/settings.php:57
+#: inc/php/settings.php:74
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:58
+#: inc/php/settings.php:75
 msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgstr "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:79
 msgid "Margin"
 msgstr "Отступ"
 
-#: inc/php/settings.php:63
+#: inc/php/settings.php:80
 msgid "Enter the size of space (in pixels) between icons in your social media follow buttons bar."
 msgstr "Введите размер пробела (в пикселях) между значками в социальных сетях."
 
-#: inc/php/settings.php:68
+#: inc/php/settings.php:85
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/settings.php:69
+#: inc/php/settings.php:86
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/settings.php:70
+#: inc/php/settings.php:87
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/settings.php:72
+#: inc/php/settings.php:89
 msgid "Alignment"
 msgstr "Выравнивание"
 
-#: inc/php/settings.php:73
+#: inc/php/settings.php:90
 msgid "You can choose the alignment of the buttons bar."
 msgstr "Вы можете выбрать выравнивание кнопок социальных медиа."
 
-#: inc/php/settings.php:77
+#: inc/php/settings.php:94
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/settings.php:78
+#: inc/php/settings.php:95
 msgid "Enter the caption to your social media follow buttons bar. It will be displays before the toolbar."
 msgstr "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает над панелью."
 
-#: inc/php/settings.php:89
+#: inc/php/settings.php:106
 msgid "Live Preview"
 msgstr "Просмотр в реальном времени"
 
-#: inc/php/settings.php:91
+#: inc/php/settings.php:108
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
 
-#: inc/php/settings.php:99 inc/php/sidebar.php:32
+#: inc/php/settings.php:116 inc/php/sidebar.php:32
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Я независимый разработчик, без регулярного дохода, так что каждый маленький вклад помогает мне покрыть затраты и позволяет тратить больше времени на создание программ для людей как вы."
 
-#: inc/php/settings.php:106 inc/php/sidebar.php:39
+#: inc/php/settings.php:123 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 

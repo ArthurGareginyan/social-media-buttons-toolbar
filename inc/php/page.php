@@ -70,7 +70,7 @@ function spacexchimp_p005_render_submenu_page() {
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Now you have several methods for display the social media follow buttons bar (further just "buttons"). Just choose the one that is more suitable for your case.', $text ); ?><br><br>
                                 <p><?php _e( '<b>A)</b> For display the buttons below a content on every Posts or/and Pages, just check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click the "Save changes" button.', $text ); ?></p>
-                                <p><?php _e( '<b>B)</b> For add the buttons inside a post from WP Post/Page Editor use the following shortcode:', $text ); ?></p>
+                                <p><?php _e( '<b>B)</b> For add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[smbtoolbar]'); ?></p>
                                 <p><?php _e( '<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[smbtoolbar]'); ?></p>

@@ -26,10 +26,10 @@ function spacexchimp_p005_load_scripts_base( $options ) {
     $margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
     $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
     $custom_css = "
-                    .smbt-social-icons {
+                    .sxc-follow-buttons {
                         text-align: " . $alignment . " !important;
                     }
-                    .smbt-social-icons li img {
+                    .sxc-follow-buttons li img {
                         width: " . $icon_size . "px !important;
                         height: " . $icon_size . "px !important;
                         margin: " . ( $margin / 2 ) . "px !important;

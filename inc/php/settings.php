@@ -26,7 +26,24 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <div class="inside">
                             <p class="note"><?php _e( 'Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don\'t want to use any of the following buttons, you can not fill them and then they do not appear.', $text ); ?></p>
                             <table class="form-table">
-                                <?php require_once( SPACEXCHIMP_P005_PATH . 'inc/php/list.php' ); ?>
+                                <?php
+                                    $items_all = spacexchimp_p005_get_items_all();
+                                    foreach ( $items_all as $item ) {
+                                        foreach ( $item as $item_key => $item_value ) {
+                                            if ( $item_key == 'slug' ) $slug = $item_value;
+                                            if ( $item_key == 'label' ) $label = $item_value;
+                                            if ( $item_key == 'placeholder' ) $placeholder = $item_value;
+                                            if ( $item_key == 'help' ) $help = $item_value;
+                                            if ( $item_key == 'link' ) $link = $item_value;
+                                        }
+                                        spacexchimp_p005_control_link( $slug,
+                                                                       $label,
+                                                                       $placeholder,
+                                                                       $help,
+                                                                       $link
+                                                                     );
+                                    }
+                                ?>
                             </table>
                         </div>
                     </div>

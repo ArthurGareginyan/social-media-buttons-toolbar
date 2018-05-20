@@ -5,7 +5,7 @@
  * Description: Easily add the smart bar with social media follow buttons (not share, only link to your profiles) to any place of your WordPress website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.34
+ * Version: 4.35
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
@@ -55,6 +55,7 @@ function spacexchimp_p005_define_constants( $constant_name, $value ) {
     if ( !defined( $constant_name ) )
         define( $constant_name, $value );
 }
+spacexchimp_p005_define_constants( 'FILE', __FILE__ );
 spacexchimp_p005_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
 spacexchimp_p005_define_constants( 'BASE', plugin_basename( __FILE__ ) );
 spacexchimp_p005_define_constants( 'URL', plugin_dir_url( __FILE__ ) );

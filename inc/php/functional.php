@@ -13,6 +13,7 @@ function spacexchimp_p005_tollbar() {
     // Read options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $selected = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
+    $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
 
     // Get the array with all buttons
     $items_all = spacexchimp_p005_get_items_all();
@@ -32,12 +33,12 @@ function spacexchimp_p005_tollbar() {
     foreach ( $items_all as $item ) {
         $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
         $label = !empty( $item['label'] ) ? $item['label'] : '';
-        $content = !empty( $item['content'] ) ? $item['content'] : '';
+        $link = !empty( $links[$slug] ) ? $links[$slug] : '';
         if ( !empty( $selected[$slug] ) ) {
             $icon = SPACEXCHIMP_P005_URL . "inc/img/social-media-icons/$slug.png";
             $toolbar_arr[] = '<li>
                                     <a
-                                        href="' . $content . '"
+                                        href="' . $link . '"
                                         ' . $tooltips . '
                                         title="' . $label . '"
                                         ' . $new_tab . '

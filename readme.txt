@@ -281,6 +281,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 == Changelog ==
 
 = 4.36 =
+* The plugin became much faster due to the decrease in the number of requests to the database.
 * A new option is added to the plugin settings page, allowing the user to select the desired buttons.
 * Added a new control function '_control_checkbox()'. Added CSS code (in the file 'admin.css') for this control. Added JS code (in the file 'admin.js') for this control.
 * Added a new callback function '_get_media_pairs_media()' for getting a list of media buttons.

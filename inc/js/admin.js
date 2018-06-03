@@ -51,6 +51,12 @@ jQuery(document).ready(function($) {
         input.change();
     });
 
+    // Show/hide fields
+    $('#buttons .control-checkbox input').change(function() {
+        var this_class = $(this).parent('.control-checkbox').attr('id') + '-url';
+        $('#button-links .' + this_class).toggle();
+    });
+
     // Live preview
     $('.new_tab').on('change', function() {
         var val = $(this).val();

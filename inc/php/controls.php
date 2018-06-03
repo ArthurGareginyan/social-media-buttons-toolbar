@@ -138,46 +138,40 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
 }
 
 /**
- * Generator of the media options for saving plugin settings to database
+ * Generator of the media-link options for saving plugin settings to database
  */
 function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $link=null ) {
 
     // Read options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
-    $value = !empty( $options["media"][$name]["content"] ) ? esc_textarea( $options["media"][$name]["content"] ) : '';
+    $value = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
+    $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
 
     // Generate a part of table
     $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
-    $out = "<tr>
+    $out = "<tr class='media-$name-url' style='display: $display;'>
                 <th scope='row'>
                     $link_out
                 </th>
                 <td>
                     <input
-                        type='hidden'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[media][$name][label]'
-                        value='$label'
-                    >
-                    <input
-                        type='hidden'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[media][$name][slug]'
-                        value='$name'
-                    >
-                    <input
                         type='text'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[media][$name][content]'
+                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[buttons-link][$name]'
                         size='50'
                         value='$value'
                         placeholder='$placeholder'
                     >
                 </td>
+            </tr>
+            <tr class='media-$name-url' style='display: $display;'>
+                <td></td>
+                <td class='help-text'>
+                    $help
+                </td>
             </tr>";
 
     // Print the generated part of table
     echo $out;
-
-    // Print a help text
-    spacexchimp_p005_control_help( $help );
 }
 
 /**
@@ -216,6 +210,50 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
                 </th>
                 <td>
                     <ul class='control-list $name'>
+                        $list_item
+                    </ul>
+                </td>
+            </tr>";
+
+    // Print the generated part of table
+    echo $out;
+
+    // Print a help text
+    spacexchimp_p005_control_help( $help );
+}
+
+/**
+ * Generator of the checkboxes for saving plugin settings to database
+ */
+function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
+
+    // Read options from database and declare variables
+    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $list_item = '';
+
+    // Loop of elements LI
+    foreach ( $items as $item_key => $item_value ) {
+        $checked = !empty( $options[$name][$item_key] ) ? 'checked' : '';
+        $list_item .= "<li id='media-$item_key' class='control-checkbox'>
+                           <input
+                                  type='checkbox'
+                                  id='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'
+                                  name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'
+                                  $checked
+                           >
+                           <label for='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'>
+                               $item_value
+                           </label>
+                       </li>";
+    }
+
+    // Generate a part of table
+    $out = "<tr>
+                <th scope='row'>
+                    $label
+                </th>
+                <td>
+                    <ul class='control-list'>
                         $list_item
                     </ul>
                 </td>

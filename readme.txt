@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.35
+Stable tag: 4.36
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -34,6 +34,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 **Key features include...**
 
 * Beautiful icons
+* Ability to select only the desired buttons
 * Preview on plugin settings page
 * Tooltips with name of the social media above every button
 * Shortcode for add social media follow buttons from Post/Page Editor
@@ -278,6 +279,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.36 =
+* A new option is added to the plugin settings page, allowing the user to select the desired buttons.
+* Added a new control function '_control_checkbox()'. Added CSS code (in the file 'admin.css') for this control. Added JS code (in the file 'admin.js') for this control.
+* Added a new callback function '_get_media_pairs_media()' for getting a list of media buttons.
+* Added a new callback function '_get_media_pairs_additional()' for getting a list of additional media buttons.
+* The function '_control_link()' is updated.
+* The function '_tollbar()' is updated.
+* Added a new upgrade function '_upgrade_4_36()'.
+* The old upgrade function '_upgrade_4_10()' is removed due to uselessness.
+* Some texts are corrected.
 
 = 4.35 =
 * Added new constant "_FILE".
@@ -732,8 +744,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Upgrade Notice ==
 
-= 4.2 =
-Please update to new release!
+= 4.36 =
+* The plugin became much faster due to the decrease in the number of requests to the database.
+* A new option is added to the plugin settings page, allowing the user to select the desired buttons.
 
 = 4.0 =
 Please update to new release!

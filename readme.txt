@@ -753,10 +753,6 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Upgrade Notice ==
 
-= 4.36 =
-* The plugin became much faster due to the decrease in the number of requests to the database.
-* A new option is added to the plugin settings page, allowing the user to select the desired buttons.
-
 = 4.0 =
 Please update to new release!
 

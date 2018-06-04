@@ -16,7 +16,7 @@ function spacexchimp_p005_tollbar() {
     $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
 
     // Get the array with all buttons
-    $items_all = spacexchimp_p005_get_items_all();
+    $items = spacexchimp_p005_get_items_all();
 
     // Generate open window code
     $new_tab = !empty( $options['new_tab'] ) ? 'target="blank"' : '';
@@ -30,7 +30,7 @@ function spacexchimp_p005_tollbar() {
     // Generate buttons
     $toolbar_arr[] = $caption;
     $toolbar_arr[] = '<ul class="sxc-follow-buttons">';
-    foreach ( $items_all as $item ) {
+    foreach ( $items as $item ) {
         $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
         $label = !empty( $item['label'] ) ? $item['label'] : '';
         $link = !empty( $links[$slug] ) ? $links[$slug] : '';
@@ -48,7 +48,7 @@ function spacexchimp_p005_tollbar() {
                                             alt="' . $label . '"
                                         />
                                     </a>
-                                </li>';
+                              </li>';
         }
     }
     $toolbar_arr[] = '</ul>';

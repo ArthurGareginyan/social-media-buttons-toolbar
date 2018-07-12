@@ -1,6 +1,6 @@
 # Social Media Follow Buttons Bar
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/social-media-buttons-toolbar/blob/master/assets/banner-772x250.png)
 

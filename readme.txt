@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.38
+Stable tag: 4.39
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -280,9 +280,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.39 =
+* The extra mention of the constant '_SLUG'  is removed from the file 'enqueue.php'.
+* All translation files are updated.
+
 = 4.38 =
 * Fixed a bug due to which the plugin data that stored in the database to not be deleted during the uninstallation of the plugin.
-* The contents of the file 'uninstall.php is moved to the file 'core.php'. The file 'uninstall.php' is deleted.
+* The contents of the file 'uninstall.php' is moved to the file 'core.php'. The file 'uninstall.php' is deleted.
 * The function '_tollbar()' is updated.
 
 = 4.37 =

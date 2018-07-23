@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-07-11 20:00+0300\n"
-"PO-Revision-Date: 2018-07-11 20:00+0300\n"
+"POT-Creation-Date: 2018-07-24 00:38+0300\n"
+"PO-Revision-Date: 2018-07-24 00:38+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -91,7 +91,7 @@ msgstr "Verwendung"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/settings.php:138 inc/php/sidebar.php:30
+#: inc/php/page.php:46 inc/php/settings.php:138 inc/php/sidebar.php:39
 msgid "Support"
 msgstr "Support"
 
@@ -286,28 +286,28 @@ msgid "You can ask your question on %s this page %s. But please keep in mind tha
 msgstr ""
 
 #: inc/php/page.php:196
-msgid "Support Me"
-msgstr "Unterstützen Sie mich"
+msgid "Support Us"
+msgstr "Unterstütze uns"
 
-#: inc/php/page.php:204 inc/php/settings.php:145 inc/php/sidebar.php:37
+#: inc/php/page.php:204 inc/php/settings.php:145 inc/php/sidebar.php:46
 msgid "Donate with PayPal"
 msgstr "Spende mit PayPal"
 
 #: inc/php/page.php:209
 #, php-format
-msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-msgstr "Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space X-Chimp %s."
+msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr ""
 
 #: inc/php/page.php:217
-msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
-msgstr "Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, dass Sie auch von meinen Projekten bereichert werden."
+msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr ""
 
 #: inc/php/page.php:218
-msgid "I spend a lot of time and effort trying to make sure that the themes, plugins and other things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
-msgstr "Ich habe viel Zeit und Mühe darauf verwendet sicherzustellen, dass die Themes, Plugins und andere Dinge, die ich entwickle, nützlich sind. Der ultimative Beweis für mich ist, dass Sie sie tatsächlich verwenden. Aber ich bin ein unabhängiger Entwickler ohne regelmäßiges Einkommen. Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und schenkt mir mehr Zeit damit zu verbringen, Dinge für Leute wie Sie zu gestalten."
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Ich habe viel Zeit und Mühe darauf verwendet sicherzustellen, dass die Themes, Plugins und andere Dinge, die ich entwickle, nützlich sind. Der ultimative Beweis für mich ist, dass Sie sie tatsächlich verwenden. Aber Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und schenkt mir mehr Zeit damit zu verbringen, Dinge für Leute wie Sie zu gestalten."
 
 #: inc/php/page.php:219
-msgid "If you appreciate my work, you can buy me a coffee!"
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Wenn Ihnen meine Arbeit gefällt, können Sie mir gerne einen Kaffee kaufen!"
 
 #: inc/php/page.php:220
@@ -448,27 +448,31 @@ msgstr "Live Vorschau"
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Klicken Sie den Button \"Änderungen speichern\" um die Vorschau zu aktualisieren."
 
-#: inc/php/settings.php:140 inc/php/sidebar.php:32
-msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
-msgstr "Ich bin ein unabhängiger Entwickler ohne regelmäßiges Einkommen. Jeder kleine Beitrag trägt dazu bei, meine Kosten zu decken und ich kann mehr Zeit damit verbringen, Dinge für Leute wie Sie zu entwickeln."
+#: inc/php/settings.php:140 inc/php/sidebar.php:41
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Jeder kleine Beitrag trägt dazu bei, unsere Kosten zu decken und wir kann mehr Zeit damit verbringen, Dinge für Leute wie Sie zu entwickeln."
 
-#: inc/php/settings.php:147 inc/php/sidebar.php:39
+#: inc/php/settings.php:147 inc/php/sidebar.php:48
 msgid "Thanks for your support!"
 msgstr "Danke für Ihre Unterstützung!"
 
 #: inc/php/sidebar.php:16
+msgid "We are «Space X-Chimp»"
+msgstr ""
+
+#: inc/php/sidebar.php:25
 msgid "About"
 msgstr "Über"
 
-#: inc/php/sidebar.php:18
+#: inc/php/sidebar.php:27
 msgid "This plugin allows you to easily add the social media follow buttons bar to any place of your website."
 msgstr "Mit Hilfe dieses Plugins können Sie auf einfache Weise die \"social media follow buttons bar\" überall auf Ihrer Webseite hinzufügen."
 
-#: inc/php/sidebar.php:23
+#: inc/php/sidebar.php:32
 msgid "Help"
 msgstr "Hilfe"
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:34
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Wenn Sie Fragen haben, lesen Sie bitte auch die Fragen im FAQ Bereich."
 
@@ -491,6 +495,12 @@ msgstr "Space X-Chimp"
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
+
+#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space X-Chimp %s."
+
+#~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
+#~ msgstr "Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, dass Sie auch von meinen Projekten bereichert werden."
 
 #~ msgid "Just fill in the required fields to make a buttons. The social networking buttons will lead directly to your profile pages. If you don't want to use any of the following buttons, you can not fill them and then they do not appear."
 #~ msgstr "Füllen die benötigten Felder aus, um einen Button zu erzeugen. Die Buttons des sozialen Netzwerkes leiten Sie direkt auf die Profilseite. Wenn Sie die Felder leer lassen, erscheinen diese sozialen Netzwerke auch nicht als Button."

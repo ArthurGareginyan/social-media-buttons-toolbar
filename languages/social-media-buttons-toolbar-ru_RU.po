@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-07-24 00:38+0300\n"
-"PO-Revision-Date: 2018-07-24 00:38+0300\n"
+"POT-Creation-Date: 2018-08-07 01:40+0300\n"
+"PO-Revision-Date: 2018-08-07 01:40+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -304,7 +304,7 @@ msgstr ""
 
 #: inc/php/page.php:218
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Я трачу много времени и сил, пытаясь убедиться в том, что темы, плагины и другие вещи, которые я создаю, полезны и окончательное доказательство этого для меня состоит в том, что вы на самом деле хотите их использовать. Но Я независимый разработчик, без регулярного дохода, поэтому каждый небольшой вклад помогает мне покрыть расходы и позволяет тратить больше времени на создание программ для людей как вы."
+msgstr "Мы тратим много времени и усилий, пытаясь убедиться в том, что темы, плагины и другие вещи, которые мы создаём, полезны, и окончательное доказательство этого для нас то, что вы на самом деле хотите их использовать. Но мы независимые разработчики, без регулярного дохода, поэтому каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей для таких замечательных людей, как вы."
 
 #: inc/php/page.php:219
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
@@ -323,32 +323,24 @@ msgid "Buttons"
 msgstr "Кнопки"
 
 #: inc/php/settings.php:27
-#, fuzzy
-#| msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgid "Here you can select the buttons that you want to have in your social media follow buttons bar."
-msgstr "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
+msgstr "Здесь вы можете выбрать кнопки, которые вы хотите показывать в вашей панели социальных медиа кнопок."
 
 #: inc/php/settings.php:33
-#, fuzzy
-#| msgid "Social Media Follow Buttons"
 msgid "Social media buttons"
-msgstr "Социальные Медиа Кнопки Следования"
+msgstr "Социальные медиа кнопки"
 
 #: inc/php/settings.php:34 inc/php/settings.php:41
-#, fuzzy
-#| msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgid "Mark the desired buttons to add it to your social media follow buttons bar."
-msgstr "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
+msgstr "Отметьте нужные кнопки, чтобы добавить их в панель социальных кнопок."
 
 #: inc/php/settings.php:40
 msgid "Additional buttons"
 msgstr ""
 
 #: inc/php/settings.php:49
-#, fuzzy
-#| msgid "Buttons"
 msgid "Button links"
-msgstr "Кнопки"
+msgstr "Ссылки кнопок"
 
 #: inc/php/settings.php:51
 msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in section above."
@@ -359,10 +351,8 @@ msgid "Display options"
 msgstr "Настройки отображения"
 
 #: inc/php/settings.php:78
-#, fuzzy
-#| msgid "Here you can configure this plugin."
 msgid "Here you can configure the display options."
-msgstr "Здесь вы можете настроить этот плагин."
+msgstr "Здесь вы можете настроить параметры отображения."
 
 #: inc/php/settings.php:82
 msgid "Show on Posts"

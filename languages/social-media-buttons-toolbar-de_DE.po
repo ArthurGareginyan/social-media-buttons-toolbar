@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-07-24 00:38+0300\n"
-"PO-Revision-Date: 2018-07-24 00:38+0300\n"
+"POT-Creation-Date: 2018-08-07 01:40+0300\n"
+"PO-Revision-Date: 2018-08-07 01:40+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -203,7 +203,7 @@ msgstr "Wie arbeitet das Plugin?"
 
 #: inc/php/page.php:138
 msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. Enjoy your fancy social media follow buttons. It's that simple!"
-msgstr "Am Tab \"Einstellungen\" wählen Sie die gewünschten Einstellungen aus und klicken den Button \"Änderungen speichern\".  Viel Spaß mit den social media follow buttons. Es ist ganz einfach!"
+msgstr "Am Tab \"Einstellungen\" wählen Sie die gewünschten Einstellungen aus und klicken den Button \"Änderungen speichern\". Viel Spaß mit den social media follow buttons. Es ist ganz einfach!"
 
 #: inc/php/page.php:140
 msgid "Does this plugin requires any modification of the theme?"
@@ -323,32 +323,24 @@ msgid "Buttons"
 msgstr "Buttons"
 
 #: inc/php/settings.php:27
-#, fuzzy
-#| msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgid "Here you can select the buttons that you want to have in your social media follow buttons bar."
-msgstr "Geben Sie die Grösse der Icons (in Pixeln) der \"social media follow buttons bar\" ein."
+msgstr ""
 
 #: inc/php/settings.php:33
-#, fuzzy
-#| msgid "Social Media Follow Buttons"
 msgid "Social media buttons"
-msgstr "Social Media Follow Buttons"
+msgstr ""
 
 #: inc/php/settings.php:34 inc/php/settings.php:41
-#, fuzzy
-#| msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
 msgid "Mark the desired buttons to add it to your social media follow buttons bar."
-msgstr "Geben Sie die Grösse der Icons (in Pixeln) der \"social media follow buttons bar\" ein."
+msgstr ""
 
 #: inc/php/settings.php:40
 msgid "Additional buttons"
 msgstr ""
 
 #: inc/php/settings.php:49
-#, fuzzy
-#| msgid "Buttons"
 msgid "Button links"
-msgstr "Buttons"
+msgstr ""
 
 #: inc/php/settings.php:51
 msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in section above."
@@ -359,10 +351,8 @@ msgid "Display options"
 msgstr "Anzeigeoptionen"
 
 #: inc/php/settings.php:78
-#, fuzzy
-#| msgid "Here you can configure this plugin."
 msgid "Here you can configure the display options."
-msgstr "Hier können Sie das Plugin konfigurieren."
+msgstr ""
 
 #: inc/php/settings.php:82
 msgid "Show on Posts"

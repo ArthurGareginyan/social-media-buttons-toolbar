@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.40
+Stable tag: 4.41
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,7 +19,7 @@ The Social Media Follow Buttons Bar - is a bar with set of icons of the popular 
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options then tell us and we will be happy to add it.
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, let us know and we will be happy to add them.
 
 **Features**
 
@@ -196,7 +196,7 @@ Manually via FTP access:
 4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -280,6 +280,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.41 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
+* The translation into Dutch has been corrected.
+* The translation into German has been corrected.
+* The translation into Spanish has been corrected.
 
 = 4.40 =
 * Dutch translation added. (Thanks to Peter Leenders)

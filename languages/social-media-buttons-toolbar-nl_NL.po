@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-07-24 00:38+0300\n"
-"PO-Revision-Date: 2018-07-24 00:38+0300\n"
+"POT-Creation-Date: 2018-08-07 01:40+0300\n"
+"PO-Revision-Date: 2018-08-07 01:40+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -468,7 +468,7 @@ msgstr "Als je een vraag hebt, lees dan de informatie in de FAQ-sectie."
 
 #. Plugin Name of the plugin/theme
 msgid "Social Media Follow Buttons Bar"
-msgstr "Mijn Persoonlijke Functies"
+msgstr "Social Media Follow Buttons Bar"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/social-media-buttons-toolbar"

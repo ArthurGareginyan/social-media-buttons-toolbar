@@ -4,16 +4,15 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/social-media-buttons-toolbar/blob/master/assets/banner-772x250.png)
 
-An easy to use WordPress plugin that gives you the ability to easily add the smart bar with social media follow buttons to any place (post, page, widget, sidebar, footer) of your WordPress website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily add the smart bar with social media follow buttons to any place (post, page, widget, sidebar, footer) of your WordPress website.
 
 The Social Media Follow Buttons Bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options then tell me and I will be happy to add it.
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, let us know and we will be happy to add them.
 
-
-## Features
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -22,10 +21,12 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Compatible with all WordPress themes
 * RTL compatible (right to left)
 * Translation ready
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Key features include...**
 
 * Beautiful icons
+* Ability to select only the desired buttons
 * Preview on plugin settings page
 * Tooltips with name of the social media above every button
 * Shortcode for add social media follow buttons from Post/Page Editor
@@ -124,18 +125,49 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Stitcher
 * WeChat
 * Weibo
+* about.me
 * Untappd
 * TuneIn
 * iHeart
 * BlackBerry World
 * Livestream
-* about.me
 * Personal website
 * Email
 * Telephone
 * RSS Feed
 
 **Got more ideas? Tell me!**
+
+**Translation**
+
+This plugin is ready for translation and has already been translated into several languages.
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/social-media-buttons-toolbar).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/social-media-buttons-toolbar?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/social-media-buttons-toolbar) if you have any ideas or suggestions to make this plugin better.
+
 
 **Usage:**
 

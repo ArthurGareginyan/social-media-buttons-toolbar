@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-08-07 01:40+0300\n"
-"PO-Revision-Date: 2018-08-07 01:40+0300\n"
+"POT-Creation-Date: 2018-09-26 19:33+0300\n"
+"PO-Revision-Date: 2018-09-26 19:33+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -108,7 +108,7 @@ msgid "To display the social media follow buttons bar on the front end of your w
 msgstr "Um die \"social media follow buttons bar\" am Front-End Ihrer Webseite anzuzeigen, befolgen Sie die folgenden Schritte:"
 
 #: inc/php/page.php:67
-msgid "Go to the \"Settings\" tab."
+msgid "Go to the \"Settings\" tab on this page."
 msgstr "Gehen Sie zum Tab \"Einstellungen\"."
 
 #: inc/php/page.php:68
@@ -486,8 +486,8 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Hallo! Meine name ist %s Arthur Gareginyan %s und ich bin der Gründer von %s Space X-Chimp %s."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Hallo! Meine name ist %s Arthur %s und ich bin der Gründer von %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 #~ msgstr "Meine Absicht ist es, Projekte zu entwickeln, die diese Welt zu einem besseren Ort machen. Ich bin begeistert von meiner Arbeit, ich mag, was ich tue, und hoffe, dass Sie auch von meinen Projekten bereichert werden."

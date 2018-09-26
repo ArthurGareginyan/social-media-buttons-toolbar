@@ -6,7 +6,7 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Generator of the help text under controls
+ * Generator of the help text under options
  */
 function spacexchimp_p005_control_help( $help=null ) {
 
@@ -28,7 +28,7 @@ function spacexchimp_p005_control_help( $help=null ) {
 }
 
 /**
- * Generator of the fields for saving settings data to database
+ * Generator of the field option for saving plugin settings to database
  */
 function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder=null ) {
 
@@ -61,7 +61,7 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
 }
 
 /**
- * Generator of the switches for saving plugin settings to database
+ * Generator of the switch option for saving plugin settings to database
  */
 function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 
@@ -93,7 +93,7 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 }
 
 /**
- * Generator of the number fields with minus and plus buttons for saving plugin settings to database
+ * Generator of the number option for saving plugin settings to database
  */
 function spacexchimp_p005_control_number( $name, $label, $help=null, $default=null ) {
 
@@ -175,7 +175,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
 }
 
 /**
- * Generator of the switches for saving plugin settings to database
+ * Generator of the choice option for saving plugin settings to database
  */
 function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default ) {
 
@@ -223,7 +223,7 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
 }
 
 /**
- * Generator of the checkboxes for saving plugin settings to database
+ * Generator of the checkbox option for saving plugin settings to database
  */
 function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 

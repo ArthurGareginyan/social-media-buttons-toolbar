@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-08-07 01:40+0300\n"
+"POT-Creation-Date: 2018-09-26 19:34+0300\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -106,7 +106,7 @@ msgid "To display the social media follow buttons bar on the front end of your w
 msgstr ""
 
 #: inc/php/page.php:67
-msgid "Go to the \"Settings\" tab."
+msgid "Go to the \"Settings\" tab on this page."
 msgstr ""
 
 #: inc/php/page.php:68

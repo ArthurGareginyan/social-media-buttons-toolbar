@@ -64,7 +64,7 @@ function spacexchimp_p005_render_submenu_page() {
                     <div class="inside">
                         <p><?php _e( 'To display the social media follow buttons bar on the front end of your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
-                            <li><?php _e( 'Go to the "Settings" tab.', $text ); ?></li>
+                            <li><?php _e( 'Go to the "Settings" tab on this page.', $text ); ?></li>
                             <li><?php _e( 'Fill in the required fields.', $text ); ?></li>
                             <li><?php _e( 'Select the desired settings.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>

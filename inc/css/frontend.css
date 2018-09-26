@@ -8,12 +8,18 @@
  */
 
 
-/* Reset styles to default for la and a elements */
-.sxc-follow-buttons li {
+/* Reset styles to default for UL, LA and A elements */
+.sxc-follow-buttons {
     margin: 0 !important;
     padding: 0 !important;
     background-image: none !important;
+    border-bottom: 0 !important;
+}
+.sxc-follow-buttons li {
     display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important;
     border-bottom: 0 !important;
     list-style-type: none !important;
     -webkit-user-select: none;
@@ -28,8 +34,8 @@
     content: none !important;
 }
 .sxc-follow-buttons li a {
-    border-bottom: 0 !important;
     display: inline !important;
+    border-bottom: 0 !important;
     box-shadow: none !important;
 }
 .sxc-follow-buttons li img {

@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.41
+Stable tag: 4.42
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -277,9 +277,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/social-media-buttons-toolbar)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/social-media-buttons-toolbar/)
 
 
 == Changelog ==
+
+= 4.42 =
+* Improved code to reset CSS styles to  "default " for the buttons bar elements.
+* Code commenting improved.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.41 =
 * Some texts are updated.
@@ -468,7 +476,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Code commenting improved.
 * Load of the additional remote CSS file removed from the admin.js file.
 * Changed the sorting of enqueueing of scripts.
-* The ''Family' page tab renamed to 'Store'.
+* The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
 = 4.14 =

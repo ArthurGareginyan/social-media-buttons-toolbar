@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.42
+Stable tag: 4.43
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,7 +19,7 @@ The Social Media Follow Buttons Bar - is a bar with set of icons of the popular 
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, let us know and we will be happy to add them.
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, then let us know and we will be happy to add them.
 
 **Features**
 
@@ -31,7 +31,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Beautiful icons
 * Ability to select only the desired buttons
@@ -281,6 +281,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.43 =
+* Improvement: Design of the plugin settings page is improved.
+* Content of the "Usage Instructions" section updated.
+* Translation files are updated.
 
 = 4.42 =
 * Improved code to reset CSS styles to  "default " for the buttons bar elements.

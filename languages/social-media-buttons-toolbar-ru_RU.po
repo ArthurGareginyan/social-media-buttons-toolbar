@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-09-26 19:34+0300\n"
-"PO-Revision-Date: 2018-09-26 19:34+0300\n"
+"POT-Creation-Date: 2018-10-23 19:16+0300\n"
+"PO-Revision-Date: 2018-10-23 19:16+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: social-media-buttons-toolbar.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -157,7 +157,7 @@ msgstr "Примечание!"
 
 #: inc/php/page.php:83
 #, php-format
-msgid "If you want more options then %s tell us %s and we will be happy to add it."
+msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr "Если вы хотите больше вариантов, то %s сообщите нам %s и мы будем рады добавить их."
 
 #: inc/php/page.php:97

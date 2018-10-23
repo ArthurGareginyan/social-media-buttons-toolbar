@@ -80,7 +80,7 @@ function spacexchimp_p005_render_submenu_page() {
                             <li><?php _e( 'Enjoy your fancy social media follow buttons.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
+                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
                                                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                                                 '</a>'
                                                                                           );

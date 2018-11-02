@@ -19,9 +19,9 @@ function spacexchimp_p005_tollbar() {
     $items = spacexchimp_p005_get_items_all();
 
     // Generate open window code
-    $new_tab = !empty( $options['new_tab'] ) ? 'target="blank"' : '';
+    $new_tab = !empty( $options['new_tab'] ) ? 'target="_blank"' : '';
 
-    // Generate Tolltips
+    // Generate tolltips
     $tooltips = !empty( $options['tooltips'] ) ? 'data-toggle="tooltip"' : '';
 
     // Generate caption

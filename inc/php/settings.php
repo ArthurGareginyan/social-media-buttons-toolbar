@@ -72,7 +72,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="displayo-ptions">
+                    <div class="postbox" id="display">
                         <h3 class="title"><?php _e( 'Display options', $text ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Here you can configure the display options.', $text ); ?></p>
@@ -80,15 +80,15 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 <?php
                                     spacexchimp_p005_control_switch( 'show_posts',
                                                                      __( 'Show on Posts', $text ),
-                                                                     __( 'Automatically display toolbar below content on Posts.', $text )
+                                                                     __( 'Automatically display the social media follow buttons below content on Posts.', $text )
                                                                    );
                                     spacexchimp_p005_control_switch( 'show_pages',
                                                                      __( 'Show on Pages', $text ),
-                                                                     __( 'Automatically display toolbar below content on Pages.', $text )
+                                                                     __( 'Automatically display the social media follow buttons below content on Pages.', $text )
                                                                    );
                                     spacexchimp_p005_control_switch( 'new_tab',
                                                                      __( 'Open in new tab', $text ),
-                                                                     __( 'Open link in a new tab/window.', $text )
+                                                                     __( 'Open links in a new tab/window.', $text )
                                                                    );
                                     spacexchimp_p005_control_switch( 'tooltips',
                                                                      __( 'Tooltips', $text ),

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-10-23 19:16+0300\n"
-"PO-Revision-Date: 2018-10-23 19:16+0300\n"
+"POT-Creation-Date: 2018-11-02 17:57+0300\n"
+"PO-Revision-Date: 2018-11-02 17:57+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -359,7 +359,7 @@ msgid "Show on Posts"
 msgstr "In Posts anzeigen"
 
 #: inc/php/settings.php:83
-msgid "Automatically display toolbar below content on Posts."
+msgid "Automatically display the social media follow buttons below content on Posts."
 msgstr "Die Toolbar automatisch unterhalb des Inhalts von Posts anzeigen."
 
 #: inc/php/settings.php:86
@@ -367,7 +367,7 @@ msgid "Show on Pages"
 msgstr "Auf Seiten anzeigen"
 
 #: inc/php/settings.php:87
-msgid "Automatically display toolbar below content on Pages."
+msgid "Automatically display the social media follow buttons below content on Pages."
 msgstr "Die Toolbar automatisch unterhalb des Inhalts von Seiten anzeigen."
 
 #: inc/php/settings.php:90
@@ -375,7 +375,7 @@ msgid "Open in new tab"
 msgstr "Öffne in neuem Tab"
 
 #: inc/php/settings.php:91
-msgid "Open link in a new tab/window."
+msgid "Open links in a new tab/window."
 msgstr "Link in einem neuen Tab/Fenster öffnen."
 
 #: inc/php/settings.php:94

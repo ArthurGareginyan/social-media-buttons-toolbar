@@ -23,7 +23,7 @@ function spacexchimp_p005_render_submenu_page() {
     // Layout of page
     ?>
     <div class="wrap">
-        <h2>
+        <h2 class="sxc-header">
             <?php echo $name; ?>
             <span>
                 <?php printf(

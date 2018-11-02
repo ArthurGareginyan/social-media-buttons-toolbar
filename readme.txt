@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.43
+Stable tag: 4.44
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -281,6 +281,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.44 =
+* Improvement: Design of the plugin settings page is improved.
+* Improved code to reset CSS styles to  "default " for the buttons bar elements.
+* Fix: The "blank" value of the "target" attribute in the links of social media buttons are replaced with "_blank" value.
+* Fix: The "displayo-ptions" ID is renamed to "display".
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.43 =
 * Improvement: Design of the plugin settings page is improved.

@@ -13,6 +13,7 @@
     margin: 0 !important;
     padding: 0 !important;
     background-image: none !important;
+    border: none !important;
     border-bottom: 0 !important;
 }
 .sxc-follow-buttons li {
@@ -20,6 +21,7 @@
     margin: 0 !important;
     padding: 0 !important;
     background-image: none !important;
+    border: none !important;
     border-bottom: 0 !important;
     list-style-type: none !important;
     -webkit-user-select: none;
@@ -34,7 +36,8 @@
     content: none !important;
 }
 .sxc-follow-buttons li a {
-    display: inline !important;
+    display: block !important;
+    border: none !important;
     border-bottom: 0 !important;
     box-shadow: none !important;
 }

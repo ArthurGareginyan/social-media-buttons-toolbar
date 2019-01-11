@@ -65,26 +65,26 @@ function spacexchimp_p005_render_submenu_page() {
                         <p><?php _e( 'To display the social media follow buttons bar on the front end of your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Settings" tab on this page.', $text ); ?></li>
-                            <li><?php _e( 'Fill in the required fields.', $text ); ?></li>
+                            <li><?php _e( 'Select the desired buttons and fill in the required URL fields.', $text ); ?></li>
                             <li><?php _e( 'Select the desired settings.', $text ); ?></li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Now you have several methods for display the social media follow buttons bar (further just "buttons"). Just choose the one that is more suitable for your case.', $text ); ?><br><br>
-                                <p><?php _e( '<b>A)</b> For display the buttons below a content on every Posts or/and Pages, just check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click the "Save changes" button.', $text ); ?></p>
-                                <p><?php _e( '<b>B)</b> For add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:', $text ); ?></p>
+                                <p><?php _e( '<b>A)</b> To automatically display the buttons below a content on every Posts and/or Pages, simply check the checkbox "Show on Posts" or/and "Show on Pages" in the section "Display options", then click the "Save changes" button.', $text ); ?></p>
+                                <p><?php _e( '<b>B)</b> To add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[smbtoolbar]'); ?></p>
-                                <p><?php _e( '<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', $text ); ?></p>
+                                <p><?php _e( '<b>C)</b> To add the buttons to the widget area (in sidebar, footer etc.) use the "Text" widget and add inside it the following shortcode:', $text ); ?></p>
                                 <p><?php highlight_string('[smbtoolbar]'); ?></p>
-                                <p><?php _e( '<b>D)</b> For add the buttons directly to a theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:', $text ); ?></p>
+                                <p><?php _e( '<b>D)</b> To add the buttons directly to the theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:', $text ); ?></p>
                                 <p><?php highlight_string('<?php echo do_shortcode("[smbtoolbar]"); ?>'); ?></p>
                             </li>
                             <li><?php _e( 'Enjoy your fancy social media follow buttons.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
-                        <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
-                                                                                                '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
-                                                                                                '</a>'
-                                                                                          );
-                                                                              ?>
+                        <p class="note"><?php printf(
+                                                      __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
+                                                      '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
+                                                      '</a>'
+                                                    );
+                                        ?>
                         </p>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ function spacexchimp_p005_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '12';
+                                $loopvalue = '14';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -137,48 +137,55 @@ function spacexchimp_p005_render_submenu_page() {
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
                         <div class="answer-3"><?php _e( 'On the "Settings" tab, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
-                        <div class="answer-4"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
+                        <div class="question-4"><?php _e( 'Can I configure my buttons bar instance?', $text ); ?></div>
+                        <div class="answer-4"><?php _e( 'Yes. On the "Settings" tab, select the desired settings and click the "Save changes" button. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-5"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
-                        <div class="answer-5"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', $text ); ?></div>
+                        <div class="question-5"><?php _e( 'How many buttons bar instances can I create?', $text ); ?></div>
+                        <div class="answer-5"><?php _e( 'The free version of this plugin supports only 1 instance of the buttons bar.', $text ); ?><br><br>
+                                              <?php _e( 'In the premium version of this plugin you can create up to 10 of buttons bar instances. This is very useful, because that way you can manage your buttons bar instances separately. Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances.', $text ); ?></div>
 
-                        <div class="question-6"><?php _e( 'What I need to do if the Google PageSpeed test says that this plugin images must be compressed?', $text ); ?></div>
-                        <div class="answer-6"><?php _e( 'The images that uses in this plugin are already compressed, but I will do my best to find out what else can be done with the images in order to compress them even better.', $text ); ?></div>
+                        <div class="question-6"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
+                        <div class="answer-6"><?php _e( 'Absolutely not. This plugin is configurable entirely from the plugin settings page.', $text ); ?></div>
 
-                        <div class="question-7 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
-                        <div class="answer-7"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
+                        <div class="question-7"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
+                        <div class="answer-7"><?php _e( 'Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.', $text ); ?></div>
+
+                        <div class="question-8"><?php _e( 'What I need to do if the Google PageSpeed test says that this plugin images must be compressed?', $text ); ?></div>
+                        <div class="answer-8"><?php _e( 'The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better.', $text ); ?></div>
+
+                        <div class="question-9 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-9"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
                                               <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
 
-                        <div class="question-8 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
-                        <div class="answer-8"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
+                        <div class="question-10 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="answer-10"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
-                        <div class="question-9 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
-                        <div class="answer-9"><?php printf(
+                        <div class="question-11 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
+                        <div class="answer-11"><?php printf(
                                                             __( 'Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-10"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
-                        <div class="answer-10"><?php printf(
+                        <div class="question-12"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
+                        <div class="answer-12"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-11"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
-                        <div class="answer-11"><?php printf(
+                        <div class="question-13"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
+                        <div class="answer-13"><?php printf(
                                                             __( 'Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                           );
                                               ?></div>
 
-                        <div class="question-12"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
-                        <div class="answer-12"><?php printf(
+                        <div class="question-14"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
+                        <div class="answer-14"><?php printf(
                                                             __( 'You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone.', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'

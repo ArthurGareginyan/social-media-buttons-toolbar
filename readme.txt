@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.0
-Stable tag: 4.44
+Stable tag: 4.45
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,11 +15,13 @@ Easily add the smart bar with social media follow buttons (not share, only link 
 
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily add the smart bar with social media follow buttons to any place (post, page, widget, sidebar, footer) of your WordPress website.
 
-The Social Media Follow Buttons Bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
+The social media follow buttons bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all post or/and pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, then let us know and we will be happy to add them.
+It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all Posts and/or Pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, then let us know and we will be happy to add them.
+
+This plugin is just plug and play, no tedious configurations or hacks, just install, enable and start enjoy your fancy social media follow buttons. It's that simple!
 
 **Features**
 
@@ -34,12 +36,27 @@ It give you finer control over buttons. You can configure they on plugins settin
 **Key features include**
 
 * Beautiful icons
+* Automatically display buttons bar in all posts and/or pages
+* Display buttons bar in any post or page with a WordPress shortcode
+* Display buttons bar in widgets with a WordPress shortcode
+* Include buttons bar directly in your theme files with a PHP short code
+* Supported 100 social media sites and additional links
+* Tooltips with the name of social media next to each button
 * Ability to select only the desired buttons
-* Preview on plugin settings page
-* Tooltips with name of the social media above every button
-* Shortcode for add social media follow buttons from Post/Page Editor
-* PHP/HTML code for add social media follow buttons directly in your theme files
+* Live preview on the plugin settings page
 * And much, much more!
+
+**PRO features include**
+
+* Up to 10 buttons bar instances
+* Separate settings for buttons bars
+* Separate preview for each buttons bar
+* Ability to give a name/label for each buttons bar for easy management
+* Ability to choose which one from your buttons bars you like to autoload.
+* Ability to automatically display the buttons bar not only below content on Posts, but also above content on Posts.
+* Ability to automatically display the buttons bar not only below content on Pages, but also above content on Pages.
+* No ads on the settings page
+* Well documented
 
 **Supported social media and links:**
 
@@ -144,7 +161,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Telephone
 * RSS Feed
 
-**Got more ideas? Tell me!**
+**Got more ideas? Tell us!**
 
 **Translation**
 
@@ -220,7 +237,7 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 A. Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.
 
 = Q. What I need to do if the Google PageSpeed test says that this plugin images must be compressed? =
-A. The images that uses in this plugin are already compressed, but I will do my best to find out what else can be done with the images in order to compress them even better.
+A. The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better.
 
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
@@ -281,6 +298,26 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.45 =
+* Added information about the PRO version of the plugin.
+* Options on the settings page are resorted.
+* Options on the settings page are renamed.
+* On the plugin settings page added separators with title for option groups.
+* Content of the "Usage" section updated.
+* Content of the "FAQ" section updated.
+* Many texts are updated.
+* The function "_tollbar" is renamed to "_generator".
+* The autoload function "_addContent" is renamed to "_autoload" and improved.
+* The function "_load_scripts_dynamic_css" is improved.
+* In the "frontend.css" file, useless CSS code is removed.
+* Added class "sxc-follow-button" to the LI element of the buttons bar.
+* Some variables in the "enqueue.php" file are renamed.
+* Code formatting in the "admin.js" file improved.
+* Code formatting in the "functional.php" file improved.
+* Code commenting improved.
+* The copyright date updated.
+* Translation files are updated.
 
 = 4.44 =
 * Improvement: Design of the plugin settings page is improved.

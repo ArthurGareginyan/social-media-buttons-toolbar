@@ -6,11 +6,11 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Generate the buttons and make shortcode
+ * Generate the buttons bar
  */
-function spacexchimp_p005_tollbar() {
+function spacexchimp_p005_generator() {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $selected = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
     $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
@@ -36,7 +36,7 @@ function spacexchimp_p005_tollbar() {
         $link = !empty( $links[$slug] ) ? $links[$slug] : '';
         if ( !empty( $selected[$slug] ) ) {
             $icon = SPACEXCHIMP_P005_URL . "inc/img/social-media-icons/$slug.png";
-            $toolbar_arr[] = '<li>
+            $toolbar_arr[] = '<li class="sxc-follow-button">
                                     <a
                                         href="' . $link . '"
                                         ' . $tooltips . '
@@ -78,7 +78,10 @@ function spacexchimp_p005_tollbar() {
  * Create the shortcode "[smbtoolbar]"
  */
 function spacexchimp_p005_shortcode() {
-    return implode(PHP_EOL, spacexchimp_p005_tollbar());
+    return implode(
+                    PHP_EOL,
+                    spacexchimp_p005_generator()
+                  );
 }
 add_shortcode( 'smbtoolbar', 'spacexchimp_p005_shortcode' );
 
@@ -88,26 +91,30 @@ add_shortcode( 'smbtoolbar', 'spacexchimp_p005_shortcode' );
 add_filter( 'widget_text', 'do_shortcode' );
 
 /**
- * Add buttons to the beginning of each post or/and page.
+ * Autoload option
  */
-function spacexchimp_p005_addContent( $content ) {
+function spacexchimp_p005_autoload( $content ) {
+
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $below_posts = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
+    $below_pages = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
 
     if ( is_single() ) {
-        if ( !empty( $options['show_posts'] ) && $options['show_posts'] == "on" ) {
+        if ( $below_posts == "on" ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }
 
     if ( is_page() ) {
-        if ( !empty( $options['show_pages'] ) && $options['show_pages'] == "on" ) {
+        if ( $below_pages == "on" ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }
 
     return $content;
 }
-add_action( 'the_content', 'spacexchimp_p005_addContent' );
+add_action( 'the_content', 'spacexchimp_p005_autoload' );
 
 /**
  * Callback for getting a list of all buttons

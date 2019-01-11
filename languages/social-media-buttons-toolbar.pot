@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2018-11-02 18:01+0300\n"
+"POT-Creation-Date: 2019-01-11 20:47+0200\n"
 "PO-Revision-Date: 2015-12-17 02:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,37 +22,41 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: inc/php/core.php:37
+#: inc/php/core.php:33 inc/php/core.php:48
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/php/core.php:47
 msgid "Donate"
 msgstr ""
 
-#: inc/php/core.php:52
+#: inc/php/core.php:63
 msgid "Social Media Follow Buttons"
 msgstr ""
 
 #: inc/php/items.php:1
 #, php-format
-msgid "Enter the link to your %s profile page"
+msgid "Enter the URL of your profile page on %s. The URL must contain the protocol identifier (<b>http://</b> or <b>https://</b>)."
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile"
+msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile."
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter your telephone number with prefix <b>tel://</b>"
+msgid "Enter your telephone number with prefix <b>tel://</b>."
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter your email address with prefix <b>mailto:</b>"
+msgid "Enter your email address with prefix <b>mailto:</b>."
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter the link to your personal website"
+msgid "Enter the URL of your personal website."
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter the link to your RSS Feed"
+msgid "Enter the URL of your RSS feed."
 msgstr ""
 
 #: inc/php/messages.php:26
@@ -89,7 +93,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/settings.php:138 inc/php/sidebar.php:39
+#: inc/php/page.php:46 inc/php/settings.php:150 inc/php/sidebar.php:47
 msgid "Support"
 msgstr ""
 
@@ -110,7 +114,7 @@ msgid "Go to the \"Settings\" tab on this page."
 msgstr ""
 
 #: inc/php/page.php:68
-msgid "Fill in the required fields."
+msgid "Select the desired buttons and fill in the required URL fields."
 msgstr ""
 
 #: inc/php/page.php:69
@@ -126,19 +130,19 @@ msgid "Now you have several methods for display the social media follow buttons 
 msgstr ""
 
 #: inc/php/page.php:72
-msgid "<b>A)</b> For display the buttons below a content on every Posts or/and Pages, just check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the section \"Display options\", then click the \"Save changes\" button."
+msgid "<b>A)</b> To automatically display the buttons below a content on every Posts and/or Pages, simply check the checkbox \"Show on Posts\" or/and \"Show on Pages\" in the section \"Display options\", then click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:73
-msgid "<b>B)</b> For add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
+msgid "<b>B)</b> To add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
 msgstr ""
 
 #: inc/php/page.php:75
-msgid "<b>C)</b> For add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
+msgid "<b>C)</b> To add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
 #: inc/php/page.php:77
-msgid "<b>D)</b> For add the buttons directly to a theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
+msgid "<b>D)</b> To add the buttons directly to the theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
 msgstr ""
 
 #: inc/php/page.php:80
@@ -147,10 +151,6 @@ msgstr ""
 
 #: inc/php/page.php:80
 msgid "It's that simple!"
-msgstr ""
-
-#: inc/php/page.php:82
-msgid "Note!"
 msgstr ""
 
 #: inc/php/page.php:83
@@ -204,115 +204,135 @@ msgid "On the \"Settings\" tab, select the desired settings and click the \"Save
 msgstr ""
 
 #: inc/php/page.php:140
-msgid "Does this plugin requires any modification of the theme?"
+msgid "Can I configure my buttons bar instance?"
 msgstr ""
 
 #: inc/php/page.php:141
-msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
+msgid "Yes. On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:143
-msgid "Does this require any knowledge of HTML or CSS?"
+msgid "How many buttons bar instances can I create?"
 msgstr ""
 
 #: inc/php/page.php:144
-msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
+msgid "The free version of this plugin supports only 1 instance of the buttons bar."
 msgstr ""
 
-#: inc/php/page.php:146
-msgid "What I need to do if the Google PageSpeed test says that this plugin images must be compressed?"
+#: inc/php/page.php:145
+msgid "In the premium version of this plugin you can create up to 10 of buttons bar instances. This is very useful, because that way you can manage your buttons bar instances separately. Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances."
 msgstr ""
 
 #: inc/php/page.php:147
-msgid "The images that uses in this plugin are already compressed, but I will do my best to find out what else can be done with the images in order to compress them even better."
+msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:149
-msgid "It's not working. What could be wrong?"
+#: inc/php/page.php:148
+msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr ""
 
 #: inc/php/page.php:150
-msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
+msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
 #: inc/php/page.php:151
-msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
+msgid "Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
 msgstr ""
 
 #: inc/php/page.php:153
-msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
+msgid "What I need to do if the Google PageSpeed test says that this plugin images must be compressed?"
 msgstr ""
 
 #: inc/php/page.php:154
-msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
+msgid "The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better."
 msgstr ""
 
 #: inc/php/page.php:156
-msgid "Where to report bug if found?"
+msgid "It's not working. What could be wrong?"
+msgstr ""
+
+#: inc/php/page.php:157
+msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr ""
 
 #: inc/php/page.php:158
+msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr ""
+
+#: inc/php/page.php:160
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
+msgstr ""
+
+#: inc/php/page.php:161
+msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
+msgstr ""
+
+#: inc/php/page.php:163
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/page.php:165
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:164
+#: inc/php/page.php:171
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:166
+#: inc/php/page.php:173
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:172
+#: inc/php/page.php:179
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:174
+#: inc/php/page.php:181
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:180
+#: inc/php/page.php:187
 msgid "My question wasn't answered here."
 msgstr ""
 
-#: inc/php/page.php:182
+#: inc/php/page.php:189
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/page.php:196
+#: inc/php/page.php:203
 msgid "Support Us"
 msgstr ""
 
-#: inc/php/page.php:204 inc/php/settings.php:145 inc/php/sidebar.php:46
+#: inc/php/page.php:211 inc/php/settings.php:157 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/page.php:209
+#: inc/php/page.php:216
 #, php-format
 msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
-#: inc/php/page.php:217
+#: inc/php/page.php:224
 msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
-#: inc/php/page.php:218
+#: inc/php/page.php:225
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/page.php:219
+#: inc/php/page.php:226
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr ""
 
-#: inc/php/page.php:220
+#: inc/php/page.php:227
 msgid "Thank you for your support!"
 msgstr ""
 
-#: inc/php/settings.php:21 inc/php/settings.php:127
+#: inc/php/settings.php:21 inc/php/settings.php:139
 msgid "Save changes"
 msgstr ""
 
@@ -337,11 +357,11 @@ msgid "Additional buttons"
 msgstr ""
 
 #: inc/php/settings.php:49
-msgid "Button links"
+msgid "Buttons URL"
 msgstr ""
 
 #: inc/php/settings.php:51
-msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in section above."
+msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above."
 msgstr ""
 
 #: inc/php/settings.php:76
@@ -349,98 +369,114 @@ msgid "Display options"
 msgstr ""
 
 #: inc/php/settings.php:78
-msgid "Here you can configure the display options."
+msgid "Here you can customize the display of your social media follow buttons bar."
 msgstr ""
 
 #: inc/php/settings.php:82
-msgid "Show on Posts"
+msgid "Button size"
 msgstr ""
 
 #: inc/php/settings.php:83
-msgid "Automatically display the social media follow buttons below content on Posts."
-msgstr ""
-
-#: inc/php/settings.php:86
-msgid "Show on Pages"
+msgid "You can choose the size of the buttons (in pixels). Default is 64 pixels."
 msgstr ""
 
 #: inc/php/settings.php:87
-msgid "Automatically display the social media follow buttons below content on Pages."
+msgid "Positioning"
 msgstr ""
 
 #: inc/php/settings.php:90
-msgid "Open in new tab"
+msgid "Button margin"
 msgstr ""
 
 #: inc/php/settings.php:91
-msgid "Open links in a new tab/window."
+msgid "You can choose the size of the space (in pixels) between each button. Default is 10 pixels."
 msgstr ""
 
-#: inc/php/settings.php:94
-msgid "Tooltips"
-msgstr ""
-
-#: inc/php/settings.php:95
-msgid "Enable a tooltips with name of the social media above every button."
-msgstr ""
-
-#: inc/php/settings.php:98
-msgid "Icon size"
-msgstr ""
-
-#: inc/php/settings.php:99
-msgid "Enter the size of icons (in pixels) in your social media follow buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:103
-msgid "Margin"
-msgstr ""
-
-#: inc/php/settings.php:104
-msgid "Enter the size of space (in pixels) between icons in your social media follow buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:109
+#: inc/php/settings.php:96
 msgid "Left"
 msgstr ""
 
-#: inc/php/settings.php:110
+#: inc/php/settings.php:97
 msgid "Center"
 msgstr ""
 
-#: inc/php/settings.php:111
+#: inc/php/settings.php:98
 msgid "Right"
 msgstr ""
 
-#: inc/php/settings.php:113
-msgid "Alignment"
+#: inc/php/settings.php:100
+msgid "Buttons bar alignment"
 msgstr ""
 
-#: inc/php/settings.php:114
-msgid "You can choose the alignment of the buttons bar."
+#: inc/php/settings.php:101
+msgid "You can choose the alignment of the entire buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:118
+#: inc/php/settings.php:105
+msgid "Links open method"
+msgstr ""
+
+#: inc/php/settings.php:108
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/php/settings.php:109
+msgid "Open links in a new tab/window."
+msgstr ""
+
+#: inc/php/settings.php:112
+msgid "Additional"
+msgstr ""
+
+#: inc/php/settings.php:115
 msgid "Caption"
 msgstr ""
 
-#: inc/php/settings.php:119
-msgid "Enter the caption to your social media follow buttons bar. It will be displays before the toolbar."
+#: inc/php/settings.php:116
+msgid "Enter the caption to your social media follow buttons bar. It will be displayed above the buttons bar."
 msgstr ""
 
-#: inc/php/settings.php:130
-msgid "Live Preview"
+#: inc/php/settings.php:120
+msgid "Tooltips"
+msgstr ""
+
+#: inc/php/settings.php:121
+msgid "Enable tooltips with the name of social media that will be displayed next to each button."
+msgstr ""
+
+#: inc/php/settings.php:124
+msgid "Autoload"
+msgstr ""
+
+#: inc/php/settings.php:127
+msgid "Show on Posts"
+msgstr ""
+
+#: inc/php/settings.php:128
+msgid "Automatically display the buttons bar below content on Posts."
+msgstr ""
+
+#: inc/php/settings.php:131
+msgid "Show on Pages"
 msgstr ""
 
 #: inc/php/settings.php:132
+msgid "Automatically display the buttons bar below content on Pages."
+msgstr ""
+
+#: inc/php/settings.php:142
+msgid "Live Preview"
+msgstr ""
+
+#: inc/php/settings.php:144
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr ""
 
-#: inc/php/settings.php:140 inc/php/sidebar.php:41
+#: inc/php/settings.php:152 inc/php/sidebar.php:49
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:147 inc/php/sidebar.php:48
+#: inc/php/settings.php:159 inc/php/sidebar.php:56
 msgid "Thanks for your support!"
 msgstr ""
 
@@ -448,19 +484,19 @@ msgstr ""
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:33
 msgid "About"
 msgstr ""
 
-#: inc/php/sidebar.php:27
+#: inc/php/sidebar.php:35
 msgid "This plugin allows you to easily add the social media follow buttons bar to any place of your website."
 msgstr ""
 
-#: inc/php/sidebar.php:32
+#: inc/php/sidebar.php:40
 msgid "Help"
 msgstr ""
 
-#: inc/php/sidebar.php:34
+#: inc/php/sidebar.php:42
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 

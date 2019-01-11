@@ -21,6 +21,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 </div>
             </div>
 
+            <div class="postbox banner">
+                <div class="inside">
+                    <a href="https://www.spacexchimp.com/plugins/social-media-buttons-toolbar-pro.html" target="_blank">
+                        <img src="<?php echo SPACEXCHIMP_P005_URL . 'inc/img/upgrade.png'; ?>" alt="Upgrade" style="margin-top:-16px;">
+                    </a>
+                </div>
+            </div>
+
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">

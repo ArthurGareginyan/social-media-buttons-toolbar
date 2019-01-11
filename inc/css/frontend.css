@@ -4,45 +4,49 @@
  * @package     Social Media Follow Buttons Bar
  * @author      Arthur Gareginyan
  * @link        https://www.spacexchimp.com
- * @copyright   Copyright (c) 2016-2018 Space X-Chimp. All Rights Reserved.
+ * @copyright   Copyright (c) 2016-2019 Space X-Chimp. All Rights Reserved.
  */
 
 
-/* Reset styles to default for UL, LA and A elements */
+/* All buttons */
 .sxc-follow-buttons {
-    margin: 0 !important;
-    padding: 0 !important;
-    background-image: none !important;
-    border: none !important;
-    border-bottom: 0 !important;
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    border-bottom: 0 !important;        /* Reset */
 }
-.sxc-follow-buttons li {
-    display: inline-block !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    background-image: none !important;
-    border: none !important;
-    border-bottom: 0 !important;
-    list-style-type: none !important;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+
+/* Each button */
+.sxc-follow-buttons .sxc-follow-button {
+    display: inline-block !important;   /* Reset */
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    border-bottom: 0 !important;        /* Reset */
+    list-style-type: none !important;   /* Reset */
+    -webkit-user-select: none;          /* Reset */
+    -moz-user-select: none;             /* Reset */
 }
-.sxc-follow-buttons li::before {
-    content: "" !important;
-    content: none !important;
+.sxc-follow-buttons .sxc-follow-button::before {
+    content: "" !important;             /* Reset */
+    content: none !important;           /* Reset */
 }
-.sxc-follow-buttons li::after {
-    content: "" !important;
-    content: none !important;
+.sxc-follow-buttons .sxc-follow-button::after {
+    content: "" !important;             /* Reset */
+    content: none !important;           /* Reset */
 }
-.sxc-follow-buttons li a {
-    display: block !important;
-    border: none !important;
-    border-bottom: 0 !important;
-    box-shadow: none !important;
+
+.sxc-follow-buttons .sxc-follow-button a {
+    display: block !important;          /* Reset */
+    border: none !important;            /* Reset */
+    border-bottom: 0 !important;        /* Reset */
+    box-shadow: none !important;        /* Reset */
 }
-.sxc-follow-buttons li img {
-    margin: 0 !important;
-    padding: 0 !important;
+
+.sxc-follow-buttons .sxc-follow-button a img {
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
     vertical-align: top;
 }

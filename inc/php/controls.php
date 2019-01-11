@@ -32,7 +32,7 @@ function spacexchimp_p005_control_help( $help=null ) {
  */
 function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
@@ -65,7 +65,7 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
  */
 function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
@@ -97,7 +97,7 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
  */
 function spacexchimp_p005_control_number( $name, $label, $help=null, $default=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
@@ -142,7 +142,7 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
  */
 function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $link=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $value = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
     $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
@@ -179,7 +179,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
  */
 function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $option = !empty( $options[$name] ) ? $options[$name] : '';
     $list_item = '';
@@ -227,7 +227,7 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
  */
 function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
     $list_item = '';
 
@@ -264,4 +264,33 @@ function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 
     // Print a help text
     spacexchimp_p005_control_help( $help );
+}
+
+/**
+ * Generator of the separator between option groups
+ */
+function spacexchimp_p005_control_separator( $text=null ) {
+
+    // Generate a part of table
+    if ( !empty( $text ) ) {
+        $out = "<tr>
+                    <td height='60' colspan='2'>
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan='2' style='text-align:center;'>
+                    " . $text . "
+                    </td>
+                </tr>";
+    } else {
+        $out = "<tr>
+                    <td height='60' colspan='2'>
+                        <hr>
+                    </td>
+                </tr>";
+    }
+
+    // Print the generated part of table
+    echo $out;
 }

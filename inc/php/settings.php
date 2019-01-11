@@ -46,9 +46,9 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </div>
 
                     <div class="postbox" id="button-links">
-                        <h3 class="title"><?php _e( 'Button links', $text ); ?></h3>
+                        <h3 class="title"><?php _e( 'Buttons URL', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in section above.', $text ); ?></p>
+                            <p class="note"><?php _e( 'Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above.', $text ); ?></p>
                             <table class="form-table">
                                 <?php
                                     $items_all = spacexchimp_p005_get_items_all();
@@ -75,33 +75,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="display">
                         <h3 class="title"><?php _e( 'Display options', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Here you can configure the display options.', $text ); ?></p>
+                            <p class="note"><?php _e( 'Here you can customize the display of your social media follow buttons bar.', $text ); ?></p>
                             <table class="form-table">
                                 <?php
-                                    spacexchimp_p005_control_switch( 'show_posts',
-                                                                     __( 'Show on Posts', $text ),
-                                                                     __( 'Automatically display the social media follow buttons below content on Posts.', $text )
-                                                                   );
-                                    spacexchimp_p005_control_switch( 'show_pages',
-                                                                     __( 'Show on Pages', $text ),
-                                                                     __( 'Automatically display the social media follow buttons below content on Pages.', $text )
-                                                                   );
-                                    spacexchimp_p005_control_switch( 'new_tab',
-                                                                     __( 'Open in new tab', $text ),
-                                                                     __( 'Open links in a new tab/window.', $text )
-                                                                   );
-                                    spacexchimp_p005_control_switch( 'tooltips',
-                                                                     __( 'Tooltips', $text ),
-                                                                     __( 'Enable a tooltips with name of the social media above every button.', $text )
-                                                                   );
                                     spacexchimp_p005_control_number( 'icon-size',
-                                                                     __( 'Icon size', $text ),
-                                                                     __( 'Enter the size of icons (in pixels) in your social media follow buttons bar.', $text ),
+                                                                     __( 'Button size', $text ),
+                                                                     __( 'You can choose the size of the buttons (in pixels). Default is 64 pixels.', $text ),
                                                                      '64'
                                                                    );
+                                    spacexchimp_p005_control_separator(
+                                                                        __( 'Positioning', $text )
+                                                                      );
                                     spacexchimp_p005_control_number( 'margin-right',
-                                                                     __( 'Margin', $text ),
-                                                                     __( 'Enter the size of space (in pixels) between icons in your social media follow buttons bar.', $text ),
+                                                                     __( 'Button margin', $text ),
+                                                                     __( 'You can choose the size of the space (in pixels) between each button. Default is 10 pixels.', $text ),
                                                                      '10'
                                                                    );
                                     spacexchimp_p005_control_choice( 'alignment',
@@ -110,15 +97,40 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                             'center' => __( 'Center', $text ),
                                                                             'right'  => __( 'Right', $text )
                                                                           ),
-                                                                     __( 'Alignment', $text ),
-                                                                     __( 'You can choose the alignment of the buttons bar.', $text ),
+                                                                     __( 'Buttons bar alignment', $text ),
+                                                                     __( 'You can choose the alignment of the entire buttons bar.', $text ),
                                                                      'center'
                                                                    );
+                                    spacexchimp_p005_control_separator(
+                                                                        __( 'Links open method', $text )
+                                                                      );
+                                    spacexchimp_p005_control_switch( 'new_tab',
+                                                                     __( 'Open in new tab', $text ),
+                                                                     __( 'Open links in a new tab/window.', $text )
+                                                                   );
+                                    spacexchimp_p005_control_separator(
+                                                                        __( 'Additional', $text )
+                                                                      );
                                     spacexchimp_p005_control_field( 'caption',
                                                                     __( 'Caption', $text ),
-                                                                    __( 'Enter the caption to your social media follow buttons bar. It will be displays before the toolbar.', $text ),
+                                                                    __( 'Enter the caption to your social media follow buttons bar. It will be displayed above the buttons bar.', $text ),
                                                                     'Follow me in social media:'
                                                                   );
+                                    spacexchimp_p005_control_switch( 'tooltips',
+                                                                     __( 'Tooltips', $text ),
+                                                                     __( 'Enable tooltips with the name of social media that will be displayed next to each button.', $text )
+                                                                   );
+                                    spacexchimp_p005_control_separator(
+                                                                       __( 'Autoload', $text )
+                                                                     );
+                                    spacexchimp_p005_control_switch( 'show_posts',
+                                                                      __( 'Show on Posts', $text ),
+                                                                      __( 'Automatically display the buttons bar below content on Posts.', $text )
+                                                                   );
+                                    spacexchimp_p005_control_switch( 'show_pages',
+                                                                      __( 'Show on Pages', $text ),
+                                                                      __( 'Automatically display the buttons bar below content on Pages.', $text )
+                                                                   );
                                 ?>
                             </table>
                         </div>

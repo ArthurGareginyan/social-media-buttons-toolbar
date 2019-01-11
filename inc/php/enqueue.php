@@ -11,19 +11,19 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 function spacexchimp_p005_load_scripts_dynamic_css( $options, $prefix ) {
 
     // Get settings and put them in variables
-    $icon_size = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
-    $margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
-    $alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
+    $buttons_alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
+    $button_size = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
+    $button_margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
 
     // Create an array with all the settings (CSS code)
     $custom_css = "
                     .sxc-follow-buttons {
-                        text-align: " . $alignment . " !important;
+                        text-align: " . $buttons_alignment . " !important;
                     }
-                    .sxc-follow-buttons li img {
-                        width: " . $icon_size . "px !important;
-                        height: " . $icon_size . "px !important;
-                        margin: " . ( $margin / 2 ) . "px !important;
+                    .sxc-follow-buttons .sxc-follow-button a img {
+                        width: " . $button_size . "px !important;
+                        height: " . $button_size . "px !important;
+                        margin: " . ( $button_margin / 2 ) . "px !important;
                     }
                   ";
 
@@ -47,7 +47,7 @@ function spacexchimp_p005_load_scripts_admin( $hook ) {
     $settings_page = 'settings_page_' . $slug;
     if ( $settings_page != $hook ) return;
 
-    // Read options from database
+    // Retrieve options from database
     $options = get_option( $settings . '_settings' );
 
     // Load jQuery library
@@ -88,7 +88,7 @@ function spacexchimp_p005_load_scripts_frontend() {
     $settings = SPACEXCHIMP_P005_SETTINGS;
     $version = SPACEXCHIMP_P005_VERSION;
 
-    // Read options from database
+    // Retrieve options from database
     $options = get_option( $settings . '_settings' );
 
     // Load jQuery library

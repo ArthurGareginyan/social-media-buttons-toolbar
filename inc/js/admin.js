@@ -61,7 +61,7 @@ jQuery(document).ready(function($) {
     $('.new_tab').on('change', function() {
         var val = $(this).val();
         var position = $(this).next().children().hasClass('btn-success');
-        $('#preview .sxc-follow-buttons a').each(function( index ) {
+        $('#preview .sxc-follow-buttons .sxc-follow-button a').each(function( index ) {
             if (position === true) {
                 $(this).attr('target','_blank');
             } else {
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
     $('.tooltips').on('change', function() {
         var val = $(this).val();
         var position = $(this).next().children().hasClass('btn-success');
-        $('#preview .sxc-follow-buttons a').each(function( index ) {
+        $('#preview .sxc-follow-buttons .sxc-follow-button a').each(function( index ) {
             var text = '';
             if (position === true) {
                 text = $(this).attr('title');
@@ -87,11 +87,11 @@ jQuery(document).ready(function($) {
         });
     });
     function LiveInlineStyles() {
-        var icon_size = $('.icon-size input').val() || '64';
-        var margin = $('.margin-right input').val() / 2 || '5';
-        icon_size = 'width:' + icon_size + 'px !important; height:' + icon_size + 'px !important;';
-        margin = 'margin:' + margin + 'px !important;';
-        $('#preview .sxc-follow-buttons img').attr('style',icon_size + margin);
+        var button_size = $('.icon-size input').val() || '64';
+        var button_margin = $('.margin-right input').val() / 2 || '5';
+        button_size = 'width:' + button_size + 'px !important; height:' + button_size + 'px !important;';
+        button_margin = 'margin:' + button_margin + 'px !important;';
+        $('#preview .sxc-follow-buttons .sxc-follow-button a img').attr('style',button_size + button_margin);
     }
     $('.icon-size input').change(function() {
         LiveInlineStyles();

@@ -23,12 +23,18 @@ function spacexchimp_p005_hello_message() {
                     <div class="modal-body">
                         <img src="<?php echo SPACEXCHIMP_P005_URL . 'inc/img/spacexchimp-logo.png'; ?>">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <p><?php _e( 'Hello. We are the team of Space X-Chimp.', SPACEXCHIMP_P005_TEXT ); ?></p>
-                        <p><?php printf(
-                                        __( 'Thank you for installing our plugin! We hope you will love it! %s', SPACEXCHIMP_P005_TEXT ),
-                                        '&#x1F603;'
-                                        );
-                            ?></p>
+                        <p>
+                            <?php _e( 'Hello!', SPACEXCHIMP_P005_TEXT ); ?>
+                            <?php _e( 'We are the team of Space X-Chimp.', SPACEXCHIMP_P005_TEXT ); ?>
+                        </p>
+                        <p>
+                            <?php
+                                printf(
+                                    __( 'Thank you for installing our plugin! We hope you will love it! %s', SPACEXCHIMP_P005_TEXT ),
+                                    '&#x1F603;'
+                                );
+                            ?>
+                        </p>
                     </div>
                 </div>
             </div>

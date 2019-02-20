@@ -1,27 +1,27 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, blackberry-world, iheart, livestream, tunein, untappd, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip,
+Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, blackberry-world, iheart, livestream, tunein, untappd, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.0
-Stable tag: 4.45
+Tested up to: 5.1
+Stable tag: 4.46
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add the smart bar with social media follow buttons (not share, only link to your social media profiles) to any place of your WordPress website.
+Easily and safely add a smart bar with social media follow buttons (not share, only links to your social media profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily add the smart bar with social media follow buttons to any place (post, page, widget, sidebar, footer) of your WordPress website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add a smart bar with social media follow buttons (not share, only links to your social media profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
 
 The social media follow buttons bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
 
-Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically. Also it can be aligned to left, center or right.
+Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically.
 
-It give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all Posts and/or Pages, and can position the link buttons using either a widget, a shortcode or a template action hook. If you want more options, then let us know and we will be happy to add them.
+This plugin give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all Posts and/or Pages, or position them  manually using either a widget, shortcode or template action hook. If you want more options, then let us know and we will be happy to add them.
 
-This plugin is just plug and play, no tedious configurations or hacks, just install, enable and start enjoy your fancy social media follow buttons. It's that simple!
+Its purpose is to provide a familiar experience to WordPress users. You don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying your fancy social media follow buttons. It's that simple! In addition, your social media follow buttons will be compatible with all major browsers and work with any theme.
 
 **Features**
 
@@ -165,7 +165,7 @@ This plugin is just plug and play, no tedious configurations or hacks, just inst
 
 **Translation**
 
-This plugin is ready for translation and has already been translated into several languages.
+This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
@@ -173,7 +173,7 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
 
-If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/social-media-buttons-toolbar).
+If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/social-media-buttons-toolbar).
 
 **Minimum system requirements:**
 
@@ -220,15 +220,25 @@ After installation and activation, the "`Social Media Follow Buttons`" menu item
 
 == Frequently Asked Questions ==
 
-= Q. Will this plugin work on my WordPress.COM website? =
-A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
+= Q. Will this plugin work on my wordpress.COM website? =
+A. Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+
+If you want to help translate this plugin, please use the POT file that is included and placed in the `languages` folder to create a translation PO file. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update.
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
+
+= Q. Can I configure my buttons bar instance? =
+A. Yes. On the "Settings" tab, select the desired settings and click the "Save changes" button. It's that simple!
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
+
+= Q. How many buttons bar instances can I create? =
+A. The free version of this plugin supports only 1 instance of the buttons bar.
+In the premium version of this plugin you can create up to 10 of buttons bar instances. This is very useful, because that way you can manage your buttons bar instances separately. Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances.
 
 = Q. Does this plugin requires any modification of the theme? =
 A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
@@ -240,9 +250,9 @@ A. Absolutely not. This plugin can be configured with no knowledge of HTML or CS
 A. The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better.
 
 = Q. It's not working. What could be wrong? =
-A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
+A. As with every plugin, it's possible that things don't work. It's impossible to tell what could be wrong exactly. The most common reason for this is a web browser’s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser’s cache. Clearing your browser’s cache may solve the problem.
 
-It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
+If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
@@ -298,6 +308,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.46 =
+* The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
+* Content of the "F.A.Q." section updated.
+* Some texts are corrected or replaced with new ones.
+* All translation files are updated.
+* Code formatting improved.
+* The code relating to "Live preview", in the "admin.js" file, is improved.
+* Added CSS class ".custom-list" for displaying a custom list, which is used on the plugin settings page.
+* The human.txt file updated.
 
 = 4.45 =
 * Added information about the PRO version of the plugin.

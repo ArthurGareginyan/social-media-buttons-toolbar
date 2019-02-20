@@ -32,7 +32,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily add the social media follow buttons bar to any place of your website.', $text ); ?></p>
+                    <p><?php _e( 'This plugin gives you the ability to easily and safely add a smart bar with social media follow buttons (not share, only links to your social media profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.', $text ); ?></p>
                 </div>
             </div>
 

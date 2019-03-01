@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-02-20 23:23+0300\n"
-"PO-Revision-Date: 2019-02-20 23:23+0300\n"
+"POT-Creation-Date: 2019-03-01 06:51+0300\n"
+"PO-Revision-Date: 2019-03-01 06:51+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/php/core.php:23 inc/php/page.php:44
+#: inc/php/core.php:23 inc/php/page.php:46
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -61,7 +61,7 @@ msgstr "Ingresa el enlace a tu sitio web personal."
 msgid "Enter the URL of your RSS feed."
 msgstr "Ingresa el enlace a tu Feed de RSS."
 
-#: inc/php/messages.php:27 inc/php/page.php:422
+#: inc/php/messages.php:27 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "¡Hola!"
 
@@ -82,651 +82,30 @@ msgstr "Has instalado una versión antigua de este complemento."
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
-#: inc/php/page.php:31
+#: inc/php/page.php:33
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "por %s Space X-Chimp %s"
 
-#: inc/php/page.php:37
+#: inc/php/page.php:39
 msgid "Version"
 msgstr "Versión"
 
-#: inc/php/page.php:45
+#: inc/php/page.php:47
 msgid "Usage"
 msgstr "Uso"
 
-#: inc/php/page.php:46
+#: inc/php/page.php:48
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:47 inc/php/settings.php:150 inc/php/sidebar.php:47
+#: inc/php/page.php:49 inc/php/sidebar.php:47 inc/php/tabs/settings.php:150
 msgid "Support"
 msgstr "Soporte"
 
-#: inc/php/page.php:48
+#: inc/php/page.php:50
 msgid "Store"
 msgstr "Tienda"
-
-#: inc/php/page.php:64
-msgid "Usage Instructions"
-msgstr "Instrucciones de uso"
-
-#: inc/php/page.php:66
-msgid "To display the social media follow buttons bar on the front end of your website, simply follow these steps:"
-msgstr ""
-
-#: inc/php/page.php:68
-msgid "Go to the \"Settings\" tab on this page."
-msgstr "Debes ir a la pestaña “Ajustes”."
-
-#: inc/php/page.php:69
-msgid "Select the desired buttons and fill in the required URL fields."
-msgstr ""
-
-#: inc/php/page.php:70
-msgid "Select the desired settings."
-msgstr "Seleccione la configuración deseada."
-
-#: inc/php/page.php:71
-msgid "Click the \"Save changes\" button."
-msgstr "Clic en el botón \"Guardar cambios\"."
-
-#: inc/php/page.php:73
-msgid "Now you have several methods for display the social media follow buttons bar (further just \"buttons\")."
-msgstr ""
-
-#: inc/php/page.php:74
-msgid "Just choose the one that is more suitable for your case."
-msgstr ""
-
-#: inc/php/page.php:76
-msgid "<b>A)</b> To automatically display the buttons below a content on every Posts and/or Pages, simply use the appropriate option in the \"Autoload\" section, then click the \"Save changes\" button."
-msgstr ""
-
-#: inc/php/page.php:77
-msgid "<b>B)</b> To add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
-msgstr "<b>B)</b>Para añadir la barra dentro de una entrada desde el Editor de Entradas/Páginas de Wordpress usa el siguiente shortcode:"
-
-#: inc/php/page.php:79
-msgid "<b>C)</b> To add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
-msgstr "<b>C)</b> Para añadir la barra al área de widgets (en la barra lateral, en el pie, u otro) usa el widget \"Text\" y agregálo dentro del siguiente shortcode:"
-
-#: inc/php/page.php:81
-msgid "<b>D)</b> To add the buttons directly to the theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
-msgstr ""
-
-#: inc/php/page.php:84 inc/php/page.php:215
-msgid "Enjoy your fancy social media follow buttons."
-msgstr ""
-
-#: inc/php/page.php:84 inc/php/page.php:216 inc/php/page.php:225
-msgid "It's that simple!"
-msgstr "¡Es así de simple!"
-
-#: inc/php/page.php:89
-#, php-format
-msgid "If you want more options, then %s let us know %s and we will be happy to add them."
-msgstr "Si quieres más opciones, %s díganos %s y estaremos encantados de añadirlo."
-
-#: inc/php/page.php:103
-msgid "Frequently Asked Questions"
-msgstr "Preguntas Frecuentes"
-
-#: inc/php/page.php:107
-msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
-msgstr "Si tienes alguna pregunta, por favor lee las Preguntas Frecuentes a continuación, para ver si la respuesta está aquí."
-
-#: inc/php/page.php:132
-msgid "Where can I find a documentation for this plugin?"
-msgstr ""
-
-#: inc/php/page.php:137
-#, php-format
-msgid "Please visit our %s Documentation site %s to view documentation."
-msgstr ""
-
-#: inc/php/page.php:145
-msgid "Will this plugin work on my wordpress.COM website?"
-msgstr "¿Funcionará este complemento en mi sitio web wordpress.COM?"
-
-#: inc/php/page.php:148
-msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
-msgstr "Lo sentimos, este complemento está disponible para su uso solo en sitios web alojados (wordpress.ORG)."
-
-#: inc/php/page.php:150
-msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
-msgstr ""
-
-#: inc/php/page.php:151
-msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
-msgstr ""
-
-#: inc/php/page.php:154
-#, php-format
-msgid "You can learn more about the difference here: %s ."
-msgstr ""
-
-#: inc/php/page.php:161
-msgid "Will this plugin work/compatible with the theme I use?"
-msgstr ""
-
-#: inc/php/page.php:164
-msgid "This plugin is compatible with most themes."
-msgstr ""
-
-#: inc/php/page.php:165
-msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
-msgstr ""
-
-#: inc/php/page.php:166
-msgid "We constantly check this plugin for compatibility with third-party themes."
-msgstr ""
-
-#: inc/php/page.php:167
-msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:169
-msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:173
-msgid "Will this plugin work/compatible with other plugins that I use?"
-msgstr ""
-
-#: inc/php/page.php:176
-msgid "This plugin is compatible with most plugins."
-msgstr ""
-
-#: inc/php/page.php:177
-msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
-msgstr ""
-
-#: inc/php/page.php:178
-msgid "We constantly check this plugin for compatibility with third-party plugins."
-msgstr ""
-
-#: inc/php/page.php:179
-msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:181
-msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
-msgstr ""
-
-#: inc/php/page.php:185
-msgid "Can I use this plugin on my language?"
-msgstr "¿Puedo usar este complemento en mi idioma?"
-
-#: inc/php/page.php:188 inc/php/page.php:223
-msgid "Yes."
-msgstr "Sí."
-
-#: inc/php/page.php:189
-msgid "This plugin is ready for translation and has already been translated into several languages."
-msgstr "Este complemento está listo para ser traducido y ya ha sido traducido a varios idiomas."
-
-#: inc/php/page.php:190
-msgid "But If your language is not available then you can make one."
-msgstr ""
-
-#: inc/php/page.php:191
-msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
-msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones!"
-
-#: inc/php/page.php:192
-msgid "Many of plugin users would be delighted if you share your translation with the community."
-msgstr "Muchos de los usuarios de este complemento estarían encantados si compartes tu traducción con la comunidad."
-
-#: inc/php/page.php:193
-msgid "Thanks for your contribution!"
-msgstr "¡Gracias por tu contribución!"
-
-#: inc/php/page.php:197
-#, php-format
-msgid "If you want to help translate this plugin, please visit the %s."
-msgstr "Si quieres ayudar a traducir este complemento, por favor visite el %s."
-
-#: inc/php/page.php:201
-msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
-msgstr "También puede utilizar el archivo POT, incluido y colocado en la carpeta “languages”, para crear un archivo PO de traducción."
-
-#: inc/php/page.php:204
-#, php-format
-msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
-msgstr "Simplemente envíenos ( %s ) el archivo PO e incluiremos esta traducción en la siguiente actualización del complemento."
-
-#: inc/php/page.php:211
-msgid "How does it work?"
-msgstr "¿Como funciona?"
-
-#: inc/php/page.php:214 inc/php/page.php:224
-msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button."
-msgstr ""
-
-#: inc/php/page.php:220
-msgid "Can I configure my buttons bar instance?"
-msgstr ""
-
-#: inc/php/page.php:229
-msgid "How many buttons bar instances can I create?"
-msgstr ""
-
-#: inc/php/page.php:232
-msgid "The free version of this plugin supports only 1 instance of the buttons bar."
-msgstr ""
-
-#: inc/php/page.php:234
-msgid "In the premium version of this plugin you can create up to 10 of buttons bar instances."
-msgstr ""
-
-#: inc/php/page.php:235
-msgid "This is very useful, because that way you can manage your buttons bar instances separately."
-msgstr ""
-
-#: inc/php/page.php:236
-msgid "Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances."
-msgstr ""
-
-#: inc/php/page.php:240
-msgid "Does this plugin requires any modification of the theme?"
-msgstr "¿Este complemento requiere alguna modificación del tema?"
-
-#: inc/php/page.php:243 inc/php/page.php:251
-msgid "Absolutely not."
-msgstr "Absolutamente no."
-
-#: inc/php/page.php:244
-msgid "This plugin is configurable entirely from the plugin settings page."
-msgstr "Este complemento se puede configurar completamente desde su página de configuración."
-
-#: inc/php/page.php:248
-msgid "Does this require any knowledge of HTML or CSS?"
-msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
-
-#: inc/php/page.php:252
-msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
-msgstr "Este complemento se puede configurar sin conocimientos de HTML o CSS, utilizando su página de configuración la cual es fácil de usar."
-
-#: inc/php/page.php:256
-msgid "What I need to do if the Google PageSpeed test says that this plugin images must be compressed?"
-msgstr ""
-
-#: inc/php/page.php:259
-msgid "The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better."
-msgstr ""
-
-#: inc/php/page.php:263
-msgid "It's not working."
-msgstr "No funciona."
-
-#: inc/php/page.php:264
-msgid "What could be wrong?"
-msgstr "¿Qué podría estar mal?"
-
-#: inc/php/page.php:267
-msgid "As with every plugin, it's possible that things don't work."
-msgstr "Como con todos los complementos, es posible que las cosas no funcionen."
-
-#: inc/php/page.php:268
-msgid "It's impossible to tell what could be wrong exactly."
-msgstr "Es imposible decir exactamente lo que podría estar mal."
-
-#: inc/php/page.php:269
-msgid "The most common reason for this is a web browser's cache."
-msgstr "La razón más común para esto es la caché de un navegador web."
-
-#: inc/php/page.php:270
-msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
-msgstr "Cada navegador web almacena una caché de los sitios web que visitas (páginas, imágenes y etc.) para reducir el uso del ancho de banda y la carga del servidor."
-
-#: inc/php/page.php:271
-msgid "This is called the browser's cache."
-msgstr "Esto se denomina caché del navegador."
-
-#: inc/php/page.php:272
-msgid "Clearing your browser's cache may solve the problem."
-msgstr "Limpiar la caché del navegador puede resolver el problema."
-
-#: inc/php/page.php:274
-msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
-msgstr "Si publicas una solicitud de soporte en el foro de soporte del complemento en WordPress.org, estaría encantado de darle un vistazo e intentar ayudarte."
-
-#: inc/php/page.php:275 inc/php/page.php:304
-msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
-msgstr "Incluye tanta información como sea posible, incluyendo un enlace a tu sitio web donde se pueda ver el problema."
-
-#: inc/php/page.php:279
-msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
-msgstr "La última actualización de WordPress me impide editar mi sitio web que está utilizando este complemento."
-
-#: inc/php/page.php:280
-msgid "Why is this?"
-msgstr "¿Porqué sucede esto?"
-
-#: inc/php/page.php:283
-msgid "This plugin can not cause such problem."
-msgstr "Este complemento no puede causar este problema."
-
-#: inc/php/page.php:284
-msgid "More likely, the problem are related to the settings of the website."
-msgstr "Lo más probable es que el problema esté relacionado con la configuración del sitio web."
-
-#: inc/php/page.php:285
-msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
-msgstr "Podría ser sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser que utilices un complemento de caché o algún servicio web como CloudFlare) y luego la caché de tu navegador web."
-
-#: inc/php/page.php:286
-msgid "Also please try to re-login to the website, this too can help."
-msgstr "También intenta volver a conectarte al sitio web, esto también puede ayudar."
-
-#: inc/php/page.php:290
-msgid "Where to report bug if found?"
-msgstr "¿Dónde informar el error si se encuentra?"
-
-#: inc/php/page.php:293
-msgid "Bug reports are very welcome!"
-msgstr "¡Informes de errores son bienvenidos!"
-
-#: inc/php/page.php:296
-#, php-format
-msgid "Please visit our %s contact page %s and report."
-msgstr "Por favor visite nuestra %s página de contacto %s e informa."
-
-#: inc/php/page.php:301 inc/php/page.php:329
-msgid "Please do not forget to specify the name of the plugin."
-msgstr "No olvides especificar el nombre del complemento."
-
-#: inc/php/page.php:302 inc/php/page.php:330 inc/php/page.php:346
-msgid "Thank you!"
-msgstr "¡Gracias!"
-
-#: inc/php/page.php:305
-msgid "Describe in more detail what exactly you are seeing."
-msgstr ""
-
-#: inc/php/page.php:306
-msgid "Here are some examples:"
-msgstr ""
-
-#: inc/php/page.php:309
-msgid "Elements of the plugin settings page are not working."
-msgstr ""
-
-#: inc/php/page.php:310
-msgid "An error message is displayed on the plugin settings page."
-msgstr ""
-
-#: inc/php/page.php:311
-msgid "An error message is displayed on the front end of website."
-msgstr ""
-
-#: inc/php/page.php:312
-msgid "An error message is displayed on the back end of website."
-msgstr ""
-
-#: inc/php/page.php:313
-msgid "Website is crashed."
-msgstr ""
-
-#: inc/php/page.php:318
-msgid "Where to share any ideas or suggestions to make the plugin better?"
-msgstr "¿Dónde compartir ideas o sugerencias para mejorar el complemento?"
-
-#: inc/php/page.php:321
-msgid "Any suggestions are very welcome!"
-msgstr "Cualquier sugerencia es muy bienvenida!"
-
-#: inc/php/page.php:324
-#, php-format
-msgid "Please visit our %s contact page %s."
-msgstr "Por favor visite nuestra %s página de contacto %s."
-
-#: inc/php/page.php:334
-msgid "I love this plugin!"
-msgstr "Me encanta este complemento!"
-
-#: inc/php/page.php:335
-msgid "Can I help somehow?"
-msgstr "¿Puedo ayudar de alguna manera?"
-
-#: inc/php/page.php:338
-msgid "Yes, any contributions are very welcome!"
-msgstr "Sí, cualquier contribución es muy bienvenida!"
-
-#: inc/php/page.php:341
-#, php-format
-msgid "Please visit our %s Support Us %s page."
-msgstr "Por favor visite nuestra página de %s Apóyenos %s."
-
-#: inc/php/page.php:350
-msgid "Where can I find information about your licenses, payment process and refunds?"
-msgstr ""
-
-#: inc/php/page.php:355
-#, php-format
-msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:363
-msgid "Where can I find information about your customer support?"
-msgstr ""
-
-#: inc/php/page.php:368
-#, php-format
-msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:376
-msgid "Where can I find information about your affiliate program?"
-msgstr ""
-
-#: inc/php/page.php:381
-#, php-format
-msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
-msgstr ""
-
-#: inc/php/page.php:389
-msgid "My question wasn't answered here."
-msgstr "Mi pregunta no fue contestada aquí."
-
-#: inc/php/page.php:394
-#, php-format
-msgid "You can ask your question on %s this page %s."
-msgstr "Puede hacer su pregunta en %s esta página %s."
-
-#: inc/php/page.php:399
-msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
-msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
-
-#: inc/php/page.php:410
-msgid "Support Us"
-msgstr "¡Apoyanos!"
-
-#: inc/php/page.php:418 inc/php/settings.php:157 inc/php/sidebar.php:54
-msgid "Donate with PayPal"
-msgstr "Donar con PayPal"
-
-#: inc/php/page.php:425
-#, php-format
-msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
-msgstr "Mi nombre es %s Arthur %s y soy el fundador de %s Space X-Chimp %s, which unites a small international team of young people."
-
-#: inc/php/page.php:434
-msgid "Our intention is to create projects that will make this world a better place."
-msgstr "Nuestra intención es crear proyectos que hagan de este mundo un lugar mejor."
-
-#: inc/php/page.php:435
-msgid "Our motto is - «Follow your dreams and don’t give up»."
-msgstr ""
-
-#: inc/php/page.php:436
-msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
-msgstr "Nos realmente apasionado por nuestro trabajo, nos gusta lo que estamos haciendo y esperamos que tú también te enriquezcas con nos proyectos."
-
-#: inc/php/page.php:439
-msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
-msgstr "Gastamos mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyamos sean útiles, y la prueba definitiva para nosotros de que son útiles, es que realmente desea utilizarlos."
-
-#: inc/php/page.php:440
-msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Pero, somos desarrolladores independientes, sin un ingreso regular, por lo que cada pequeña contribución nos ayuda a cubrir nuestros costos y nos permite dedicar más tiempo a construir cosas para que las personas como usted las disfruten."
-
-#: inc/php/page.php:443
-msgid "If you appreciate our work, you can buy us a cup of coffee!"
-msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
-
-#: inc/php/page.php:446
-msgid "Thank you for your support!"
-msgstr "¡Gracias por tu apoyo!"
-
-#: inc/php/settings.php:21 inc/php/settings.php:139
-msgid "Save changes"
-msgstr "Guardar cambios"
-
-#: inc/php/settings.php:25
-msgid "Buttons"
-msgstr "Botones"
-
-#: inc/php/settings.php:27
-msgid "Here you can select the buttons that you want to have in your social media follow buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:33
-msgid "Social media buttons"
-msgstr ""
-
-#: inc/php/settings.php:34 inc/php/settings.php:41
-msgid "Mark the desired buttons to add it to your social media follow buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:40
-msgid "Additional buttons"
-msgstr ""
-
-#: inc/php/settings.php:49
-msgid "Buttons URL"
-msgstr ""
-
-#: inc/php/settings.php:51
-msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above."
-msgstr ""
-
-#: inc/php/settings.php:76
-msgid "Display options"
-msgstr "Opciones de presentación"
-
-#: inc/php/settings.php:78
-msgid "Here you can customize the display of your social media follow buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:82
-msgid "Button size"
-msgstr "Tamaño de ícono"
-
-#: inc/php/settings.php:83
-msgid "You can choose the size of the buttons (in pixels). Default is 64 pixels."
-msgstr "Ingrese el tamaño de los íconos (en píxeles) en tu barra de botones Social Media."
-
-#: inc/php/settings.php:87
-msgid "Positioning"
-msgstr ""
-
-#: inc/php/settings.php:90
-msgid "Button margin"
-msgstr ""
-
-#: inc/php/settings.php:91
-msgid "You can choose the size of the space (in pixels) between each button. Default is 10 pixels."
-msgstr "Ingresa el espacio (en píxeles) entre íconos en tu barra de botones de Social Media."
-
-#: inc/php/settings.php:96
-msgid "Left"
-msgstr "Izquierda"
-
-#: inc/php/settings.php:97
-msgid "Center"
-msgstr "Centro"
-
-#: inc/php/settings.php:98
-msgid "Right"
-msgstr "Derecha"
-
-#: inc/php/settings.php:100
-msgid "Buttons bar alignment"
-msgstr ""
-
-#: inc/php/settings.php:101
-msgid "You can choose the alignment of the entire buttons bar."
-msgstr ""
-
-#: inc/php/settings.php:105
-msgid "Links open method"
-msgstr ""
-
-#: inc/php/settings.php:108
-msgid "Open in new tab"
-msgstr "Abrir en una nueva pestaña"
-
-#: inc/php/settings.php:109
-msgid "Open links in a new tab/window."
-msgstr "¿Abrir enlaces en una nueva pestaña/ventana?"
-
-#: inc/php/settings.php:112
-msgid "Additional"
-msgstr ""
-
-#: inc/php/settings.php:115
-msgid "Caption"
-msgstr "Leyenda"
-
-#: inc/php/settings.php:116
-msgid "Enter the caption to your social media follow buttons bar. It will be displayed above the buttons bar."
-msgstr "Ingresa la leyenda para tu barra de botones de Social Media. Aparecerá arriba de la barra de botones."
-
-#: inc/php/settings.php:120
-msgid "Tooltips"
-msgstr ""
-
-#: inc/php/settings.php:121
-msgid "Enable tooltips with the name of social media that will be displayed next to each button."
-msgstr ""
-
-#: inc/php/settings.php:124
-msgid "Autoload"
-msgstr ""
-
-#: inc/php/settings.php:127
-msgid "Show on Posts"
-msgstr "Mostrar en Entradas"
-
-#: inc/php/settings.php:128
-msgid "Automatically display the buttons bar below content on Posts."
-msgstr ""
-
-#: inc/php/settings.php:131
-msgid "Show on Pages"
-msgstr "Mostrar en Páginas"
-
-#: inc/php/settings.php:132
-msgid "Automatically display the buttons bar below content on Pages."
-msgstr ""
-
-#: inc/php/settings.php:142
-msgid "Live Preview"
-msgstr "Vista Previa"
-
-#: inc/php/settings.php:144
-msgid "Click the \"Save changes\" button to update this preview."
-msgstr "Has clic en el botón \"Guardar cambios\" para actualizar esta vista previa."
-
-#: inc/php/settings.php:152 inc/php/sidebar.php:49
-msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
-msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
-
-#: inc/php/settings.php:159 inc/php/sidebar.php:56
-msgid "Thanks for your support!"
-msgstr "¡Gracias por tu apoyo!"
 
 #: inc/php/sidebar.php:16
 msgid "We are «Space X-Chimp»"
@@ -747,6 +126,628 @@ msgstr "Ayuda"
 #: inc/php/sidebar.php:42
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
+
+#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:152
+msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
+
+#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:157
+#: inc/php/tabs/support.php:21
+msgid "Donate with PayPal"
+msgstr "Donar con PayPal"
+
+#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:159
+msgid "Thanks for your support!"
+msgstr "¡Gracias por tu apoyo!"
+
+#: inc/php/tabs/faq.php:13
+msgid "Frequently Asked Questions"
+msgstr "Preguntas Frecuentes"
+
+#: inc/php/tabs/faq.php:17
+msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
+msgstr "Si tienes alguna pregunta, por favor lee las Preguntas Frecuentes a continuación, para ver si la respuesta está aquí."
+
+#: inc/php/tabs/faq.php:42
+msgid "Where can I find a documentation for this plugin?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:47
+#, php-format
+msgid "Please visit our %s Documentation site %s to view documentation."
+msgstr ""
+
+#: inc/php/tabs/faq.php:55
+msgid "Will this plugin work on my wordpress.COM website?"
+msgstr "¿Funcionará este complemento en mi sitio web wordpress.COM?"
+
+#: inc/php/tabs/faq.php:58
+msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
+msgstr "Lo sentimos, este complemento está disponible para su uso solo en sitios web alojados (wordpress.ORG)."
+
+#: inc/php/tabs/faq.php:60
+msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
+msgstr ""
+
+#: inc/php/tabs/faq.php:61
+msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
+msgstr ""
+
+#: inc/php/tabs/faq.php:64
+#, php-format
+msgid "You can learn more about the difference here: %s ."
+msgstr ""
+
+#: inc/php/tabs/faq.php:71
+msgid "Will this plugin work/compatible with the theme I use?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:74
+msgid "This plugin is compatible with most themes."
+msgstr ""
+
+#: inc/php/tabs/faq.php:75
+msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
+msgstr ""
+
+#: inc/php/tabs/faq.php:76
+msgid "We constantly check this plugin for compatibility with third-party themes."
+msgstr ""
+
+#: inc/php/tabs/faq.php:77
+msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:79
+msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:83
+msgid "Will this plugin work/compatible with other plugins that I use?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:86
+msgid "This plugin is compatible with most plugins."
+msgstr ""
+
+#: inc/php/tabs/faq.php:87
+msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
+msgstr ""
+
+#: inc/php/tabs/faq.php:88
+msgid "We constantly check this plugin for compatibility with third-party plugins."
+msgstr ""
+
+#: inc/php/tabs/faq.php:89
+msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:91
+msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
+msgstr ""
+
+#: inc/php/tabs/faq.php:95
+msgid "Can I use this plugin on my language?"
+msgstr "¿Puedo usar este complemento en mi idioma?"
+
+#: inc/php/tabs/faq.php:98 inc/php/tabs/faq.php:133
+msgid "Yes."
+msgstr "Sí."
+
+#: inc/php/tabs/faq.php:99
+msgid "This plugin is ready for translation and has already been translated into several languages."
+msgstr "Este complemento está listo para ser traducido y ya ha sido traducido a varios idiomas."
+
+#: inc/php/tabs/faq.php:100
+msgid "But If your language is not available then you can make one."
+msgstr ""
+
+#: inc/php/tabs/faq.php:101
+msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
+msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones!"
+
+#: inc/php/tabs/faq.php:102
+msgid "Many of plugin users would be delighted if you share your translation with the community."
+msgstr "Muchos de los usuarios de este complemento estarían encantados si compartes tu traducción con la comunidad."
+
+#: inc/php/tabs/faq.php:103
+msgid "Thanks for your contribution!"
+msgstr "¡Gracias por tu contribución!"
+
+#: inc/php/tabs/faq.php:107
+#, php-format
+msgid "If you want to help translate this plugin, please visit the %s."
+msgstr "Si quieres ayudar a traducir este complemento, por favor visite el %s."
+
+#: inc/php/tabs/faq.php:111
+msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
+msgstr "También puede utilizar el archivo POT, incluido y colocado en la carpeta “languages”, para crear un archivo PO de traducción."
+
+#: inc/php/tabs/faq.php:114
+#, php-format
+msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
+msgstr "Simplemente envíenos ( %s ) el archivo PO e incluiremos esta traducción en la siguiente actualización del complemento."
+
+#: inc/php/tabs/faq.php:121
+msgid "How does it work?"
+msgstr "¿Como funciona?"
+
+#: inc/php/tabs/faq.php:124 inc/php/tabs/faq.php:134
+msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button."
+msgstr ""
+
+#: inc/php/tabs/faq.php:125 inc/php/tabs/usage.php:33
+msgid "Enjoy your fancy social media follow buttons."
+msgstr ""
+
+#: inc/php/tabs/faq.php:126 inc/php/tabs/faq.php:135 inc/php/tabs/usage.php:33
+msgid "It's that simple!"
+msgstr "¡Es así de simple!"
+
+#: inc/php/tabs/faq.php:130
+msgid "Can I configure my buttons bar instance?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:139
+msgid "How many buttons bar instances can I create?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:142
+msgid "The free version of this plugin supports only 1 instance of the buttons bar."
+msgstr ""
+
+#: inc/php/tabs/faq.php:144
+msgid "In the premium version of this plugin you can create up to 10 of buttons bar instances."
+msgstr ""
+
+#: inc/php/tabs/faq.php:145
+msgid "This is very useful, because that way you can manage your buttons bar instances separately."
+msgstr ""
+
+#: inc/php/tabs/faq.php:146
+msgid "Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances."
+msgstr ""
+
+#: inc/php/tabs/faq.php:150
+msgid "Does this plugin requires any modification of the theme?"
+msgstr "¿Este complemento requiere alguna modificación del tema?"
+
+#: inc/php/tabs/faq.php:153 inc/php/tabs/faq.php:161
+msgid "Absolutely not."
+msgstr "Absolutamente no."
+
+#: inc/php/tabs/faq.php:154
+msgid "This plugin is configurable entirely from the plugin settings page."
+msgstr "Este complemento se puede configurar completamente desde su página de configuración."
+
+#: inc/php/tabs/faq.php:158
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
+
+#: inc/php/tabs/faq.php:162
+msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
+msgstr "Este complemento se puede configurar sin conocimientos de HTML o CSS, utilizando su página de configuración la cual es fácil de usar."
+
+#: inc/php/tabs/faq.php:166
+msgid "What I need to do if the Google PageSpeed test says that this plugin images must be compressed?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:169
+msgid "The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better."
+msgstr ""
+
+#: inc/php/tabs/faq.php:173
+msgid "It's not working."
+msgstr "No funciona."
+
+#: inc/php/tabs/faq.php:174
+msgid "What could be wrong?"
+msgstr "¿Qué podría estar mal?"
+
+#: inc/php/tabs/faq.php:177
+msgid "As with every plugin, it's possible that things don't work."
+msgstr "Como con todos los complementos, es posible que las cosas no funcionen."
+
+#: inc/php/tabs/faq.php:178
+msgid "It's impossible to tell what could be wrong exactly."
+msgstr "Es imposible decir exactamente lo que podría estar mal."
+
+#: inc/php/tabs/faq.php:179
+msgid "The most common reason for this is a web browser's cache."
+msgstr "La razón más común para esto es la caché de un navegador web."
+
+#: inc/php/tabs/faq.php:180
+msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
+msgstr "Cada navegador web almacena una caché de los sitios web que visitas (páginas, imágenes y etc.) para reducir el uso del ancho de banda y la carga del servidor."
+
+#: inc/php/tabs/faq.php:181
+msgid "This is called the browser's cache."
+msgstr "Esto se denomina caché del navegador."
+
+#: inc/php/tabs/faq.php:182
+msgid "Clearing your browser's cache may solve the problem."
+msgstr "Limpiar la caché del navegador puede resolver el problema."
+
+#: inc/php/tabs/faq.php:184
+msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
+msgstr "Si publicas una solicitud de soporte en el foro de soporte del complemento en WordPress.org, estaría encantado de darle un vistazo e intentar ayudarte."
+
+#: inc/php/tabs/faq.php:185 inc/php/tabs/faq.php:214
+msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
+msgstr "Incluye tanta información como sea posible, incluyendo un enlace a tu sitio web donde se pueda ver el problema."
+
+#: inc/php/tabs/faq.php:189
+msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
+msgstr "La última actualización de WordPress me impide editar mi sitio web que está utilizando este complemento."
+
+#: inc/php/tabs/faq.php:190
+msgid "Why is this?"
+msgstr "¿Porqué sucede esto?"
+
+#: inc/php/tabs/faq.php:193
+msgid "This plugin can not cause such problem."
+msgstr "Este complemento no puede causar este problema."
+
+#: inc/php/tabs/faq.php:194
+msgid "More likely, the problem are related to the settings of the website."
+msgstr "Lo más probable es que el problema esté relacionado con la configuración del sitio web."
+
+#: inc/php/tabs/faq.php:195
+msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
+msgstr "Podría ser sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser que utilices un complemento de caché o algún servicio web como CloudFlare) y luego la caché de tu navegador web."
+
+#: inc/php/tabs/faq.php:196
+msgid "Also please try to re-login to the website, this too can help."
+msgstr "También intenta volver a conectarte al sitio web, esto también puede ayudar."
+
+#: inc/php/tabs/faq.php:200
+msgid "Where to report bug if found?"
+msgstr "¿Dónde informar el error si se encuentra?"
+
+#: inc/php/tabs/faq.php:203
+msgid "Bug reports are very welcome!"
+msgstr "¡Informes de errores son bienvenidos!"
+
+#: inc/php/tabs/faq.php:206
+#, php-format
+msgid "Please visit our %s contact page %s and report."
+msgstr "Por favor visite nuestra %s página de contacto %s e informa."
+
+#: inc/php/tabs/faq.php:211 inc/php/tabs/faq.php:239
+msgid "Please do not forget to specify the name of the plugin."
+msgstr "No olvides especificar el nombre del complemento."
+
+#: inc/php/tabs/faq.php:212 inc/php/tabs/faq.php:240 inc/php/tabs/faq.php:256
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: inc/php/tabs/faq.php:215
+msgid "Describe in more detail what exactly you are seeing."
+msgstr ""
+
+#: inc/php/tabs/faq.php:216
+msgid "Here are some examples:"
+msgstr ""
+
+#: inc/php/tabs/faq.php:219
+msgid "Elements of the plugin settings page are not working."
+msgstr ""
+
+#: inc/php/tabs/faq.php:220
+msgid "An error message is displayed on the plugin settings page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:221
+msgid "An error message is displayed on the front end of website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:222
+msgid "An error message is displayed on the back end of website."
+msgstr ""
+
+#: inc/php/tabs/faq.php:223
+msgid "Website is crashed."
+msgstr ""
+
+#: inc/php/tabs/faq.php:228
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr "¿Dónde compartir ideas o sugerencias para mejorar el complemento?"
+
+#: inc/php/tabs/faq.php:231
+msgid "Any suggestions are very welcome!"
+msgstr "Cualquier sugerencia es muy bienvenida!"
+
+#: inc/php/tabs/faq.php:234
+#, php-format
+msgid "Please visit our %s contact page %s."
+msgstr "Por favor visite nuestra %s página de contacto %s."
+
+#: inc/php/tabs/faq.php:244
+msgid "I love this plugin!"
+msgstr "Me encanta este complemento!"
+
+#: inc/php/tabs/faq.php:245
+msgid "Can I help somehow?"
+msgstr "¿Puedo ayudar de alguna manera?"
+
+#: inc/php/tabs/faq.php:248
+msgid "Yes, any contributions are very welcome!"
+msgstr "Sí, cualquier contribución es muy bienvenida!"
+
+#: inc/php/tabs/faq.php:251
+#, php-format
+msgid "Please visit our %s Support Us %s page."
+msgstr "Por favor visite nuestra página de %s Apóyenos %s."
+
+#: inc/php/tabs/faq.php:260
+msgid "Where can I find information about your licenses, payment process and refunds?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:265
+#, php-format
+msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:273
+msgid "Where can I find information about your customer support?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:278
+#, php-format
+msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:286
+msgid "Where can I find information about your affiliate program?"
+msgstr ""
+
+#: inc/php/tabs/faq.php:291
+#, php-format
+msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
+msgstr ""
+
+#: inc/php/tabs/faq.php:299
+msgid "My question wasn't answered here."
+msgstr "Mi pregunta no fue contestada aquí."
+
+#: inc/php/tabs/faq.php:304
+#, php-format
+msgid "You can ask your question on %s this page %s."
+msgstr "Puede hacer su pregunta en %s esta página %s."
+
+#: inc/php/tabs/faq.php:309
+msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
+msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
+
+#: inc/php/tabs/settings.php:21 inc/php/tabs/settings.php:139
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: inc/php/tabs/settings.php:25
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/php/tabs/settings.php:27
+msgid "Here you can select the buttons that you want to have in your social media follow buttons bar."
+msgstr ""
+
+#: inc/php/tabs/settings.php:33
+msgid "Social media buttons"
+msgstr ""
+
+#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:41
+msgid "Mark the desired buttons to add it to your social media follow buttons bar."
+msgstr ""
+
+#: inc/php/tabs/settings.php:40
+msgid "Additional buttons"
+msgstr ""
+
+#: inc/php/tabs/settings.php:49
+msgid "Buttons URL"
+msgstr ""
+
+#: inc/php/tabs/settings.php:51
+msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above."
+msgstr ""
+
+#: inc/php/tabs/settings.php:76
+msgid "Display options"
+msgstr "Opciones de presentación"
+
+#: inc/php/tabs/settings.php:78
+msgid "Here you can customize the display of your social media follow buttons bar."
+msgstr ""
+
+#: inc/php/tabs/settings.php:82
+msgid "Button size"
+msgstr "Tamaño de ícono"
+
+#: inc/php/tabs/settings.php:83
+msgid "You can choose the size of the buttons (in pixels). Default is 64 pixels."
+msgstr "Ingrese el tamaño de los íconos (en píxeles) en tu barra de botones Social Media."
+
+#: inc/php/tabs/settings.php:87
+msgid "Positioning"
+msgstr ""
+
+#: inc/php/tabs/settings.php:90
+msgid "Button margin"
+msgstr ""
+
+#: inc/php/tabs/settings.php:91
+msgid "You can choose the size of the space (in pixels) between each button. Default is 10 pixels."
+msgstr "Ingresa el espacio (en píxeles) entre íconos en tu barra de botones de Social Media."
+
+#: inc/php/tabs/settings.php:96
+msgid "Left"
+msgstr "Izquierda"
+
+#: inc/php/tabs/settings.php:97
+msgid "Center"
+msgstr "Centro"
+
+#: inc/php/tabs/settings.php:98
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/php/tabs/settings.php:100
+msgid "Buttons bar alignment"
+msgstr ""
+
+#: inc/php/tabs/settings.php:101
+msgid "You can choose the alignment of the entire buttons bar."
+msgstr ""
+
+#: inc/php/tabs/settings.php:105
+msgid "Links open method"
+msgstr ""
+
+#: inc/php/tabs/settings.php:108
+msgid "Open in new tab"
+msgstr "Abrir en una nueva pestaña"
+
+#: inc/php/tabs/settings.php:109
+msgid "Open links in a new tab/window."
+msgstr "¿Abrir enlaces en una nueva pestaña/ventana?"
+
+#: inc/php/tabs/settings.php:112
+msgid "Additional"
+msgstr ""
+
+#: inc/php/tabs/settings.php:115
+msgid "Caption"
+msgstr "Leyenda"
+
+#: inc/php/tabs/settings.php:116
+msgid "Enter the caption to your social media follow buttons bar. It will be displayed above the buttons bar."
+msgstr "Ingresa la leyenda para tu barra de botones de Social Media. Aparecerá arriba de la barra de botones."
+
+#: inc/php/tabs/settings.php:120
+msgid "Tooltips"
+msgstr ""
+
+#: inc/php/tabs/settings.php:121
+msgid "Enable tooltips with the name of social media that will be displayed next to each button."
+msgstr ""
+
+#: inc/php/tabs/settings.php:124
+msgid "Autoload"
+msgstr ""
+
+#: inc/php/tabs/settings.php:127
+msgid "Show on Posts"
+msgstr "Mostrar en Entradas"
+
+#: inc/php/tabs/settings.php:128
+msgid "Automatically display the buttons bar below content on Posts."
+msgstr ""
+
+#: inc/php/tabs/settings.php:131
+msgid "Show on Pages"
+msgstr "Mostrar en Páginas"
+
+#: inc/php/tabs/settings.php:132
+msgid "Automatically display the buttons bar below content on Pages."
+msgstr ""
+
+#: inc/php/tabs/settings.php:142
+msgid "Live Preview"
+msgstr "Vista Previa"
+
+#: inc/php/tabs/settings.php:144
+msgid "Click the \"Save changes\" button to update this preview."
+msgstr "Has clic en el botón \"Guardar cambios\" para actualizar esta vista previa."
+
+#: inc/php/tabs/support.php:13
+msgid "Support Us"
+msgstr "¡Apoyanos!"
+
+#: inc/php/tabs/support.php:28
+#, php-format
+msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
+msgstr "Mi nombre es %s Arthur %s y soy el fundador de %s Space X-Chimp %s, which unites a small international team of young people."
+
+#: inc/php/tabs/support.php:37
+msgid "Our intention is to create projects that will make this world a better place."
+msgstr "Nuestra intención es crear proyectos que hagan de este mundo un lugar mejor."
+
+#: inc/php/tabs/support.php:38
+msgid "Our motto is - «Follow your dreams and don’t give up»."
+msgstr ""
+
+#: inc/php/tabs/support.php:39
+msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
+msgstr "Nos realmente apasionado por nuestro trabajo, nos gusta lo que estamos haciendo y esperamos que tú también te enriquezcas con nos proyectos."
+
+#: inc/php/tabs/support.php:42
+msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
+msgstr "Gastamos mucho tiempo y esfuerzo tratando de asegurarme que los temas, complementos y otras cosas que construyamos sean útiles, y la prueba definitiva para nosotros de que son útiles, es que realmente desea utilizarlos."
+
+#: inc/php/tabs/support.php:43
+msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
+msgstr "Pero, somos desarrolladores independientes, sin un ingreso regular, por lo que cada pequeña contribución nos ayuda a cubrir nuestros costos y nos permite dedicar más tiempo a construir cosas para que las personas como usted las disfruten."
+
+#: inc/php/tabs/support.php:46
+msgid "If you appreciate our work, you can buy us a cup of coffee!"
+msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
+
+#: inc/php/tabs/support.php:49
+msgid "Thank you for your support!"
+msgstr "¡Gracias por tu apoyo!"
+
+#: inc/php/tabs/usage.php:13
+msgid "Usage Instructions"
+msgstr "Instrucciones de uso"
+
+#: inc/php/tabs/usage.php:15
+msgid "To display the social media follow buttons bar on the front end of your website, simply follow these steps:"
+msgstr ""
+
+#: inc/php/tabs/usage.php:17
+msgid "Go to the \"Settings\" tab on this page."
+msgstr "Debes ir a la pestaña “Ajustes”."
+
+#: inc/php/tabs/usage.php:18
+msgid "Select the desired buttons and fill in the required URL fields."
+msgstr ""
+
+#: inc/php/tabs/usage.php:19
+msgid "Select the desired settings."
+msgstr "Seleccione la configuración deseada."
+
+#: inc/php/tabs/usage.php:20
+msgid "Click the \"Save changes\" button."
+msgstr "Clic en el botón \"Guardar cambios\"."
+
+#: inc/php/tabs/usage.php:22
+msgid "Now you have several methods for display the social media follow buttons bar (further just \"buttons\")."
+msgstr ""
+
+#: inc/php/tabs/usage.php:23
+msgid "Just choose the one that is more suitable for your case."
+msgstr ""
+
+#: inc/php/tabs/usage.php:25
+msgid "<b>A)</b> To automatically display the buttons below a content on every Posts and/or Pages, simply use the appropriate option in the \"Autoload\" section, then click the \"Save changes\" button."
+msgstr ""
+
+#: inc/php/tabs/usage.php:26
+msgid "<b>B)</b> To add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
+msgstr "<b>B)</b>Para añadir la barra dentro de una entrada desde el Editor de Entradas/Páginas de Wordpress usa el siguiente shortcode:"
+
+#: inc/php/tabs/usage.php:28
+msgid "<b>C)</b> To add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
+msgstr "<b>C)</b> Para añadir la barra al área de widgets (en la barra lateral, en el pie, u otro) usa el widget \"Text\" y agregálo dentro del siguiente shortcode:"
+
+#: inc/php/tabs/usage.php:30
+msgid "<b>D)</b> To add the buttons directly to the theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
+msgstr ""
+
+#: inc/php/tabs/usage.php:38
+#, php-format
+msgid "If you want more options, then %s let us know %s and we will be happy to add them."
+msgstr "Si quieres más opciones, %s díganos %s y estaremos encantados de añadirlo."
 
 #. Plugin Name of the plugin/theme
 msgid "Social Media Follow Buttons Bar"

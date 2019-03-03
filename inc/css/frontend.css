@@ -12,9 +12,10 @@
 .sxc-follow-buttons {
     margin: 0 !important;               /* Reset */
     padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
     background-image: none !important;  /* Reset */
     border: none !important;            /* Reset */
-    border-bottom: 0 !important;        /* Reset */
+    box-shadow: none !important;        /* Reset */
 }
 
 /* Each button */
@@ -22,9 +23,10 @@
     display: inline-block !important;   /* Reset */
     margin: 0 !important;               /* Reset */
     padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
     background-image: none !important;  /* Reset */
     border: none !important;            /* Reset */
-    border-bottom: 0 !important;        /* Reset */
+    box-shadow: none !important;        /* Reset */
     list-style-type: none !important;   /* Reset */
     -webkit-user-select: none;          /* Reset */
     -moz-user-select: none;             /* Reset */
@@ -40,8 +42,11 @@
 
 .sxc-follow-buttons .sxc-follow-button a {
     display: block !important;          /* Reset */
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
     border: none !important;            /* Reset */
-    border-bottom: 0 !important;        /* Reset */
     box-shadow: none !important;        /* Reset */
 }
 
@@ -49,4 +54,8 @@
     margin: 0 !important;               /* Reset */
     padding: 0 !important;              /* Reset */
     vertical-align: top;
+}
+
+.sxc-follow-buttons .sxc-follow-button a br {
+    display: none !important;           /* Reset */
 }

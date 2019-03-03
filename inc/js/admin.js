@@ -91,7 +91,9 @@ jQuery(document).ready(function($) {
         var button_margin = $('.margin-right input').val() / 2 || '5';
         button_size = 'width:' + button_size + 'px !important; height:' + button_size + 'px !important;';
         button_margin = 'margin:' + button_margin + 'px !important;';
-        $('#preview .sxc-follow-buttons .sxc-follow-button a img').attr('style',button_size + button_margin);
+        $('#preview .sxc-follow-buttons .sxc-follow-button').attr('style',button_size + button_margin);
+        $('#preview .sxc-follow-buttons .sxc-follow-button a').attr('style',button_size);
+        $('#preview .sxc-follow-buttons .sxc-follow-button a img').attr('style',button_size);
     }
     $('.icon-size input').change(function() {
         LiveInlineStyles();

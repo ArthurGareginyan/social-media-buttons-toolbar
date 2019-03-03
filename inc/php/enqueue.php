@@ -20,9 +20,13 @@ function spacexchimp_p005_load_scripts_dynamic_css( $options, $prefix ) {
                     .sxc-follow-buttons {
                         text-align: " . $buttons_alignment . " !important;
                     }
+                    .sxc-follow-buttons .sxc-follow-button,
+                    .sxc-follow-buttons .sxc-follow-button a,
                     .sxc-follow-buttons .sxc-follow-button a img {
                         width: " . $button_size . "px !important;
                         height: " . $button_size . "px !important;
+                    }
+                    .sxc-follow-buttons .sxc-follow-button {
                         margin: " . ( $button_margin / 2 ) . "px !important;
                     }
                   ";

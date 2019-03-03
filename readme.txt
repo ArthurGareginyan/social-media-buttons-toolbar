@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.48
+Stable tag: 4.49
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -50,11 +50,11 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 
 * Up to 10 buttons bar instances
 * Separate settings for buttons bars
-* Separate preview for each buttons bar
+* Separate preview for each buttons bar on the settings page
 * Ability to give a name/label for each buttons bar for easy management
-* Ability to choose which one from your buttons bars you like to autoload.
-* Ability to automatically display the buttons bar not only below content on Posts, but also above content on Posts.
-* Ability to automatically display the buttons bar not only below content on Pages, but also above content on Pages.
+* Ability to choose which one from your buttons bars you like to autoload
+* Ability to automatically display the buttons bar not only below content on Posts, but also above content on Posts
+* Ability to automatically display the buttons bar not only below content on Pages, but also above content on Pages
 * No ads on the settings page
 * Well documented
 
@@ -310,6 +310,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.49 - 2019-03-03 =
+* Improved compatibility with third-party themes.
+
 = 4.48 - 2019-03-01 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
 * Framework updated: The files "settings.php", "usage.php", "faq.php", "support.php" are moved to the subfolder "tabs".
@@ -349,7 +352,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 = 4.44 =
 * Improvement: Design of the plugin settings page is improved.
-* Improved code to reset CSS styles to  "default " for the buttons bar elements.
+* Improved code to reset CSS styles to "default" for the buttons bar elements.
 * Fix: The "blank" value of the "target" attribute in the links of social media buttons are replaced with "_blank" value.
 * Fix: The "displayo-ptions" ID is renamed to "display".
 * Some texts are updated.
@@ -361,7 +364,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Translation files are updated.
 
 = 4.42 =
-* Improved code to reset CSS styles to  "default " for the buttons bar elements.
+* Improved code to reset CSS styles to "default" for the buttons bar elements.
 * Code commenting improved.
 * CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
 * Some texts are updated.

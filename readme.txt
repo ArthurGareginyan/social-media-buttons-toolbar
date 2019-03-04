@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.49
+Stable tag: 4.50
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -19,7 +19,7 @@ The social media follow buttons bar - is a bar with set of icons of the popular 
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically.
 
-This plugin give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all Posts and/or Pages, or position them  manually using either a widget, shortcode or template action hook. If you want more options, then let us know and we will be happy to add them.
+This plugin give you finer control over buttons. You can configure they on plugins settings page. You can choose the size of icons, choose open link in current tab or in new, and etc. Also you can have the social media follow buttons automatically added to the bottom of all Posts and/or Pages, or position them manually using either a widget, shortcode or template action hook. If you want more options, then let us know and we will be happy to add them.
 
 Its purpose is to provide a familiar experience to WordPress users. You don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying your fancy social media follow buttons. It's that simple! In addition, your social media follow buttons will be compatible with all major browsers and work with any theme.
 
@@ -310,6 +310,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 4.50 - 2019-03-04 =
+* Improved compatibility with third-party themes.
+
 = 4.49 - 2019-03-03 =
 * Improved compatibility with third-party themes.
 
@@ -389,7 +392,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * All translation files are updated.
 
 = 4.39 =
-* The extra mention of the constant '_SLUG'  is removed from the file 'enqueue.php'.
+* The extra mention of the constant '_SLUG' is removed from the file 'enqueue.php'.
 * All translation files are updated.
 
 = 4.38 =

@@ -53,6 +53,10 @@
 .sxc-follow-buttons .sxc-follow-button a img {
     margin: 0 !important;               /* Reset */
     padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    box-shadow: none !important;        /* Reset */
     vertical-align: top;
 }
 

@@ -8,29 +8,37 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Hello message - Bootstrap Modal
  */
-function spacexchimp_p005_hello_message() {
+function spacexchimp_p005_message_hello() {
 
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    // Put value of constants to variables for easier access
+    $settings = SPACEXCHIMP_P005_SETTINGS;
+    $url = SPACEXCHIMP_P005_URL;
+    $text = SPACEXCHIMP_P005_TEXT;
 
+    // Retrieve options from database and declare variables
+    $options = get_option( $settings . '_settings' );
+
+    // Exit if options are already set in database
     if ( !empty( $options ) ) {
         return;
     }
 
+    // HTML layout
     ?>
         <div id="hello-message" class="modal fade hello-message" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="<?php echo SPACEXCHIMP_P005_URL . 'inc/img/spacexchimp-logo.png'; ?>">
+                        <img src="<?php echo $url . 'inc/img/spacexchimp-logo.png'; ?>">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <p>
-                            <?php _e( 'Hello!', SPACEXCHIMP_P005_TEXT ); ?>
-                            <?php _e( 'We are the team of Space X-Chimp.', SPACEXCHIMP_P005_TEXT ); ?>
+                            <?php _e( 'Hello!', $text ); ?>
+                            <?php _e( 'We are the team of Space X-Chimp.', $text ); ?>
                         </p>
                         <p>
                             <?php
                                 printf(
-                                    __( 'Thank you for installing our plugin! We hope you will love it! %s', SPACEXCHIMP_P005_TEXT ),
+                                    __( 'Thank you for installing our plugin! We hope you will love it! %s', $text ),
                                     '&#x1F603;'
                                 );
                             ?>
@@ -39,6 +47,10 @@ function spacexchimp_p005_hello_message() {
                 </div>
             </div>
         </div>
+    <?php
+
+    // Inline JavaScript
+    ?>
         <script>
             jQuery(document).ready(function($) {
 
@@ -57,30 +69,65 @@ function spacexchimp_p005_hello_message() {
 /**
  * Error message (When the old version of plugin installed) - Bootstrap Modal
  */
-function spacexchimp_p005_error_message() {
+function spacexchimp_p005_message_error_version() {
 
-    $info = get_option( SPACEXCHIMP_P005_SETTINGS . '_service_info' );
+    // Put value of constants to variables for easier access
+    $settings = SPACEXCHIMP_P005_SETTINGS;
+    $text = SPACEXCHIMP_P005_TEXT;
+
+    // Retrieve options from database and declare variables
+    $info = get_option( $settings . '_service_info' );
     $old_version = !empty( $info['old_version'] ) ? $info['old_version'] : '0';
 
+    // Exit if this is not the old version of the plugin
     if ( $old_version != '1' ) {
         return;
     }
 
+    // HTML layout
     ?>
         <div id="error-message" class="modal fade error-message" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <p><?php _e( 'You have installed an old version of this plugin.', SPACEXCHIMP_P005_TEXT ); ?></p>
-                        <p><?php _e( 'Please update the plugin to the latest version, and all will be fine.', SPACEXCHIMP_P005_TEXT ); ?></p>
+                        <p><?php _e( 'You have installed an old version of this plugin.', $text ); ?></p>
+                        <p><?php _e( 'Please update the plugin to the latest version, and all will be fine.', $text ); ?></p>
                     </div>
                 </div>
             </div>
         </div>
+    <?php
+
+    // Inline JavaScript
+    ?>
         <script>
             jQuery(document).ready(function($) {
                 $("#error-message").modal( {backdrop: "static", keyboard: false} );
             });
         </script>
+    <?php
+}
+
+/**
+ * Save message
+ */
+function spacexchimp_p005_message_save() {
+
+    // Exit if settings are not updated
+    if ( !isset( $_GET['settings-updated'] ) ) {
+        return;
+    }
+
+    // Put value of constants to variables for easier access
+    $text = SPACEXCHIMP_P005_TEXT;
+
+    // HTML layout
+    ?>
+        <div id="message" class="updated">
+            <p>
+                <i class="fa fa-check" aria-hidden="true"></i>
+                <?php _e( 'Settings saved successfully.', $text ); ?>
+            </p>
+        </div>
     <?php
 }

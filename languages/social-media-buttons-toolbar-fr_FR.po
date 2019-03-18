@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-03-01 06:51+0300\n"
-"PO-Revision-Date: 2019-03-01 06:51+0300\n"
+"POT-Creation-Date: 2019-03-18 21:17+0300\n"
+"PO-Revision-Date: 2019-03-18 21:17+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: inc/php/core.php:23 inc/php/page.php:46
+#: inc/php/core.php:23 inc/php/page.php:47
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -60,49 +60,53 @@ msgstr ""
 msgid "Enter the URL of your RSS feed."
 msgstr ""
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "Salut."
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr "Nous sommes l'équipe de Space X-Chimp."
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Merci pour l'installation de notre plugin! Nous espérons que vous allez l'adorer! %s"
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr ""
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
-#: inc/php/page.php:33
+#: inc/php/messages.php:129
+msgid "Settings saved successfully."
+msgstr ""
+
+#: inc/php/page.php:34
 #, php-format
 msgid "by %s Space X-Chimp %s"
 msgstr "par %s Space X-Chimp %s"
 
-#: inc/php/page.php:39
+#: inc/php/page.php:40
 msgid "Version"
 msgstr "Version"
 
-#: inc/php/page.php:47
+#: inc/php/page.php:48
 msgid "Usage"
 msgstr "Utilisation"
 
-#: inc/php/page.php:48
+#: inc/php/page.php:49
 msgid "F.A.Q."
 msgstr "FAQ."
 
-#: inc/php/page.php:49 inc/php/sidebar.php:47 inc/php/tabs/settings.php:150
+#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:150
 msgid "Support"
 msgstr "Support"
 
-#: inc/php/page.php:50
+#: inc/php/page.php:51
 msgid "Store"
 msgstr "Le magasin"
 
@@ -243,7 +247,7 @@ msgstr ""
 
 #: inc/php/tabs/faq.php:101
 msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
-msgstr "Peut-être que toutes les traductions existantes ne sont pas à jour. Vous êtes invités à apporter des corrections!"
+msgstr "Peut-être que toutes les traductions existantes ne sont pas à jour. Vous êtes invités à apporter des corrections."
 
 #: inc/php/tabs/faq.php:102
 msgid "Many of plugin users would be delighted if you share your translation with the community."

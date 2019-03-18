@@ -28,7 +28,7 @@ function spacexchimp_p005_upgrade_4_19() {
     $service_info_new = is_array( $service_info_old ) ? $service_info_old : array();
     $service_info_new['upgrade'] = $upgrade_number_new;
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( $upgrade_number_current >= $upgrade_number_new ) return;
 
     // Update service info in the database
@@ -45,7 +45,7 @@ function spacexchimp_p005_upgrade_4_19() {
     // Setting array with new data
     $settings_new = is_array( $settings_current ) ? $settings_current : array();
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( empty( $settings_current ) ) return;
 
     // Update plugin setting in the database
@@ -73,7 +73,7 @@ function spacexchimp_p005_upgrade_4_36() {
     $service_info = is_array( $service_info ) ? $service_info : array();
     $upgrade_number_current = !empty( $service_info['upgrade'] ) ? $service_info['upgrade'] : '0000';
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( $upgrade_number_current >= $upgrade_number_new ) return;
 
     // Setting array with new data
@@ -90,7 +90,7 @@ function spacexchimp_p005_upgrade_4_36() {
     $settings = get_option( $prefix . '_settings' );
     $settings = is_array( $settings ) ? $settings : array();
 
-    // Exit if the upgrade is not needed or alreade done
+    // Exit if the upgrade is not needed or already done
     if ( empty( $settings ) ) return;
     if ( !array_key_exists( 'media', $settings ) ) return;
 

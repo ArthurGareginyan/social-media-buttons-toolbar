@@ -32,8 +32,11 @@ function spacexchimp_p005_control_help( $help=null ) {
  */
 function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
     // Generate a part of table
@@ -44,8 +47,8 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
                 <td>
                     <input
                         type='text'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
-                        id='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
+                        name='" . $plugin['settings'] . "_settings[$name]'
+                        id='" . $plugin['settings'] . "_settings[$name]'
                         value='$value'
                         placeholder='$placeholder'
                         class='control-field $name'
@@ -65,8 +68,11 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
  */
 function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
     // Generate a part of table
@@ -77,8 +83,8 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
                 <td>
                     <input
                         type='checkbox'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
-                        id='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
+                        name='" . $plugin['settings'] . "_settings[$name]'
+                        id='" . $plugin['settings'] . "_settings[$name]'
                         $checked
                         class='control-switch $name'
                     >
@@ -97,8 +103,11 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
  */
 function spacexchimp_p005_control_number( $name, $label, $help=null, $default=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
     // Generate a part of table
@@ -115,8 +124,8 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
                             </span>
                             <input
                                 type='number'
-                                name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
-                                id='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
+                                name='" . $plugin['settings'] . "_settings[$name]'
+                                id='" . $plugin['settings'] . "_settings[$name]'
                                 value='$value'
                                 maxlength='4'
                                 class='form-control text-center'
@@ -142,8 +151,11 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
  */
 function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $link=null ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $value = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
     $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
 
@@ -156,7 +168,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
                 <td>
                     <input
                         type='text'
-                        name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[buttons-link][$name]'
+                        name='" . $plugin['settings'] . "_settings[buttons-link][$name]'
                         size='50'
                         value='$value'
                         placeholder='$placeholder'
@@ -179,8 +191,11 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
  */
 function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $option = !empty( $options[$name] ) ? $options[$name] : '';
     $list_item = '';
 
@@ -195,7 +210,7 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
         $list_item .= "<li>
                            <input
                                   type='radio'
-                                  name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name]'
+                                  name='" . $plugin['settings'] . "_settings[$name]'
                                   value='$item_key'
                                   $selected
                            >
@@ -227,8 +242,11 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
  */
 function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $list_item = '';
 
     // Loop of elements LI
@@ -237,11 +255,11 @@ function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
         $list_item .= "<li id='media-$item_key' class='control-checkbox'>
                            <input
                                   type='checkbox'
-                                  id='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'
-                                  name='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'
+                                  id='" . $plugin['settings'] . "_settings[$name][$item_key]'
+                                  name='" . $plugin['settings'] . "_settings[$name][$item_key]'
                                   $checked
                            >
-                           <label for='" . SPACEXCHIMP_P005_SETTINGS . "_settings[$name][$item_key]'>
+                           <label for='" . $plugin['settings'] . "_settings[$name][$item_key]'>
                                $item_value
                            </label>
                        </li>";
@@ -272,7 +290,7 @@ function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 function spacexchimp_p005_control_separator( $text=null ) {
 
     // Generate a part of table
-    if ( !empty( $text ) ) {
+    if ( ! empty( $text ) ) {
         $out = "<tr>
                     <td height='60' colspan='2'>
                         <hr>

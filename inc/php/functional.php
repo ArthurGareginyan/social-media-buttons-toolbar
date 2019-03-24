@@ -10,8 +10,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p005_generator() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $selected = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
     $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
 
@@ -34,8 +37,8 @@ function spacexchimp_p005_generator() {
         $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
         $label = !empty( $item['label'] ) ? $item['label'] : '';
         $link = !empty( $links[$slug] ) ? $links[$slug] : '';
-        if ( !empty( $selected[$slug] ) ) {
-            $icon = SPACEXCHIMP_P005_URL . "inc/img/social-media-icons/$slug.png";
+        if ( ! empty( $selected[$slug] ) ) {
+            $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
             $toolbar_arr[] = '<li class="sxc-follow-button">
                                     <a
                                         href="' . $link . '"
@@ -54,7 +57,7 @@ function spacexchimp_p005_generator() {
     $toolbar_arr[] = '</ul>';
 
     // Add script for buttons
-    if ( !empty( $options['tooltips'] ) ) {
+    if ( ! empty( $options['tooltips'] ) ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
 
@@ -95,8 +98,11 @@ add_filter( 'widget_text', 'do_shortcode' );
  */
 function spacexchimp_p005_autoload( $content ) {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p005_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P005_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $below_posts = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
     $below_pages = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
 
@@ -155,7 +161,7 @@ function spacexchimp_p005_get_media_pairs_media() {
     $array['youtube-gaming'] = ' YouTube G';
 
     // Sort the media array in ascending order, according to the key name
-    if ( !empty($array) ) ksort($array);
+    if ( ! empty($array) ) ksort($array);
 
     return $array;
 }

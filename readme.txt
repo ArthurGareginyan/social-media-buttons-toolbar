@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.1
-Stable tag: 4.52
+Stable tag: 4.53
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -310,7 +310,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-= 4.52 - 2019-03-24 =
+= 4.53 - Mar 31, 2019 =
+* Framework updated: Code formatting improved.
+* Framework updated: Code commenting improved.
+* Framework updated: The change log design is improved.
+
+= 4.52 - Mar 24, 2019 =
 * Framework updated: Added function "_plugin", which returns an array with the contents of plugin constants. The mention of plugin constants is replaced by the use of the function "_plugin".
 * Framework updated: The functions "_settings_link" and "_upgrade_link" are combined and improved.
 * Framework updated: The function "_plugin_row_meta" is improved.
@@ -318,25 +323,25 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Framework updated: Code commenting improved.
 * Framework updated: All translation files are updated.
 
-= 4.51 - 2019-03-18 =
+= 4.51 - Mar 18, 2019 =
 * Improvement: Notification display system updated
 * Code commenting improved.
 * Style sheet for the back end is optimised.
 
-= 4.50 - 2019-03-04 =
+= 4.50 - Mar 4, 2019 =
 * Improved compatibility with third-party themes.
 
-= 4.49 - 2019-03-03 =
+= 4.49 - Mar 3, 2019 =
 * Improved compatibility with third-party themes.
 
-= 4.48 - 2019-03-01 =
+= 4.48 - Mar 1, 2019 =
 * Framework updated: The file "page.php" is divided into the following parts: "page.php", "usage.php", "faq.php", "support.php".
 * Framework updated: The files "settings.php", "usage.php", "faq.php", "support.php" are moved to the subfolder "tabs".
 
-= 4.47 - 2019-02-24 =
+= 4.47 - Feb 24, 2019 =
 * Added French translation. (Thanks to Hervé Bouzin)
 
-= 4.46 =
+= 4.46 - Feb 21, 2019 =
 * The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
 * Content of the "F.A.Q." section updated.
 * Some texts are corrected or replaced with new ones.
@@ -346,7 +351,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added CSS class ".custom-list" for displaying a custom list, which is used on the plugin settings page.
 * The "humans.txt" file updated.
 
-= 4.45 =
+= 4.45 - Jan 11, 2019 =
 * Added information about the PRO version of the plugin.
 * Options on the settings page are resorted.
 * Options on the settings page are renamed.
@@ -366,7 +371,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The copyright date updated.
 * Translation files are updated.
 
-= 4.44 =
+= 4.44 - Nov 2, 2018 =
 * Improvement: Design of the plugin settings page is improved.
 * Improved code to reset CSS styles to "default" for the buttons bar elements.
 * Fix: The "blank" value of the "target" attribute in the links of social media buttons are replaced with "_blank" value.
@@ -374,19 +379,19 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts are updated.
 * Translation files are updated.
 
-= 4.43 =
+= 4.43 - Oct 23, 2018 =
 * Improvement: Design of the plugin settings page is improved.
 * Content of the "Usage Instructions" section updated.
 * Translation files are updated.
 
-= 4.42 =
+= 4.42 - Sep 26, 2018 =
 * Improved code to reset CSS styles to "default" for the buttons bar elements.
 * Code commenting improved.
 * CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
 * Some texts are updated.
 * Translation files are updated.
 
-= 4.41 =
+= 4.41 - Aug 7, 2018 =
 * Some texts are updated.
 * Translation files are updated.
 * The translation into Russian has been corrected.
@@ -394,7 +399,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The translation into German has been corrected.
 * The translation into Spanish has been corrected.
 
-= 4.40 =
+= 4.40 - Jul 24, 2018 =
 * Dutch translation added. (Thanks to Peter Leenders)
 * The code block that adds dynamic CSS is moved to a separate function '_load_scripts_dynamic_css' within the 'enqueue.php' file.
 * The function '_load_scripts_base' is deleted due to uselessness.
@@ -404,19 +409,19 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Some texts are updated.
 * All translation files are updated.
 
-= 4.39 =
+= 4.39 - Jul 13, 2018 =
 * The extra mention of the constant '_SLUG' is removed from the file 'enqueue.php'.
 * All translation files are updated.
 
-= 4.38 =
+= 4.38 - Jun 4, 2018 =
 * Fixed a bug due to which the plugin data that stored in the database to not be deleted during the uninstallation of the plugin.
 * The contents of the file 'uninstall.php' is moved to the file 'core.php'. The file 'uninstall.php' is deleted.
 * The function '_tollbar()' is updated.
 
-= 4.37 =
+= 4.37 - Jun 3, 2018 =
 * Fixed a bug due to which the links in buttons are disappeared.
 
-= 4.36 =
+= 4.36 - Jun 3, 2018 =
 * The plugin became much faster due to the decrease in the number of requests to the database.
 * A new option is added to the plugin settings page, allowing the user to select the desired buttons.
 * Added a new control function '_control_checkbox()'. Added CSS code (in the file 'admin.css') for this control. Added JS code (in the file 'admin.js') for this control.
@@ -428,14 +433,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The old upgrade function '_upgrade_4_10()' is removed due to uselessness.
 * Some texts are corrected.
 
-= 4.35 =
+= 4.35 - May 20, 2018 =
 * Added new constant "_FILE".
 * Added a function that runs during the plugin activation. Now the date of the first activation of the plugin is recorded in the database.
 
-= 4.34 =
+= 4.34 - May 7, 2018 =
 * Added auto-versioning of the CSS and JavaScript files to avoid cache issues.
 
-= 4.33 =
+= 4.33 - May 3, 2018 =
 * The 'list.php' file replaced with the 'items.php'.
 * Added callback function for getting a list of all buttons.
 * The 'smbt-social-icons' CSS class renamed to 'sxc-follow-buttons'.
@@ -443,25 +448,25 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * CSS code in the file 'frontend.css' is optimized.
 * The '_tollbar()' function is improved.
 
-= 4.32 =
+= 4.32 - Apr 25, 2018 =
 * Fixed the link "Settings", located in the plugin's meta row on the "Plugins" page. The suffix ".php" was deleted.
 * Fixed information stored in the header of the translation files.
 * Translation files updated.
 
-= 4.31 =
+= 4.31 - Apr 20, 2018 =
 * Some texts updated, and typos corrected.
 * All translation files updated.
 * The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
 * The "humans.txt" file updated.
 
-= 4.30 =
+= 4.30 - Mar 22, 2018 =
 * Added option for the Untappd.
 * Added option for the TuneIn.
 * Added option for the iHeart.
 * Added option for the BlackBerry World.
 * Added option for the Livestream.
 
-= 4.29 =
+= 4.29 - Mar 4, 2018 =
 * Added option for the Strava.
 * Added option for the Stitcher.
 * Added option for the WeChat.
@@ -469,24 +474,24 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the about.me.
 * Added option for the Facebook Group.
 
-= 4.28 =
+= 4.28 - Feb 28, 2018 =
 * Added option for the FeedsFloor.
 
-= 4.27 =
+= 4.27 - Jan 22, 2018 =
 * Texts updated.
 * The year in the copyright text is updated.
 * The sidebar items are rearranged.
 * Translation files updated.
 
-= 4.26 =
+= 4.26 - Nov 13, 2017 =
 * The plugin is fully tested for compatibility with WordPress version 4.9.
 * CSS code improved.
 
-= 4.25 =
+= 4.25 - Oct 28, 2017 =
 * German translation added. (Thanks to Michael)
 * Fixed an issue where the "Hello" message could not be hidden.
 
-= 4.24 =
+= 4.24 - Oct 2, 2017 =
 * Added option for the Daily Paintworks.
 * Added option for the Bitbucket.
 * Added option for the Gab.
@@ -495,17 +500,17 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Fixed an issue because of which the line was displayed behind of the buttons.
 * Spanish translation updated. (Thanks to Patricio Toledo)
 
-= 4.23 =
+= 4.23 - Sep 23, 2017 =
 * At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
 
-= 4.22 =
+= 4.22 - Sep 19, 2017 =
 * Fixed the issue due to which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
 * Added branded footer text on the plugin's settings page.
 
-= 4.21 =
+= 4.21 - Sep 17, 2017 =
 * The hard coded HTML radio options are replaced with the PHP function that dynamically creates radio.
 
-= 4.20 =
+= 4.20 - Sep 15, 2017 =
 * Added the top level menu item of the brand.
 * The submenu item of the plugin has moved to the menu item of the brand.
 * The menu item of the plugin is renamed.
@@ -515,10 +520,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The "Support" tab renamed to the "Support Me".
 * The "Usage" tab renamed to the "Usage Instructions".
 
-= 4.19 =
+= 4.19 - Sep 8, 2017 =
 * Plugin data that saved in the database upgraded to version 0001.
 
-= 4.18 =
+= 4.18 - Sep 8, 2017 =
 * Added Spanish translation. (Thanks Patricio Toledo)
 * Function that render controls on the settings page is moved to a separate file 'controls.php'.
 * The '_setting' function divided into two functions: '_control_field' and '_control_switch'.
@@ -545,7 +550,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the Wattpad.
 * Added option for the The Knot.
 
-= 4.17 =
+= 4.17 - Aug 11, 2017 =
 * Added option for the ASKfm.
 * Added option for the eBay.
 * Added option for the Hangouts.
@@ -555,7 +560,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the ArtStack.
 * Mastodon icon updated with brand new logo.
 
-= 4.16 =
+= 4.16 - Aug 10, 2017 =
 * Russian translation updated. (Thanks to Milena Kiseleva)
 * The navigation of the tabs is rearranged.
 * Fixed an issue due to which the sidebar was not hiding on mobile devices.
@@ -565,7 +570,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Banner moved from external source to plugin folder.
 * Code of PayPal button updated.
 
-= 4.15 =
+= 4.15 - Aug 8, 2017 =
 * Preview section on the settings page changed to live preview.
 * Stylesheet in the admin.css file improved.
 * The '!important' declarations in the admin.css file removed.
@@ -576,7 +581,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
-= 4.14 =
+= 4.14 - Jul 23, 2017 =
 * Added option for the Google Play.
 * Added option for the itch.
 * Added option for the Mastodon.
@@ -585,21 +590,21 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the VSCO.
 * Added additional CSS reset rules.
 
-= 4.13 =
+= 4.13 - Jul 2, 2017 =
 * Added option for the Hireology.
 * Added option for the Kompoz.
 * Added option for the SoundBlend.
 
-= 4.12.1 =
+= 4.12.1 - Jun 21, 2017 =
 * The HTTPS mixed content issue fixed by changing all links to HTTPS.
 
-= 4.12 =
+= 4.12 - Jun 19, 2017 =
 * Added option for the Behance.
 * Added option for the Polyvore.
 * Added option for the Yellow Pages.
 * Content of the "FAQ" section updated.
 
-= 4.11 =
+= 4.11 - Jun 16, 2017 =
 * Added option for the iTunes social media.
 * Added option for the Apple Music social media.
 * Added option for the Medium social media.
@@ -610,7 +615,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Content of the "Usage" tab updated.
 * Content of the "FAQ" tab updated.
 
-= 4.10 =
+= 4.10 - Jun 4, 2017 =
 * The Beam icon and name replaced with rebranded.
 * Added option for the telephone button.
 * To the plugin settings page added information about the plugin version number.
@@ -619,16 +624,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The "versioning.php" file updated to new version.
 * The "_plugin_version_number" function renamed to the "_versioning".
 
-= 4.9 =
+= 4.9 - May 30, 2017 =
 * Added option for the StumbleUpon social network.
 * Added option for the Bloglovin social network.
 * Added option for the WhatsApp social network.
 * Added option for the LINE social network.
 
-= 4.8 =
+= 4.8 - May 27, 2017 =
 * Added option for the Plug.dj social network.
 
-= 4.7 =
+= 4.7 - May 26, 2017 =
 * Compatibility with PHP version 5.2 improved.
 * PHP shorthands improved.
 * Added function for generating the plugin constants.
@@ -640,7 +645,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 = 4.6.1 =
 * Fixed the bug due to which the "Warning: Constants may only evaluate to scalar values in" warning are displayed.
 
-= 4.6 =
+= 4.6 - May 24, 2017 =
 * Added new constants: "_SLUG", "_PREFIX", "_SETTINGS" and "_NAME".
 * Value of the "_VERSION" constant replaced with information from the plugin header data.
 * All references to the plugin name, slug, prefix are replaced with constants.
@@ -648,25 +653,25 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The "_load_scripts_base" function improved.
 * The "name" attribute removed from the "form" tag.
 
-= 4.5 =
+= 4.5 - May 21, 2017 =
 * Added option for the Buzzsprout social network.
 * Added option for the Periscope social network.
 * F.A.Q. section updated.
 * Code formatting improved.
 
-= 4.4 =
+= 4.4 - May 17, 2017 =
 * Added option for the Flickr social network.
 * Code formatting improved.
 * Extra JS code for Bootstrap tooltips removed from the "admin.js" file.
 * Added ID to every field on the settings page.
 
-= 4.3.1 =
+= 4.3.1 - May 12, 2017 =
 * Fixed the bug due to which the the "Warning: Illegal string offset 'version' in" and the "Warning: Illegal string offset 'old_version' in" warnings are displayed. (Thanks to Sven Brill)
 
-= 4.3 =
+= 4.3 - May 10, 2017 =
 * Added option for the Diaspora social network.
 
-= 4.2 =
+= 4.2 - May 8, 2017 =
 * The design of the plugin settings page is completely redone.
 * Added option for the Beam.pro button.
 * Added option for the Amazon button.
@@ -701,10 +706,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * The POT file updated.
 * Translations updated.
 
-= 4.1 =
+= 4.1 - Mar 28, 2017 =
 * Added option for the Bandcamp button.
 
-= 4.0 =
+= 4.0 - Mar 24, 2017 =
 * Plugin name changed from "Social Media Buttons Toolbar" to "Social Media Follow Buttons Bar".
 * The name of the menu item changed from "Social Buttons" to "Social Media Follow Buttons".
 * My Unicode signature added to the main file.
@@ -730,10 +735,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the Bootstrap Tooltips.
 * The position of the buttons relative to each other has improved. The "Margin right" option renamed to "Margin".
 
-= 3.13 =
+= 3.13 - Jan 23, 2017 =
 * Added option for the Yelp button.
 
-= 3.12 =
+= 3.12 - Jan 23, 2017 =
 * Added option for the Goodreads button.
 * Social media icons more optimized. Weight is reduced by 50%.
 * Links on the settings page cleared from http and https.
@@ -743,59 +748,59 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added option for the Steam button.
 * Added option for the Discord button.
 
-= 3.10 =
+= 3.10 - Dec 11, 2016 =
 * Added option for the Twitch button.
 
-= 3.9 =
+= 3.9 - Nov 22, 2016 =
 * Added option for the Dloky button.
 * Image of the donate button changed.
 
-= 3.8.2 =
+= 3.8.2 - Nov 13, 2016 =
 * Added some CSS code in order to fix compatibility issues with some themes.
 
-= 3.8.1 =
+= 3.8.1 - Nov 11, 2016 =
 * Added "!important" declarations to stylesheet in order to fix compatibility issues with some themes.
 * Fixed the wrong constant name error.
 * Readme for translations updated.
 
-= 3.8 =
+= 3.8 - Nov 7, 2016 =
 * Added option for the IMDb button.
 * Added CSS fix for compatibility with some themes.
 
-= 3.7 =
+= 3.7 - Nov 6, 2016 =
 * Added option for the Vimeo button.
 * Translations updated.
 * Ad banner replaced with new.
 
-= 3.6 =
+= 3.6 - Oct 9, 2016 =
 * Added option for the Snapchat button.
 
-= 3.5 =
+= 3.5 - Oct 2, 2016 =
 * Added Spanish translation. (Thanks [Ramiro Garcés](http://www.ramirogarces.com.ve/))
 
-= 3.4 =
+= 3.4 - Sep 28, 2016 =
 * Added option for the SoundCloud button.
 * Added option for the Spotify button.
 * Improved examples in the fields on the settings page.
 * POT file updated.
 * Russian translation updated.
 
-= 3.3 =
+= 3.3 - Sep 24, 2016 =
 * Added option to adjust the alignment of toolbar.
 * Added the Readme.txt file for translation contribution.
 * Added global constant for plugin text-domain.
 
-= 3.2 =
+= 3.2 - Sep 4, 2016 =
 * Added option for the Skype button.
 * Ready for translation improved.
 * Texts on settings page improved.
 * Russian translation improved.
 
-= 3.1 =
+= 3.1 - Sep 3, 2016 =
 * Added prefixes to the stylesheet and script names when using wp_enqueue_style() and wp_enqueue_script().
 * Added constant for storing the plugin version number.
 
-= 3.0 =
+= 3.0 - Aug 30, 2016 =
 * The structure of files changed.
 * Style sheet of settings page improved and better commented.
 * Style sheet of settings page optimized for mobile devices.
@@ -803,7 +808,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added JavaScript function of automatic remove the "successful" message after 3 seconds.
 * Checkboxes replaced with cool triggers by using Bootstrap framework and Bootstrap-checkbox component.
 
-= 2.3.1 =
+= 2.3.1 - Aug 23, 2016 =
 * POT file updated.
 * Russian translation updated.
 * Image "thanks.png" removed.
@@ -811,21 +816,21 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Added the subject with plugin name to email address on settings page.
 * Function "smbtoolbar_enqueue_scripts" renamed to "smbtoolbar_load_scripts".
 
-= 2.3 =
+= 2.3 - May 28, 2016 =
 * Added Telegram button.
 
-= 2.2.1 =
+= 2.2.1 - May 23, 2016 =
 * Added the `!important` flag to the display property of `<a>` element.
 
-= 2.2 =
+= 2.2 - May 20, 2016 =
 * Added MeetVibe button.
 * Fixed the display property of `<li>` and `<a>` elements.
 * Fixed the issue with border that sometimes appeared at bottom of an icons.
 
-= 2.1 =
+= 2.1 - May 20, 2016 =
 * Added Reddit button.
 
-= 2.0 =
+= 2.0 - Apr 8, 2016 =
 * Some changes in design of settings page.
 * Constants variables added.
 * Text domain changed to "social-media-buttons-toolbar".
@@ -837,10 +842,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * `.pot` file updated.
 * Russian translation updated.
 
-= 1.5 =
+= 1.5 - Mar 31, 2016 =
 * Fixed: `Notice: Undefined index: new_tab in .../social-media-buttons-toolbar.php on line 240`.
 
-= 1.4 =
+= 1.4 - Mar 28, 2016 =
 * Added 6 new buttons (LiveJournal, Pinterest, Tumblr, VKontakte, Odnoklassniki, Personal website).
 * Fixed: "Use of undefined constant media".
 * Plugin URI changed to GitHub repository.
@@ -850,21 +855,21 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * `.pot` file updated.
 * Russian translation updated.
 
-= 1.3 =
+= 1.3 - Mar 21, 2016 =
 * Some changes in design of settings page.
 * On settings page added section "Using" with the using details. (Thanks Hubert O'Brien)
 
-= 1.2 =
+= 1.2 - Feb 21, 2016 =
 * Fixed the compatibility issue with some themes. The issue was caused by not a unique class names in the html tags.
 * The default caption now is empty. The text "Follow me on social media:" is removed.
 * Removed extra settings update message.
 * The thanks.png image replaced.
 
-= 1.1 =
+= 1.1 - Jan 30, 2016 =
 * Authors URI changed.
 * Icons updated.
 
-= 1.0 =
+= 1.0 - Jan 30, 2016 =
 * Initial release.
 * Added ready for translation (`.pot` file included).
 * Added Russian translation.

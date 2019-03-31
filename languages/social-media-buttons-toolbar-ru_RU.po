@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-03-23 04:33+0300\n"
-"PO-Revision-Date: 2019-03-23 04:33+0300\n"
+"POT-Creation-Date: 2019-03-31 16:16+0300\n"
+"PO-Revision-Date: 2019-03-31 16:16+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -103,7 +103,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:47 inc/php/tabs/settings.php:150
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:157
 msgid "Support"
 msgstr "Поддержка"
 
@@ -111,36 +111,36 @@ msgstr "Поддержка"
 msgid "Store"
 msgstr "Магазин"
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr "Мы «Space X-Chimp»"
 
-#: inc/php/sidebar.php:33
+#: inc/php/sidebar.php:38
 msgid "About"
 msgstr "О плагине"
 
-#: inc/php/sidebar.php:35
+#: inc/php/sidebar.php:40
 msgid "This plugin gives you the ability to easily and safely add a smart bar with social media follow buttons (not share, only links to your social media profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website."
 msgstr "Этот плагин даёт вам возможность легко добавить блок социальных медиа кнопок в любое место (post content, page content, widget, sidebar, header, footer) вашего WordPress веб-сайта."
 
-#: inc/php/sidebar.php:40
+#: inc/php/sidebar.php:47
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/sidebar.php:42
+#: inc/php/sidebar.php:49
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:152
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:159
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Каждый небольшой вклад помогает покрыть наши расходы и позволяет нам тратить больше времени на создание вещей, которыми могут наслаждаться удивительные люди, такие как вы."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:157
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:164
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:159
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:166
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -523,143 +523,143 @@ msgstr "Вы можете задать ваш вопрос на %s этой ст
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Но имейте в виду, что этот плагин является бесплатным и без специальной поддержки, поэтому у нас нет возможности ответить на все вопросы."
 
-#: inc/php/tabs/settings.php:21 inc/php/tabs/settings.php:139
+#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:142
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/tabs/settings.php:25
+#: inc/php/tabs/settings.php:27
 msgid "Buttons"
 msgstr "Кнопки"
 
-#: inc/php/tabs/settings.php:27
+#: inc/php/tabs/settings.php:29
 msgid "Here you can select the buttons that you want to have in your social media follow buttons bar."
 msgstr "Здесь вы можете выбрать кнопки, которые вы хотите показывать в вашей панели социальных медиа кнопок."
 
-#: inc/php/tabs/settings.php:33
+#: inc/php/tabs/settings.php:35
 msgid "Social media buttons"
 msgstr "Социальные медиа кнопки"
 
-#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:41
+#: inc/php/tabs/settings.php:36 inc/php/tabs/settings.php:43
 msgid "Mark the desired buttons to add it to your social media follow buttons bar."
 msgstr "Отметьте нужные кнопки, чтобы добавить их в панель социальных кнопок."
 
-#: inc/php/tabs/settings.php:40
+#: inc/php/tabs/settings.php:42
 msgid "Additional buttons"
 msgstr "Дополнительные кнопки"
 
-#: inc/php/tabs/settings.php:49
+#: inc/php/tabs/settings.php:51
 msgid "Buttons URL"
 msgstr "Ссылки кнопок"
 
-#: inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:53
 msgid "Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above."
 msgstr ""
 
-#: inc/php/tabs/settings.php:76
+#: inc/php/tabs/settings.php:78
 msgid "Display options"
 msgstr "Настройки отображения"
 
-#: inc/php/tabs/settings.php:78
+#: inc/php/tabs/settings.php:80
 msgid "Here you can customize the display of your social media follow buttons bar."
 msgstr ""
 
-#: inc/php/tabs/settings.php:82
+#: inc/php/tabs/settings.php:84
 msgid "Button size"
 msgstr "Размер иконки"
 
-#: inc/php/tabs/settings.php:83
+#: inc/php/tabs/settings.php:85
 msgid "You can choose the size of the buttons (in pixels). Default is 64 pixels."
 msgstr "Введите размер иконок (в пикселях) для вашей панели социальных медиа кнопок."
 
-#: inc/php/tabs/settings.php:87
+#: inc/php/tabs/settings.php:89
 msgid "Positioning"
 msgstr ""
 
-#: inc/php/tabs/settings.php:90
+#: inc/php/tabs/settings.php:92
 msgid "Button margin"
 msgstr ""
 
-#: inc/php/tabs/settings.php:91
+#: inc/php/tabs/settings.php:93
 msgid "You can choose the size of the space (in pixels) between each button. Default is 10 pixels."
 msgstr "Введите размер пробела (в пикселях) между значками в социальных сетях."
 
-#: inc/php/tabs/settings.php:96
+#: inc/php/tabs/settings.php:98
 msgid "Left"
 msgstr "Слева"
 
-#: inc/php/tabs/settings.php:97
+#: inc/php/tabs/settings.php:99
 msgid "Center"
 msgstr "По центру"
 
-#: inc/php/tabs/settings.php:98
+#: inc/php/tabs/settings.php:100
 msgid "Right"
 msgstr "Справа"
 
-#: inc/php/tabs/settings.php:100
+#: inc/php/tabs/settings.php:102
 msgid "Buttons bar alignment"
 msgstr ""
 
-#: inc/php/tabs/settings.php:101
+#: inc/php/tabs/settings.php:103
 msgid "You can choose the alignment of the entire buttons bar."
 msgstr ""
 
-#: inc/php/tabs/settings.php:105
+#: inc/php/tabs/settings.php:107
 msgid "Links open method"
 msgstr ""
 
-#: inc/php/tabs/settings.php:108
+#: inc/php/tabs/settings.php:110
 msgid "Open in new tab"
 msgstr "Открыть в новой вкладке"
 
-#: inc/php/tabs/settings.php:109
+#: inc/php/tabs/settings.php:111
 msgid "Open links in a new tab/window."
 msgstr "Открывать ссылки в новом окне/вкладке."
 
-#: inc/php/tabs/settings.php:112
+#: inc/php/tabs/settings.php:114
 msgid "Additional"
 msgstr ""
 
-#: inc/php/tabs/settings.php:115
+#: inc/php/tabs/settings.php:117
 msgid "Caption"
 msgstr "Заголовок"
 
-#: inc/php/tabs/settings.php:116
+#: inc/php/tabs/settings.php:118
 msgid "Enter the caption to your social media follow buttons bar. It will be displayed above the buttons bar."
 msgstr "Введите заголовок для блока с кнопками социальных медиа. Он будет отображает над панелью."
 
-#: inc/php/tabs/settings.php:120
+#: inc/php/tabs/settings.php:122
 msgid "Tooltips"
 msgstr "Подсказки"
 
-#: inc/php/tabs/settings.php:121
+#: inc/php/tabs/settings.php:123
 msgid "Enable tooltips with the name of social media that will be displayed next to each button."
 msgstr "Включить всплывающие подсказки с именем социальных сетей над каждой кнопкой."
 
-#: inc/php/tabs/settings.php:124
+#: inc/php/tabs/settings.php:126
 msgid "Autoload"
 msgstr ""
 
-#: inc/php/tabs/settings.php:127
+#: inc/php/tabs/settings.php:129
 msgid "Show on Posts"
 msgstr "Показывать в записях"
 
-#: inc/php/tabs/settings.php:128
+#: inc/php/tabs/settings.php:130
 msgid "Automatically display the buttons bar below content on Posts."
 msgstr ""
 
-#: inc/php/tabs/settings.php:131
+#: inc/php/tabs/settings.php:133
 msgid "Show on Pages"
 msgstr "Показывать на страницах"
 
-#: inc/php/tabs/settings.php:132
+#: inc/php/tabs/settings.php:134
 msgid "Automatically display the buttons bar below content on Pages."
 msgstr ""
 
-#: inc/php/tabs/settings.php:142
+#: inc/php/tabs/settings.php:147
 msgid "Live Preview"
 msgstr "Просмотр в реальном времени"
 
-#: inc/php/tabs/settings.php:144
+#: inc/php/tabs/settings.php:149
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
 

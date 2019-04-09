@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </button>
                     <!-- END SUBMIT -->
 
-                    <div class="postbox" id="buttons">
+                    <div class="postbox" id="options-group-buttons">
                         <h3 class="title"><?php _e( 'Buttons', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Here you can select the buttons that you want to have in your social media follow buttons bar.', $plugin['text'] ); ?></p>
@@ -35,7 +35,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                        __( 'Social media buttons', $plugin['text'] ),
                                                                        __( 'Mark the desired buttons to add it to your social media follow buttons bar.', $plugin['text'] )
                                                                      );
-
+                                    spacexchimp_p005_control_separator();
                                     $buttons_additional = spacexchimp_p005_get_media_pairs_additional();
                                     spacexchimp_p005_control_checkbox( 'buttons-selected',
                                                                        $buttons_additional,
@@ -47,7 +47,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="button-links">
+                    <div class="postbox" id="options-group-button-links">
                         <h3 class="title"><?php _e( 'Buttons URL', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Fill in the fields below to add links that will lead directly to your profile pages in social media that you selected in the section above.', $plugin['text'] ); ?></p>
@@ -74,7 +74,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
-                    <div class="postbox" id="display">
+                    <div class="postbox" id="options-group-display">
                         <h3 class="title"><?php _e( 'Display options', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Here you can customize the display of your social media follow buttons bar.', $plugin['text'] ); ?></p>
@@ -122,9 +122,17 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                      __( 'Tooltips', $plugin['text'] ),
                                                                      __( 'Enable tooltips with the name of social media that will be displayed next to each button.', $plugin['text'] )
                                                                    );
-                                    spacexchimp_p005_control_separator(
-                                                                       __( 'Autoload', $plugin['text'] )
-                                                                     );
+                                ?>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="postbox" id="options-group-autoload">
+                        <h3 class="title"><?php _e( 'Autoload', $plugin['text'] ); ?></h3>
+                        <div class="inside">
+                            <p class="note"><?php _e( 'Here you can configure the autoload.', $plugin['text'] ); ?></p>
+                            <table class="form-table">
+                                <?php
                                     spacexchimp_p005_control_switch( 'show_posts',
                                                                       __( 'Show on Posts', $plugin['text'] ),
                                                                       __( 'Automatically display the buttons bar below content on Posts.', $plugin['text'] )
@@ -144,7 +152,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                     <!-- PREVIEW -->
                     <div class="postbox" id="preview">
-                        <h3 class="title"><?php _e( 'Live Preview', $plugin['text'] ); ?></h3>
+                        <h3 class="title"><?php _e( 'Live preview', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'Click the "Save changes" button to update this preview.', $plugin['text'] ); ?></p><br>
                             <?php echo spacexchimp_p005_shortcode(); ?>

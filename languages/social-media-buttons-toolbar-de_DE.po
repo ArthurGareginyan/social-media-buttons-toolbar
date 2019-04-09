@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-03-31 16:16+0300\n"
-"PO-Revision-Date: 2019-03-31 16:16+0300\n"
+"POT-Creation-Date: 2019-04-09 12:05+0300\n"
+"PO-Revision-Date: 2019-04-09 12:05+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -103,7 +103,7 @@ msgstr "Verwendung"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:157
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:165
 msgid "Support"
 msgstr "Unterstützung"
 
@@ -131,16 +131,16 @@ msgstr "Hilfe"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Wenn Sie Fragen haben, lesen Sie bitte auch die Fragen im FAQ Bereich."
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:159
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:167
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Jeder kleine Beitrag trägt dazu bei, unsere Kosten zu decken und wir kann mehr Zeit damit verbringen, Dinge für Leute wie Sie zu entwickeln."
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:164
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:172
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Spende mit PayPal"
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:166
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:174
 msgid "Thanks for your support!"
 msgstr "Danke für Ihre Unterstützung!"
 
@@ -523,7 +523,7 @@ msgstr ""
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Aber bitte bedenken Sie, dass dieses Plugin kostenlos ist. Es gibt kein Support Team, deshalb habe wir keine Möglichkeit jedem zu antworten."
 
-#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:142
+#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:150
 msgid "Save changes"
 msgstr "Änderungen speichern"
 
@@ -635,31 +635,35 @@ msgstr "Tooltip"
 msgid "Enable tooltips with the name of social media that will be displayed next to each button."
 msgstr "Aktivieren Sie einen Tooltip mit dem Namen des sozialen Netzwerks über jedem Button."
 
-#: inc/php/tabs/settings.php:126
+#: inc/php/tabs/settings.php:131
 msgid "Autoload"
 msgstr ""
 
-#: inc/php/tabs/settings.php:129
+#: inc/php/tabs/settings.php:133
+msgid "Here you can configure the autoload."
+msgstr ""
+
+#: inc/php/tabs/settings.php:137
 msgid "Show on Posts"
 msgstr "In Posts anzeigen"
 
-#: inc/php/tabs/settings.php:130
+#: inc/php/tabs/settings.php:138
 msgid "Automatically display the buttons bar below content on Posts."
 msgstr ""
 
-#: inc/php/tabs/settings.php:133
+#: inc/php/tabs/settings.php:141
 msgid "Show on Pages"
 msgstr "Auf Seiten anzeigen"
 
-#: inc/php/tabs/settings.php:134
+#: inc/php/tabs/settings.php:142
 msgid "Automatically display the buttons bar below content on Pages."
 msgstr ""
 
-#: inc/php/tabs/settings.php:147
-msgid "Live Preview"
-msgstr "Live Vorschau"
+#: inc/php/tabs/settings.php:155
+msgid "Live preview"
+msgstr "Live vorschau"
 
-#: inc/php/tabs/settings.php:149
+#: inc/php/tabs/settings.php:157
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Klicken Sie den Button \"Änderungen speichern\" um die Vorschau zu aktualisieren."
 

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-03-31 16:16+0300\n"
-"PO-Revision-Date: 2019-03-31 16:16+0300\n"
+"POT-Creation-Date: 2019-04-09 12:05+0300\n"
+"PO-Revision-Date: 2019-04-09 12:05+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -103,7 +103,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:157
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:165
 msgid "Support"
 msgstr "Soporte"
 
@@ -131,16 +131,16 @@ msgstr "Ayuda"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:159
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:167
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:164
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:172
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:166
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:174
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -523,7 +523,7 @@ msgstr "Puede hacer su pregunta en %s esta página %s."
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
 
-#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:142
+#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:150
 msgid "Save changes"
 msgstr "Guardar cambios"
 
@@ -561,7 +561,7 @@ msgstr "Opciones de presentación"
 
 #: inc/php/tabs/settings.php:80
 msgid "Here you can customize the display of your social media follow buttons bar."
-msgstr ""
+msgstr "Aquí puedes personalizar el display of your social media follow buttons bar."
 
 #: inc/php/tabs/settings.php:84
 msgid "Button size"
@@ -635,31 +635,35 @@ msgstr ""
 msgid "Enable tooltips with the name of social media that will be displayed next to each button."
 msgstr ""
 
-#: inc/php/tabs/settings.php:126
+#: inc/php/tabs/settings.php:131
 msgid "Autoload"
 msgstr ""
 
-#: inc/php/tabs/settings.php:129
+#: inc/php/tabs/settings.php:133
+msgid "Here you can configure the autoload."
+msgstr ""
+
+#: inc/php/tabs/settings.php:137
 msgid "Show on Posts"
 msgstr "Mostrar en Entradas"
 
-#: inc/php/tabs/settings.php:130
+#: inc/php/tabs/settings.php:138
 msgid "Automatically display the buttons bar below content on Posts."
 msgstr ""
 
-#: inc/php/tabs/settings.php:133
+#: inc/php/tabs/settings.php:141
 msgid "Show on Pages"
 msgstr "Mostrar en Páginas"
 
-#: inc/php/tabs/settings.php:134
+#: inc/php/tabs/settings.php:142
 msgid "Automatically display the buttons bar below content on Pages."
 msgstr ""
 
-#: inc/php/tabs/settings.php:147
-msgid "Live Preview"
-msgstr "Vista Previa"
+#: inc/php/tabs/settings.php:155
+msgid "Live preview"
+msgstr "Vista previa"
 
-#: inc/php/tabs/settings.php:149
+#: inc/php/tabs/settings.php:157
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Has clic en el botón \"Guardar cambios\" para actualizar esta vista previa."
 

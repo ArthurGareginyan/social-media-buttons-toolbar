@@ -52,9 +52,9 @@ jQuery(document).ready(function($) {
     });
 
     // Show/hide fields
-    $('#buttons .control-checkbox input').change(function() {
+    $('#options-group-buttons .control-checkbox input').change(function() {
         var this_class = $(this).parent('.control-checkbox').attr('id') + '-url';
-        $('#button-links .' + this_class).toggle();
+        $('#options-group-button-links .' + this_class).toggle();
     });
 
     // Live preview

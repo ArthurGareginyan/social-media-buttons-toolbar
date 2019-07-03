@@ -23,7 +23,7 @@ It give you finer control over buttons. You can configure they on plugins settin
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Key features include...**
+**Key features include**
 
 * Beautiful icons
 * Ability to select only the desired buttons

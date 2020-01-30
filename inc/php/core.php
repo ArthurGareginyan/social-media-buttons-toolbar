@@ -87,7 +87,7 @@ function spacexchimp_p005_register_submenu_page() {
 
     // Declare variables
     $page_title  = $plugin['name'];
-    $menu_title  = __( 'Social Media Follow Buttons', $plugin['text'] );
+    $menu_title  = __( 'Follow Buttons', $plugin['text'] );
     $capability  = 'manage_options';
     $menu_slug   = $plugin['slug'];
     $function    = $plugin['prefix'] . '_render_submenu_page';

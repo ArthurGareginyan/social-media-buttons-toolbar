@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2019-04-09 12:05+0300\n"
-"PO-Revision-Date: 2019-04-09 12:05+0300\n"
+"POT-Creation-Date: 2020-01-30 15:45+0300\n"
+"PO-Revision-Date: 2020-01-30 15:46+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: social-media-buttons-toolbar.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -33,8 +33,8 @@ msgid "Donate"
 msgstr "Donar"
 
 #: inc/php/core.php:90
-msgid "Social Media Follow Buttons"
-msgstr "Social Media Follow Buttons"
+msgid "Follow Buttons"
+msgstr "Follow Buttons"
 
 #: inc/php/items.php:1
 #, php-format

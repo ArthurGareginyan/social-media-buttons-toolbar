@@ -4,7 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.3
-Stable tag: 4.57
+Stable tag: 4.58
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -214,7 +214,7 @@ Manually via FTP access:
 4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Social Media Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Follow Buttons`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -231,11 +231,11 @@ If you want to help translate this plugin, please use the POT file that is inclu
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy social media follow buttons. It's that simple!
-You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Follow Buttons`".
 
 = Q. Can I configure my buttons bar instance? =
 A. Yes. On the "Settings" tab, select the desired settings and click the "Save changes" button. It's that simple!
-You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Social Media Follow Buttons`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Follow Buttons`".
 
 = Q. How many buttons bar instances can I create? =
 A. The free version of this plugin supports only 1 instance of the buttons bar.
@@ -309,6 +309,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.58 - Jan 30, 2020 =
+* Improvement: The name of the menu item that leads to the plugin settings page has been changed from "Social Media Follow Buttons" to a shorter "Follow Buttons" for the convenience of users.
 
 = 4.57 - Jan 20, 2020 =
 * Maintenance: The copyright date updated to support the 2020 year.

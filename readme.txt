@@ -4,6 +4,7 @@ Tags: icon, icon set, button, social, media, social button, social media, social
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.4
+Requires PHP: 5.6
 Stable tag: 4.58
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -179,7 +180,7 @@ If you want to help translate this plugin, please visit the [translation page](h
 **Minimum system requirements:**
 
 * [WordPress](https://wordpress.org) version **4.9** or higher.
-* [PHP](https://secure.php.net) version **5.2** or higher.
+* [PHP](https://secure.php.net) version **5.6** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
 **Recommended system requirements:**

@@ -303,6 +303,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Icons [flickr.png, google-plus.png, vimeo.png, blogger.png, livejournal.png, pinterest.png, tumblr.png, soundcloud.png, spotify.png, yelp.png, vkontakte.png, odnoklassniki.png, telegram.png, github.png, skype.png, website.png, rss-feed.png](https://www.iconfinder.com/iconsets/social-buttons-2?ref=ArthurGareginyan) by Ivlichev Victor Petrovich and licensed under the [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
+* [Font Awesome](https://fontawesome.com) is an open source-project created by Dave Gandy. Font released under the [SIL OFL 1.1 license](http://scripts.sil.org/OFL). Code released under the [MIT License](http://opensource.org/licenses/mit-license.html).
 
 **Links**
 

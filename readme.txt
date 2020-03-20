@@ -314,6 +314,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+=  - Mar 20, 2020 =
+* Maintenance: Ensure compatibility with upcoming WordPress 5.4.
+* Maintenance: Minimum WordPress version requirement is set to 4.9. Support for WordPress 4.8 and below has been discontinued.
+* Maintenance: Minimum PHP version requirement is set to 5.6. Support for PHP 5.5 and below has been discontinued.
+
 = 4.58 - Jan 30, 2020 =
 * Improvement: The name of the menu item that leads to the plugin settings page has been changed from "Social Media Follow Buttons" to a shorter "Follow Buttons" for the convenience of users.
 

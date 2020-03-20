@@ -5,7 +5,7 @@
  * Description: Easily and safely add a smart bar with social media follow buttons (not share, only link to your profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.58
+ * Version: 4.59
  * License: GPL3
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/

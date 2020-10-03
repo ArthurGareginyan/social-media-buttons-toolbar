@@ -146,6 +146,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         </div>
                     </div>
 
+                    <!-- HIDDEN -->
+                    <?php
+                        spacexchimp_p005_control_hidden( 'hidden_scrollto',
+                                                         '0'
+                                                       );
+                    ?>
+                    <!-- END HIDDEN -->
+
                     <!-- SUBMIT -->
                     <input type="submit" name="submit" id="submit" class="btn btn-default btn-lg button-save-main" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
                     <!-- END SUBMIT -->

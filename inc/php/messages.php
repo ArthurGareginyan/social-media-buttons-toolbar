@@ -126,5 +126,13 @@ function spacexchimp_p005_message_save() {
                 <?php _e( 'Settings saved successfully.', $plugin['text'] ); ?>
             </p>
         </div>
+        <style>
+            #message.updated {
+                z-index: 9999;
+                position: fixed;
+                top: 40px;
+                right: 40px;
+            }
+        </style>
     <?php
 }

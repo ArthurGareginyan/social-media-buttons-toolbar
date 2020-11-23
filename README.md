@@ -247,8 +247,8 @@ Arthur Gareginyan
 ---
 #### Technologies:
 
-[![HTML5](http://mycyberuniverse.com/public-files/images/logos/HTML5.png)]()
-[![CSS3](http://mycyberuniverse.com/public-files/images/logos/CSS3.png)]()
-[![PHP](http://mycyberuniverse.com/public-files/images/logos/PHP.png)]()
-[![WordPress](http://mycyberuniverse.com/public-files/images/logos/WordPress.png)](https://wordpress.org)
-[![License](http://mycyberuniverse.com/public-files/images/logos/GPLv3.png)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![HTML5](http://resources.spacexchimp.com/images/logos/HTML5.png)]()
+[![CSS3](http://resources.spacexchimp.com/images/logos/CSS3.png)]()
+[![PHP](http://resources.spacexchimp.com/images/logos/PHP.png)]()
+[![WordPress](http://resources.spacexchimp.com/images/logos/WordPress.png)](https://wordpress.org)
+[![License](http://resources.spacexchimp.com/images/logos/GPLv3.png)](http://www.gnu.org/licenses/gpl-3.0.html)

@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2020-01-30 15:46+0300\n"
-"PO-Revision-Date: 2020-01-30 15:46+0300\n"
+"POT-Creation-Date: 2020-12-08 16:50+0300\n"
+"PO-Revision-Date: 2020-12-08 16:50+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Settings"
 msgstr "Paramètres"
 
-#: inc/php/core.php:40 inc/php/core.php:65
+#: inc/php/core.php:40
 msgid "Upgrade to PRO"
 msgstr "Passer à PRO"
 
@@ -31,7 +31,7 @@ msgstr "Passer à PRO"
 msgid "Donate"
 msgstr "Faire un don"
 
-#: inc/php/core.php:90
+#: inc/php/core.php:85
 msgid "Follow Buttons"
 msgstr "Follow Buttons"
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Enter the URL of your RSS feed."
 msgstr ""
 
-#: inc/php/messages.php:33 inc/php/tabs/support.php:25
+#: inc/php/messages.php:33 inc/php/tabs/support.php:29
 msgid "Hello!"
 msgstr "Salut!"
 
@@ -102,7 +102,7 @@ msgstr "Utilisation"
 msgid "F.A.Q."
 msgstr "FAQ."
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:165
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:173
 msgid "Support"
 msgstr "Support"
 
@@ -130,399 +130,399 @@ msgstr "Aide"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si vous avez une question, veuillez lire les informations dans la section FAQ."
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:167
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:175
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Toute contribution même minime nous aident à couvrir nos frais et nous laisse plus de temps pour ajouter des fonctionnalités que les utilisateurs comme vous apprécient."
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:172
-#: inc/php/tabs/support.php:21
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:180
+#: inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr "Faire un don avec PayPal"
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:174
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:182
 msgid "Thanks for your support!"
 msgstr "Merci pour votre soutien!"
 
-#: inc/php/tabs/faq.php:13
+#: inc/php/tabs/faq.php:17
 msgid "Frequently Asked Questions"
 msgstr "Questions fréquentes"
 
-#: inc/php/tabs/faq.php:17
+#: inc/php/tabs/faq.php:21
 msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
 msgstr "Si vous avez une question, veuillez lire la Foire aux questions ci-dessous pour voir si la réponse est ici."
 
-#: inc/php/tabs/faq.php:42
+#: inc/php/tabs/faq.php:46
 msgid "Where can I find a documentation for this plugin?"
 msgstr "Où puis-je trouver une documentation pour ce plugin?"
 
-#: inc/php/tabs/faq.php:47
+#: inc/php/tabs/faq.php:51
 #, php-format
 msgid "Please visit our %s Documentation site %s to view documentation."
 msgstr "Veuillez visiter notre %s site de documentation %s pour voir la documentation."
 
-#: inc/php/tabs/faq.php:55
+#: inc/php/tabs/faq.php:59
 msgid "Will this plugin work on my wordpress.COM website?"
 msgstr "Ce plugin fonctionnera-t-il sur mon site wordpress.COM?"
 
-#: inc/php/tabs/faq.php:58
+#: inc/php/tabs/faq.php:62
 msgid "Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites."
 msgstr "Désolé, ce plugin est disponible pour une utilisation uniquement sur les sites auto-hébergés (wordpress.ORG)."
 
-#: inc/php/tabs/faq.php:60
+#: inc/php/tabs/faq.php:64
 msgid "Please note that there is a difference between wordpress.COM and wordpress.ORG."
 msgstr "Veuillez noter qu'il y a une différence entre wordpress.COM et wordpress.ORG."
 
-#: inc/php/tabs/faq.php:61
+#: inc/php/tabs/faq.php:65
 msgid "The wordpress.COM is a blog hosting service that offers a limited version of the popular self-hosted WordPress software."
 msgstr "Le wordpress.COM est un service d'hébergement de blog qui offre une version limitée du populaire logiciel WordPress auto-hébergé."
 
-#: inc/php/tabs/faq.php:64
+#: inc/php/tabs/faq.php:68
 #, php-format
 msgid "You can learn more about the difference here: %s ."
 msgstr "Vous pouvez en apprendre davantage sur la différence ici: %s ."
 
-#: inc/php/tabs/faq.php:71
+#: inc/php/tabs/faq.php:75
 msgid "Will this plugin work/compatible with the theme I use?"
 msgstr "Ce plugin fonctionnera-t-il / sera-t-il compatible avec le thème que j'utilise?"
 
-#: inc/php/tabs/faq.php:74
+#: inc/php/tabs/faq.php:78
 msgid "This plugin is compatible with most themes."
 msgstr "Ce plugin est compatible avec la plupart des thèmes."
 
-#: inc/php/tabs/faq.php:75
+#: inc/php/tabs/faq.php:79
 msgid "But, unfortunately, we cannot check it with all third-party themes (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party theme."
 msgstr "Mais, malheureusement, nous ne pouvons pas le vérifier avec tous les thèmes tiers (en particulier ceux payés) pour la compatibilité, donc il y a des cas où ce plugin ne fonctionne pas avec un thème tiers."
 
-#: inc/php/tabs/faq.php:76
+#: inc/php/tabs/faq.php:80
 msgid "We constantly check this plugin for compatibility with third-party themes."
 msgstr "Nous vérifions constamment ce plugin pour la compatibilité avec des thèmes tiers."
 
-#: inc/php/tabs/faq.php:77
+#: inc/php/tabs/faq.php:81
 msgid "If we find that this plugin is incompatible with a third-party theme, and if we can fix it on our part, we release an update of our plugin to fix the problem."
 msgstr "Si nous constatons que ce plugin est incompatible avec un thème tiers, et si nous pouvons le corriger de notre part, nous publions une mise à jour de notre plugin pour résoudre le problème."
 
-#: inc/php/tabs/faq.php:79
+#: inc/php/tabs/faq.php:83
 msgid "If you find a conflict between our plugin and a third-party theme, please let us know and we will definitely release an update of our plugin to fix the problem."
 msgstr "Si vous trouvez un conflit entre notre plugin et un thème tiers, s'il vous plaît laissez-nous savoir et nous allons certainement libérer une mise à jour de notre plugin pour résoudre le problème."
 
-#: inc/php/tabs/faq.php:83
+#: inc/php/tabs/faq.php:87
 msgid "Will this plugin work/compatible with other plugins that I use?"
 msgstr "Ce plugin fonctionnera-t-il / sera-t-il compatible avec les autres plug-ins que j'utilise?"
 
-#: inc/php/tabs/faq.php:86
+#: inc/php/tabs/faq.php:90
 msgid "This plugin is compatible with most plugins."
 msgstr "Ce plugin est compatible avec la plupart des plugins."
 
-#: inc/php/tabs/faq.php:87
+#: inc/php/tabs/faq.php:91
 msgid "But, unfortunately, we cannot check it with all third-party plugins (especially paid ones) for compatibility, therefore there are cases when this plugin does not work with a third-party plugin."
 msgstr "Mais, malheureusement, nous ne pouvons pas le vérifier avec tous les plugins tiers (en particulier ceux payés) pour la compatibilité, donc il y a des cas où ce plugin ne fonctionne pas avec un plugin tiers."
 
-#: inc/php/tabs/faq.php:88
+#: inc/php/tabs/faq.php:92
 msgid "We constantly check this plugin for compatibility with third-party plugins."
 msgstr "Nous vérifions constamment ce plugin pour la compatibilité avec des plugins tiers."
 
-#: inc/php/tabs/faq.php:89
+#: inc/php/tabs/faq.php:93
 msgid "If we find that this plugin is incompatible with a third-party plugin, and if we can fix it on our part, we release an update of our plugin to fix the problem."
 msgstr "Si nous constatons que ce plugin est incompatible avec un plugin tiers, et si nous pouvons le corriger de notre part, nous publions une mise à jour de notre plugin pour résoudre le problème."
 
-#: inc/php/tabs/faq.php:91
+#: inc/php/tabs/faq.php:95
 msgid "If you find a conflict between our plugin and a third-party plugin, please let us know and we will definitely release an update of our plugin to fix the problem."
 msgstr "Si vous trouvez un conflit entre notre plugin et un plugin tiers, s'il vous plaît laissez-nous savoir et nous allons certainement libérer une mise à jour de notre plugin pour résoudre le problème."
 
-#: inc/php/tabs/faq.php:95
+#: inc/php/tabs/faq.php:99
 msgid "Can I use this plugin on my language?"
 msgstr "Puis-je utiliser ce plugin sur ma langue?"
 
-#: inc/php/tabs/faq.php:98 inc/php/tabs/faq.php:133
+#: inc/php/tabs/faq.php:102 inc/php/tabs/faq.php:137
 msgid "Yes."
 msgstr "Oui."
 
-#: inc/php/tabs/faq.php:99
+#: inc/php/tabs/faq.php:103
 msgid "This plugin is ready for translation and has already been translated into several languages."
 msgstr "Ce plugin est prêt pour la traduction et a déjà été traduit en plusieurs langues."
 
-#: inc/php/tabs/faq.php:100
+#: inc/php/tabs/faq.php:104
 msgid "But If your language is not available then you can make one."
 msgstr "Mais si votre langue n'est pas disponible, alors vous pouvez en faire une."
 
-#: inc/php/tabs/faq.php:101
+#: inc/php/tabs/faq.php:105
 msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
 msgstr "Peut-être que toutes les traductions existantes ne sont pas à jour. Vous êtes invités à apporter des corrections."
 
-#: inc/php/tabs/faq.php:102
+#: inc/php/tabs/faq.php:106
 msgid "Many of plugin users would be delighted if you share your translation with the community."
 msgstr "Beaucoup d'utilisateurs de plugin serait ravi si vous partagez votre traduction avec la communauté."
 
-#: inc/php/tabs/faq.php:103
+#: inc/php/tabs/faq.php:107
 msgid "Thanks for your contribution!"
 msgstr "Merci pour votre contribution!"
 
-#: inc/php/tabs/faq.php:107
+#: inc/php/tabs/faq.php:111
 #, php-format
 msgid "If you want to help translate this plugin, please visit the %s."
 msgstr "Si vous voulez aider à traduire ce plugin alors s'il vous plaît visitez le %s."
 
-#: inc/php/tabs/faq.php:111
+#: inc/php/tabs/faq.php:115
 msgid "You can also use the POT file that is included and placed in the \"languages\" folder to create a translation PO file."
 msgstr "Vous pouvez également utiliser le fichier POT, qui est inclus et placé dans le dossier «Languages», afin de créer un fichier PO de traduction."
 
-#: inc/php/tabs/faq.php:114
+#: inc/php/tabs/faq.php:118
 #, php-format
 msgid "Just send the PO file to us ( %s ) and we will include this translation within the next plugin update."
 msgstr "Il suffit d'envoyer le fichier PO pour nous ( %s ) et nous inclurons cette traduction dans la prochaine mise à jour du plugin."
 
-#: inc/php/tabs/faq.php:121
+#: inc/php/tabs/faq.php:125
 msgid "How does it work?"
 msgstr "Comment cela fonctionne?"
 
-#: inc/php/tabs/faq.php:124 inc/php/tabs/faq.php:134
+#: inc/php/tabs/faq.php:128 inc/php/tabs/faq.php:138
 msgid "On the \"Settings\" tab, select the desired settings and click the \"Save changes\" button."
 msgstr ""
 
-#: inc/php/tabs/faq.php:125 inc/php/tabs/usage.php:33
+#: inc/php/tabs/faq.php:129 inc/php/tabs/usage.php:37
 msgid "Enjoy your fancy social media follow buttons."
 msgstr ""
 
-#: inc/php/tabs/faq.php:126 inc/php/tabs/faq.php:135 inc/php/tabs/usage.php:33
+#: inc/php/tabs/faq.php:130 inc/php/tabs/faq.php:139 inc/php/tabs/usage.php:37
 msgid "It's that simple!"
 msgstr "C'est si simple!"
 
-#: inc/php/tabs/faq.php:130
+#: inc/php/tabs/faq.php:134
 msgid "Can I configure my buttons bar instance?"
 msgstr ""
 
-#: inc/php/tabs/faq.php:139
+#: inc/php/tabs/faq.php:143
 msgid "How many buttons bar instances can I create?"
 msgstr ""
 
-#: inc/php/tabs/faq.php:142
+#: inc/php/tabs/faq.php:146
 msgid "The free version of this plugin supports only 1 instance of the buttons bar."
 msgstr ""
 
-#: inc/php/tabs/faq.php:144
+#: inc/php/tabs/faq.php:148
 msgid "In the premium version of this plugin you can create up to 10 of buttons bar instances."
 msgstr ""
 
-#: inc/php/tabs/faq.php:145
+#: inc/php/tabs/faq.php:149
 msgid "This is very useful, because that way you can manage your buttons bar instances separately."
 msgstr ""
 
-#: inc/php/tabs/faq.php:146
+#: inc/php/tabs/faq.php:150
 msgid "Soon we will remove the limit on the number of buttons bar instances so that you can create an unlimited number of buttons bar instances."
 msgstr ""
 
-#: inc/php/tabs/faq.php:150
+#: inc/php/tabs/faq.php:154
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Ce plugin nécessite-t-il une modification du thème?"
 
-#: inc/php/tabs/faq.php:153 inc/php/tabs/faq.php:161
+#: inc/php/tabs/faq.php:157 inc/php/tabs/faq.php:165
 msgid "Absolutely not."
 msgstr "Absolument pas."
 
-#: inc/php/tabs/faq.php:154
+#: inc/php/tabs/faq.php:158
 msgid "This plugin is configurable entirely from the plugin settings page."
 msgstr "Ce plugin est entièrement configurable à partir de la page des paramètres du plugin."
 
-#: inc/php/tabs/faq.php:158
+#: inc/php/tabs/faq.php:162
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Est-ce que cela nécessite une connaissance de HTML ou CSS?"
 
-#: inc/php/tabs/faq.php:162
+#: inc/php/tabs/faq.php:166
 msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page."
 msgstr "Ce plugin peut être configuré sans connaissance de HTML ou CSS, en utilisant une page de paramètres de plugin facile à utiliser."
 
-#: inc/php/tabs/faq.php:166
+#: inc/php/tabs/faq.php:170
 msgid "What I need to do if the Google PageSpeed test says that this plugin images must be compressed?"
 msgstr ""
 
-#: inc/php/tabs/faq.php:169
+#: inc/php/tabs/faq.php:173
 msgid "The images that uses in this plugin are already compressed, but we will do our best to find out what else can be done with the images in order to compress them even better."
 msgstr ""
 
-#: inc/php/tabs/faq.php:173
+#: inc/php/tabs/faq.php:177
 msgid "It's not working."
 msgstr "Ça marche pas."
 
-#: inc/php/tabs/faq.php:174
+#: inc/php/tabs/faq.php:178
 msgid "What could be wrong?"
 msgstr "Qu'est-ce qui peut être erroné?"
 
-#: inc/php/tabs/faq.php:177
+#: inc/php/tabs/faq.php:181
 msgid "As with every plugin, it's possible that things don't work."
 msgstr "Comme avec chaque plugin, il est possible que les choses ne fonctionnent pas."
 
-#: inc/php/tabs/faq.php:178
+#: inc/php/tabs/faq.php:182
 msgid "It's impossible to tell what could be wrong exactly."
 msgstr "Il est impossible de dire ce qui pourrait être erroné exactement."
 
-#: inc/php/tabs/faq.php:179
+#: inc/php/tabs/faq.php:183
 msgid "The most common reason for this is a web browser's cache."
 msgstr "La raison la plus courante pour cela est le cache d'un navigateur Web."
 
-#: inc/php/tabs/faq.php:180
+#: inc/php/tabs/faq.php:184
 msgid "Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load."
 msgstr "Chaque navigateur Web stocke un cache des sites Web que vous visitez (pages, images, etc.) pour réduire l'utilisation de la bande passante et la charge du serveur."
 
-#: inc/php/tabs/faq.php:181
+#: inc/php/tabs/faq.php:185
 msgid "This is called the browser's cache."
 msgstr "C'est ce qu'on appelle le cache du navigateur."
 
-#: inc/php/tabs/faq.php:182
+#: inc/php/tabs/faq.php:186
 msgid "Clearing your browser's cache may solve the problem."
 msgstr "L'effacement du cache de votre navigateur peut résoudre le problème."
 
-#: inc/php/tabs/faq.php:184
+#: inc/php/tabs/faq.php:188
 msgid "If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out."
 msgstr "Si vous publiez une demande de support dans le Forum de soutien du plugin sur WordPress.org, nous serions heureux de lui donner un coup d’œil et essayer d'aider."
 
-#: inc/php/tabs/faq.php:185 inc/php/tabs/faq.php:214
+#: inc/php/tabs/faq.php:189 inc/php/tabs/faq.php:218
 msgid "Please include as much information as possible, including a link to your website where the problem can be seen."
 msgstr "Veuillez inclure autant d'informations que possible, y compris un lien vers votre site Web où le problème peut être vu."
 
-#: inc/php/tabs/faq.php:189
+#: inc/php/tabs/faq.php:193
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin."
 msgstr "La dernière mise à jour de WordPress m'empêche de modifier mon site Web qui utilise ce plugin."
 
-#: inc/php/tabs/faq.php:190
+#: inc/php/tabs/faq.php:194
 msgid "Why is this?"
 msgstr "Pourquoi?"
 
-#: inc/php/tabs/faq.php:193
+#: inc/php/tabs/faq.php:197
 msgid "This plugin can not cause such problem."
 msgstr "Ce plugin ne peut pas causer un tel problème."
 
-#: inc/php/tabs/faq.php:194
+#: inc/php/tabs/faq.php:198
 msgid "More likely, the problem are related to the settings of the website."
 msgstr "Plus probablement, le problème est lié aux paramètres du site Web."
 
-#: inc/php/tabs/faq.php:195
+#: inc/php/tabs/faq.php:199
 msgid "It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser."
 msgstr "Il pourrait juste être un cache, donc s'il vous plaît essayer de vider le cache de votre site Web (peut-être vous utilisez un plugin de mise en cache, ou certains services Web tels que le CloudFlare), puis le cache de votre navigateur Web."
 
-#: inc/php/tabs/faq.php:196
+#: inc/php/tabs/faq.php:200
 msgid "Also please try to re-login to the website, this too can help."
 msgstr "Aussi s'il vous plaît essayer de re-login sur le site, cela aussi peut vous aider."
 
-#: inc/php/tabs/faq.php:200
+#: inc/php/tabs/faq.php:204
 msgid "Where to report bug if found?"
 msgstr "Où signaler un bug?"
 
-#: inc/php/tabs/faq.php:203
+#: inc/php/tabs/faq.php:207
 msgid "Bug reports are very welcome!"
 msgstr "Les rapports de bogues sont les bienvenus!"
 
-#: inc/php/tabs/faq.php:206
+#: inc/php/tabs/faq.php:210
 #, php-format
 msgid "Please visit our %s contact page %s and report."
 msgstr "S'il vous plaît visitez notre %s page de contact %s et le rapport."
 
-#: inc/php/tabs/faq.php:211 inc/php/tabs/faq.php:239
+#: inc/php/tabs/faq.php:215 inc/php/tabs/faq.php:243
 msgid "Please do not forget to specify the name of the plugin."
 msgstr "S'il vous plaît n'oubliez pas de spécifier le nom du plugin."
 
-#: inc/php/tabs/faq.php:212 inc/php/tabs/faq.php:240 inc/php/tabs/faq.php:256
+#: inc/php/tabs/faq.php:216 inc/php/tabs/faq.php:244 inc/php/tabs/faq.php:260
 msgid "Thank you!"
 msgstr "Merci!"
 
-#: inc/php/tabs/faq.php:215
+#: inc/php/tabs/faq.php:219
 msgid "Describe in more detail what exactly you are seeing."
 msgstr "Décrivez plus en détail ce que vous voyez exactement."
 
-#: inc/php/tabs/faq.php:216
+#: inc/php/tabs/faq.php:220
 msgid "Here are some examples:"
 msgstr "Voici quelques exemples:"
 
-#: inc/php/tabs/faq.php:219
+#: inc/php/tabs/faq.php:223
 msgid "Elements of the plugin settings page are not working."
 msgstr "Les éléments de la page de réglages de plugin ne fonctionnent pas."
 
-#: inc/php/tabs/faq.php:220
+#: inc/php/tabs/faq.php:224
 msgid "An error message is displayed on the plugin settings page."
 msgstr "Un message d'erreur s'affiche sur la page des paramètres de plugin."
 
-#: inc/php/tabs/faq.php:221
+#: inc/php/tabs/faq.php:225
 msgid "An error message is displayed on the front end of website."
 msgstr "Un message d'erreur s'affiche à l'extrémité avant du site Web."
 
-#: inc/php/tabs/faq.php:222
+#: inc/php/tabs/faq.php:226
 msgid "An error message is displayed on the back end of website."
 msgstr "Un message d'erreur s'affiche à l'arrière du site Web."
 
-#: inc/php/tabs/faq.php:223
+#: inc/php/tabs/faq.php:227
 msgid "Website is crashed."
 msgstr "Le site est cassé."
 
-#: inc/php/tabs/faq.php:228
+#: inc/php/tabs/faq.php:232
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Où partager des idées ou des suggestions pour rendre le plugin meilleure?"
 
-#: inc/php/tabs/faq.php:231
+#: inc/php/tabs/faq.php:235
 msgid "Any suggestions are very welcome!"
 msgstr "Toutes les suggestions sont les bienvenus!"
 
-#: inc/php/tabs/faq.php:234
+#: inc/php/tabs/faq.php:238
 #, php-format
 msgid "Please visit our %s contact page %s."
 msgstr "Veuillez visiter notre %s page de contact %s."
 
-#: inc/php/tabs/faq.php:244
+#: inc/php/tabs/faq.php:248
 msgid "I love this plugin!"
 msgstr "J'aime ce plugin!"
 
-#: inc/php/tabs/faq.php:245
+#: inc/php/tabs/faq.php:249
 msgid "Can I help somehow?"
 msgstr "Puis-je aider?"
 
-#: inc/php/tabs/faq.php:248
+#: inc/php/tabs/faq.php:252
 msgid "Yes, any contributions are very welcome!"
 msgstr "Oui, toutes les contributions sont les bienvenus!"
 
-#: inc/php/tabs/faq.php:251
+#: inc/php/tabs/faq.php:255
 #, php-format
 msgid "Please visit our %s Support Us %s page."
 msgstr "Veuillez visiter notre page de %s Support Us %s."
 
-#: inc/php/tabs/faq.php:260
+#: inc/php/tabs/faq.php:264
 msgid "Where can I find information about your licenses, payment process and refunds?"
 msgstr "Où puis-je trouver des informations sur vos licences, processus de paiement et remboursements?"
 
-#: inc/php/tabs/faq.php:265
+#: inc/php/tabs/faq.php:269
 #, php-format
 msgid "Answers to common questions about our licenses, payment process and refunds can be found on our %s Common Questions %s page."
 msgstr "Les réponses aux questions courantes sur nos licences, processus de paiement et remboursements peuvent être trouvées sur notre page %s Questions Réponses %s."
 
-#: inc/php/tabs/faq.php:273
+#: inc/php/tabs/faq.php:277
 msgid "Where can I find information about your customer support?"
 msgstr "Où puis-je trouver des informations sur votre support client?"
 
-#: inc/php/tabs/faq.php:278
+#: inc/php/tabs/faq.php:282
 #, php-format
 msgid "Answers to common questions about our customer support can be found on our %s Common Questions %s page."
 msgstr "Les réponses aux questions courantes sur notre support client peuvent être trouvées sur notre page %s Questions Réponses %s."
 
-#: inc/php/tabs/faq.php:286
+#: inc/php/tabs/faq.php:290
 msgid "Where can I find information about your affiliate program?"
 msgstr "Où puis-je trouver des informations sur votre programme d'affiliation?"
 
-#: inc/php/tabs/faq.php:291
+#: inc/php/tabs/faq.php:295
 #, php-format
 msgid "Answers to common questions about our affiliate program can be found on our %s Common Questions %s page."
 msgstr "Les réponses aux questions courantes sur notre programme d'affiliation peuvent être trouvées sur notre page %s Questions Réponses %s."
 
-#: inc/php/tabs/faq.php:299
+#: inc/php/tabs/faq.php:303
 msgid "My question wasn't answered here."
 msgstr "Ma question n'a pas été répondue ici."
 
-#: inc/php/tabs/faq.php:304
+#: inc/php/tabs/faq.php:308
 #, php-format
 msgid "You can ask your question on %s this page %s."
 msgstr "Vous pouvez poser votre question sur %s cette page %s."
 
-#: inc/php/tabs/faq.php:309
+#: inc/php/tabs/faq.php:313
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:150
+#: inc/php/tabs/settings.php:22 inc/php/tabs/settings.php:158
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
@@ -658,100 +658,100 @@ msgstr ""
 msgid "Automatically display the buttons bar below content on Pages."
 msgstr ""
 
-#: inc/php/tabs/settings.php:155
+#: inc/php/tabs/settings.php:163
 msgid "Live preview"
 msgstr ""
 
-#: inc/php/tabs/settings.php:157
+#: inc/php/tabs/settings.php:165
 msgid "Click the \"Save changes\" button to update this preview."
 msgstr "Cliquez sur le bouton \"Enregistrer les modifications\" pour mettre à jour cet aperçu."
 
-#: inc/php/tabs/support.php:13
+#: inc/php/tabs/support.php:17
 msgid "Support Us"
 msgstr "Nous soutenir"
 
-#: inc/php/tabs/support.php:28
+#: inc/php/tabs/support.php:32
 #, php-format
 msgid "My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
-#: inc/php/tabs/support.php:37
+#: inc/php/tabs/support.php:41
 msgid "Our intention is to create projects that will make this world a better place."
 msgstr ""
 
-#: inc/php/tabs/support.php:38
+#: inc/php/tabs/support.php:42
 msgid "Our motto is - «Follow your dreams and don’t give up»."
 msgstr ""
 
-#: inc/php/tabs/support.php:39
+#: inc/php/tabs/support.php:43
 msgid "We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
-#: inc/php/tabs/support.php:42
+#: inc/php/tabs/support.php:46
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them."
 msgstr ""
 
-#: inc/php/tabs/support.php:43
+#: inc/php/tabs/support.php:47
 msgid "But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Nous sommes des développeurs indépendants, sans revenus réguliers, aussi toute contribution même minime nous aident à couvrir nos frais et nous laisse plus de temps pour ajouter des fonctionnalités que les utilisateurs comme vous apprécient."
 
-#: inc/php/tabs/support.php:46
+#: inc/php/tabs/support.php:50
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr ""
 
-#: inc/php/tabs/support.php:49
+#: inc/php/tabs/support.php:53
 msgid "Thank you for your support!"
 msgstr "Merci pour votre soutien!"
 
-#: inc/php/tabs/usage.php:13
+#: inc/php/tabs/usage.php:17
 msgid "Usage Instructions"
 msgstr "Instructions d'utilisation"
 
-#: inc/php/tabs/usage.php:15
+#: inc/php/tabs/usage.php:19
 msgid "To display the social media follow buttons bar on the front end of your website, simply follow these steps:"
 msgstr ""
 
-#: inc/php/tabs/usage.php:17
+#: inc/php/tabs/usage.php:21
 msgid "Go to the \"Settings\" tab on this page."
 msgstr "Accédez à l'onglet \"Paramètres\" de cette page."
 
-#: inc/php/tabs/usage.php:18
+#: inc/php/tabs/usage.php:22
 msgid "Select the desired buttons and fill in the required URL fields."
 msgstr ""
 
-#: inc/php/tabs/usage.php:19
+#: inc/php/tabs/usage.php:23
 msgid "Select the desired settings."
 msgstr ""
 
-#: inc/php/tabs/usage.php:20
+#: inc/php/tabs/usage.php:24
 msgid "Click the \"Save changes\" button."
 msgstr "Cliquez sur le bouton \"Enregistrer les modifications\"."
 
-#: inc/php/tabs/usage.php:22
+#: inc/php/tabs/usage.php:26
 msgid "Now you have several methods for display the social media follow buttons bar (further just \"buttons\")."
 msgstr ""
 
-#: inc/php/tabs/usage.php:23
+#: inc/php/tabs/usage.php:27
 msgid "Just choose the one that is more suitable for your case."
 msgstr ""
 
-#: inc/php/tabs/usage.php:25
+#: inc/php/tabs/usage.php:29
 msgid "<b>A)</b> To automatically display the buttons below a content on every Posts and/or Pages, simply use the appropriate option in the \"Autoload\" section, then click the \"Save changes\" button."
 msgstr ""
 
-#: inc/php/tabs/usage.php:26
+#: inc/php/tabs/usage.php:30
 msgid "<b>B)</b> To add the buttons inside a post from WordPress Post/Page Editor use the following shortcode:"
 msgstr ""
 
-#: inc/php/tabs/usage.php:28
+#: inc/php/tabs/usage.php:32
 msgid "<b>C)</b> To add the buttons to the widget area (in sidebar, footer etc.) use the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/php/tabs/usage.php:30
+#: inc/php/tabs/usage.php:34
 msgid "<b>D)</b> To add the buttons directly to the theme files, just add the following code to needed place (where you want to display the buttons) in your theme files:"
 msgstr ""
 
-#: inc/php/tabs/usage.php:38
+#: inc/php/tabs/usage.php:42
 #, php-format
 msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr "Si vous voulez plus d'options, alors %s nous le faire savoir %s et nous serons heureux de les ajouter."

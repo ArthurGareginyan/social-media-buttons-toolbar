@@ -938,6 +938,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Upgrade Notice ==
 
+= 4.64 =
+New: Added support for myspace, tiktok, likee, dribbble and qzone.
+
 = 4.0 =
 Please update to new release!
 

@@ -51,6 +51,7 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 
 * Up to 10 buttons bar instances
 * Separate settings for buttons bars
+* Options for setting tooltips
 * Separate preview for each buttons bar on the settings page
 * Ability to give a name/label for each buttons bar for easy management
 * Ability to choose which one from your buttons bars you like to autoload

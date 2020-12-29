@@ -1,6 +1,6 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, itunes, apple-music, periscope, vimeo, blogger, buzzsprout, livejournal, linkedIn, diaspora, deviantart, xing, pinterest, tumblr, snapchat, twitch, patreon, imdb, soundcloud, plugdj, plug dj, spotify, bandcamp, dloky, amazon, bookbub, goodreads, meetvibe, meetup, steam, beam, mixer, discord, yelp, bloglovin, mediumg, 500px, behance, polyvore, yellowpages, line, itch, itch.io, mastodon, remind, trademe, vsco, hireology, kompoz, soundblend, stumbleupon, whatsapp, vkontakte, vk, vk.com, odnoklassniki, ok, ok.ru, telegram, github, wordpress, codepen, askfm, ebay, hangouts, houzz, quora, steemit, theartstack, theknot, viber, etsy, tripadvisor, stackoverflow, stackexchange, bitbucket, dailypaintworks, flipboard, feedsfloor, gab, minds, wattpad, itunes podcasts, aboutme, group, stitcher, strava, wechat, weibo, blackberry-world, iheart, livestream, tunein, untappd, skype, personal website, email, telephone, phone, rss feed, rss, feed, tooltips, bootstrap tooltip
+Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
@@ -41,7 +41,7 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Display buttons bar in any post or page with a WordPress shortcode
 * Display buttons bar in widgets with a WordPress shortcode
 * Include buttons bar directly in your theme files with a PHP short code
-* Supported 100 social media sites and additional links
+* Supported 105 social media sites and additional links
 * Tooltips with the name of social media next to each button
 * Ability to select only the desired buttons
 * Live preview on the plugin settings page
@@ -69,94 +69,99 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Google+
 * YouTube
 * YouTube Gaming
+* Twitch
+* Myspace
+* TikTok
+* Likee
+* Dribbble
+* Qzone
+* Patreon
+* 500px
+* about.me
+* Amazon
+* Apple Music
+* ArtStack
+* ASKfm
+* Bandcamp
+* Behance
+* Bitbucket
+* BlackBerry World
+* Blogger
+* Bloglovin
+* BookBub
+* Buzzsprout
+* Codepen
+* Daily Paintworks
+* DeviantArt
+* Diaspora
+* Discord
+* Dloky
+* eBay
+* Etsy
+* FeedsFloor
+* Flipboard
+* Gab
+* GitHub
+* Goodreads
 * Google Play
+* Hangouts
+* Hireology
+* Houzz
+* iHeart
+* IMDb
+* itch
 * iTunes
 * iTunes Podcast
-* Apple Music
-* Periscope
-* Vimeo
-* Blogger
-* LinkedIn
-* Diaspora
-* DeviantArt
-* XING
-* Buzzsprout
-* LiveJournal
-* Reddit
-* Pinterest
-* Tumblr
-* Snapchat
-* Twitch
-* Patreon
-* IMDb
-* SoundCloud
-* Plug.dj
-* Spotify
-* Bandcamp
-* Dloky
-* Amazon
-* BookBub
-* Goodreads
-* MeetVibe
-* Meetup
-* Steam
-* Mixer
-* Discord
-* Yelp
-* StumbleUpon
-* Bloglovin
-* WhatsApp
-* Medium
-* 500px
-* Behance
-* Polyvore
-* Yellow Pages
-* LINE
-* itch
-* Mastodon
-* Remind
-* Trade Me
-* VSCO
-* Hireology
 * Kompoz
-* SoundBlend
-* VKontakte (vk.com)
-* Odnoklassniki (ok.ru)
-* Telegram
-* GitHub
-* WordPress
-* Codepen
-* ASKfm
-* eBay
-* Hangouts
-* Houzz
-* Quora
-* Steemit
-* ArtStack
-* Skype
-* The Knot
-* Viber
-* Etsy
-* Trip Advisor
-* Stack Overflow
-* Stack Exchange
-* Daily Paintworks
-* Bitbucket
-* Gab
+* LINE
+* LinkedIn
+* LiveJournal
+* Livestream
+* Mastodon
+* Medium
+* Meetup
+* MeetVibe
 * Minds
-* Flipboard
-* FeedsFloor
-* Wattpad
-* Strava
+* Mixer
+* Odnoklassniki (ok.ru)
+* Periscope
+* Pinterest
+* Plug.dj
+* Polyvore
+* Quora
+* Reddit
+* Remind
+* Skype
+* Snapchat
+* SoundBlend
+* SoundCloud
+* Spotify
+* Stack Exchange
+* Stack Overflow
+* Steam
+* Steemit
 * Stitcher
+* Strava
+* StumbleUpon
+* Telegram
+* The Knot
+* Trade Me
+* Trip Advisor
+* Tumblr
+* TuneIn
+* Untappd
+* Viber
+* Vimeo
+* VKontakte (vk.com)
+* VSCO
+* Wattpad
 * WeChat
 * Weibo
-* about.me
-* Untappd
-* TuneIn
-* iHeart
-* BlackBerry World
-* Livestream
+* WhatsApp
+* WordPress
+* XING
+* Yellow Pages
+* Yelp
 * Personal website
 * Email
 * Telephone
@@ -939,7 +944,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 == Upgrade Notice ==
 
 = 4.64 =
-New: Added support for myspace, tiktok, likee, dribbble and qzone.
+New: Added support for Myspace, TikTok, Likee, Dribbble and Qzone.
 
 = 4.0 =
 Please update to new release!

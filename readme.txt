@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 4.65
+Stable tag: 4.66
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -321,6 +321,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.66 - Jan 10, 2021 =
+* New: Added option for Parler.
+* New: Added option for Actors Access.
 
 = 4.65 - Jan 1, 2021 =
 * Maintenance: The copyright date updated to support the 2021 year.
@@ -949,8 +953,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Upgrade Notice ==
 
-= 4.64 =
-New: Added support for Myspace, TikTok, Likee, Dribbble and Qzone.
+= 4.66 =
+New: Added support for Parler and Actors Access.
 
 = 4.0 =
 Please update to new release!

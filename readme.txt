@@ -1,6 +1,6 @@
 === Social Media Follow Buttons Bar ===
 Contributors: Arthur Gareginyan
-Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, facebook, flickr, twitter, instagram, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
+Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, flickr, twitter, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
@@ -16,7 +16,7 @@ Easily and safely add a smart bar with social media follow buttons (not share, o
 
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add a smart bar with social media follow buttons (not share, only links to your social media profiles) to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
 
-The social media follow buttons bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the Facebook icon will take the user to your Facebook page, clicking the Twitter icon will take them to your Twitter page.
+The social media follow buttons bar - is a bar with set of icons of the popular social media which are linked directly to your profile on this social networks. I.e. clicking the TikTok icon will take the user to your TikTok page, clicking the Likee icon will take them to your Likee page.
 
 Unlike the other plugins, this plugin creates a live bar. The bar automatically adapt to the width of the block where it placed. If the buttons do not fit to the one line, then they will be placed on multiple lines. So they can be arranged horizontally or vertically, in one line or in a few, and all of this is done automatically.
 

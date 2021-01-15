@@ -41,7 +41,7 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Display buttons bar in any post or page with a WordPress shortcode
 * Display buttons bar in widgets with a WordPress shortcode
 * Include buttons bar directly in your theme files with a PHP short code
-* Supported 107 social media sites and additional links
+* Supported 112 social media sites and additional links
 * Tooltips with the name of social media next to each button
 * Ability to select only the desired buttons
 * Live preview on the plugin settings page
@@ -62,6 +62,15 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 
 **Supported social media and links:**
 
+* TikTok
+* Likee
+* Twitch
+* Parler
+* Odysee
+* BitChute
+* Flote
+* DLive
+* Ruqqus
 * Facebook
 * Facebook Group
 * Flickr
@@ -70,14 +79,10 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Google+
 * YouTube
 * YouTube Gaming
-* Twitch
 * Myspace
-* TikTok
-* Likee
 * Dribbble
 * Qzone
 * Patreon
-* Parler
 * Actors Access
 * 500px
 * about.me

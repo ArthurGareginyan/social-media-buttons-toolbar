@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 4.66
+Stable tag: 4.67
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -325,6 +325,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.67 - Jan 15, 2021 =
+* New: Added option for Odysee.
+* New: Added option for BitChute.
+* New: Added option for Flote.
+* New: Added option for DLive.
+* New: Added option for Ruqqus.
 
 = 4.66 - Jan 10, 2021 =
 * New: Added option for Parler.
@@ -957,8 +964,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Upgrade Notice ==
 
-= 4.66 =
-New: Added support for Parler and Actors Access.
+= 4.67 =
+New: Added support for Odysee, BitChute, Flote, DLive and Ruqqus
 
 = 4.0 =
 Please update to new release!

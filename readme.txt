@@ -286,14 +286,11 @@ A. Yes, any contributions are very welcome! Please visit [our donation page](htt
 
 == Screenshots ==
 
-1. All social media buttons.
+1. Social media buttons.
 2. Tooltip with name of the social media displayed above button when you hover over the button.
-3. Social Media Follow Buttons Bar displayed below the content of a post (Twenty Sixteen theme).
-4. Social Media Follow Buttons Bar displayed in the sidebar using a shortcode in text widget (Twenty Sixteen theme).
-5. Social Media Follow Buttons Bar displayed in the footer using a simple call the function directly from theme file (vCard theme).
-6. Social Media Follow Buttons Bar displayed in the footer using a shortcode in text widget (Anarcho Notepad theme).
-7. Shortcode placed in the Text Widget.
-8. Plugin settings page.
+3. Social media follow buttons bar displayed below the post content and inside the sidebar. (Twenty Fifteen theme)
+4. Plugin settings page.
+5. Shortcode placed in the Text Widget.
 
 
 == Other Notes ==

@@ -670,5 +670,30 @@ td.help-text {
     box-shadow: 0 0 0 3px #999;
 }
 
+/* Control: List
+ -------------------------------------------------------------- */
+.control-list {
+    width: fit-content;
+}
+.control-list li {
+    margin-bottom: 0;
+}
+.control-list li div {
+    padding: 10px;
+    padding-right: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+}
+.control-list li+li div {
+    margin-top: -1px;
+}
+.control-list li div label {
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
 /* SPECIFIC TO THIS PLUGIN
  -------------------------------------------------------------- */

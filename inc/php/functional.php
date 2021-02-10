@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Generate the buttons bar
+ * @return array
  */
 function spacexchimp_p005_generator() {
 
@@ -56,7 +57,7 @@ function spacexchimp_p005_generator() {
     }
     $toolbar_arr[] = '</ul>';
 
-    // Add script for buttons
+    // Generate script
     if ( ! empty( $options['tooltips'] ) ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
@@ -74,13 +75,17 @@ function spacexchimp_p005_generator() {
         array_push( $toolbar_arr, $js );
     }
 
+    // Return the processed data
     return $toolbar_arr;
 }
 
 /**
  * Create the shortcode "[smbtoolbar]"
+ * @return string
  */
 function spacexchimp_p005_shortcode() {
+
+    // Return the processed data
     return implode(
                     PHP_EOL,
                     spacexchimp_p005_generator()
@@ -95,6 +100,7 @@ add_filter( 'widget_text', 'do_shortcode' );
 
 /**
  * Autoload option
+ * @return string
  */
 function spacexchimp_p005_autoload( $content ) {
 
@@ -118,6 +124,7 @@ function spacexchimp_p005_autoload( $content ) {
         }
     }
 
+    // Return the processed data
     return $content;
 }
 add_action( 'the_content', 'spacexchimp_p005_autoload' );
@@ -135,6 +142,7 @@ function spacexchimp_p005_get_items_all() {
     // Merge two arrays
     $array = array_merge( $array_1, $array_2 );
 
+    // Return the processed data
     return $array;
 }
 
@@ -163,6 +171,7 @@ function spacexchimp_p005_get_media_pairs_media() {
     // Sort the media array in ascending order, according to the key name
     if ( ! empty($array) ) ksort($array);
 
+    // Return the processed data
     return $array;
 }
 
@@ -188,5 +197,6 @@ function spacexchimp_p005_get_media_pairs_additional() {
     // Rename some items
     $array['website'] = 'Website';
 
+    // Return the processed data
     return $array;
 }

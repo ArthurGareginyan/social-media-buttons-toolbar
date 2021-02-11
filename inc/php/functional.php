@@ -127,6 +127,10 @@ function spacexchimp_p005_autoload( $content ) {
     // Return the processed data
     return $content;
 }
+
+/**
+ * Inject the buttons bar into the website's frontend (content section)
+ */
 add_action( 'the_content', 'spacexchimp_p005_autoload' );
 
 /**

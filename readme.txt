@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 4.67
+Stable tag: 4.68
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -322,6 +322,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.68 - Feb 14, 2021 =
+* Enhancement: On the plugin settings page, some options have been redesigned for better usability.
+* Maintenance: Code commenting improved.
 
 = 4.67 - Jan 15, 2021 =
 * New: Added option for Odysee.

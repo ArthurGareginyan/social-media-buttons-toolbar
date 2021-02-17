@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2021-02-14 19:26+0300\n"
-"PO-Revision-Date: 2021-02-14 19:26+0300\n"
+"POT-Creation-Date: 2021-02-17 16:45+0300\n"
+"PO-Revision-Date: 2021-02-17 16:45+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -41,10 +41,6 @@ msgid "Enter the URL of your profile page on %s. The URL must contain the protoc
 msgstr ""
 
 #: inc/php/items.php:1
-msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile."
-msgstr ""
-
-#: inc/php/items.php:1
 msgid "Enter your telephone number with prefix <b>tel://</b>."
 msgstr ""
 
@@ -58,6 +54,10 @@ msgstr ""
 
 #: inc/php/items.php:1
 msgid "Enter the URL of your RSS feed."
+msgstr ""
+
+#: inc/php/items.php:1
+msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile."
 msgstr ""
 
 #: inc/php/messages.php:33 inc/php/tabs/support.php:29

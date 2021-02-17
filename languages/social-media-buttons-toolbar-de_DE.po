@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Social Media Follow Buttons Bar\n"
-"POT-Creation-Date: 2021-02-14 19:26+0300\n"
-"PO-Revision-Date: 2021-02-14 19:26+0300\n"
+"POT-Creation-Date: 2021-02-17 16:44+0300\n"
+"PO-Revision-Date: 2021-02-17 16:44+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -42,10 +42,6 @@ msgid "Enter the URL of your profile page on %s. The URL must contain the protoc
 msgstr "Geben Sie den Link zu Ihrer %s Profil Seite ein. The URL must contain the protocol identifier (<b>http://</b> or <b>https://</b>)."
 
 #: inc/php/items.php:1
-msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile."
-msgstr "Geben Sie Ihren Skype Namen mit Prefix <b>skype:</b> und suffix <b>?call</b>, oder <b>?add</b>, oder <b>?chat</b>, oder <b>?userinfo</b> für Ihr Profil ein."
-
-#: inc/php/items.php:1
 msgid "Enter your telephone number with prefix <b>tel://</b>."
 msgstr "Geben Sie Ihre Telefonnummer mit dem Prefix <b>tel://</b> ein."
 
@@ -60,6 +56,10 @@ msgstr "Link zu Ihrer persönlichen Webseite."
 #: inc/php/items.php:1
 msgid "Enter the URL of your RSS feed."
 msgstr "Geben Sie den Link zu Ihrem RSS Feed ein."
+
+#: inc/php/items.php:1
+msgid "Enter your Skype name with prefix <b>skype:</b> and suffix <b>?call</b>, or <b>?add</b>, or <b>?chat</b>, or <b>?userinfo</b> for view profile."
+msgstr "Geben Sie Ihren Skype Namen mit Prefix <b>skype:</b> und suffix <b>?call</b>, oder <b>?add</b>, oder <b>?chat</b>, oder <b>?userinfo</b> für Ihr Profil ein."
 
 #: inc/php/messages.php:33 inc/php/tabs/support.php:29
 msgid "Hello!"

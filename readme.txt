@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 4.68
+Stable tag: 4.69
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -41,7 +41,7 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Display buttons bar in any post or page with a WordPress shortcode
 * Display buttons bar in widgets with a WordPress shortcode
 * Include buttons bar directly in your theme files with a PHP short code
-* Supported 112 social media sites and additional links
+* Supported 120 social media sites and additional links
 * Tooltips with the name of social media next to each button
 * Ability to select only the desired buttons
 * Live preview on the plugin settings page
@@ -174,6 +174,14 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * Email
 * Telephone
 * RSS Feed
+* MeWe
+* GitLab
+* Ko-fi
+* KooApp
+* PayPal
+* Rumble
+* Signal
+* Zoom
 
 **Got more ideas? Tell us!**
 
@@ -322,6 +330,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.69 - Feb 17, 2021 =
+* New: Added option for MeWe.
+* New: Added option for GitLab.
+* New: Added option for Ko-fi.
+* New: Added option for KooApp.
+* New: Added option for PayPal.
+* New: Added option for Rumble.
+* New: Added option for Signal.
+* New: Added option for Zoom.
 
 = 4.68 - Feb 14, 2021 =
 * Enhancement: On the plugin settings page, some options have been redesigned for better usability.

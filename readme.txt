@@ -177,7 +177,7 @@ Its purpose is to provide a familiar experience to WordPress users. You don't ne
 * MeWe
 * GitLab
 * Ko-fi
-* KooApp
+* Koo App
 * PayPal
 * Rumble
 * Signal
@@ -335,7 +335,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * New: Added option for MeWe.
 * New: Added option for GitLab.
 * New: Added option for Ko-fi.
-* New: Added option for KooApp.
+* New: Added option for Koo App.
 * New: Added option for PayPal.
 * New: Added option for Rumble.
 * New: Added option for Signal.

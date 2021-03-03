@@ -13,8 +13,9 @@ function spacexchimp_p005_load_scripts_dynamic_css() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p005_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p005_options();
+
     $buttons_alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
     $button_size = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
     $button_margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';

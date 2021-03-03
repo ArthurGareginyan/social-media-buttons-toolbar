@@ -14,8 +14,9 @@ function spacexchimp_p005_generator() {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p005_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p005_options();
+
     $selected = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
     $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
 
@@ -107,8 +108,9 @@ function spacexchimp_p005_autoload( $content ) {
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p005_plugin();
 
-    // Retrieve options from database and declare variables
-    $options = get_option( $plugin['settings'] . '_settings' );
+    // Put the value of the plugin options into an array for easier access
+    $options = spacexchimp_p005_options();
+
     $below_posts = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
     $below_pages = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
 

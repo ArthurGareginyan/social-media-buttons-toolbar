@@ -17,9 +17,9 @@ function spacexchimp_p005_load_scripts_dynamic_css() {
     $options = spacexchimp_p005_options();
 
     // Declare variables
-    $buttons_alignment = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
-    $button_size = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
-    $button_margin = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
+    $buttons_alignment = $options['alignment'];
+    $button_size = $options['icon-size'];
+    $button_margin = $options['margin-right'];
 
     // Create an array with all the settings (CSS code)
     $custom_css = "

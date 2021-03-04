@@ -22,6 +22,14 @@ function spacexchimp_p005_options() {
 
     // Set default value if option is empty
     $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
+    $array['alignment'] = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
+    $array['icon-size'] = !empty( $options['icon-size'] ) ? esc_textarea( $options['icon-size'] ) : '64';
+    $array['margin-right'] = !empty( $options['margin-right'] ) ? esc_textarea( $options['margin-right'] ) : '10';
+    $array['buttons-selected'] = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
+    $array['buttons-link'] = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
+    $array['caption'] = !empty( $options['caption'] ) ? esc_textarea( $options['caption'] ) : '';
+    $array['show_posts'] = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
+    $array['show_pages'] = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
 
     // Return the processed data
     return $array;

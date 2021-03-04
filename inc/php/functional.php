@@ -18,8 +18,8 @@ function spacexchimp_p005_generator() {
     $options = spacexchimp_p005_options();
 
     // Declare variables
-    $selected = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
-    $links = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
+    $selected = $options['buttons-selected'];
+    $links = $options['buttons-link'];
 
     // Get the array with all buttons
     $items = spacexchimp_p005_get_items_all();
@@ -31,7 +31,7 @@ function spacexchimp_p005_generator() {
     $tooltips = !empty( $options['tooltips'] ) ? 'data-toggle="tooltip"' : '';
 
     // Generate caption
-    $caption = !empty( $options['caption'] ) ? esc_textarea( $options['caption'] ) : '';
+    $caption = $options['caption'];
 
     // Generate buttons
     $toolbar_arr[] = $caption;
@@ -113,8 +113,8 @@ function spacexchimp_p005_autoload( $content ) {
     $options = spacexchimp_p005_options();
 
     // Declare variables
-    $below_posts = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
-    $below_pages = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
+    $below_posts = $options['show_posts'];
+    $below_pages = $options['show_pages'];
 
     if ( is_single() ) {
         if ( $below_posts == "on" ) {

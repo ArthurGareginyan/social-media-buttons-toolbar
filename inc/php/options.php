@@ -21,15 +21,20 @@ function spacexchimp_p005_options() {
     $array = $options;
 
     // Set default value if option is empty
-    $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
-    $array['alignment'] = !empty( $options['alignment'] ) ? $options['alignment'] : 'center';
-    $array['icon-size'] = !empty( $options['icon-size'] ) ? $options['icon-size'] : '64';
-    $array['margin-right'] = !empty( $options['margin-right'] ) ? $options['margin-right'] : '10';
-    $array['buttons-selected'] = !empty( $options['buttons-selected'] ) ? $options['buttons-selected'] : array();
-    $array['buttons-link'] = !empty( $options['buttons-link'] ) ? $options['buttons-link'] : array();
-    $array['caption'] = !empty( $options['caption'] ) ? $options['caption'] : '';
-    $array['show_posts'] = !empty( $options['show_posts'] ) ? $options['show_posts'] : '';
-    $array['show_pages'] = !empty( $options['show_pages'] ) ? $options['show_pages'] : '';
+    $list = array(
+        'hidden_scrollto' => '0',
+        'alignment' => 'center',
+        'icon-size' => '64',
+        'margin-right' => '10',
+        'buttons-selected' => array(),
+        'buttons-link' => array(),
+        'caption' => '',
+        'show_posts' => '',
+        'show_pages' => '',
+    );
+    foreach ( $list as $name => $default ) {
+        $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+    }
 
     // Sanitize data
     $array['icon-size'] = esc_textarea( $options['icon-size'] );

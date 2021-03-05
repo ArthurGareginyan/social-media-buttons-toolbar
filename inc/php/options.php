@@ -36,6 +36,9 @@ function spacexchimp_p005_options() {
     $array['margin-right'] = esc_textarea( $options['margin-right'] );
     $array['caption'] = esc_textarea( $options['caption'] );
 
+    // Modify data
+
+
     // Return the processed data
     return $array;
 }

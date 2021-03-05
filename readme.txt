@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, flickr, twitter, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 4.69
 License: GPL3

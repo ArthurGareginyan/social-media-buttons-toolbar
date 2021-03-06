@@ -28,7 +28,9 @@ function spacexchimp_p005_options() {
         'margin-right' => '10',
         'buttons-selected' => array(),
         'buttons-link' => array(),
+        'tooltips' => '',
         'caption' => '',
+        'new_tab' => '',
         'show_posts' => '',
         'show_pages' => '',
     );
@@ -42,7 +44,8 @@ function spacexchimp_p005_options() {
     $array['caption'] = esc_textarea( $options['caption'] );
 
     // Modify data
-
+    $array['new_tab'] = ( $array['new_tab'] == 'on' ) ? true : false ;
+    $array['tooltips'] = ( $array['tooltips'] == 'on' ) ? true : false ;
 
     // Return the processed data
     return $array;

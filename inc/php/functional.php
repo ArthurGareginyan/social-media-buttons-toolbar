@@ -20,18 +20,26 @@ function spacexchimp_p005_generator() {
     // Declare variables
     $selected = $options['buttons-selected'];
     $links = $options['buttons-link'];
+    $caption = $options['caption'];
+    $tooltips = $options['tooltips'];
+    $new_tab = $options['new_tab'];
 
     // Get the array with all buttons
     $items = spacexchimp_p005_get_items_all();
 
     // Generate open window code
-    $new_tab = !empty( $options['new_tab'] ) ? 'target="_blank"' : '';
+    if ( $new_tab === true ) {
+        $new_tab_html = 'target="_blank"';
+    } else {
+        $new_tab_html = ''; // Empty value
+    }
 
     // Generate tolltips
-    $tooltips = !empty( $options['tooltips'] ) ? 'data-toggle="tooltip"' : '';
-
-    // Generate caption
-    $caption = $options['caption'];
+    if ( $tooltips === true ) {
+        $tooltips_html = 'data-toggle="tooltip';
+    } else {
+        $tooltips_html = ''; // Empty value
+    }
 
     // Generate buttons
     $toolbar_arr[] = $caption;
@@ -45,9 +53,9 @@ function spacexchimp_p005_generator() {
             $toolbar_arr[] = '<li class="sxc-follow-button">
                                     <a
                                         href="' . $link . '"
-                                        ' . $tooltips . '
+                                        ' . $tooltips_html . '
                                         title="' . $label . '"
-                                        ' . $new_tab . '
+                                        ' . $new_tab_html . '
                                     >
                                         <img
                                             src="' . $icon . '"
@@ -60,7 +68,7 @@ function spacexchimp_p005_generator() {
     $toolbar_arr[] = '</ul>';
 
     // Generate script
-    if ( ! empty( $options['tooltips'] ) ) {
+    if ( $tooltips === true ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
 

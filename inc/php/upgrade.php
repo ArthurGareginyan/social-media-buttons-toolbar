@@ -100,7 +100,7 @@ function spacexchimp_p005_upgrade_4_36() {
     $media = $settings['media'];
     $media = is_array( $media ) ? $media : array();
     foreach ( $media as $key => $value ) {
-        if ( !empty( $value['content'] ) ) {
+        if ( ! empty( $value['content'] ) ) {
             $links[$key] = $value['content'];
             $selected[$key] = 'on';
         }

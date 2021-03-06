@@ -20,29 +20,26 @@ function spacexchimp_p005_generator() {
     // Declare variables
     $selected = $options['buttons-selected'];
     $links = $options['buttons-link'];
-    $caption = $options['caption'];
-    $tooltips = $options['tooltips'];
-    $new_tab = $options['new_tab'];
 
     // Get the array with all buttons
     $items = spacexchimp_p005_get_items_all();
 
     // Generate open window code
-    if ( $new_tab === true ) {
-        $new_tab_html = 'target="_blank"';
+    if ( $options['new_tab'] === true ) {
+        $new_tab = 'target="_blank"';
     } else {
-        $new_tab_html = ''; // Empty value
+        $new_tab = ''; // Empty value
     }
 
     // Generate tolltips
-    if ( $tooltips === true ) {
-        $tooltips_html = 'data-toggle="tooltip';
+    if ( $options['tooltips'] === true ) {
+        $tooltips = 'data-toggle="tooltip"';
     } else {
-        $tooltips_html = ''; // Empty value
+        $tooltips = ''; // Empty value
     }
 
     // Generate buttons
-    $toolbar_arr[] = $caption;
+    $toolbar_arr[] = $options['caption'];
     $toolbar_arr[] = '<ul class="sxc-follow-buttons">';
     foreach ( $items as $item ) {
         $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
@@ -53,9 +50,9 @@ function spacexchimp_p005_generator() {
             $toolbar_arr[] = '<li class="sxc-follow-button">
                                     <a
                                         href="' . $link . '"
-                                        ' . $tooltips_html . '
+                                        ' . $tooltips . '
                                         title="' . $label . '"
-                                        ' . $new_tab_html . '
+                                        ' . $new_tab . '
                                     >
                                         <img
                                             src="' . $icon . '"
@@ -68,7 +65,7 @@ function spacexchimp_p005_generator() {
     $toolbar_arr[] = '</ul>';
 
     // Generate script
-    if ( $tooltips === true ) {
+    if ( $options['tooltips'] === true ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
 

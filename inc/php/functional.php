@@ -182,7 +182,7 @@ function spacexchimp_p005_get_media_pairs_media() {
     $array['youtube-gaming'] = ' YouTube G';
 
     // Sort the media array in ascending order, according to the key name
-    if ( ! empty($array) ) ksort($array);
+    if ( ! empty( $array ) ) ksort( $array );
 
     // Return the processed data
     return $array;

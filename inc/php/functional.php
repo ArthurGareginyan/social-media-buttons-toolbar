@@ -39,15 +39,15 @@ function spacexchimp_p005_generator() {
     }
 
     // Generate buttons
-    $toolbar_arr[] = $options['caption'];
-    $toolbar_arr[] = '<ul class="sxc-follow-buttons">';
+    $array[] = $options['caption'];
+    $array[] = '<ul class="sxc-follow-buttons">';
     foreach ( $items as $item ) {
         $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
         $label = !empty( $item['label'] ) ? $item['label'] : '';
         $link = !empty( $links[$slug] ) ? $links[$slug] : '';
         if ( ! empty( $selected[$slug] ) ) {
             $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
-            $toolbar_arr[] = '<li class="sxc-follow-button">
+            $array[] = '<li class="sxc-follow-button">
                                     <a
                                         href="' . $link . '"
                                         ' . $tooltips . '
@@ -62,7 +62,7 @@ function spacexchimp_p005_generator() {
                               </li>';
         }
     }
-    $toolbar_arr[] = '</ul>';
+    $array[] = '</ul>';
 
     // Generate script
     if ( $options['tooltips'] === true ) {
@@ -78,12 +78,12 @@ function spacexchimp_p005_generator() {
         $js = '';
     }
 
-    if ( count( $toolbar_arr ) > 0 ) {
-        array_push( $toolbar_arr, $js );
+    if ( count( $array ) > 0 ) {
+        array_push( $array, $js );
     }
 
     // Return the processed data
-    return $toolbar_arr;
+    return $array;
 }
 
 /**

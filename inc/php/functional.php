@@ -118,13 +118,13 @@ function spacexchimp_p005_autoload( $content ) {
     $options = spacexchimp_p005_options();
 
     if ( is_single() ) {
-        if ( $options['show_posts'] == "on" ) {
+        if ( $options['show_posts'] === true ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }
 
     if ( is_page() ) {
-        if ( $options['show_pages'] == "on" ) {
+        if ( $options['show_pages'] === true ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }

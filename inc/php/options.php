@@ -44,6 +44,8 @@ function spacexchimp_p005_options() {
     $array['caption'] = esc_textarea( $options['caption'] );
 
     // Modify data
+    $array['show_posts'] = ( $array['show_posts'] == 'on' ) ? true : false ;
+    $array['show_pages'] = ( $array['show_pages'] == 'on' ) ? true : false ;
     $array['new_tab'] = ( $array['new_tab'] == 'on' ) ? true : false ;
     $array['tooltips'] = ( $array['tooltips'] == 'on' ) ? true : false ;
 

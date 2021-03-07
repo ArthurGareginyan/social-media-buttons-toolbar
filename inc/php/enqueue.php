@@ -16,24 +16,19 @@ function spacexchimp_p005_load_scripts_dynamic_css() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
 
-    // Declare variables
-    $buttons_alignment = $options['alignment'];
-    $button_size = $options['icon-size'];
-    $button_margin = $options['margin-right'];
-
     // Create an array with all the settings (CSS code)
     $custom_css = "
                     .sxc-follow-buttons {
-                        text-align: " . $buttons_alignment . " !important;
+                        text-align: " . $options['alignment'] . " !important;
                     }
                     .sxc-follow-buttons .sxc-follow-button,
                     .sxc-follow-buttons .sxc-follow-button a,
                     .sxc-follow-buttons .sxc-follow-button a img {
-                        width: " . $button_size . "px !important;
-                        height: " . $button_size . "px !important;
+                        width: " . $options['icon-size'] . "px !important;
+                        height: " . $options['icon-size'] . "px !important;
                     }
                     .sxc-follow-buttons .sxc-follow-button {
-                        margin: " . ( $button_margin / 2 ) . "px !important;
+                        margin: " . ( $options['margin-right'] / 2 ) . "px !important;
                     }
                   ";
 

@@ -117,18 +117,14 @@ function spacexchimp_p005_autoload( $content ) {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
 
-    // Declare variables
-    $below_posts = $options['show_posts'];
-    $below_pages = $options['show_pages'];
-
     if ( is_single() ) {
-        if ( $below_posts == "on" ) {
+        if ( $options['show_posts'] == "on" ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }
 
     if ( is_page() ) {
-        if ( $below_pages == "on" ) {
+        if ( $options['show_pages'] == "on" ) {
             $content = $content . spacexchimp_p005_shortcode();
         }
     }

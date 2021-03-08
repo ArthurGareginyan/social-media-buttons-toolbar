@@ -22,31 +22,31 @@ function spacexchimp_p005_options() {
 
     // Set default value if option is empty
     $list = array(
-        'hidden_scrollto' => '0',
         'alignment' => 'center',
+        'buttons-link' => array(),
+        'buttons-selected' => array(),
+        'caption' => '',
+        'hidden_scrollto' => '0',
         'icon-size' => '64',
         'margin-right' => '10',
-        'buttons-selected' => array(),
-        'buttons-link' => array(),
-        'tooltips' => '',
-        'caption' => '',
         'new_tab' => '',
-        'show_posts' => '',
         'show_pages' => '',
+        'show_posts' => '',
+        'tooltips' => '',
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 
     // Sanitize data
+    $array['caption'] = esc_textarea( $options['caption'] );
     $array['icon-size'] = esc_textarea( $options['icon-size'] );
     $array['margin-right'] = esc_textarea( $options['margin-right'] );
-    $array['caption'] = esc_textarea( $options['caption'] );
 
     // Modify data
-    $array['show_posts'] = ( $array['show_posts'] == 'on' ) ? true : false ;
-    $array['show_pages'] = ( $array['show_pages'] == 'on' ) ? true : false ;
     $array['new_tab'] = ( $array['new_tab'] == 'on' ) ? true : false ;
+    $array['show_pages'] = ( $array['show_pages'] == 'on' ) ? true : false ;
+    $array['show_posts'] = ( $array['show_posts'] == 'on' ) ? true : false ;
     $array['tooltips'] = ( $array['tooltips'] == 'on' ) ? true : false ;
 
     // Return the processed data

@@ -157,7 +157,7 @@ function spacexchimp_p005_get_items_all() {
 
 /**
  * Callback for getting a list of media buttons
- * @return array of pairs "nmae" => "Name"
+ * @return array of pairs "name" => "Name"
  */
 function spacexchimp_p005_get_media_pairs_media() {
 
@@ -186,7 +186,7 @@ function spacexchimp_p005_get_media_pairs_media() {
 
 /**
  * Callback for getting a list of additional media buttons
- * @return array of pairs "nmae" => "Name"
+ * @return array of pairs "name" => "Name"
  */
 function spacexchimp_p005_get_media_pairs_additional() {
 

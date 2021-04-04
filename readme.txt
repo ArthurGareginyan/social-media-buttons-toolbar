@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 4.71
+Stable tag: 4.71.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -337,6 +337,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.71.1 - Apr 4, 2021 =
+* Fixed: Prints a warning since last update: "Warning: Use of undefined constant SPACEXCHIMP_P019_TEXT - assumed 'SPACEXCHIMP_P019_TEXT' (this will throw an Error in a future version of PHP) in /wp-content/plugins/social-media-buttons-toolbar/inc/php/items.php on line 1".
 
 = 4.71 - Apr 4, 2021 =
 * New: Added option for Dropbox.

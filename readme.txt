@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, flickr, twitter, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
 Stable tag: 4.71.1
 License: GPL3
@@ -337,6 +337,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+=
+* Maintenance: Ensure compatibility with upcoming WordPress 5.8.
 
 = 4.71.1 - Apr 4, 2021 =
 * Fixed: Prints a warning since last update: "Warning: Use of undefined constant SPACEXCHIMP_P019_TEXT - assumed 'SPACEXCHIMP_P019_TEXT' (this will throw an Error in a future version of PHP) in /wp-content/plugins/social-media-buttons-toolbar/inc/php/items.php on line 1".

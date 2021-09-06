@@ -73,7 +73,8 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 
     // Retrieve options from database and declare variables
     $options = get_option( $plugin['settings'] . '_settings' );
-    $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
+    $option = !empty( $options[$name] ) ? $options[$name] : 'false';
+    $checked = ( $option == 'on' || $option == '1' || $option == 'true' ) ? "checked='checked'" : '';
 
     // Generate a part of table
     $out = "<tr>
@@ -85,6 +86,7 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
                         type='checkbox'
                         name='" . $plugin['settings'] . "_settings[$name]'
                         id='" . $plugin['settings'] . "_settings[$name]'
+                        value='true'
                         $checked
                         class='control-switch $name'
                     >

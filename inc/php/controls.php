@@ -37,7 +37,7 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
+    $option = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
     // Generate a part of table
     $out = "<tr>
@@ -49,7 +49,7 @@ function spacexchimp_p005_control_field( $name, $label, $help=null, $placeholder
                         type='text'
                         name='" . $plugin['settings'] . "_settings[$name]'
                         id='" . $plugin['settings'] . "_settings[$name]'
-                        value='$value'
+                        value='$option'
                         placeholder='$placeholder'
                         class='control-field $name'
                     >
@@ -110,7 +110,7 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
+    $option = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
     // Generate a part of table
     $out = "<tr>
@@ -128,7 +128,7 @@ function spacexchimp_p005_control_number( $name, $label, $help=null, $default=nu
                                 type='number'
                                 name='" . $plugin['settings'] . "_settings[$name]'
                                 id='" . $plugin['settings'] . "_settings[$name]'
-                                value='$value'
+                                value='$option'
                                 maxlength='4'
                                 class='form-control text-center'
                             >
@@ -158,7 +158,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $value = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
+    $option = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
     $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
 
     // Generate a part of table
@@ -172,7 +172,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
                         type='text'
                         name='" . $plugin['settings'] . "_settings[buttons-link][$name]'
                         size='50'
-                        value='$value'
+                        value='$option'
                         placeholder='$placeholder'
                     >
                 </td>

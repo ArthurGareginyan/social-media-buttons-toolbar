@@ -44,9 +44,17 @@ function spacexchimp_p005_options() {
     }
 
     // Sanitize data
+    //$array['alignment'] = esc_textarea( $array['alignment'] );
+    //$array['buttons-link'] = esc_textarea( $array['buttons-link'] );
+    //$array['buttons-selected'] = esc_textarea( $array['buttons-selected'] );
     $array['caption'] = esc_textarea( $array['caption'] );
+    //$array['hidden_scrollto'] = esc_textarea( $array['hidden_scrollto'] );
     $array['icon-size'] = esc_textarea( $array['icon-size'] );
     $array['margin-right'] = esc_textarea( $array['margin-right'] );
+    //$array['new_tab'] = esc_textarea( $array['new_tab'] );
+    //$array['show_pages'] = esc_textarea( $array['show_pages'] );
+    //$array['show_posts'] = esc_textarea( $array['show_posts'] );
+    //$array['tooltips'] = esc_textarea( $array['tooltips'] );
 
     // Modify data
     $array['new_tab'] = ( $array['new_tab'] == 'on' || $array['new_tab'] == '1' || $array['new_tab'] == 'true' ) ? true : false;

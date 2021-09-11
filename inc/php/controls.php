@@ -103,14 +103,14 @@ function spacexchimp_p005_control_switch( $name, $label, $help=null ) {
 /**
  * Generator of the number option for saving plugin settings to database
  */
-function spacexchimp_p005_control_number( $name, $label, $help=null, $default=null ) {
+function spacexchimp_p005_control_number( $name, $label, $help=null ) {
 
     // Put value of plugin constants into an array for easier access
     $plugin = spacexchimp_p005_plugin();
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $option = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
+    $option = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : '';
 
     // Generate a part of table
     $out = "<tr>

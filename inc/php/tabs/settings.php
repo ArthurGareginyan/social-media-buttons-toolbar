@@ -82,16 +82,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 <?php
                                     spacexchimp_p005_control_number( 'icon-size',
                                                                      __( 'Button size', $plugin['text'] ),
-                                                                     __( 'You can choose the size of the buttons (in pixels). Default is 64 pixels.', $plugin['text'] ),
-                                                                     '64'
+                                                                     __( 'You can choose the size of the buttons (in pixels). Default is 64 pixels.', $plugin['text'] )
                                                                    );
                                     spacexchimp_p005_control_separator(
                                                                         __( 'Positioning', $plugin['text'] )
                                                                       );
                                     spacexchimp_p005_control_number( 'margin-right',
                                                                      __( 'Button margin', $plugin['text'] ),
-                                                                     __( 'You can choose the size of the space (in pixels) between each button. Default is 10 pixels.', $plugin['text'] ),
-                                                                     '10'
+                                                                     __( 'You can choose the size of the space (in pixels) between each button. Default is 10 pixels.', $plugin['text'] )
                                                                    );
                                     spacexchimp_p005_control_choice( 'alignment',
                                                                      array(

@@ -199,8 +199,9 @@ function spacexchimp_p005_control_choice( $name, $items, $label, $help, $default
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
     $option = $options[$name];
-    $list_item = '';
 
+    // Loop of elements
+    $list_item = '';
     foreach ( $items as $item_key => $item_value ) {
         if ( empty( $option ) AND $item_key == $default ) {
             $selected = "checked='checked'";
@@ -254,9 +255,9 @@ function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $list_item = '';
 
-    // Loop of elements LI
+    // Loop of elements
+    $list_item = '';
     foreach ( $items as $item_key => $item_value ) {
         $checked = !empty( $options[$name][$item_key] ) ? 'checked' : '';
         $list_item .= "<li id='media-$item_key' class='control-checkbox'>

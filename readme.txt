@@ -341,6 +341,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 =  =
 * Security improvement: Prevent direct access to the "inc/php/options.php" file.
 * Maintenance: Processing of options has been improved. Direct retrieving of options from the database is replaced by the "_options" callback.
+* Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 
 = 4.73 - Sep 6, 2021 =
 * Fixed: Strange behavior of the toggle switches (ON/OFF buttons) on the plugin settings page. (Thanks to Werner Krauß)

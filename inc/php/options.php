@@ -27,17 +27,17 @@ function spacexchimp_p005_options() {
 
     // Set default value if option is empty
     $list = array(
-        'alignment' => 'center', // _control_choice
+        'alignment' => (string) 'center', // _control_choice
         'buttons-link' => array(), // _control_link
         'buttons-selected' => array(), // _control_checkbox
-        'caption' => '', // _control_field
-        'hidden_scrollto' => '0', // _control_hidden
-        'icon-size' => '64', // _control_number
-        'margin-right' => '10', // _control_number
-        'new_tab' => '', // _control_switch
-        'show_pages' => '', // _control_switch
-        'show_posts' => '', // _control_switch
-        'tooltips' => '', // _control_switch
+        'caption' => (string) '', // _control_field
+        'hidden_scrollto' => (integer) '0', // _control_hidden
+        'icon-size' => (integer) '64', // _control_number
+        'margin-right' => (integer) '10', // _control_number
+        'new_tab' => (boolean) '', // _control_switch
+        'show_pages' => (boolean) '', // _control_switch
+        'show_posts' => (boolean) '', // _control_switch
+        'tooltips' => (boolean) '', // _control_switch
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;

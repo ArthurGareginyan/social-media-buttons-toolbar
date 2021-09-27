@@ -24,8 +24,6 @@ function spacexchimp_p005_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'alignment' => (string) 'center', // _control_choice
         'buttons-link' => array(), // _control_link
@@ -40,6 +38,8 @@ function spacexchimp_p005_options() {
         'tooltips' => (boolean) '', // _control_switch
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 

@@ -41,6 +41,11 @@ function spacexchimp_p005_options() {
 
         // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+
+        // Sanitize and modify by type of option
+        if ( is_bool( $default ) === true ) {
+            $array[$name] = ( $array[$name] == 'on' || $array[$name] == '1' || $array[$name] == 'true' ) ? true : false;
+        }
     }
 
     // Sanitize data
@@ -57,10 +62,7 @@ function spacexchimp_p005_options() {
     //$array['tooltips'] = esc_textarea( $array['tooltips'] );
 
     // Modify data
-    $array['new_tab'] = ( $array['new_tab'] == 'on' || $array['new_tab'] == '1' || $array['new_tab'] == 'true' ) ? true : false;
-    $array['show_pages'] = ( $array['show_pages'] == 'on' || $array['show_pages'] == '1' || $array['show_pages'] == 'true' ) ? true : false;
-    $array['show_posts'] = ( $array['show_posts'] == 'on' || $array['show_posts'] == '1' || $array['show_posts'] == 'true' ) ? true : false;
-    $array['tooltips'] = ( $array['tooltips'] == 'on' || $array['tooltips'] == '1' || $array['tooltips'] == 'true' ) ? true : false;
+
 
     // Return the processed data
     return $array;

@@ -53,10 +53,10 @@ function spacexchimp_p005_options() {
     }
 
     // Sanitize data
-    //$array['alignment'] = esc_textarea( $array['alignment'] );
+    $array['alignment'] = sanitize_text_field( $array['alignment'] );
     //$array['buttons-link'] = esc_textarea( $array['buttons-link'] );
     //$array['buttons-selected'] = esc_textarea( $array['buttons-selected'] );
-    $array['caption'] = esc_textarea( $array['caption'] );
+    $array['caption'] = sanitize_text_field( $array['caption'] );
 
     // Modify data
 

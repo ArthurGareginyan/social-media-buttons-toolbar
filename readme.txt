@@ -344,6 +344,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Maintenance: Processing of options has been improved. Direct retrieving of options from the database is replaced by the "_options" callback.
 * Maintenance: Processing of options has been improved. The "_options" function has been rewritten.
 * Maintenance: Processing of options has been improved. Explicit type definition technique is now used in variable declarations.
+* Enhancement: Processing of options has been improved. All data is now sanitized and validated before use.
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 
 = 4.73 - Sep 6, 2021 =

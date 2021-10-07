@@ -158,7 +158,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
 
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
-    $option = !empty( $options['buttons-link'][$name] ) ? esc_textarea( $options['buttons-link'][$name] ) : '';
+    $option = !empty( $options['buttons-link'][$name] ) ? esc_url( $options['buttons-link'][$name] ) : '';
     $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
 
     // Generate a part of table

@@ -101,6 +101,7 @@ require_once( $plugin['path'] . 'inc/php/upgrade.php' );
 require_once( $plugin['path'] . 'inc/php/versioning.php' );
 require_once( $plugin['path'] . 'inc/php/enqueue.php' );
 require_once( $plugin['path'] . 'inc/php/items.php' );
+require_once( $plugin['path'] . 'inc/php/items-handler.php' );
 require_once( $plugin['path'] . 'inc/php/functional.php' );
 require_once( $plugin['path'] . 'inc/php/controls.php' );
 require_once( $plugin['path'] . 'inc/php/page.php' );

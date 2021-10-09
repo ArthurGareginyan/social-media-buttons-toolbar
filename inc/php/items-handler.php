@@ -24,6 +24,29 @@ function spacexchimp_p005_get_items_all() {
 
 /**
  * Callback for getting a list of media buttons
+ * @return array of pairs "key" => "slug"
+ */
+function spacexchimp_p005_get_media_slug() {
+
+    // Read all media options and declare variable
+    $array_1 = spacexchimp_p005_get_items_media();
+    $array_2 = spacexchimp_p005_get_items_additional();
+
+    // Merge two arrays
+    $arrays = array_merge( $array_1, $array_2 );
+
+    // Create an array with buttons name pairs "key" => "slug"
+    $array = array();
+    foreach ( $arrays as $item ) {
+        $array[] = $item['slug'];
+    }
+
+    // Return the processed data
+    return $array;
+}
+
+/**
+ * Callback for getting a list of media buttons
  * @return array of pairs "name" => "Name"
  */
 function spacexchimp_p005_get_media_pairs_media() {

@@ -29,15 +29,11 @@ function spacexchimp_p005_get_items_all() {
 function spacexchimp_p005_get_media_slug() {
 
     // Read all media options and declare variable
-    $array_1 = spacexchimp_p005_get_items_media();
-    $array_2 = spacexchimp_p005_get_items_additional();
-
-    // Merge two arrays
-    $arrays = array_merge( $array_1, $array_2 );
+    $array_input = spacexchimp_p005_get_items_all();
 
     // Create an array with buttons name pairs "key" => "slug"
     $array = array();
-    foreach ( $arrays as $item ) {
+    foreach ( $array_input as $item ) {
         $array[] = $item['slug'];
     }
 

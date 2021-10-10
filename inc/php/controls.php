@@ -160,6 +160,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
     $options = spacexchimp_p005_options();
     $option = !empty( $options['buttons-link'][$name] ) ? esc_url( $options['buttons-link'][$name] ) : '';
     $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
+    $disabled = !empty( $options['buttons-selected'][$name] ) ? '' : 'disabled'; // Required to bypass the limitation of the PHP directive max_input_vars=1000. This allows to avoid storing empty options.
 
     // Generate a part of table
     $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
@@ -174,6 +175,7 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
                         size='50'
                         value='$option'
                         placeholder='$placeholder'
+                        $disabled
                     >
                 </td>
             </tr>

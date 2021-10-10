@@ -55,6 +55,7 @@ jQuery(document).ready(function($) {
     $('#options-group-buttons .control-checkbox input').change(function() {
         var this_class = $(this).parent('.control-checkbox').attr('id') + '-url';
         $('#options-group-button-links .' + this_class).toggle();
+        $('#options-group-button-links .' + this_class + ' input').removeAttr('disabled');
     });
 
     // Live preview

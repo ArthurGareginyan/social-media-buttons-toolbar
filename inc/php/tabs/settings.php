@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p class="note"><?php _e( 'Here you can select the buttons that you want to have in your social media follow buttons bar.', $plugin['text'] ); ?></p>
                             <table class="form-table">
                                 <?php
-                                    $buttons_media = spacexchimp_p005_get_media_pairs_media();
+                                    $buttons_media = spacexchimp_p005_get_items_media_pairs();
                                     spacexchimp_p005_control_checkbox( 'buttons-selected',
                                                                        $buttons_media,
                                                                        __( 'Social media buttons', $plugin['text'] ),

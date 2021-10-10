@@ -346,6 +346,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Maintenance: Processing of options has been improved. The "_options" function has been rewritten.
 * Maintenance: Processing of options has been improved. Explicit type definition technique is now used in variable declarations.
 * Enhancement: Processing of options has been improved. All data is now sanitized and validated before use.
+* Maintenance: The "inc/php/items-handler.php" file has been added.
+* Maintenance: The "_get_items_all_slug" function has been added to the "inc/php/items-handler.php" file.
+* Maintenance: The "_get_media_pairs_media" function has been renamed to "_get_items_media_pairs".
+* Maintenance: The "_get_media_pairs_additional" function has been renamed to "_get_items_additional_pairs".
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 * Maintenance: The "_test" function has been added to the "inc/php/options.php" file for development/testing purposes. It writes the options to a text file for the visualisation of options processing.
 

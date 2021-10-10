@@ -36,7 +36,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                                                        __( 'Mark the desired buttons to add it to your social media follow buttons bar.', $plugin['text'] )
                                                                      );
                                     spacexchimp_p005_control_separator();
-                                    $buttons_additional = spacexchimp_p005_get_media_pairs_additional();
+                                    $buttons_additional = spacexchimp_p005_get_items_additional_pairs();
                                     spacexchimp_p005_control_checkbox( 'buttons-selected',
                                                                        $buttons_additional,
                                                                        __( 'Additional buttons', $plugin['text'] ),

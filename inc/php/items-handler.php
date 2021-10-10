@@ -26,7 +26,7 @@ function spacexchimp_p005_get_items_all() {
  * Callback for getting a list of media buttons
  * @return array of pairs "key" => "slug"
  */
-function spacexchimp_p005_get_media_slug() {
+function spacexchimp_p005_get_items_all_slug() {
 
     // Read all media options and declare variable
     $array_input = spacexchimp_p005_get_items_all();

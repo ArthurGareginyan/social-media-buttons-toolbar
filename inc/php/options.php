@@ -22,6 +22,9 @@ function spacexchimp_p005_options() {
         $array = array();
     }
 
+    // Retrieve a list of media buttons from callback
+    $items = spacexchimp_p005_get_items_all_slug();
+
     // Prepare the plugin options data for use
     $list = array(
         'alignment' => (string) 'center', // _control_choice
@@ -50,11 +53,30 @@ function spacexchimp_p005_options() {
             $array[$name] = filter_var( $array[$name], FILTER_VALIDATE_BOOLEAN );
         }
     }
+    $array_sub_a = $array['buttons-selected'];
+    $array_sub_b = $array['buttons-link'];
+    foreach ( $items as $media ) {
+
+        // Set default value if option is empty
+        $array_sub_a[$media] = !empty( $array_sub_a[$media] ) ? $array_sub_a[$media] : '';
+        $array_sub_b[$media] = !empty( $array_sub_b[$media] ) ? $array_sub_b[$media] : '';
+
+        // Cast and validate by type of option
+        $array_sub_a[$media] = filter_var( $array_sub_a[$media], FILTER_VALIDATE_BOOLEAN );
+        $array_sub_b[$media] = (string) $array_sub_b[$media];
+
+        // Sanitize data
+        if ( $media == 'telephone' OR $media == 'email' OR $media == 'skype' ) {
+            $array_sub_b[$media] = esc_attr( $array_sub_b[$media] );
+        } else {
+            $array_sub_b[$media] = esc_url($array_sub_b[$media]  );
+        }
+    }
+    $array['buttons-selected'] = $array_sub_a;
+    $array['buttons-link'] = $array_sub_b;
 
     // Sanitize data
     $array['alignment'] = sanitize_text_field( $array['alignment'] );
-    //$array['buttons-link'] = esc_textarea( $array['buttons-link'] );
-    //$array['buttons-selected'] = esc_textarea( $array['buttons-selected'] );
     $array['caption'] = sanitize_text_field( $array['caption'] );
 
     // Modify data

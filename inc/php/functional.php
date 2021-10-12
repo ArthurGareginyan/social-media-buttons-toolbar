@@ -17,10 +17,6 @@ function spacexchimp_p005_generator() {
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
 
-    // Declare variables
-    $selected = $options['buttons-selected'];
-    $links = $options['buttons-link'];
-
     // Get the array with all buttons
     $items = spacexchimp_p005_get_items_all();
 
@@ -44,8 +40,8 @@ function spacexchimp_p005_generator() {
     foreach ( $items as $item ) {
         $slug = $item['slug'];
         $label = $item['label'];
-        $link = !empty( $links[$slug] ) ? $links[$slug] : '';
-        if ( ! empty( $selected[$slug] ) ) {
+        $link = $options['buttons-link'][$slug];
+        if ( !empty( $options['buttons-selected'][$slug] ) ) {
             $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
             $array[] = '<li class="sxc-follow-button">
                                     <a

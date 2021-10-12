@@ -42,7 +42,7 @@ function spacexchimp_p005_options() {
     foreach ( $list as $name => $default ) {
 
         // Set default value if option is empty
-        $array[$name] = !empty( $array[$name] ) ? $array[$name] : $default;
+        $array[$name] = ! empty( $array[$name] ) ? $array[$name] : $default;
 
         // Cast and validate by type of option
         if ( is_string( $default ) === true ) {
@@ -58,8 +58,8 @@ function spacexchimp_p005_options() {
     foreach ( $items as $media ) {
 
         // Set default value if option is empty
-        $array_sub_a[$media] = !empty( $array_sub_a[$media] ) ? $array_sub_a[$media] : '';
-        $array_sub_b[$media] = !empty( $array_sub_b[$media] ) ? $array_sub_b[$media] : '';
+        $array_sub_a[$media] = ! empty( $array_sub_a[$media] ) ? $array_sub_a[$media] : '';
+        $array_sub_b[$media] = ! empty( $array_sub_b[$media] ) ? $array_sub_b[$media] : '';
 
         // Cast and validate by type of option
         $array_sub_a[$media] = filter_var( $array_sub_a[$media], FILTER_VALIDATE_BOOLEAN );

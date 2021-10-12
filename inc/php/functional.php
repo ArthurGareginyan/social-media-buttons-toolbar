@@ -41,7 +41,7 @@ function spacexchimp_p005_generator() {
         $slug = $item['slug'];
         $label = $item['label'];
         $link = $options['buttons-link'][$slug];
-        if ( !empty( $options['buttons-selected'][$slug] ) ) {
+        if ( ! empty( $options['buttons-selected'][$slug] ) ) {
             $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
             $array[] = '<li class="sxc-follow-button">
                                     <a

@@ -159,11 +159,11 @@ function spacexchimp_p005_control_link( $name, $label, $placeholder, $help, $lin
     // Put the value of the plugin options into an array for easier access
     $options = spacexchimp_p005_options();
     $option = $options['buttons-link'][$name];
-    $display = !empty( $options['buttons-selected'][$name] ) ? '' : 'none';
-    $disabled = !empty( $options['buttons-selected'][$name] ) ? '' : 'disabled'; // Required to bypass the limitation of the PHP directive max_input_vars=1000. This allows to avoid storing empty options.
+    $display = ! empty( $options['buttons-selected'][$name] ) ? '' : 'none';
+    $disabled = ! empty( $options['buttons-selected'][$name] ) ? '' : 'disabled'; // Required to bypass the limitation of the PHP directive max_input_vars=1000. This allows to avoid storing empty options.
 
     // Generate a part of table
-    $link_out = !empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
+    $link_out = ! empty( $link ) ? "<a href='$link' target='_blank'>$label</a>" : "$label";
     $out = "<tr class='media-$name-url' style='display: $display;'>
                 <th scope='row'>
                     $link_out
@@ -261,7 +261,7 @@ function spacexchimp_p005_control_checkbox( $name, $items, $label, $help ) {
     // Loop of elements
     $list_item = '';
     foreach ( $items as $item_key => $item_value ) {
-        $checked = !empty( $options[$name][$item_key] ) ? 'checked' : '';
+        $checked = ! empty( $options[$name][$item_key] ) ? 'checked' : '';
         $list_item .= "<li id='media-$item_key' class='control-checkbox'>
                            <input
                                   type='checkbox'

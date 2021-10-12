@@ -42,8 +42,8 @@ function spacexchimp_p005_generator() {
     $array[] = $options['caption'];
     $array[] = '<ul class="sxc-follow-buttons">';
     foreach ( $items as $item ) {
-        $slug = !empty( $item['slug'] ) ? $item['slug'] : '';
-        $label = !empty( $item['label'] ) ? $item['label'] : '';
+        $slug = $item['slug'];
+        $label = $item['label'];
         $link = !empty( $links[$slug] ) ? $links[$slug] : '';
         if ( ! empty( $selected[$slug] ) ) {
             $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";

@@ -88,11 +88,14 @@ function spacexchimp_p005_generator() {
  */
 function spacexchimp_p005_shortcode() {
 
+    // Prepare a variable for storing the processing data
+    $array = spacexchimp_p005_generator();
+
+    // Join array elements with a PHP_EOL (end of line) string
+    $output = implode( PHP_EOL, $array );
+
     // Return the processed data
-    return implode(
-                    PHP_EOL,
-                    spacexchimp_p005_generator()
-                  );
+    return $output;
 }
 add_shortcode( 'smbtoolbar', 'spacexchimp_p005_shortcode' );
 

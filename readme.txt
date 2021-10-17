@@ -351,6 +351,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Maintenance: The "_get_media_pairs_media" function has been renamed to "_get_items_media_pairs".
 * Maintenance: The "_get_media_pairs_additional" function has been renamed to "_get_items_additional_pairs".
 * Maintenance: The "_shortcode" function has been rewritten.
+* Maintenance: The "_autoload" function has been rewritten.
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 * Maintenance: The "_test" function has been added to the "inc/php/options.php" file for development/testing purposes. It writes the options to a text file for the visualisation of options processing.
 * Maintenance: Code formatting and commenting improved.

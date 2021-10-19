@@ -7,7 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Generate the buttons bar
- * @return array
+ * @return string
  */
 function spacexchimp_p005_generator() {
 
@@ -20,48 +20,63 @@ function spacexchimp_p005_generator() {
     // Get the array with all buttons
     $items = spacexchimp_p005_get_items_all();
 
-    // Generate open window code
-    if ( $options['new_tab'] === true ) {
-        $new_tab = 'target="_blank"';
-    } else {
-        $new_tab = ''; // Empty value
+    // Declare variables
+    $selected_all = $options['buttons-selected'];
+    $links_all = $options['buttons-link'];
+    $caption = $options['caption'];
+    $target = ( $options['new_tab'] === true ) ? '_blank' : '_self';
+    $tooltips = $options['tooltips'];
+    $tooltips_html = ( $tooltips === true ) ? 'data-toggle="tooltip"' : '';
+
+    // Return if data is empty
+    if ( empty( $selected_all ) ) {
+        return;
     }
 
-    // Generate tolltips
-    if ( $options['tooltips'] === true ) {
-        $tooltips = 'data-toggle="tooltip"';
-    } else {
-        $tooltips = ''; // Empty value
-    }
+    // Prepare a variable for storing the processed data
+    $output = "";
 
-    // Generate buttons
-    $array[] = $options['caption'];
-    $array[] = '<ul class="sxc-follow-buttons">';
     foreach ( $items as $item ) {
+
+        // Prepare a variables for storing parts of the data
         $slug = $item['slug'];
         $label = $item['label'];
-        $link = $options['buttons-link'][$slug];
-        if ( ! empty( $options['buttons-selected'][$slug] ) ) {
-            $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
-            $array[] = '<li class="sxc-follow-button">
-                                    <a
-                                        href="' . $link . '"
-                                        ' . $tooltips . '
-                                        title="' . $label . '"
-                                        ' . $new_tab . '
-                                    >
-                                        <img
-                                            src="' . $icon . '"
-                                            alt="' . $label . '"
-                                        />
-                                    </a>
-                              </li>';
-        }
-    }
-    $array[] = '</ul>';
+        $link = $links_all[$slug];
+        $selected = $selected_all[$slug];
+        $icon = $plugin['url'] . "inc/img/social-media-icons/$slug.png";
 
-    // Generate script
-    if ( $options['tooltips'] === true ) {
+        // Skip if the snippet is disabled
+        if ( empty( $selected ) ) {
+            continue;
+        }
+
+        // Prepare a variable for storing the processing data
+        $data_tmp = '<li class="sxc-follow-button">
+                        <a
+                            href="' . $link . '"
+                            ' . $tooltips_html . '
+                            title="' . $label . '"
+                            target="' . $target . '"
+                        >
+                            <img
+                                src="' . $icon . '"
+                                alt="' . $label . '"
+                            />
+                        </a>
+                    </li>';
+
+        // Add the processed data to the output
+        $output .= $data_tmp;
+    }
+
+    // Wrap the processed data
+    $output = '<ul class="sxc-follow-buttons">' . $output . '</ul>';
+
+    // Add caption to the processed data
+    $output = $caption . $output;
+
+    // Add script to the processed data
+    if ( $tooltips === true ) {
         $js = "<script type='text/javascript'>
                     jQuery(document).ready(function($) {
 
@@ -70,16 +85,11 @@ function spacexchimp_p005_generator() {
 
                     });
                </script>";
-    } else {
-        $js = '';
-    }
-
-    if ( count( $array ) > 0 ) {
-        array_push( $array, $js );
+        $output = $output . $js;
     }
 
     // Return the processed data
-    return $array;
+    return $output;
 }
 
 /**

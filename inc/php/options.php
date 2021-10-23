@@ -53,15 +53,17 @@ function spacexchimp_p005_options() {
             $array[$name] = filter_var( $array[$name], FILTER_VALIDATE_BOOLEAN );
         }
     }
+
+    // Prepare the plugin sub-options data for use
     $array_sub_a = $array['buttons-selected'];
     $array_sub_b = $array['buttons-link'];
     foreach ( $items as $media ) {
 
-        // Set default value if option is empty
+        // Set default value if sub-option is empty
         $array_sub_a[$media] = ! empty( $array_sub_a[$media] ) ? $array_sub_a[$media] : '';
         $array_sub_b[$media] = ! empty( $array_sub_b[$media] ) ? $array_sub_b[$media] : '';
 
-        // Cast and validate by type of option
+        // Cast and validate by type of sub-option
         $array_sub_a[$media] = filter_var( $array_sub_a[$media], FILTER_VALIDATE_BOOLEAN );
         $array_sub_b[$media] = (string) $array_sub_b[$media];
 

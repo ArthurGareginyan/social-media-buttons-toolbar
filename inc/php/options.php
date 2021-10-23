@@ -57,21 +57,21 @@ function spacexchimp_p005_options() {
     // Prepare the plugin sub-options data for use
     $array_sub_a = $array['buttons-selected'];
     $array_sub_b = $array['buttons-link'];
-    foreach ( $items as $media ) {
+    foreach ( $items as $item ) {
 
         // Set default value if sub-option is empty
-        $array_sub_a[$media] = ! empty( $array_sub_a[$media] ) ? $array_sub_a[$media] : '';
-        $array_sub_b[$media] = ! empty( $array_sub_b[$media] ) ? $array_sub_b[$media] : '';
+        $array_sub_a[$item] = ! empty( $array_sub_a[$item] ) ? $array_sub_a[$item] : '';
+        $array_sub_b[$item] = ! empty( $array_sub_b[$item] ) ? $array_sub_b[$item] : '';
 
         // Cast and validate by type of sub-option
-        $array_sub_a[$media] = filter_var( $array_sub_a[$media], FILTER_VALIDATE_BOOLEAN );
-        $array_sub_b[$media] = (string) $array_sub_b[$media];
+        $array_sub_a[$item] = filter_var( $array_sub_a[$item], FILTER_VALIDATE_BOOLEAN );
+        $array_sub_b[$item] = (string) $array_sub_b[$item];
 
         // Sanitize data
-        if ( $media == 'telephone' OR $media == 'email' OR $media == 'skype' ) {
-            $array_sub_b[$media] = esc_attr( $array_sub_b[$media] );
+        if ( $item == 'telephone' OR $item == 'email' OR $item == 'skype' ) {
+            $array_sub_b[$item] = esc_attr( $array_sub_b[$item] );
         } else {
-            $array_sub_b[$media] = esc_url($array_sub_b[$media]  );
+            $array_sub_b[$item] = esc_url($array_sub_b[$item]  );
         }
     }
     $array['buttons-selected'] = $array_sub_a;

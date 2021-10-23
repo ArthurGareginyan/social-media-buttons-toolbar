@@ -22,9 +22,6 @@ function spacexchimp_p005_options() {
         $array = array();
     }
 
-    // Retrieve a list of media buttons from callback
-    $items = spacexchimp_p005_get_items_all_slug();
-
     // Prepare the plugin options data for use
     $list = array(
         'alignment' => (string) 'center', // _control_choice
@@ -55,6 +52,7 @@ function spacexchimp_p005_options() {
     }
 
     // Prepare the plugin sub-options data for use
+    $items = spacexchimp_p005_get_items_all_slug();
     $array_sub_a = $array['buttons-selected'];
     $array_sub_b = $array['buttons-link'];
     foreach ( $items as $item ) {

@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: tiktok, likee, qzone, snapchat, twitch, icon, icon set, button, social, media, social button, social media, social network, follow, follow button, follow link, follow icon, follow me, toolbar, link to profile, flickr, twitter, google plus, youtube, google-play, telegram, patreon, imdb, bloglovin, kompoz, steam, beam, discord, ebay, etsy
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.8
+Tested up to: 6.0
 Requires PHP: 5.6
 Stable tag: 4.73
 License: GPL3
@@ -339,6 +339,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 == Changelog ==
 
 =  =
+* Maintenance: Ensure compatibility with WordPress 6.
 * Security improvement: Prevent direct access to the "inc/php/options.php" file.
 * Fixed: Prints a warning: "Warning: A non-numeric value encountered in /inc/php/enqueue.php on line 31".
 * Fixed: Some options were not saved in the database due to the limitation of the PHP directive max_input_vars=1000.

@@ -10,7 +10,7 @@
  * Text Domain: social-media-buttons-toolbar
  * Domain Path: /languages/
  *
- * Copyright 2015-2021 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2015-2022 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 4.73
+Stable tag: 5.0
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -338,7 +338,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
-=  =
+= 5.0 - Okt 14, 2022 =
 * Maintenance: Ensure compatibility with WordPress 6.
 * Security improvement: Fixed the Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability.
 * Security improvement: Processing of options has been improved. All data is now sanitized and validated before use.

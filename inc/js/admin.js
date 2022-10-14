@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
     }
 
     // Add a dynamic content to the plugin settings page. Needed for having an up to date banners
-    $('.include-tab-store').load('https://resources.spacexchimp.com/wordpress/plugins/dynamic-content/page.html');
+    //$('.include-tab-store').load('https://resources.spacexchimp.com/wordpress/plugins/dynamic-content/page.html');
 
     // Add questions and answers into spoilers and color them in different colors
     $('.panel-group .panel').each(function(i) {

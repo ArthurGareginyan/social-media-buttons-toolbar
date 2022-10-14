@@ -358,6 +358,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Maintenance: The contents of PHP files have been optimised; Code formatting and commenting improved.
 * Maintenance: The "_test" function has been added to the "inc/php/options.php" file for development/testing purposes. It writes the options to a text file for the visualisation of options processing.
 * Maintenance: Code formatting and commenting improved.
+* Maintenance: The Support and Store tabs are disabled.
 * Maintenance: The copyright date updated to support the 2022 year.
 
 = 4.73 - Sep 6, 2021 =

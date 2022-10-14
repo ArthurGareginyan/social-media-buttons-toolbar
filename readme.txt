@@ -340,13 +340,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 =  =
 * Maintenance: Ensure compatibility with WordPress 6.
+* Security improvement: Fixed the Authenticated (admin+) Stored Cross-Site Scripting (XSS) vulnerability.
+* Security improvement: Processing of options has been improved. All data is now sanitized and validated before use.
 * Security improvement: Prevent direct access to the "inc/php/options.php" file.
 * Fixed: Prints a warning: "Warning: A non-numeric value encountered in /inc/php/enqueue.php on line 31".
 * Fixed: Some options were not saved in the database due to the limitation of the PHP directive max_input_vars=1000.
 * Maintenance: Processing of options has been improved. Direct retrieving of options from the database is replaced by the "_options" callback.
 * Maintenance: Processing of options has been improved. The "_options" function has been rewritten.
 * Maintenance: Processing of options has been improved. Explicit type definition technique is now used in variable declarations.
-* Enhancement: Processing of options has been improved. All data is now sanitized and validated before use.
 * Maintenance: The "inc/php/items-handler.php" file has been added.
 * Maintenance: The "_get_items_all_slug" function has been added to the "inc/php/items-handler.php" file.
 * Maintenance: The "_get_media_pairs_media" function has been renamed to "_get_items_media_pairs".
